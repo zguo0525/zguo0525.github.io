@@ -1,3 +1,7 @@
+I am a second year PhD student at MIT CSAIL advised by Professor [Daniel Sanchez](http://people.csail.mit.edu/sanchez/) and Professor [Joel Emer](https://people.csail.mit.edu/emer/). I work in computer architecture with a focus on accelerating irregular and sparse applications.
+
+Before joining MIT, I received a bachelor's degree in Mathematics and Physics from Tsinghua University in 2019, where I worked with Professor [Leibo Liu](http://www.ime.tsinghua.edu.cn/info/1015/1023.htm). I also did a summer internship at UC Berkeley working with Professor [Kurt Keutzer](https://people.eecs.berkeley.edu/~keutzer/).
+
 # Publications
 
 ### **SpZip: Architectural Support for Effective Data Compression In Irregular Applications**
