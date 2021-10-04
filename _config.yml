@@ -1,7 +1,9 @@
 theme: jekyll-theme-minimal
 title: Yifan Yang (杨轶凡)
 description: PhD student at MIT CSAIL
-email: yifany AT csail.mit.edu
 logo: profile.jpg
 author:
+  email:         yifany AT csail.mit.edu
   googlescholar: https://scholar.google.com/citations?user=J-9nKEYAAAAJ
+  github:        Yang-YiFan
+  linkedin:      yifan-yang-17a708155
