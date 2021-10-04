@@ -22,12 +22,13 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <ul class="author__urls social-icons">
-          <li><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> site.author.email</li>
-          <li><a href="{{ site.author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
-          <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
-          <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
-        </ul>
+        <p>
+          <i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ site.author.email }}<br>
+          <a href="{{ site.author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a><br>
+          <a href="https://github.com/{{ site.author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a><br>
+          <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a><br>
+          <a href="../misc/CV_Yifan_Yang.pdf"><i class="fas fa-fw fa-file"></i> Curriculum Vitae</a>
+        </p>
 
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
