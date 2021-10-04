@@ -2,6 +2,8 @@ I am a third year PhD student at MIT CSAIL advised by Professor [Daniel Sanchez]
 
 Before joining MIT, I received a bachelor's degree in Mathematics and Physics from Tsinghua University in 2019, where I worked with Professor [Leibo Liu](http://www.ime.tsinghua.edu.cn/info/1015/1023.htm). I also did a summer internship at UC Berkeley working with Professor [Kurt Keutzer](https://people.eecs.berkeley.edu/~keutzer/).
 
+You can access my curriculum vitae [here](misc/CV_Yifan_Yang.pdf).
+
 # Publications
 
 ### **SpZip: Architectural Support for Effective Data Compression In Irregular Applications**
