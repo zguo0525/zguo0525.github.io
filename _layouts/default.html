@@ -24,6 +24,8 @@
 
         <p>Email: {{ site.email | default: yifany AT csail.mit.edu }}</p>
 
+        <p><a href="{{ site.author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></p>
+
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
