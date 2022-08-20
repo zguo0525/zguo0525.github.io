@@ -20,3 +20,10 @@ in Proceedings of the 47th annual International Symposium on Computer Architectu
 in Proceedings of the 2019 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA), 2019.  
 [[paper]](./papers/fpga19_synetgy.pdf) [[slides]](./slides/fpga19_synetgy_slides.pptx) [[code]](https://github.com/Yang-YiFan/DiracDeltaNet)
 
+# Experience
+
+### Summer 2022: **Platform Architecture Intern, Apple**
+CPU cache subsystem performance research
+
+### Spring 2022: **Teaching Assistant, MIT**
+[6.812/6.825 Hardware Architecture for Deep Learning](http://csg.csail.mit.edu/6.825/index.html)
