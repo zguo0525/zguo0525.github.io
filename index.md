@@ -1,38 +1,38 @@
-I am a fourth year PhD student at MIT CSAIL advised by Professor [Daniel Sanchez](http://people.csail.mit.edu/sanchez/) and Professor [Joel Emer](https://people.csail.mit.edu/emer/).
-I work in computer architecture with a focus on accelerating irregular and sparse applications.
+I'm currently a Ph.D. student at MIT EECS, advised by Professor [George Barbastathis](https://meche.mit.edu/people/faculty/gbarb@mit.edu) between physics and machine learning. My focus is on learning with less data with priors from physics. 
 
-Before joining MIT, I received a bachelor's degree in Mathematics and Physics from Tsinghua University in 2019, where I worked with Professor [Leibo Liu](http://www.ime.tsinghua.edu.cn/info/1015/1023.htm).
-I did a summer internship at UC Berkeley working with Professor [Kurt Keutzer](https://people.eecs.berkeley.edu/~keutzer/).
-I also had industry internship at Apple.
+Before moving to Cambridge, I spent 7 years in California where I received my B.A. with highest honor in physics and minors in English and EECS from UC Berkeley, mentored by Professor [Alex Zettl](https://www.ocf.berkeley.edu/~jode/) and Professor [Xiang Zhang](https://xlab.hku.hk/) (now at University of Hong Kong). I was the co-founder of Sensible Recording and Rendering in Shenzhen, China.
 
-You can access my curriculum vitae [here](misc/CV_Yifan_Yang.pdf).
+My curriculum vitae is [here](./misc/CV_zguo.pdf).
 
 # Publications
 
-### **ISOSceles: Accelerating Sparse CNNs through Inter-Layer Pipelining**
-<u>Yifan Yang</u>, Joel S. Emer, Daniel Sanchez  
-in Proceedings of the 29th international symposium on High Performance Computer Architecture (HPCA-29), 2023.  
-[[paper]](./papers/hpca23_isosceles.pdf)
+### **Noise-resilient deep tomographic imaging**
+<u>Zhen Guo</u>, Zhiguang Liu, George Barbastathis, Qihang Zhang, Michael E. Glinsky, Bradley K. Alpert, and Zachary H. Levine
+Optica (preparing).
 
-### **SpZip: Architectural Support for Effective Data Compression In Irregular Applications**
-<u>Yifan Yang</u>, Joel S. Emer, Daniel Sanchez  
-in Proceedings of the 48th annual International Symposium on Computer Architecture (ISCA-48), 2021.  
-[[paper]](./papers/isca21_spzip.pdf) [[slides]](./slides/isca21_spzip_slides.pptx) [[lightning]](./slides/isca21_spzip_lightning.pptx)
+### **Physics-assisted generative adversarial network for X-ray tomography**
+<u>Zhen Guo</u>,  Jung Ki Song, George Barbastathis, Michael E. Glinsky, Courtenay T. Vaughan, Kurt W. Larson, Bradley K. Alpert, and Zachary H. Levine
+Optics Express (2022).  
+[[paper]](./papers/PGAN.pdf) [[code]](https://github.com/zguo0525/Physics-assisted-Generative-Adversarial-Network-for-X-Ray-Tomography)
 
-### **GraphABCD: Scaling Out Graph Analytics with Asynchronous Block Coordinate Descent**
-<u>Yifan Yang</u>, Zhaoshi Li, Yangdong Deng, Zhiwei Liu, Shouyi Yin, Shaojun Wei, Leibo Liu  
-in Proceedings of the 47th annual International Symposium on Computer Architecture (ISCA-47), 2020.  
-[[paper]](./papers/isca20_graphabcd.pdf) [[slides]](./slides/isca20_graphabcd_slides.pptx) [[lightning]](./slides/isca20_graphabcd_lightning.pptx)
+### **Randomized probe imaging through deep k-learning**
+<u>Zhen Guo</u>,  Abraham Levitan, George Barbastathis, Riccardo Comin
+Optics Express (2022).  
+[[paper]](./papers/RPI.pdf) [[code]](https://github.com/zguo0525/Randomized-probe-imaging-through-deep-k-learning)
 
-### **Synetgy: Algorithm-hardware Co-design for ConvNet Accelerators on Embedded FPGAs**
-<u>Yifan Yang</u>, Qijing Huang, Bichen Wu, Tianjun Zhang, Liang Ma, Giulio Gambardella, Michaela Blott, Luciano Lavagno, Kees Vissers, John Wawrzynek, Kurt Keutzer  
-in Proceedings of the 2019 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA), 2019.  
-[[paper]](./papers/fpga19_synetgy.pdf) [[slides]](./slides/fpga19_synetgy_slides.pptx) [[code]](https://github.com/Yang-YiFan/DiracDeltaNet)
+### **Ferromagnetism emerged from non-ferromagnetic atomic crystals**
+Cheng Gong, Xiang Zhang, Peiyao Zhang, Tenzin Norden, Quanwei Li, <u>Zhen Guo</u>, Apoorva Chaturvedi, Arman Najafi, Shoufeng Lan, Xiaoze Liu, Yuan Wang, Shi-Jing Gong, Hao Zeng, Hua Zhang, Athos Petrou
+Nature Communications (reviewing).
+
+### **Wafer-Scale On-Chip Synthesis and Field Emission Properties of Vertically Aligned Boron Nitride Based Nanober Arrays**
+Hu Long, Thang Pham, Aiming Yan, <u>Zhen Guo</u>, Hiroya Ishida, Wu Shi, Sally Turner, S.Matt Gilbert, and Alex Zettl
+Applied Physics Letters (2019).
 
 # Experience
 
-### Summer 2022: **Platform Architecture Intern, Apple**
-CPU cache subsystem performance research
+### Fall 2020: **Teaching Assistant, MIT**
+[6.728: Applied Quantum and Statistical Physics](https://ocw.mit.edu/courses/6-728-applied-quantum-and-statistical-physics-fall-2006/)
 
-### Spring 2022: **Teaching Assistant, MIT**
-[6.812/6.825 Hardware Architecture for Deep Learning](http://csg.csail.mit.edu/6.825/index.html)
+### Extracurricular
+
+[MIT Chinese Entrepreneur Organization](https://www.chinese-entrepreneurs.mit.edu/)
