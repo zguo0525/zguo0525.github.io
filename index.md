@@ -8,6 +8,7 @@ My curriculum vitae is [here](./misc/CV_zguo.pdf).
 
 ### **Noise-resilient deep tomographic imaging**
 <u>Zhen Guo</u>, Zhiguang Liu, George Barbastathis, Qihang Zhang, Michael E. Glinsky, Bradley K. Alpert, and Zachary H. Levine
+
 Optica (preparing).
 
 ### **Physics-assisted generative adversarial network for X-ray tomography**
