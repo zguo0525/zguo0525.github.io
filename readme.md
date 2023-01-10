@@ -1,4 +1,4 @@
-# Yifan Yang's Personal Website
+# Personal Website
 
 ## References
 
