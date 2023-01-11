@@ -25,7 +25,7 @@ Cheng Gong, Xiang Zhang, Peiyao Zhang, Tenzin Norden, Quanwei Li, <u>Zhen Guo</u
 Nature Communications (reviewing).
 
 ### **Wafer-Scale On-Chip Synthesis and Field Emission Properties of Vertically Aligned Boron Nitride Based Nanober Arrays**
-Hu Long, Thang Pham, Aiming Yan, <u>Zhen Guo</u>, Hiroya Ishida, Wu Shi, Sally Turner, S.Matt Gilbert, and Alex Zettl 
+Hu Long, Thang Pham, Aiming Yan, <u>Zhen Guo</u>, Hiroya Ishida, Wu Shi, Sally Turner, S.Matt Gilbert, and Alex Zettl   
 Applied Physics Letters (2019).
 
 # Experience
