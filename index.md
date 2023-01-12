@@ -1,4 +1,4 @@
-I'm currently a Ph.D. student at MIT EECS, advised by Professor [George Barbastathis](https://meche.mit.edu/people/faculty/gbarb@mit.edu) on computational imaging and machine learning. My research focus is on learning from less data with prior knowledge from physics. 
+I'm currently a Ph.D. student at MIT EECS, advised by Professor [George Barbastathis](https://meche.mit.edu/people/faculty/gbarb@mit.edu) on computational imaging and machine learning. My research focus is on learning with less data using prior knowledge from physics. 
 
 Before moving to Cambridge, I spent 7 years in California where I received my B.A. with highest honor in physics and minors in English and EECS from UC Berkeley, mentored by Professor [Alex Zettl](https://www.ocf.berkeley.edu/~jode/) and Professor [Xiang Zhang](https://xlab.hku.hk/) (now at University of Hong Kong). I was the co-founder of Sensible Recording and Rendering in Shenzhen, China.
 
@@ -37,6 +37,7 @@ Nature Communications (reviewing).
 ### **Wafer-Scale On-Chip Synthesis and Field Emission Properties of Vertically Aligned Boron Nitride Based Nanober Arrays**
 Hu Long, Thang Pham, Aiming Yan, <u>Zhen Guo</u>, Hiroya Ishida, Wu Shi, Sally Turner, S.Matt Gilbert, and Alex Zettl   
 Applied Physics Letters (2019).
+[[paper]](./papers/wafer.pdf)
 
 # Experience
 
