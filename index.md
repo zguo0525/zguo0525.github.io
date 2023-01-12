@@ -15,6 +15,16 @@ Optica (preparing).
 Optics Express (2022).  
 [[paper]](./papers/PGAN.pdf) [[slide]](./slides/PGAN.pdf) [[code]](https://github.com/zguo0525/Physics-assisted-Generative-Adversarial-Network-for-X-Ray-Tomography)
 
+### **LION: Learning to Invert 3D Objects by Neural Networks**
+George Barbastathis, Jungki Song, Zilin Wu, Subeen Pang, <u>Zhen Guo</u>
+Microsystems Technology Laboratories Annual Research Report (2021).  
+[[paper]](./papers/lion.pdf)
+
+### **Towards information limit in a low-photon three-dimensional x-ray imaging**
+Jungki Song, Zachary H. Levine, <u>Zhen Guo</u>, George Barbastathis, Michael E. Glinsky, Bradley K. Alpert   
+Computational Optical Sensing and Imaging (2021).  
+[[slide]](./slides/limit.pdf)
+
 ### **Randomized probe imaging through deep k-learning**
 <u>Zhen Guo</u>,  Abraham Levitan, George Barbastathis, Riccardo Comin  
 Optics Express (2022).  
