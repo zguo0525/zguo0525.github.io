@@ -36,7 +36,7 @@ Nature Communications (reviewing).
 
 ### **Wafer-Scale On-Chip Synthesis and Field Emission Properties of Vertically Aligned Boron Nitride Based Nanober Arrays**
 Hu Long, Thang Pham, Aiming Yan, <u>Zhen Guo</u>, Hiroya Ishida, Wu Shi, Sally Turner, S.Matt Gilbert, and Alex Zettl   
-Applied Physics Letters (2019).
+Applied Physics Letters (2019).   
 [[paper]](./papers/wafer.pdf)
 
 # Experience
