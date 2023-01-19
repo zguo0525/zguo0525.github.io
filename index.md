@@ -13,7 +13,7 @@ Optica (preparing).
 ### **Physics-assisted generative adversarial network for X-ray tomography**
 <u>Zhen Guo</u>,  Jung Ki Song, George Barbastathis, Michael E. Glinsky, Courtenay T. Vaughan, Kurt W. Larson, Bradley K. Alpert, Zachary H. Levine   
 Optics Express (2022).  
-[[paper]](./papers/PGAN.pdf) [[slide]](./slides/PGAN.pdf) [[code]](https://github.com/zguo0525/Physics-assisted-Generative-Adversarial-Network-for-X-Ray-Tomography)
+[[paper]](./papers/PGAN.pdf) [[slides]](./slides/PGAN.pdf) [[code]](https://github.com/zguo0525/Physics-assisted-Generative-Adversarial-Network-for-X-Ray-Tomography)
 
 ### **LION: Learning to Invert 3D Objects by Neural Networks**
 George Barbastathis, Jungki Song, Zilin Wu, Subeen Pang, <u>Zhen Guo</u>    
@@ -28,7 +28,7 @@ Computational Optical Sensing and Imaging (2021).
 ### **Randomized probe imaging through deep k-learning**
 <u>Zhen Guo</u>,  Abraham Levitan, George Barbastathis, Riccardo Comin  
 Optics Express (2022).  
-[[paper]](./papers/RPI.pdf) [[slide]](./slides/RQE.pdf) [[code]](https://github.com/zguo0525/Randomized-probe-imaging-through-deep-k-learning)
+[[paper]](./papers/RPI.pdf) [[slides]](./slides/RQE.pdf) [[code]](https://github.com/zguo0525/Randomized-probe-imaging-through-deep-k-learning)
 
 ### **Ferromagnetism emerged from non-ferromagnetic atomic crystals**
 Cheng Gong, Xiang Zhang, Peiyao Zhang, Tenzin Norden, Quanwei Li, <u>Zhen Guo</u>, Apoorva Chaturvedi, Arman Najafi, Shoufeng Lan, Xiaoze Liu, Yuan Wang, Shi-Jing Gong, Hao Zeng, Hua Zhang, Athos Petrou  
