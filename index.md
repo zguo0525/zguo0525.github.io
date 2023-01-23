@@ -9,7 +9,7 @@ My curriculum vitae is [here](./misc/CV_zguo.pdf).
 ### **Noise-resilient deep tomographic imaging**
 <u>Zhen Guo</u>, Zhiguang Liu, George Barbastathis, Qihang Zhang, Michael E. Glinsky, Bradley K. Alpert, Zachary H. Levine  
 Optica Open (2022).   
-[[paper]](https://preprints.opticaopen.org/articles/preprint/Noise-resilient_deep_tomographic_imaging/21931557)
+[[paper]](https://preprints.opticaopen.org/articles/preprint/Noise-resilient_deep_tomographic_imaging/21931557) [[code]](https://github.com/zguo0525/Noise-resilience-deep-reconstruction-for-X-ray-Tomography)
 
 ### **Physics-assisted generative adversarial network for X-ray tomography**
 <u>Zhen Guo</u>,  Jung Ki Song, George Barbastathis, Michael E. Glinsky, Courtenay T. Vaughan, Kurt W. Larson, Bradley K. Alpert, Zachary H. Levine   
