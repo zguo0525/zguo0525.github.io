@@ -40,6 +40,10 @@ Hu Long, Thang Pham, Aiming Yan, <u>Zhen Guo</u>, Hiroya Ishida, Wu Shi, Sally T
 Applied Physics Letters (2019).   
 [[paper]](./papers/wafer.pdf)
 
+# Patents
+### **System and Method for Real-Time Determination of Particle Size Distributions in Dry Powders**   
+Qihang Zhang, Ajinkya Pandit, Allan S. Myerson, George Barbastathis, Janaka C. Gamekkanda Gamaethige, Richard D. Braatz, and Zhen Guo
+
 # Experience
 
 ### Fall 2020: **Teaching Assistant, MIT**
