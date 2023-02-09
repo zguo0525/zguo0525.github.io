@@ -11,7 +11,7 @@ George Barbastathis, Subeen Pang, Iksung Kang, Zhiguang Liu, <u>Zhen Guo</u>, an
 SPIE Photonics West (2023)
 
 ### **Noise-resilient deep tomographic imaging**
-<u>Zhen Guo</u>, Zhiguang Liu, George Barbastathis, Qihang Zhang, Michael E. Glinsky, Bradley K. Alpert, Zachary H. Levine  
+<ins>Zhen Guo<ins>, Zhiguang Liu, George Barbastathis, Qihang Zhang, Michael E. Glinsky, Bradley K. Alpert, Zachary H. Levine  
 Optica Open (2022).   
 [[paper]](https://preprints.opticaopen.org/articles/preprint/Noise-resilient_deep_tomographic_imaging/21931557) [[code]](https://github.com/zguo0525/Noise-resilience-deep-reconstruction-for-X-ray-Tomography)
 
