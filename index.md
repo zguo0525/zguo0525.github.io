@@ -6,6 +6,10 @@ My curriculum vitae is [here](./misc/CV_zguo.pdf).
 
 # Publications
 
+### **On the Use of Deep Learning for Three-Dimensional Computational Imaging**
+George Barbastathis, Subeen Pang, Iksung Kang, Zhiguang Liu, <u>Zhen Guo</u>, and Fucai Zhang   
+SPIE Photonics West (2023)
+
 ### **Noise-resilient deep tomographic imaging**
 <u>Zhen Guo</u>, Zhiguang Liu, George Barbastathis, Qihang Zhang, Michael E. Glinsky, Bradley K. Alpert, Zachary H. Levine  
 Optica Open (2022).   
