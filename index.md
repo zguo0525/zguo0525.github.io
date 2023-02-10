@@ -1,6 +1,6 @@
 I'm currently a Ph.D. student at MIT EECS, advised by Professor [George Barbastathis](https://meche.mit.edu/people/faculty/gbarb@mit.edu) on computational imaging and machine learning. My research focuses on learning with less data using prior knowledge from physics. 
 
-Before moving to Cambridge, I spent 7 years in California where I received my B.A. with highest honor in physics and minors in English and EECS from UC Berkeley, mentored by Professor [Alex Zettl](https://www.ocf.berkeley.edu/~jode/) and Professor [Xiang Zhang](https://xlab.hku.hk/) (now at University of Hong Kong). I was the co-founder of Sensible Recording and Rendering in Shenzhen, China.
+Before moving to Cambridge, I spent 7 years in California where I received my B.A. with the highest honor in physics and minors in English and EECS from UC Berkeley, mentored by Professor [Alex Zettl](https://www.ocf.berkeley.edu/~jode/) and Professor [Xiang Zhang](https://xlab.hku.hk/) (now at University of Hong Kong). I was the co-founder of Sensible Recording and Rendering in Shenzhen, China.
 
 My curriculum vitae is [here](./misc/CV_zguo.pdf).
 
