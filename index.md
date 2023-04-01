@@ -1,4 +1,4 @@
-I'm currently a Ph.D. student at MIT EECS, advised by Professor [George Barbastathis](https://meche.mit.edu/people/faculty/gbarb@mit.edu) at [3D Optics Group](http://optics.mit.edu/). My research focuses on learning with less data for computational imaging and machine vision.
+I'm currently a Ph.D. student at MIT EECS, advised by Professor [George Barbastathis](https://meche.mit.edu/people/faculty/gbarb@mit.edu) at [3D Optics Group](http://optics.mit.edu/). My research focuses on learning with less data with physics-based regularization for computational imaging and machine vision.
 
 Before moving to Cambridge, I spent 7 years in California where I received my B.A. with the highest honor in physics and minors in English and EECS from UC Berkeley, mentored by Professor [Alex Zettl](https://www.ocf.berkeley.edu/~jode/) and Professor [Xiang Zhang](https://xlab.hku.hk/) (now at University of Hong Kong). I was the co-founder of Sensible Recording and Rendering in Shenzhen, China.
 
