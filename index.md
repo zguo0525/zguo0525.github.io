@@ -2,7 +2,7 @@
 
 I am an entrepreneur and AI researcher, currently pursuing my Ph.D. at MIT EECS, advised by Professor [George Barbastathis](https://meche.mit.edu/people/faculty/gbarb@mit.edu) in [3D Optics Group](http://optics.mit.edu/). My research focuses on physics-assisted machine learning for computational imaging and machine vision.
 
-Before moving to Cambridge, I spent 7 years in California where I received my B.A. with the highest honor in physics and minors in English and EECS from UC Berkeley, mentored by Professor [Alex Zettl](https://www.ocf.berkeley.edu/~jode/) and Professor [Xiang Zhang](https://xlab.hku.hk/) (now at University of Hong Kong). I was the co-founder of Sensible Recording and Rendering in Shenzhen, China.
+Before moving to Cambridge, I spent 7 years in California where I received my B.A. with the highest honor in physics and minors in English and EECS from UC Berkeley, mentored by Professor [Alex Zettl](https://www.ocf.berkeley.edu/~jode/) and Professor [Xiang Zhang](https://xlab.hku.hk/) (now at University of Hong Kong). I have co-founded Deep Light, Beaver Studio, and Sensible Recording and Rendering, and I'm the early core member of DAO+, a Harvard + MIT web3 community for scholars + practitioners. 
 
 My curriculum vitae is [here](./misc/CV_zguo.pdf).
 
