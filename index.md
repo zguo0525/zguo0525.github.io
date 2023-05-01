@@ -10,7 +10,7 @@ My curriculum vitae is [here](./misc/CV_zguo.pdf).
 
 ### **On the use of deep learning for three-dimensional computational imaging**
 George Barbastathis, Subeen Pang, Iksung Kang, Zhiguang Liu, <ins>Zhen Guo</ins>, and Fucai Zhang   
-SPIE Photonics West (2023)
+SPIE Photonics West (2023).   
 [[paper]](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12445/2655261/On-the-use-of-deep-learning-for-three-dimensional-computational/10.1117/12.2655261.short?SSO=1)
 
 ### **Noise-resilient deep tomographic imaging**
