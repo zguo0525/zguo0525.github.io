@@ -42,7 +42,7 @@ Optics Express (2022).
 Cheng Gong, Xiang Zhang, Peiyao Zhang, Tenzin Norden, Quanwei Li, <ins>Zhen Guo</ins>, Apoorva Chaturvedi, Arman Najafi, Shoufeng Lan, Xiaoze Liu, Yuan Wang, Shi-Jing Gong, Hao Zeng, Hua Zhang, Athos Petrou  
 Nature Communications (reviewing).
 
-### **Wafer-Scale on-chip synthesis and field emission properties of vertically aligned boron nitride based nanober arrays**
+### **Wafer-scale on-chip synthesis and field emission properties of vertically aligned boron nitride based nanofiber arrays**
 Hu Long, Thang Pham, Aiming Yan, <ins>Zhen Guo</ins>, Hiroya Ishida, Wu Shi, Sally Turner, S.Matt Gilbert, and Alex Zettl   
 Applied Physics Letters (2019).   
 [[paper]](./papers/wafer.pdf)
