@@ -20,7 +20,7 @@ Optica Open (2022).
 
 ### **Physics-assisted generative adversarial network for X-ray tomography**
 <ins>Zhen Guo</ins>,  Jung Ki Song, George Barbastathis, Michael E. Glinsky, Courtenay T. Vaughan, Kurt W. Larson, Bradley K. Alpert, Zachary H. Levine   
-Optics Express (2022).
+Optics Express (2022).      
 Also at Electronic Imaging: Machine Learning for Scientific Imaging.           
 [[paper]](./papers/PGAN.pdf) [[slide]](./slides/PGAN.pdf) [[code]](https://github.com/zguo0525/Physics-assisted-Generative-Adversarial-Network-for-X-Ray-Tomography) [[link]](https://library.imaging.org/ei/articles/34/5/MLSI-202)
 
@@ -36,7 +36,7 @@ Computational Optical Sensing and Imaging (2021).
 
 ### **Randomized probe imaging through deep k-learning**
 <ins>Zhen Guo</ins>,  Abraham Levitan, George Barbastathis, Riccardo Comin  
-Optics Express (2022).
+Optics Express (2022).      
 Also at Computational Optical Sensing and Imaging (2021).     
 [[paper]](./papers/RPI.pdf) [[slide]](./slides/RQE.pdf) [[code]](https://github.com/zguo0525/Randomized-probe-imaging-through-deep-k-learning) [[linke]](https://opg.optica.org/abstract.cfm?uri=COSI-2021-CTh7A.6)
 
