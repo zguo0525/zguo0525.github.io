@@ -53,6 +53,19 @@ Applied Physics Letters (2019).
 ### **System and Method for Real-Time Determination of Particle Size Distributions in Dry Powders**   
 Qihang Zhang, Ajinkya Pandit, Allan S. Myerson, George Barbastathis, Janaka C. Gamekkanda Gamaethige, Richard D. Braatz, and <ins>Zhen Guo</ins>
 
+# Projects
+### **Gen-VQA: Generative Visual Question Answering with Abstract Scenes**    
+Yifan Yang, <ins>Zhen Guo</ins>  
+[[report]](https://github.com/Yang-YiFan/vqa-gan/6_869_Final_Project.pdf) [[code]](https://github.com/Yang-YiFan/vqa-gan)
+
+### **Hardware Efficient Quantum Computing via Circuit Decomposition**    
+Tianyi Peng, Linsen Li, Kaidong Peng, Yufeng Ye, <ins>Zhen Guo</ins>  
+[[report]](https://github.com/zguo0525/Hardware-Efficient-Quantum-Computing-via-Circuit-Decomposition) [[code]](https://github.com/zguo0525/Hardware-Efficient-Quantum-Computing-via-Circuit-Decomposition)
+
+### **Dr. LLaMA: Improving Small Language Models in Domain-Specific QA via Generative Data Augmentation**    
+<ins>Zhen Guo</ins> , Peiqi Wang, Yanwei Wang, Shangdi Yu       
+[[report]](https://arxiv.org/abs/2305.07804) [[code]](https://github.com/zguo0525/Dr.llama)
+
 # Experience
 
 ### Fall 2020: **Teaching Assistant, MIT**
