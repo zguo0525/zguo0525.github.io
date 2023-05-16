@@ -38,7 +38,7 @@ Computational Optical Sensing and Imaging (2021).
 <ins>Zhen Guo</ins>,  Abraham Levitan, George Barbastathis, Riccardo Comin  
 Optics Express (2022).      
 Conference proceeding at Computational Optical Sensing and Imaging (2021).     
-[[paper]](./papers/RPI.pdf) [[slide]](./slides/RQE.pdf) [[code]](https://github.com/zguo0525/Randomized-probe-imaging-through-deep-k-learning) [[linke]](https://opg.optica.org/abstract.cfm?uri=COSI-2021-CTh7A.6)
+[[paper]](./papers/RPI.pdf) [[slide]](./slides/RQE.pdf) [[code]](https://github.com/zguo0525/Randomized-probe-imaging-through-deep-k-learning) [[link]](https://opg.optica.org/abstract.cfm?uri=COSI-2021-CTh7A.6)
 
 ### **Ferromagnetism emerged from non-ferromagnetic atomic crystals**
 Cheng Gong, Xiang Zhang, Peiyao Zhang, Tenzin Norden, Quanwei Li, <ins>Zhen Guo</ins>, Apoorva Chaturvedi, Arman Najafi, Shoufeng Lan, Xiaoze Liu, Yuan Wang, Shi-Jing Gong, Hao Zeng, Hua Zhang, Athos Petrou  
