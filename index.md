@@ -6,6 +6,8 @@ Before moving to Cambridge, I spent 7 years in California where I received my B.
 
 My curriculum vitae is [here](./misc/CV_zguo.pdf).
 
+I'm taking an research intern at MIT-IBM Watson AI Lab this summer for large language models.
+
 # Publications
 
 ### **On the use of deep learning for three-dimensional computational imaging**
