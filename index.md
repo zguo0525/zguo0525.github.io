@@ -1,6 +1,6 @@
 ### **Value Creation + Investment = Wealth**
 
-I am an entrepreneur and machine learning physicist, currently pursuing my Ph.D. at MIT EECS, advised by Professor [George Barbastathis](https://meche.mit.edu/people/faculty/gbarb@mit.edu) in [3D Optics Group](http://optics.mit.edu/). My research focuses on physics-assisted machine learning for computational imaging.
+I am an entrepreneur and machine learning physicist, currently pursuing my Ph.D. at MIT EECS, advised by Professor [George Barbastathis](https://meche.mit.edu/people/faculty/gbarb@mit.edu) in [3D Optics Group](http://optics.mit.edu/). My research focuses on physics-assisted machine learning for 3D imaging.
 
 Before moving to Cambridge, I spent 7 years in California where I received my B.A. with the highest honor in physics and minors in English and EECS from UC Berkeley, mentored by Professor [Alex Zettl](https://www.ocf.berkeley.edu/~jode/) and Professor [Xiang Zhang](https://xlab.hku.hk/) (now at University of Hong Kong). I have co-founded three tech startups and a venture DAO, all with the aim of making a positive impact through innovation and technology.
 
