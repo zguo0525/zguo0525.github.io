@@ -45,7 +45,7 @@ Conference proceeding at Computational Optical Sensing and Imaging (2021).
 ### **Ferromagnetism emerged from non-ferromagnetic atomic crystals**
 Cheng Gong, Xiang Zhang, Peiyao Zhang, Tenzin Norden, Quanwei Li, <ins>Zhen Guo</ins>, Apoorva Chaturvedi, Arman Najafi, Shoufeng Lan, Xiaoze Liu, Yuan Wang, Shi-Jing Gong, Hao Zeng, Hua Zhang, Athos Petrou  
 Nature Communications (2023).     
-[[paper]](./papers/?.pdf)
+[[paper]](https://www.nature.com/articles/s41467-023-39002-6)
 
 ### **Wafer-scale on-chip synthesis and field emission properties of vertically aligned boron nitride based nanofiber arrays**
 Hu Long, Thang Pham, Aiming Yan, <ins>Zhen Guo</ins>, Hiroya Ishida, Wu Shi, Sally Turner, S.Matt Gilbert, and Alex Zettl   
