@@ -69,7 +69,7 @@ iQuHACK MIT Quantum Hackathon (first place), Winter 2019.
 
 ### **Dr. LLaMA: Improving Small Language Models in Domain-Specific QA via Generative Data Augmentation**    
 <ins>Zhen Guo</ins> , Peiqi Wang, Yanwei Wang, Shangdi Yu      
-MIT 6.S986 Large Language Models & Beyond, Spring 2023.     
+KDD 2023 Foundations and Applications in Large-scale AI Models.     
 [[report]](https://arxiv.org/abs/2305.07804) [[code]](https://github.com/zguo0525/Dr.llama)
 
 # Experience
