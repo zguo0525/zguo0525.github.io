@@ -4,9 +4,11 @@ I am an entrepreneur and machine learning physicist, currently pursuing my Ph.D.
 
 Before moving to Cambridge, I spent 7 years in California where I received my B.A. with the highest honor in physics and minors in English and EECS from UC Berkeley, mentored by Professor [Alex Zettl](https://www.ocf.berkeley.edu/~jode/) and Professor [Xiang Zhang](https://xlab.hku.hk/) (now at University of Hong Kong). I have co-founded three tech startups and a venture DAO, all with the aim of making a positive impact through innovation and technology.
 
-My curriculum vitae is [here](./misc/CV_zguo.pdf).
+I'm taking a research internship at MIT-IBM Watson AI Lab for large language models this summer.
 
-I'm taking an research intern at MIT-IBM Watson AI Lab this summer for large language models.
+### **Notes for researchers, entrepreneurs, and venture capitalists**
+
+
 
 # Publications
 
