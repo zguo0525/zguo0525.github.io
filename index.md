@@ -6,7 +6,7 @@ Before moving to Cambridge, I spent 7 years in California where I received my B.
 
 I'm taking a research internship at MIT-IBM Watson AI Lab for large language models this summer (2023).
 
-### **Notes for researchers, recruiters, entrepreneurs, and venture capitalists**
+### **Notes for researchers, recruiters, entrepreneurs, and investors**
 For the foreseeable future, I will be focusing on machine learning and generative AI. I'm very open to academic collaboration across departments and institutes, and advisorships in tech startups. I generally do not consider job offers in hedge funds and quantitative trading, and cold-call startup opportunities. 
 
 # Publications
