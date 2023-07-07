@@ -2,13 +2,12 @@
 
 I am an entrepreneur and machine learning physicist, currently pursuing my Ph.D. at MIT EECS, advised by Professor [George Barbastathis](https://meche.mit.edu/people/faculty/gbarb@mit.edu) in [3D Optics Group](http://optics.mit.edu/). My research focuses on physics-assisted machine learning for 3D imaging.
 
-Before moving to Cambridge, I spent 7 years in California where I received my B.A. with the highest honor in physics and minors in English and EECS from UC Berkeley, mentored by Professor [Alex Zettl](https://www.ocf.berkeley.edu/~jode/) and Professor [Xiang Zhang](https://xlab.hku.hk/) (now at University of Hong Kong). I have co-founded three tech startups and a venture DAO, all with the aim of making a positive impact through innovation and technology.
+Before moving to Cambridge, I spent 7 years in California where I received my B.A. with the highest honor in physics and minors in English and EECS from UC Berkeley, mentored by Professor [Alex Zettl](https://www.ocf.berkeley.edu/~jode/) and Professor [Xiang Zhang](https://xlab.hku.hk/) (now at the University of Hong Kong). I have co-founded three tech startups and a venture DAO, all with the aim of making a positive impact through innovation and technology.
 
-I'm taking a research internship at MIT-IBM Watson AI Lab for large language models this summer.
+I'm taking a research internship at MIT-IBM Watson AI Lab for large language models this summer (2023).
 
-### **Notes for researchers, entrepreneurs, and venture capitalists**
-
-
+### **Notes for researchers, recruiters, entrepreneurs, and venture capitalists**
+For the foreseeable future, I will be focusing on machine learning and generative AI. I'm very open to academic collaboration across departments and institutes, and advisorships in tech startups. I generally do not consider job offers in hedge funds and quantitative trading, and cold-call startup opportunities. 
 
 # Publications
 
