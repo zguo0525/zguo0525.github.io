@@ -11,6 +11,11 @@ For the foreseeable future, I will be focusing on web3 and generative AI. I'm ve
 
 # Publications
 
+### **Improving Small Language Models on PubMedQA via Generative Data Augmentation** 
+<ins>Zhen Guo</ins> , Peiqi Wang, Yanwei Wang, Shangdi Yu      
+KDD 2023 Foundations and Applications in Large-scale AI Models.     
+[[report]](https://arxiv.org/abs/2305.07804) [[code]](https://github.com/zguo0525/Dr.llama)
+
 ### **On the use of deep learning for three-dimensional computational imaging**
 George Barbastathis, Subeen Pang, Iksung Kang, Zhiguang Liu, <ins>Zhen Guo</ins>, and Fucai Zhang   
 SPIE Photonics West (2023).   
@@ -67,11 +72,6 @@ MIT 6.869 Advances in Computer Vision, Fall 2019.
 Tianyi Peng, Linsen Li, Kaidong Peng, Yufeng Ye, <ins>Zhen Guo</ins>    
 iQuHACK MIT Quantum Hackathon (first place), Winter 2019.    
 [[report]](https://github.com/zguo0525/Hardware-Efficient-Quantum-Computing-via-Circuit-Decomposition) [[code]](https://github.com/zguo0525/Hardware-Efficient-Quantum-Computing-via-Circuit-Decomposition)
-
-### **Dr. LLaMA: Improving Small Language Models in Domain-Specific QA via Generative Data Augmentation**    
-<ins>Zhen Guo</ins> , Peiqi Wang, Yanwei Wang, Shangdi Yu      
-KDD 2023 Foundations and Applications in Large-scale AI Models.     
-[[report]](https://arxiv.org/abs/2305.07804) [[code]](https://github.com/zguo0525/Dr.llama)
 
 # Experience
 
