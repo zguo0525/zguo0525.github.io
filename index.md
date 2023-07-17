@@ -14,7 +14,7 @@ For the foreseeable future, I will be focusing on web3 and generative AI. I'm ve
 ### **Improving Small Language Models on PubMedQA via Generative Data Augmentation** 
 <ins>Zhen Guo</ins> , Peiqi Wang, Yanwei Wang, Shangdi Yu      
 KDD 2023 Foundations and Applications in Large-scale AI Models.     
-[[report]](https://arxiv.org/abs/2305.07804) [[code]](https://github.com/zguo0525/Dr.llama)
+[[paper]](https://arxiv.org/abs/2305.07804) [[code]](https://github.com/zguo0525/Dr.llama)
 
 ### **On the use of deep learning for three-dimensional computational imaging**
 George Barbastathis, Subeen Pang, Iksung Kang, Zhiguang Liu, <ins>Zhen Guo</ins>, and Fucai Zhang   
