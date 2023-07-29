@@ -2,12 +2,12 @@
 
 I am a serial entrepreneur and machine learning physicist, currently pursuing my Ph.D. at MIT EECS, advised by Professor [George Barbastathis](https://meche.mit.edu/people/faculty/gbarb@mit.edu) in [3D Optics Group](http://optics.mit.edu/). My research focuses on physics-assisted machine learning for 3D imaging.
 
-Prior to my time at MIT, I resided in California for seven years, where I received my B.A. with the highest honor in physics and minors in English and EECS from UC Berkeley, mentored by Professor [Alex Zettl](https://www.ocf.berkeley.edu/~jode/) and Professor [Xiang Zhang](https://xlab.hku.hk/) (now at the University of Hong Kong). Throughout my journey, I have co-founded multiple tech startups and a venture DAO, each driven by the common goal of effecting positive change through innovation and technology. My experiences have nurtured my fervor for pushing the boundaries of what's possible and making a lasting impact.
+Prior to my time at MIT, I resided in California for seven years, where I received my B.A. with the highest honor in physics and minors in English and EECS from UC Berkeley, mentored by Professor [Alex Zettl](https://www.ocf.berkeley.edu/~jode/) and Professor [Xiang Zhang](https://xlab.hku.hk/) (now at the University of Hong Kong). Throughout my journey, I have co-founded multiple tech startups and a venture DAO, each driven by the common goal of effecting positive change through innovation and technology. My experiences have nurtured my fervor for pushing the boundaries of what's possible and making a lasting impact with practical solutions.
 
 During the summer of 2023, I'm a research intern at MIT-IBM Watson AI Lab for large language models.
 
 ### **Notes for researchers, recruiters, entrepreneurs, and investors**
-Moving forward, my primary areas of interest will revolve around web3 and generative AI. I enthusiastically welcome opportunities for academic collaboration spanning various departments and institutes, as well as advisory roles in tech startups. However, please note that I am currently not considering job offers in hedge funds, quantitative trading, or cold-call startup opportunities. Thank you for your understanding.
+Moving forward, my primary areas of interest will be around web3 and generative AI. I enthusiastically welcome opportunities for academic collaboration spanning various departments and institutes, as well as advisory roles in tech startups. However, please note that I am currently not considering job offers in hedge funds, quantitative trading, or cold-call startup opportunities. Thank you for your understanding.
 
 # Publications
 
