@@ -7,6 +7,8 @@ Prior to my time at MIT, I resided in California for seven years, where I receiv
 During the summer of 2023, I'm a research intern at MIT-IBM Watson AI Lab for large language models.
 
 ### **Notes for researchers, recruiters, entrepreneurs, and investors**
+I plan to graduate in Spring/Summer 2024, looking for a full-time research position for continual training and efficient fine-tuning of large language models within the United States. If you are aware of any opportunities that align with my interests, I would greatly appreciate an introduction.
+
 Moving forward, my primary areas of interest will be around web3 and generative AI. I enthusiastically welcome opportunities for academic collaboration spanning various departments and institutes, as well as advisory roles in tech startups. However, please note that I am currently not considering job offers in hedge funds, quantitative trading, or cold-call startup opportunities. Thank you for your understanding.
 
 # Publications
