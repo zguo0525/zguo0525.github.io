@@ -13,7 +13,7 @@ Moving forward, my primary areas of interest will be around web3 and generative 
 
 # Publications
 
-### **Improving Small Language Models on PubMedQA via Generative Data Augmentation** 
+### **Dr. Llama: Improving Small Language Models on PubMedQA via Generative Data Augmentation** 
 <ins>Zhen Guo</ins> , Peiqi Wang, Yanwei Wang, Shangdi Yu      
 KDD 2023 Foundations and Applications in Large-scale AI Models.     
 [[paper]](https://arxiv.org/abs/2305.07804) [[code]](https://github.com/zguo0525/Dr.llama)
