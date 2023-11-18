@@ -13,12 +13,12 @@ Certainly! Here's a formatted description for your poster in a style similar to 
 ---
 
 ### **AuthentiGPT: Detecting Machine-Generated Text via Black-Box Language Models Denoising**
-<ins>Zhen Guo</ins> · Shangdi Yu
-NeurIPS 2023 on Generative AI for Education
+<ins>Zhen Guo</ins>, Shangdi Yu         
+NeurIPS 2023 on Generative AI for Education.       
 [[paper]](https://arxiv.org/abs/2311.07700)
 
 ### **Dr. Llama: Improving Small Language Models on PubMedQA via Generative Data Augmentation** 
-<ins>Zhen Guo</ins> , Peiqi Wang, Yanwei Wang, Shangdi Yu      
+<ins>Zhen Guo</ins>, Peiqi Wang, Yanwei Wang, Shangdi Yu      
 KDD 2023 Foundations and Applications in Large-scale AI Models.     
 [[paper]](https://arxiv.org/abs/2305.07804) [[code]](https://github.com/zguo0525/Dr.llama)
 
