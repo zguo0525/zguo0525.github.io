@@ -7,9 +7,6 @@ Prior to my time at MIT, I resided in California for seven years, where I receiv
 In summer 2023, I joined MIT-IBM Watson AI Lab as a student researcher, contributing to the foundation modeling team's large language models for code generation, guided by Dr. Ramsware Panda and Dr. Yikang Shen.
 
 # Publications
-
-Certainly! Here's a formatted description for your poster in a style similar to the example you provided:
-
 ---
 
 ### **AuthentiGPT: Detecting Machine-Generated Text via Black-Box Language Models Denoising**
