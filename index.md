@@ -24,7 +24,7 @@ George Barbastathis, Subeen Pang, Iksung Kang, Zhiguang Liu, <ins>Zhen Guo</ins>
 SPIE Photonics West (2023).   
 [[paper]](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12445/2655261/On-the-use-of-deep-learning-for-three-dimensional-computational/10.1117/12.2655261.short?SSO=1)
 
-### **Noise-resilient Deep Tomographic Imaging**
+### **Noise-resilient deep tomographic imaging**
 <ins>Zhen Guo</ins>, Zhiguang Liu, George Barbastathis, Qihang Zhang, Michael E. Glinsky, Bradley K. Alpert, Zachary H. Levine  
 Optica Open (2022).   
 [[paper]](https://preprints.opticaopen.org/articles/preprint/Noise-resilient_deep_tomographic_imaging/21931557) [[code]](https://github.com/zguo0525/Noise-resilience-deep-reconstruction-for-X-ray-Tomography)
@@ -45,7 +45,7 @@ Jungki Song, Zachary H. Levine, <ins>Zhen Guo</ins>, George Barbastathis, Michae
 Computational Optical Sensing and Imaging (2021).  
 [[slide]](./slides/limit.pdf)
 
-### **Randomized Probe Imaging Through Deep k-learning**
+### **Randomized probe imaging through deep k-learning**
 <ins>Zhen Guo</ins>,  Abraham Levitan, George Barbastathis, Riccardo Comin  
 Optics Express (2022).      
 Conference proceeding at Computational Optical Sensing and Imaging (2021).     
