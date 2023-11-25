@@ -19,7 +19,7 @@ NeurIPS 2023 on Generative AI for Education.
 KDD 2023 Foundations and Applications in Large-scale AI Models.     
 [[paper]](https://arxiv.org/abs/2305.07804) [[code]](https://github.com/zguo0525/Dr.llama)
 
-### **On the Use of Deep Learning for Three-dimensional Computational Imaging**
+### **On the use of deep learning for three-dimensional computational imaging**
 George Barbastathis, Subeen Pang, Iksung Kang, Zhiguang Liu, <ins>Zhen Guo</ins>, and Fucai Zhang   
 SPIE Photonics West (2023).   
 [[paper]](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12445/2655261/On-the-use-of-deep-learning-for-three-dimensional-computational/10.1117/12.2655261.short?SSO=1)
@@ -29,7 +29,7 @@ SPIE Photonics West (2023).
 Optica Open (2022).   
 [[paper]](https://preprints.opticaopen.org/articles/preprint/Noise-resilient_deep_tomographic_imaging/21931557) [[code]](https://github.com/zguo0525/Noise-resilience-deep-reconstruction-for-X-ray-Tomography)
 
-### **Physics-assisted Generative Adversarial Network for X-ray Tomography**
+### **Physics-assisted generative adversarial network for X-ray tomography**
 <ins>Zhen Guo</ins>,  Jung Ki Song, George Barbastathis, Michael E. Glinsky, Courtenay T. Vaughan, Kurt W. Larson, Bradley K. Alpert, Zachary H. Levine   
 Optics Express (2022).      
 Conference proceeding at Electronic Imaging: Machine Learning for Scientific Imaging (2022).           
@@ -40,7 +40,7 @@ George Barbastathis, Jungki Song, Zilin Wu, Subeen Pang, <ins>Zhen Guo</ins>
 Microsystems Technology Laboratories Annual Research Report (2021).  
 [[paper]](./papers/lion.pdf)
 
-### **Towards Information Limit in a Low-photon Three-dimensional X-ray Imaging**
+### **Towards information limit in a low photon three-dimensional X-ray imaging**
 Jungki Song, Zachary H. Levine, <ins>Zhen Guo</ins>, George Barbastathis, Michael E. Glinsky, Bradley K. Alpert   
 Computational Optical Sensing and Imaging (2021).  
 [[slide]](./slides/limit.pdf)
