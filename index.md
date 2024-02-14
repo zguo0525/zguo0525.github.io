@@ -15,7 +15,7 @@ ICML 2024 conference submission.
 [[paper]](https://arxiv.org/abs/2311.07700)
 
 ### **Diversity Measurement and Subset Selection for Instruction Tuning Datasets**
-<ins>Peiqi Wang</ins>, Yikang Shen, Zhen Guo, Matthew J. Stallone, Yoon Kim, Polina Golland, Rameswar Panda         
+Peiqi Wang, Yikang Shen, <ins>Zhen Guo</ins>, Matthew J. Stallone, Yoon Kim, Polina Golland, Rameswar Panda         
 ICML 2024 conference submission.            
 [[paper]](https://arxiv.org/abs/2311.07700)
 
