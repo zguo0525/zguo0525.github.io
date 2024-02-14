@@ -9,6 +9,14 @@ In summer 2023, I joined MIT-IBM Watson AI Lab as a student researcher, contribu
 # Publications
 ---
 
+### **API Pack: A Massive Multilingual Dataset for API Call Generation**
+<ins>Zhen Guo</ins>, Adriana Meza Soria, Wei Sun, Yikang Shen, Rameswar Panda
+[[paper]](https://arxiv.org/)
+
+### **Diversity Measurement and Subset Selection for Instruction Tuning Datasets**
+<ins>Peiqi Wang</ins>, Yikang Shen, Zhen Guo, Matthew J. Stallone, Yoon Kim, Polina Golland, Rameswar Panda
+[[paper]](https://arxiv.org/)
+
 ### **AuthentiGPT: Detecting Machine-Generated Text via Black-Box Language Models Denoising**
 <ins>Zhen Guo</ins>, Shangdi Yu         
 NeurIPS 2023 on Generative AI for Education.       
