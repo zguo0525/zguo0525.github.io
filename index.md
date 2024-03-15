@@ -34,17 +34,17 @@ NeurIPS 2023 on Generative AI for Education.
 KDD 2023 Foundations and Applications in Large-scale AI Models.     
 [[paper]](https://arxiv.org/abs/2305.07804) [[code]](https://github.com/zguo0525/Dr.llama)
 
-### **On the use of deep learning for three-dimensional computational imaging**
+### **On the Use of Deep Learning for Three-Dimensional Computational Imaging**
 George Barbastathis, Subeen Pang, Iksung Kang, Zhiguang Liu, <ins>Zhen Guo</ins>, and Fucai Zhang   
 SPIE Photonics West (2023).   
 [[paper]](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12445/2655261/On-the-use-of-deep-learning-for-three-dimensional-computational/10.1117/12.2655261.short?SSO=1)
 
-### **Noise-resilient deep tomographic imaging**
+### **Noise-resilient Deep Tomographic Imaging**
 <ins>Zhen Guo</ins>, Zhiguang Liu, George Barbastathis, Qihang Zhang, Michael E. Glinsky, Bradley K. Alpert, Zachary H. Levine  
 Optica Open (2022).   
 [[paper]](https://preprints.opticaopen.org/articles/preprint/Noise-resilient_deep_tomographic_imaging/21931557) [[code]](https://github.com/zguo0525/Noise-resilience-deep-reconstruction-for-X-ray-Tomography)
 
-### **Physics-assisted generative adversarial network for X-ray tomography**
+### **Physics-assisted Generative Adversarial Network for X-ray Tomography**
 <ins>Zhen Guo</ins>,  Jung Ki Song, George Barbastathis, Michael E. Glinsky, Courtenay T. Vaughan, Kurt W. Larson, Bradley K. Alpert, Zachary H. Levine   
 Optics Express (2022).      
 Conference proceeding at Electronic Imaging: Machine Learning for Scientific Imaging (2022).           
@@ -55,23 +55,23 @@ George Barbastathis, Jungki Song, Zilin Wu, Subeen Pang, <ins>Zhen Guo</ins>
 Microsystems Technology Laboratories Annual Research Report (2021).  
 [[paper]](./papers/lion.pdf)
 
-### **Towards information limit in a low photon three-dimensional X-ray imaging**
+### **Towards Information Limit in a Low-photon Three-dimensional X-ray Imaging**
 Jungki Song, Zachary H. Levine, <ins>Zhen Guo</ins>, George Barbastathis, Michael E. Glinsky, Bradley K. Alpert   
 Computational Optical Sensing and Imaging (2021).  
 [[slide]](./slides/limit.pdf)
 
-### **Randomized probe imaging through deep k-learning**
+### **Randomized Probe Imaging Through Deep k-learning**
 <ins>Zhen Guo</ins>,  Abraham Levitan, George Barbastathis, Riccardo Comin  
 Optics Express (2022).      
 Conference proceeding at Computational Optical Sensing and Imaging (2021).     
 [[paper]](./papers/RPI.pdf) [[slide]](./slides/RQE.pdf) [[code]](https://github.com/zguo0525/Randomized-probe-imaging-through-deep-k-learning) [[link]](https://opg.optica.org/abstract.cfm?uri=COSI-2021-CTh7A.6)
 
-### **Ferromagnetism emerged from non-ferromagnetic atomic crystals**
+### **Ferromagnetism Emerged from Non-ferromagnetic Atomic Crystals**
 Cheng Gong, Xiang Zhang, Peiyao Zhang, Tenzin Norden, Quanwei Li, <ins>Zhen Guo</ins>, Apoorva Chaturvedi, Arman Najafi, Shoufeng Lan, Xiaoze Liu, Yuan Wang, Shi-Jing Gong, Hao Zeng, Hua Zhang, Athos Petrou  
 Nature Communications (2023).     
 [[paper]](https://www.nature.com/articles/s41467-023-39002-6)
 
-### **Wafer-scale on-chip synthesis and field emission properties of vertically aligned boron nitride based nanofiber arrays**
+### **Wafer-scale On-chip Synthesis and Field Emission Properties of Vertically Aligned Boron Nitride Based Nanofiber Arrays**
 Hu Long, Thang Pham, Aiming Yan, <ins>Zhen Guo</ins>, Hiroya Ishida, Wu Shi, Sally Turner, S.Matt Gilbert, and Alex Zettl   
 Applied Physics Letters (2019).   
 [[paper]](./papers/wafer.pdf)
