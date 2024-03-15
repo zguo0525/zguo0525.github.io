@@ -9,6 +9,11 @@ In summer 2023, I joined MIT-IBM Watson AI Lab as a student researcher, contribu
 # Publications
 ---
 
+### **Non-invasive Estimation of the Powder Size Distribution from a Single Speckle Image**
+Qihang Zhang, George Barbastathis, Ajinkya Pandit, Zhiguang Liu, <ins>Zhen Guo</ins>, Shashank Muddu, Yi Wei, Deborah Pereg, Neda Nazemifard, Charles Papageorgiou, Yihui Yang, Wenlong Tang, Richard D. Braatz, Allan S. Myerson        
+Nature, Light: Science & Applications.     
+[[paper]](https://zguo0525.github.io/)
+
 ### **API Pack: A Massive Multilingual Dataset for API Call Generation**
 <ins>Zhen Guo</ins>, Adriana Meza Soria, Wei Sun, Yikang Shen, Rameswar Panda         
 ICML 2024 conference submission.       
