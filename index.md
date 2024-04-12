@@ -5,8 +5,6 @@ I am a serial entrepreneur and machine learning physicist, currently pursuing my
 Prior to my time at MIT, I resided in California for seven years, where I received my B.A. with the highest honor in physics and minors in English and EECS from UC Berkeley, mentored by Professor [Alex Zettl](https://www.ocf.berkeley.edu/~jode/) and Professor [Xiang Zhang](https://xlab.hku.hk/) (now at the University of Hong Kong). Throughout my journey, I have co-founded multiple tech startups and a venture DAO, each driven by the common goal of effecting positive change through innovation and technology. My experiences have nurtured my fervor for pushing the boundaries of what's possible and making a lasting impact with practical solutions.
 
 # News
----
-
 In summer 2024, I will be joining Apple AIML Residency Program for visual language model.
 
 In summer 2023, I joined MIT-IBM Watson AI Lab as a student researcher, contributing to the foundation models for code generation, guided by Dr. Ramsware Panda and Dr. Yikang Shen.
