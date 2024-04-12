@@ -4,10 +4,20 @@ I am a serial entrepreneur and machine learning physicist, currently pursuing my
 
 Prior to my time at MIT, I resided in California for seven years, where I received my B.A. with the highest honor in physics and minors in English and EECS from UC Berkeley, mentored by Professor [Alex Zettl](https://www.ocf.berkeley.edu/~jode/) and Professor [Xiang Zhang](https://xlab.hku.hk/) (now at the University of Hong Kong). Throughout my journey, I have co-founded multiple tech startups and a venture DAO, each driven by the common goal of effecting positive change through innovation and technology. My experiences have nurtured my fervor for pushing the boundaries of what's possible and making a lasting impact with practical solutions.
 
+# News
+---
+
+In summer 2024, I will be joining Apple AIML Residency Program for visual language model.
+
 In summer 2023, I joined MIT-IBM Watson AI Lab as a student researcher, contributing to the foundation models for code generation, guided by Dr. Ramsware Panda and Dr. Yikang Shen.
 
 # Publications
 ---
+
+### **JetMoE: Reaching Llama2 Performance with 0.1M Dollars** 
+Yikang Shen, <ins>Zhen Guo</ins>, Tianle Cai, Zengyi Qin      
+Technical report.     
+[[paper]](https://arxiv.org/abs/2404.07413) [[code]](https://github.com/myshell-ai/JetMoE) [[demo]](https://www.lepton.ai/playground/chat?model=jetmoe-8b-chat)
 
 ### **Non-invasive Estimation of the Powder Size Distribution from a Single Speckle Image**
 Qihang Zhang, George Barbastathis, Ajinkya Pandit, Zhiguang Liu, <ins>Zhen Guo</ins>, Shashank Muddu, Yi Wei, Deborah Pereg, Neda Nazemifard, Charles Papageorgiou, Yihui Yang, Wenlong Tang, Richard D. Braatz, Allan S. Myerson        
