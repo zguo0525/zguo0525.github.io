@@ -63,11 +63,6 @@ George Barbastathis, Jungki Song, Zilin Wu, Subeen Pang, <ins>Zhen Guo</ins>
 Microsystems Technology Laboratories Annual Research Report (2021).  
 [[paper]](./papers/lion.pdf)
 
-### **Towards Information Limit in a Low-photon Three-dimensional X-ray Imaging**
-Jungki Song, Zachary H. Levine, <ins>Zhen Guo</ins>, George Barbastathis, Michael E. Glinsky, Bradley K. Alpert   
-Computational Optical Sensing and Imaging (2021).  
-[[slide]](./slides/limit.pdf)
-
 ### **Randomized Probe Imaging Through Deep k-learning**
 <ins>Zhen Guo</ins>,  Abraham Levitan, George Barbastathis, Riccardo Comin  
 Optics Express (2022).      
