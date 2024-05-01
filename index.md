@@ -8,6 +8,7 @@ Prior to my time at MIT, I resided in California for seven years, where I receiv
 In summer 2024, I will be joining Apple AIML Residency Program for vision language models.
 
 In summer 2023, I interned at MIT-IBM Watson AI Lab to develop large language models for code generation, mentored by Dr. Ramsware Panda and Dr. Yikang Shen.
+
 ---
 
 # Publications
