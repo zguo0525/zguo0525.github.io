@@ -12,6 +12,11 @@ In summer 2023, I interned at MIT-IBM Watson AI Lab to develop large language mo
 # Publications
 ---
 
+### **More Compute Is What You Need**
+<ins>Zhen Guo</ins>         
+arXiv.       
+[[paper]](https://arxiv.org/abs/2404.19484)
+
 ### **JetMoE: Reaching Llama2 Performance with 0.1M Dollars** 
 Yikang Shen, <ins>Zhen Guo</ins>, Tianle Cai, Zengyi Qin      
 Technical report.     
