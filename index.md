@@ -9,6 +9,7 @@ In summer 2024, I will be joining Apple AIML Residency Program for vision langua
 
 In summer 2023, I interned at MIT-IBM Watson AI Lab to develop large language models for code generation, mentored by Dr. Ramsware Panda and Dr. Yikang Shen.
 
+---
 # Publications
 ### **More Compute Is What You Need**
 <ins>Zhen Guo</ins>         
