@@ -12,6 +12,12 @@ In summer 2023, I interned at MIT-IBM Watson AI Lab to develop large language mo
 ---
 
 # Publications
+
+### **PLayer: A Plug-and-Play Device to Boost Neural Organoid 3D Reconstruction**
+Yuanzheng Ma, Davit Khutsishvili, Zihan Zang, Mr Wei Yue, Zhen Guo, Tao Feng, Shaohua Ma  
+Nature Communications (2024).     
+[[paper]](https://zguo0525.github.io/)
+
 ### **More Compute Is What You Need**
 <ins>Zhen Guo</ins>         
 arXiv.       
