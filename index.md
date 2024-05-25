@@ -66,7 +66,7 @@ George Barbastathis, Subeen Pang, Iksung Kang, Zhiguang Liu, <ins>Zhen Guo</ins>
 ### **Physics-assisted Generative Adversarial Network for X-ray Tomography**
 <ins>Zhen Guo</ins>,  Jung Ki Song, George Barbastathis, Michael E. Glinsky, Courtenay T. Vaughan, Kurt W. Larson, Bradley K. Alpert, Zachary H. Levine   
 ***Optics Express (2022).***      
-Conference proceeding at Electronic Imaging: Machine Learning for Scientific Imaging (2022).           
+***Conference proceeding at Electronic Imaging: Machine Learning for Scientific Imaging (2022).***           
 [[paper]](./papers/PGAN.pdf) [[slide]](./slides/PGAN.pdf) [[code]](https://github.com/zguo0525/Physics-assisted-Generative-Adversarial-Network-for-X-Ray-Tomography) [[link]](https://library.imaging.org/ei/articles/34/5/MLSI-202)
 
 ### **LION: Learning to Invert 3D Objects by Neural Networks**
@@ -77,7 +77,7 @@ George Barbastathis, Jungki Song, Zilin Wu, Subeen Pang, <ins>Zhen Guo</ins>
 ### **Randomized Probe Imaging Through Deep k-learning**
 <ins>Zhen Guo</ins>,  Abraham Levitan, George Barbastathis, Riccardo Comin  
 ***Optics Express (2022).***      
-Conference proceeding at Computational Optical Sensing and Imaging (2021).     
+***Conference proceeding at Computational Optical Sensing and Imaging (2021).***     
 [[paper]](./papers/RPI.pdf) [[slide]](./slides/RQE.pdf) [[code]](https://github.com/zguo0525/Randomized-probe-imaging-through-deep-k-learning) [[link]](https://opg.optica.org/abstract.cfm?uri=COSI-2021-CTh7A.6)
 
 ### **Ferromagnetism Emerged from Non-ferromagnetic Atomic Crystals**
@@ -97,12 +97,12 @@ Qihang Zhang, Ajinkya Pandit, Allan S. Myerson, George Barbastathis, Janaka C. G
 # Projects
 ### **Gen-VQA: Generative Visual Question Answering with Abstract Scenes**    
 Yifan Yang, <ins>Zhen Guo</ins>  
-MIT 6.869 Advances in Computer Vision, Fall 2019.     
+***MIT 6.869 Advances in Computer Vision, Fall 2019.***     
 [[report]](https://github.com/Yang-YiFan/vqa-gan/6_869_Final_Project.pdf) [[code]](https://github.com/Yang-YiFan/vqa-gan)
 
 ### **Hardware Efficient Quantum Computing via Circuit Decomposition**    
 Tianyi Peng, Linsen Li, Kaidong Peng, Yufeng Ye, <ins>Zhen Guo</ins>    
-iQuHACK MIT Quantum Hackathon (first place), Winter 2019.    
+***iQuHACK MIT Quantum Hackathon (first place), Winter 2019.***    
 [[report]](https://github.com/zguo0525/Hardware-Efficient-Quantum-Computing-via-Circuit-Decomposition) [[code]](https://github.com/zguo0525/Hardware-Efficient-Quantum-Computing-via-Circuit-Decomposition)
 
 # Experience
