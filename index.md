@@ -12,6 +12,10 @@ In summer 2023, I interned at MIT-IBM Watson AI Lab to develop large language mo
 ---
 
 # Publications
+### **Octo-planner: On-device Language Model for Planner-Action Agents**
+Wei Chen, Zhiyuan Li, <ins>Zhen Guo</ins>, Yikang Shen         
+***Technical report.***       
+[[paper]](https://arxiv.org/abs/2406.18082)
 
 
 ### **More Compute Is What You Need**
@@ -32,15 +36,15 @@ Qihang Zhang, George Barbastathis, Ajinkya Pandit, Zhiguang Liu, <ins>Zhen Guo</
 [[paper]](https://zguo0525.github.io/)
 
 
-### **API Pack: A Massive Multilingual Dataset for API Call Generation**
+### **API Pack: A Massive Multi-Programming Language Dataset for API Call Generation**
 <ins>Zhen Guo</ins>, Adriana Meza Soria, Wei Sun, Yikang Shen, Rameswar Panda         
-***ICML 2024 conference submission.***       
+***NeurIPS 2024 conference submission.***       
 [[paper]](https://arxiv.org/abs/2311.07700)
 
 
 ### **Diversity Measurement and Subset Selection for Instruction Tuning Datasets**
 Peiqi Wang, Yikang Shen, <ins>Zhen Guo</ins>, Matthew J. Stallone, Yoon Kim, Polina Golland, Rameswar Panda         
-***ICML 2024 conference submission.***            
+***EMNLP 2024 conference submission.***            
 [[paper]](https://arxiv.org/abs/2311.07700)
 
 
