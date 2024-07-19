@@ -5,7 +5,7 @@ I am an investor, entrepreneur, and physicist, obtained my Ph.D. at MIT on data-
 Prior to MIT, I received my B.A. with the highest honor in physics and minors in English and EECS from UC Berkeley. In the past, I have co-founded multiple startups and a venture DAO, each driven by the common goal of pushing the boundaries of **what's possible** and making a lasting impact **with practical solutions**.
 
 # News
-In summer 2024, I will be joining Apple AIML Residency Program for vision language models.
+In summer 2024, I will be joining Apple AIML Residency Program for Apple Intelligence and Siri.
 
 In summer 2023, I interned at MIT-IBM Watson AI Lab to develop large language models for code generation.
 
