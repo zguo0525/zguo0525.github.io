@@ -1,8 +1,8 @@
 ### **Value Creation + Investment = Wealth**
 
-I am an investor, entrepreneur, and physicist, obtained my Ph.D. at MIT on data-efficient machine learning.
+I am an investor and entrepreneur, obtained my Ph.D. at MIT on data-efficient machine learning.
 
-Prior to MIT, I received my B.A. with the highest honor in physics and minors in English and EECS from UC Berkeley. In the past, I have co-founded multiple startups and a venture DAO, each driven by the common goal of pushing the boundaries of **what's possible** and making a lasting impact **with practical solutions**.
+Prior to MIT, I received my B.A. with the highest honor in physics from UC Berkeley. In the past, I have co-founded multiple startups and a venture DAO, each driven by the common goal of pushing the boundaries of **what's possible** and making a lasting impact **with practical solutions**.
 
 # News
 In summer 2024, I will be joining Apple AIML Residency Program for Apple Intelligence and Siri.
