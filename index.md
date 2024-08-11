@@ -10,7 +10,7 @@ In summer 2024, I will be joining Apple AIML Residency Program for Apple Intelli
 In summer 2023, I interned at MIT-IBM Watson AI Lab to develop large language models for code generation.
 
 # Opportunities
-I provide advisorship for venture funds and start-ups in AI and Web3, starting at 1 ETH / Hour.
+I provide advisorship for venture funds and start-ups in AI and Web3, starting at 1 ETH / Week.
 
 ---
 
