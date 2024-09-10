@@ -122,4 +122,17 @@ If you're seeking advisorship for venture funds or startups in **AI, Web3**, and
 - **Hardware Efficient Quantum Computing via Circuit Decomposition**  
   Tianyi Peng, Linsen Li, Kaidong Peng, Yufeng Ye, <ins>Zhen Guo</ins>  
   *iQuHACK MIT Quantum Hackathon (first place), Winter 2019*  
-  [[report]](https://github.com/zguo0525/Hardware-Efficient-Quantum-Computing-via-Circuit-Decomposition) [[code]](https://github.com/zguo0525/Hardware
+  [[report]](https://github.com/zguo0525/Hardware-Efficient-Quantum-Computing-via-Circuit-Decomposition) [[code]](https://github.com/zguo0525/Hardware-Efficient-Quantum-Computing-via-Circuit-Decomposition)
+
+---
+
+## **Experience**
+
+- **Fall 2020**: Teaching Assistant, MIT  
+  [6.728: Applied Quantum and Statistical Physics](https://ocw.mit.edu/courses/6-728-applied-quantum-and-statistical-physics-fall-2006/)
+
+---
+
+## **Extracurricular**
+
+- [MIT Chinese Entrepreneur Organization](https://www.chinese-entrepreneurs.mit.edu/)
