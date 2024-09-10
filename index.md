@@ -15,6 +15,13 @@ Email me if you're seeking advisorship for venture funds and start-ups in AI, We
 ---
 
 # Publications
+
+### **Scaling Law Hypothesis for Multimodal Model**
+Qingyun Sun, <ins>Zhen Guo</ins>         
+***White paper.***       
+[[paper]](https://example.com/your-paper-url)
+
+
 ### **Octo-planner: On-device Language Model for Planner-Action Agents**
 Wei Chen, Zhiyuan Li, <ins>Zhen Guo</ins>, Yikang Shen         
 ***Technical report.***       
