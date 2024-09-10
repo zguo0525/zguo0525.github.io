@@ -15,7 +15,7 @@ Prior to MIT, I earned my B.A. with highest honors in physics from UC Berkeley. 
 
 ## **Opportunities**
 
-If you're seeking advisorship for venture funds or startups in **AI, Web3**, and emerging technologies, feel free to [email me](mailto:youremail@example.com).
+If you're seeking advisorship for venture funds or startups in **AI, Web3**, and emerging technologies, feel free to [email me](mailto:zguo0525@mit.edu).
 
 ---
 
