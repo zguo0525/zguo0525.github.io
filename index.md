@@ -18,25 +18,25 @@ Email me if you're seeking advisorship for venture funds and start-ups in AI, We
 
 ### **Scaling Law Hypothesis for Multimodal Model**
 Qingyun Sun, <ins>Zhen Guo</ins>         
-***White paper.***       
+***[PIN AI](https://www.pinai.io/) White Paper.***       
 [[paper]](https://example.com/your-paper-url)
 
 
 ### **Octo-planner: On-device Language Model for Planner-Action Agents**
 Wei Chen, Zhiyuan Li, <ins>Zhen Guo</ins>, Yikang Shen         
-***Technical report.***       
+***[Nexa AI](https://nexaai.com/) Technical Report.***       
 [[paper]](https://arxiv.org/abs/2406.18082)
 
 
 ### **More Compute Is What You Need**
 <ins>Zhen Guo</ins>         
-***arXiv.***       
+***LLM Theory on arXiv.***       
 [[paper]](https://arxiv.org/abs/2404.19484)
 
 
 ### **JetMoE: Reaching Llama2 Performance with 0.1M Dollars** 
 Yikang Shen, <ins>Zhen Guo</ins>, Tianle Cai, Zengyi Qin      
-***Technical report.***     
+***[MyShell AI](https://myshell.ai/) Technical Report.***     
 [[paper]](https://arxiv.org/abs/2404.07413) [[code]](https://github.com/myshell-ai/JetMoE) [[demo]](https://www.lepton.ai/playground/chat?model=jetmoe-8b-chat)
 
 
