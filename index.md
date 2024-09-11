@@ -9,6 +9,8 @@ Prior to MIT, I obtained my B.A. with the highest honors in physics from UC Berk
 ## **News Highlights**
 
 - **September 2024**: **PIN AI** secures **$10 million** in pre-seed funding, led by **a16z crypto**. [Read more](https://x.com/PINAI_IO/status/1833176031714541651)
+
+- **August 2024**: **Nature** paper on achieving 60× faster processing in pharmaceutical manufacturing, reported by **MIT News**. [Read more](https://meche.mit.edu/news-media/accelerating-particle-size-distribution-estimation)
   
 - **July 2024**: Joined the **Apple AIML Residency Program** to work on **Apple Intelligence** and **Siri**.
 
