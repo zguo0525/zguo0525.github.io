@@ -14,7 +14,7 @@ Prior to MIT, I earned my B.A. with highest honors in physics from UC Berkeley. 
 
 - **June 2024**: Collaboration on **Octo-planner** with **Nexa AI**, featured by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1806354919731179802)
 
-- **May 2024**: Congrats to our partner **Nexa AI** raises **15 million** in seed funding. [Read more](https://pitchbook.com/profiles/company/530794-99#overview)
+- **May 2024**: Congrats to **Nexa AI** from Stanford raises **15 million** in seed funding. [Read more](https://pitchbook.com/profiles/company/530794-99#overview)
 
 - **April 2024**: Research on **JetMoE** highlighted by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1775916496503656679)
 
