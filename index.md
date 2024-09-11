@@ -18,7 +18,7 @@ Prior to MIT, I obtained my B.A. with the highest honors in physics from UC Berk
 
 - **May 2024**: Congrats to **Nexa AI** from **Stanford** raises **15 million** in seed funding. [Read more](https://pitchbook.com/profiles/company/530794-99#overview)
 
-- **April 2024**: Research on **JetMoE** highlighted by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1775916496503656679)
+- **April 2024**: Foundation model research on **JetMoE** highlighted by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1775916496503656679)
 
 - **March 2024**: **MyShell AI** raises **$11 million** in pre-A round, led by **Dragonfly**. [Read more](https://www.theblock.co/post/285072/web3-ai-platform-myshell-funding)
 
