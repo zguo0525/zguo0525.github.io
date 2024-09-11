@@ -30,6 +30,8 @@ Prior to MIT, I obtained my B.A. with the highest honors in physics from UC Berk
 
 - **June 2022**: Physics-assisted GAN with **Sandia National Laboratories** and **National Institute of Standards and Technology**. [Read more](https://zguo0525.github.io/papers/PGAN.pdf)
 
+- **Feb 2020**: Appointed as **Vice President** at **MIT Chinese Entrepreneurs Organization** (MIT CEO). [Read more](https://www.chinese-entrepreneurs.mit.edu/our-team)
+
 - **July 2019**: Congrats to Prof. Xiang Zhang appointed President and Vice-Chancellor of the University of Hong Kong. [Read more](https://www.wikiwand.com/en/articles/Xiang_Zhang)
 
 ---
