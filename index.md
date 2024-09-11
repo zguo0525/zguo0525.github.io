@@ -2,7 +2,7 @@
 
 I am an investor and entrepreneur, obtained my Ph.D. at MIT in data-efficient machine learning.
 
-Prior to MIT, I received my B.A. with the highest honor in physics from UC Berkeley. In the past, I have co-founded multiple startups and a venture DAO, each driven by the common goal of pushing the boundaries of **what’s possible** and making a lasting impact with **practical solutions**.
+Prior to MIT, I received my B.A. with the highest honor in physics from UC Berkeley. I have co-founded multiple startups and a venture DAO, each driven by the common goal of pushing the boundaries of **what’s possible** and making a lasting impact with **practical solutions**.
 
 ---
 
