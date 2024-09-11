@@ -23,6 +23,8 @@ Prior to MIT, I obtained my B.A. with the highest honors in physics from UC Berk
 - **March 2024**: **MyShell AI** raises **$11 million** in pre-A round, led by **Dragonfly**. [Read more](https://www.theblock.co/post/285072/web3-ai-platform-myshell-funding)
 
 - **June 2023**: Internship at **MIT-IBM Watson AI Lab**, focused on developing large language models for code generation.
+
+- **June 2023**: **Nature** paper on emergent ferromagnetism from low dimensional materials. [Read more](https://www.nature.com/articles/s41467-023-39002-6)
   
 - **May 2023**: **MIT-Takeda** develops AI models for medicine manufacturing, reported by **MIT News**. [Read more](https://news.mit.edu/2023/ai-based-estimator-manufacturing-medicine-0503)
 
