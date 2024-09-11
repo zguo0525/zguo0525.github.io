@@ -1,8 +1,8 @@
 ## **Value Creation + Investment = Wealth**
 
-I am an investor and entrepreneur with a Ph.D. from MIT in data-efficient machine learning.
+I am an investor and entrepreneur, obtained my Ph.D. at MIT in data-efficient machine learning.
 
-Prior to MIT, I earned my B.A. with highest honors in physics from UC Berkeley. I've co-founded multiple startups and a venture DAO, all driven by the goal of pushing the boundaries of **what's possible** and delivering **practical solutions** that make a lasting impact.
+Prior to MIT, I received my B.A. with the highest honor in physics from UC Berkeley. In the past, I have co-founded multiple startups and a venture DAO, each driven by the common goal of pushing the boundaries of **what’s possible** and making a lasting impact with **practical solutions**.
 
 ---
 
