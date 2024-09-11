@@ -28,7 +28,7 @@ Prior to MIT, I obtained my B.A. with the highest honors in physics from UC Berk
   
 - **May 2023**: **MIT-Takeda** develops AI models for medicine manufacturing, reported by **MIT News**. [Read more](https://news.mit.edu/2023/ai-based-estimator-manufacturing-medicine-0503)
 
-- **July 2019**: Congrats to Prof. Xiang Zhang for joining as the 16th President and Vice-Chancellor of the University of Hong Kong. [Read more](https://www.wikiwand.com/en/articles/Xiang_Zhang)
+- **July 2019**: Congrats to Prof. Xiang Zhang appointed President and Vice-Chancellor of the University of Hong Kong. [Read more](https://www.wikiwand.com/en/articles/Xiang_Zhang)
 
 ---
 
