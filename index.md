@@ -6,14 +6,14 @@ Prior to MIT, I earned my B.A. with highest honors in physics from UC Berkeley. 
 
 ---
 
-## **News**
+## **News Highlights**
 
-- **September 2024**: **PIN AI** raises **$10 million** in pre-seed funding led by **a16z crypto**. Read more at [Twitter](https://x.com/PINAI_IO/status/1833176031714541651).
-- **July 2024**: Joins the **Apple AIML Residency Program** for Apple Intelligence and Siri.
-- **June 2024**: **Octo-planner** with Nexa AI is reported by **MIT CSIAL**. Read more at [Twitter](https://x.com/MIT_CSAIL/status/1806354919731179802)
-- **April 2024**: **JetMoE** is reported by **MIT CSIAL**. Read more at [Twitter](https://x.com/MIT_CSAIL/status/1775916496503656679)
-- **March 2024**: **MyShell AI** raises **$11 million** in a funding round led by **Dragonfly**. Read more at [The Block](https://www.theblock.co/post/285072/web3-ai-platform-myshell-funding).
-- **May 2023**: Interned at the **MIT-IBM Watson AI Lab**, developing large language models for code generation.
+- **September 2024**: **PIN AI** secures **$10 million** in pre-seed funding, led by **a16z crypto**. [Read more](https://x.com/PINAI_IO/status/1833176031714541651)
+- **July 2024**: Joined the **Apple AIML Residency Program** to work on **Apple Intelligence** and **Siri**.
+- **June 2024**: Collaboration on **Octo-planner** with **Nexa AI**, featured by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1806354919731179802)
+- **April 2024**: Research on **JetMoE** highlighted by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1775916496503656679)
+- **March 2024**: **MyShell AI** raises **$11 million** in pre-A round led by **Dragonfly**. [Read more](https://www.theblock.co/post/285072/web3-ai-platform-myshell-funding)
+- **May 2023**: Internship at **MIT-IBM Watson AI Lab**, focused on developing large language models for code generation.
 
 ---
 
