@@ -45,7 +45,7 @@ If you're seeking advisorship for venture funds or startups in **AI, Web3**, and
 - **Scaling Law Hypothesis for Multimodal Model**  
   Qingyun Sun, <ins>Zhen Guo</ins>  
   *[PIN AI White Paper](https://www.pinai.io/)*  
-  [[paper]](https://example.com/your-paper-url)
+  [[paper]](https://arxiv.org/pdf/2409.06754)
 
 - **Octo-planner: On-device Language Model for Planner-Action Agents**  
   Wei Chen, Zhiyuan Li, <ins>Zhen Guo</ins>, Yikang Shen  
