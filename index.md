@@ -10,7 +10,7 @@ In my free time, I like reading, writing, and thinking.
 
 ## **Writing**
 
-1. [**Pride Can Hold You Back**: Lessons from My Time at Berkeley and MIT](./articles/pride-can-hold-you-back.md)
+1. [**Pride Can Hold You Back: Lessons from My Time at Berkeley and MIT**](./articles/pride-can-hold-you-back.md)
 
    *This first post focuses on my personal experiences at Berkeley and MIT, highlighting how pride in my initial decisions led to both practical and emotional consequences.*
 
