@@ -8,18 +8,6 @@ In my free time, I like reading, writing, and thinking.
 
 ---
 
-## **Writing**
-
-1. [**Pride Can Hold You Back: Lessons from My Time at Berkeley and MIT**](./articles/pride-can-hold-you-back.md)
-
-   *This first post focuses on my personal experiences at Berkeley and MIT, highlighting how pride in my initial decisions led to both practical and emotional consequences.*
-
-2. [**Why Standing Still Is the Riskiest Move in a Changing World**](./articles/why-standing-still-is-risky.md)
-
-   *This blog post dives into the broader industry insights I gained after ChatGPT’s release, and how pride in one’s current status can blind people to the rapid changes happening in technology.*
-
----
-
 ## **News Highlights**
 
 - **September 2024**: **PIN AI** secures **$10 million** in pre-seed funding, led by **a16z crypto**. [Read more](https://x.com/PINAI_IO/status/1833176031714541651)
@@ -139,6 +127,16 @@ If you're seeking advisorship for venture funds or startups in **AI, Web3**, and
   [[paper]](./papers/wafer.pdf)
 
 ---
+
+## **Writing**
+
+1. [**Pride Can Hold You Back: Lessons from My Time at Berkeley and MIT**](./articles/pride-can-hold-you-back.md)
+
+   *This first post focuses on my personal experiences at Berkeley and MIT, highlighting how pride in my initial decisions led to both practical and emotional consequences.*
+
+2. [**Why Standing Still Is the Riskiest Move in a Changing World**](./articles/why-standing-still-is-risky.md)
+
+   *This blog post dives into the broader industry insights I gained after ChatGPT’s release, and how pride in one’s current status can blind people to the rapid changes happening in technology.*
 
 ## **Patents**
 
