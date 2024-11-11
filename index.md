@@ -2,9 +2,9 @@
 
 I am an investor and entrepreneur with a Ph.D. in data-efficient machine learning from MIT. 
 
-Prior to MIT, I obtained my B.A. in physics and English from UC Berkeley. I've funded a few startups and a venture DAO, driven by pushing the boundaries of **what's possible** and making a lasting impact with **elegant solutions**.
+Before MIT, I earned a B.A. in Physics and English from UC Berkeley. I've funded several startups and a venture DAO, driven by the desire to push the boundaries of what's possible and to create lasting impact with elegant solutions.
 
-In my free time, I like reading, writing, and thinking.
+In my free time, I enjoy reading, writing, and reflecting.
 
 ---
 
