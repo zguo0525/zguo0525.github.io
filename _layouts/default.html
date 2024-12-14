@@ -3,7 +3,7 @@
     {% assign ColorScheme = "auto" %}
   {% else %}
     {% assign ColorScheme = site.color-scheme %}
-{% endcase %
+{% endcase %}
 
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
@@ -18,6 +18,29 @@
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
+    <style>
+      .wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      header {
+        width: 250px;
+      }
+      section {
+        width: calc(100% - 300px);
+      }
+      @media print, screen and (max-width: 960px) {
+        .wrapper {
+          width: auto;
+          margin: 0;
+        }
+        header, section {
+          float: none;
+          position: static;
+          width: auto;
+        }
+      }
+    </style>
   </head>
   <body>
     <div class="wrapper">
