@@ -2,9 +2,9 @@
 
 I am an investor, entrepreneur, and researcher with a Ph.D. in data-efficient machine learning from MIT. 
 
-Before MIT, I earned a B.A. in Physics and English from UC Berkeley. I've founded several startups and a venture DAO, driven by the desire to push the boundaries of what's possible and to create lasting impact with elegant solutions.
+Before MIT, I earned a B.A. in Physics and English from UC Berkeley. I've founded a few startups and a venture DAO, driven by the desire to push the boundaries of what's possible and to create lasting impact with elegant solutions.
 
-In my free time, I enjoy reading, writing, and reflecting.
+I enjoy reading, writing, and reflecting.
 
 ---
 
@@ -38,17 +38,17 @@ In my free time, I enjoy reading, writing, and reflecting.
 
 ## **Publications**
 
-Recent publications include work on multimodal models, language models, and computational imaging. [View all publications](./pages/publications.md)
+Recent publications and technical reports include work on multimodal models, language models, and data-efficient machine learning. [View all publications](./pages/publications.md)
 
 ---
 
 ## **Writing**
 
-1. [**Pride Can Hold You Back: Lessons from My Time at Berkeley and MIT**](./articles/pride-can-hold-you-back.md)
+1. [Pride Can Hold You Back: Lessons from My Time at Berkeley and MIT](./articles/pride-can-hold-you-back.md)
 
    *This first post focuses on my personal experiences at Berkeley and MIT, highlighting how pride in my initial decisions led to both practical and emotional consequences.*
 
-2. [**Why Standing Still Is the Riskiest Move in a Changing World**](./articles/why-standing-still-is-risky.md)
+2. [Why Standing Still Is the Riskiest Move in a Changing World](./articles/why-standing-still-is-risky.md)
 
    *This blog post dives into the broader industry insights I gained after ChatGPT's release, and how pride in one's current status can blind people to the rapid changes happening in technology.*
 
@@ -78,9 +78,3 @@ If you're seeking advisorship for venture funds or startups in **AI, Crypto**, a
   Tianyi Peng, Linsen Li, Kaidong Peng, Yufeng Ye, <ins>Zhen Guo</ins>  
   *iQuHACK MIT Quantum Hackathon (first place), Winter 2019*  
   [[report]](https://github.com/zguo0525/Hardware-Efficient-Quantum-Computing-via-Circuit-Decomposition) [[code]](https://github.com/zguo0525/Hardware-Efficient-Quantum-Computing-via-Circuit-Decomposition)
-
----
-
-## **Extracurricular**
-
-- [MIT Chinese Entrepreneur Organization](https://www.chinese-entrepreneurs.mit.edu/)
