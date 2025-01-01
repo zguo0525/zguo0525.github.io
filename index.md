@@ -14,7 +14,7 @@ I enjoy reading, writing, and reflecting.
 
 - **August 2024**: **Nature** paper on achieving 60× faster processing in pharmaceutical manufacturing. [Read more](https://meche.mit.edu/news-media/accelerating-particle-size-distribution-estimation)
   
-- **July 2024**: Joined the **Apple AIML Residency Program** to work on **Apple Intelligence** and **Siri**.
+- **July 2024**: Joined the **Apple AIML Residency** to work on **Apple Intelligence** and **Siri**.
 
 - **June 2024**: Collaboration on **Octo-planner** with **Nexa AI**, featured by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1806354919731179802)
 
