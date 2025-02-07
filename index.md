@@ -57,24 +57,3 @@ Recent publications and technical reports include work on multimodal models, lan
 ## **Opportunities**
 
 If you're seeking advisorship for venture funds or startups in **AI, Crypto**, and emerging technologies, connect with me on [X](https://twitter.com/Zhen4good) or [email me](mailto:zguo0525@mit.edu).
-
----
-
-## **Patents**
-
-- **System and Method for Real-Time Determination of Particle Size Distributions in Dry Powders**  
-  Qihang Zhang, Ajinkya Pandit, Allan S. Myerson, George Barbastathis, Richard D. Braatz, and <ins>Zhen Guo</ins>
-
----
-
-## **Projects**
-
-- **Gen-VQA: Generative Visual Question Answering with Abstract Scenes**  
-  Yifan Yang, <ins>Zhen Guo</ins>  
-  *MIT 6.869 Advances in Computer Vision, Fall 2019*  
-  [[report]](https://github.com/Yang-YiFan/vqa-gan/6_869_Final_Project.pdf) [[code]](https://github.com/Yang-YiFan/vqa-gan)
-
-- **Hardware Efficient Quantum Computing via Circuit Decomposition**  
-  Tianyi Peng, Linsen Li, Kaidong Peng, Yufeng Ye, <ins>Zhen Guo</ins>  
-  *iQuHACK MIT Quantum Hackathon (first place), Winter 2019*  
-  [[report]](https://github.com/zguo0525/Hardware-Efficient-Quantum-Computing-via-Circuit-Decomposition) [[code]](https://github.com/zguo0525/Hardware-Efficient-Quantum-Computing-via-Circuit-Decomposition)

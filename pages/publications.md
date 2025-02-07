@@ -81,3 +81,24 @@
   Hu Long, Thang Pham, Aiming Yan, <ins>Zhen Guo</ins>, Hiroya Ishida, Wu Shi, Sally Turner, S. Matt Gilbert, and Alex Zettl  
   *Applied Physics Letters (2019)*  
   [[paper]](./papers/wafer.pdf)
+
+---
+
+## **Patents**
+
+- **System and Method for Real-Time Determination of Particle Size Distributions in Dry Powders**  
+  Qihang Zhang, Ajinkya Pandit, Allan S. Myerson, George Barbastathis, Richard D. Braatz, and <ins>Zhen Guo</ins>
+
+---
+
+## **Projects**
+
+- **Gen-VQA: Generative Visual Question Answering with Abstract Scenes**  
+  Yifan Yang, <ins>Zhen Guo</ins>  
+  *MIT 6.869 Advances in Computer Vision, Fall 2019*  
+  [[report]](https://github.com/Yang-YiFan/vqa-gan/6_869_Final_Project.pdf) [[code]](https://github.com/Yang-YiFan/vqa-gan)
+
+- **Hardware Efficient Quantum Computing via Circuit Decomposition**  
+  Tianyi Peng, Linsen Li, Kaidong Peng, Yufeng Ye, <ins>Zhen Guo</ins>  
+  *iQuHACK MIT Quantum Hackathon (first place), Winter 2019*  
+  [[report]](https://github.com/zguo0525/Hardware-Efficient-Quantum-Computing-via-Circuit-Decomposition) [[code]](https://github.com/zguo0525/Hardware-Efficient-Quantum-Computing-via-Circuit-Decomposition)
