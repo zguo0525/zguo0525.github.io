@@ -1,10 +1,8 @@
-## **Value Creation + Investment = Wealth**
+## **Research and Product**
 
-I am an investor, entrepreneur, and researcher with a Ph.D. in data-efficient machine learning from MIT. 
+I am a researcher, developer and investor with a Ph.D. in data-efficient machine learning from MIT, focusing on foundation models, multi-modal models, and AI/agent applications.
 
 Before MIT, I earned a B.A. in Physics and English from UC Berkeley. I've founded a few startups and a venture DAO, driven by the desire to push the boundaries of what's possible and to create lasting impact with elegant solutions.
-
-I enjoy reading, writing, and reflecting.
 
 ---
 
