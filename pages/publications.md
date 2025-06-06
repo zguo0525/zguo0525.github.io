@@ -1,5 +1,12 @@
 ## **Publications**
 
+
+
+- **Synthetic Data RL: Task Definition Is All You Need**  
+  Yiduo Guo, <ins>Zhen Guo</ins>, Chuanwei Huang, Zi-Ang Wang, Zekai Zhang, Haofei Yu, Huishuai Zhang, Yikang Shen  
+  *NeurIPS 2025 submission*  
+  [[paper]](https://arxiv.org/abs/2505.17063)
+
 - **Scaling Law Hypothesis for Multimodal Model**  
   Qingyun Sun, <ins>Zhen Guo</ins>  
   *[PIN AI White Paper](https://www.pinai.io/)*  
@@ -12,7 +19,7 @@
 
 - **More Compute Is What You Need**  
   <ins>Zhen Guo</ins>  
-  *LLM Theory on arXiv*  
+  *Speculation Paper on arXiv*  
   [[paper]](https://arxiv.org/abs/2404.19484)
 
 - **JetMoE: Reaching Llama2 Performance with 0.1M Dollars**  
@@ -27,12 +34,12 @@
 
 - **API Pack: A Massive Multi-Programming Language Dataset for API Call Generation**  
   <ins>Zhen Guo</ins>, Adriana Meza Soria, Wei Sun, Yikang Shen, Rameswar Panda  
-  *NeurIPS 2024 conference submission*  
+  *ICLR 2025*  
   [[paper]](https://arxiv.org/abs/2311.07700)
 
 - **Diversity Measurement and Subset Selection for Instruction Tuning Datasets**  
   Peiqi Wang, Yikang Shen, <ins>Zhen Guo</ins>, Matthew J. Stallone, Yoon Kim, Polina Golland, Rameswar Panda  
-  *EMNLP 2024 conference submission*  
+  *ICLR 2025 Data Problem*  
   [[paper]](https://arxiv.org/abs/2311.07700)
 
 - **AuthentiGPT: Detecting Machine-Generated Text via Black-Box Language Models Denoising**  
