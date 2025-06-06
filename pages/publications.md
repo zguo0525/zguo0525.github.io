@@ -27,11 +27,6 @@
   *[MyShell AI Technical Report](https://myshell.ai/)*  
   [[paper]](https://arxiv.org/abs/2404.07413) [[code]](https://github.com/myshell-ai/JetMoE) [[demo]](https://www.lepton.ai/playground/chat?model=jetmoe-8b-chat)
 
-- **Non-invasive Estimation of the Powder Size Distribution from a Single Speckle Image**  
-  Qihang Zhang, George Barbastathis, Ajinkya Pandit, Zhiguang Liu, <ins>Zhen Guo</ins>, et al.  
-  *Nature, Light: Science & Applications*  
-  [[paper]](https://zguo0525.github.io/)
-
 - **API Pack: A Massive Multi-Programming Language Dataset for API Call Generation**  
   <ins>Zhen Guo</ins>, Adriana Meza Soria, Wei Sun, Yikang Shen, Rameswar Panda  
   *ICLR 2025*  
@@ -51,6 +46,21 @@
   <ins>Zhen Guo</ins>, Peiqi Wang, Yanwei Wang, Shangdi Yu  
   *KDD 2023 Foundations and Applications in Large-scale AI Models*  
   [[paper]](https://arxiv.org/abs/2305.07804) [[code]](https://github.com/zguo0525/Dr.llama)
+
+- **Non-invasive Estimation of the Powder Size Distribution from a Single Speckle Image**  
+  Qihang Zhang, George Barbastathis, Ajinkya Pandit, Zhiguang Liu, <ins>Zhen Guo</ins>, et al.  
+  *Nature, Light: Science & Applications*  
+  [[paper]](https://zguo0525.github.io/)
+
+- **Ferromagnetism Emerged from Non-ferromagnetic Atomic Crystals**  
+  Cheng Gong, Xiang Zhang, Peiyao Zhang, Tenzin Norden, Quanwei Li, <ins>Zhen Guo</ins>, Apoorva Chaturvedi, Arman Najafi, Shoufeng Lan, et al.  
+  *Nature Communications (2023)*  
+  [[paper]](https://www.nature.com/articles/s41467-023-39002-6)
+
+- **PLayer: a plug-and-play embedded neural system to boost neural organoid 3D reconstruction**  
+  Yuanzheng Ma, Davit Khutsishvili, Zihan Zang, Wei Yue, <ins>Zhen Guo</ins>, Tao Feng, Zitian Wang, Liwei Lin, Shaohua Ma, Xun Guan  
+  *Advanced Photonics Nexus (2025)*  
+  [[paper]](https://www.spiedigitallibrary.org/journals/advanced-photonics-nexus/volume-4/issue-3/036007/PLayer--a-plug-and-play-embedded-neural-system-to/10.1117/1.APN.4.3.036007.full)
 
 - **On the Use of Deep Learning for Three-Dimensional Computational Imaging**  
   George Barbastathis, Subeen Pang, Iksung Kang, Zhiguang Liu, <ins>Zhen Guo</ins>, and Fucai Zhang  
@@ -78,11 +88,6 @@
   *Optics Express (2022)*  
   *Conference proceeding at Computational Optical Sensing and Imaging (2021)*  
   [[paper]](./papers/RPI.pdf) [[slide]](./slides/RQE.pdf) [[code]](https://github.com/zguo0525/Randomized-probe-imaging-through-deep-k-learning) [[link]](https://opg.optica.org/abstract.cfm?uri=COSI-2021-CTh7A.6)
-
-- **Ferromagnetism Emerged from Non-ferromagnetic Atomic Crystals**  
-  Cheng Gong, Xiang Zhang, Peiyao Zhang, Tenzin Norden, Quanwei Li, <ins>Zhen Guo</ins>, Apoorva Chaturvedi, Arman Najafi, Shoufeng Lan, et al.  
-  *Nature Communications (2023)*  
-  [[paper]](https://www.nature.com/articles/s41467-023-39002-6)
 
 - **Wafer-scale On-chip Synthesis and Field Emission Properties of Vertically Aligned Boron Nitride Based Nanofiber Arrays**  
   Hu Long, Thang Pham, Aiming Yan, <ins>Zhen Guo</ins>, Hiroya Ishida, Wu Shi, Sally Turner, S. Matt Gilbert, and Alex Zettl  
