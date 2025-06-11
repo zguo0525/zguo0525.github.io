@@ -75,4 +75,4 @@ Here are a few selected publications. [View all publications, patents, and proje
 
 ## **Opportunities**
 
-I advise venture funds and startups in **AI, Crypto**, and emerging technologies. Connect with me on [X](https://twitter.com/Zhen4good) or [email me](mailto:zguo0525@mit.edu).
+I advise venture funds and startups in **AI, Web3**, and emerging technologies. Connect with me on [X](https://twitter.com/Zhen4good) or [email me](mailto:zguo0525@mit.edu).
