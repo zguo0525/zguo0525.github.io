@@ -1,6 +1,6 @@
 ## **Research and Product**
 
-I am a researcher and developer with a Ph.D. from MIT in data-efficient machine learning. My work focuses on foundation models, multi-modal models, and AI applications.
+I am a researcher and developer with a Ph.D. from MIT CSAIL. My work focuses on foundation models, multi-modal models, and AI applications.
 
 Before MIT, I earned a B.A. in Physics and English from UC Berkeley. I've founded startups and a venture DAO to build impactful products.
 
