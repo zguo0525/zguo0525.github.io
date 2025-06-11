@@ -38,20 +38,30 @@ Before MIT, I earned a B.A. in Physics and English from UC Berkeley. I've founde
 
 Here are a few selected publications. [View all publications, patents, and projects](./pages/publications.md).
 
-- **Synthetic Data RL: Task Definition Is All You Need** (2025)  
-  A new paradigm for reinforcement learning using synthetic data. [[paper]](https://arxiv.org/abs/2505.17063)
+- **Synthetic Data RL: Task Definition Is All You Need**  
+  Yiduo Guo, <ins>Zhen Guo</ins>, Chuanwei Huang, Zi-Ang Wang, Zekai Zhang, Haofei Yu, Huishuai Zhang, Yikang Shen  
+  *NeurIPS 2025 submission*  
+  [[paper]](https://arxiv.org/abs/2505.17063)
 
-- **Scaling Law Hypothesis for Multimodal Model** (2024)  
-  A white paper from PIN AI exploring scaling laws for multimodal models. [[paper]](https://arxiv.org/pdf/2409.06754)
+- **Scaling Law Hypothesis for Multimodal Model**  
+  Qingyun Sun, <ins>Zhen Guo</ins>  
+  *[PIN AI White Paper](https://www.pinai.io/)*  
+  [[paper]](https://arxiv.org/pdf/2409.06754)
 
-- **JetMoE: Reaching Llama2 Performance with 0.1M Dollars** (2024)  
-  A technical report from MyShell AI on building a high-performance, cost-efficient Mixture-of-Experts model. [[paper]](https://arxiv.org/abs/2404.07413)
+- **JetMoE: Reaching Llama2 Performance with 0.1M Dollars**  
+  Yikang Shen, <ins>Zhen Guo</ins>, Tianle Cai, Zengyi Qin  
+  *[MyShell AI Technical Report](https://myshell.ai/)*  
+  [[paper]](https://arxiv.org/abs/2404.07413) [[code]](https://github.com/myshell-ai/JetMoE) [[demo]](https://www.lepton.ai/playground/chat?model=jetmoe-8b-chat)
 
-- **Ferromagnetism Emerged from Non-ferromagnetic Atomic Crystals** (2023)  
-  Published in *Nature Communications*, this research demonstrates the emergence of ferromagnetism in novel materials. [[paper]](https://www.nature.com/articles/s41467-023-39002-6)
+- **Ferromagnetism Emerged from Non-ferromagnetic Atomic Crystals**  
+  Cheng Gong, Xiang Zhang, Peiyao Zhang, Tenzin Norden, Quanwei Li, <ins>Zhen Guo</ins>, Apoorva Chaturvedi, Arman Najafi, Shoufeng Lan, et al.  
+  *Nature Communications (2023)*  
+  [[paper]](https://www.nature.com/articles/s41467-023-39002-6)
 
-- **Non-invasive Estimation of the Powder Size Distribution from a Single Speckle Image** (2023)  
-  Published in *Nature, Light: Science & Applications*, this work introduces a deep learning method for real-time process control in manufacturing. [[paper]](https://zguo0525.github.io/)
+- **Non-invasive Estimation of the Powder Size Distribution from a Single Speckle Image**  
+  Qihang Zhang, George Barbastathis, Ajinkya Pandit, Zhiguang Liu, <ins>Zhen Guo</ins>, et al.  
+  *Nature, Light: Science & Applications*  
+  [[paper]](https://zguo0525.github.io/)
 
 ---
 
