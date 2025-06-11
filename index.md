@@ -16,8 +16,6 @@ Before MIT, I earned a B.A. in Physics and English from UC Berkeley. I've founde
 
 - **June 2024**: Collaboration on **Octo-planner** with **Nexa AI**, featured by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1806354919731179802)
 
-- **May 2024**: **Nexa AI** from **Stanford** raises **$15 million** in seed funding. [Read more](https://pitchbook.com/profiles/company/530794-99#overview)
-
 - **April 2024**: Foundation model research on **JetMoE** highlighted by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1775916496503656679)
 
 - **March 2024**: **MyShell AI** raises **$11 million** in pre-A round, led by **Dragonfly**. [Read more](https://www.theblock.co/post/285072/web3-ai-platform-myshell-funding)
@@ -29,8 +27,6 @@ Before MIT, I earned a B.A. in Physics and English from UC Berkeley. I've founde
 - **May 2023**: **MIT-Takeda** develops AI models for medicine manufacturing, reported by **MIT News**. [Read more](https://news.mit.edu/2023/ai-based-estimator-manufacturing-medicine-0503)
 
 - **Feb 2020**: Appointed **Vice President** at **MIT Chinese Entrepreneurs Organization** (MIT CEO). [Read more](https://www.chinese-entrepreneurs.mit.edu/our-team)
-
-- **July 2019**: **Prof. Xiang Zhang** appointed **President and Vice-Chancellor** of the **University of Hong Kong**. [Read more](https://www.wikiwand.com/en/articles/Xiang_Zhang)
 
 ---
 
