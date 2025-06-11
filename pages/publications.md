@@ -1,6 +1,6 @@
 ## **Publications**
 
-
+### AI and Language Models
 
 - **Synthetic Data RL: Task Definition Is All You Need**  
   Yiduo Guo, <ins>Zhen Guo</ins>, Chuanwei Huang, Zi-Ang Wang, Zekai Zhang, Haofei Yu, Huishuai Zhang, Yikang Shen  
@@ -46,6 +46,8 @@
   <ins>Zhen Guo</ins>, Peiqi Wang, Yanwei Wang, Shangdi Yu  
   *KDD 2023 Foundations and Applications in Large-scale AI Models*  
   [[paper]](https://arxiv.org/abs/2305.07804) [[code]](https://github.com/zguo0525/Dr.llama)
+
+### Optics, Imaging, and Applied Physics
 
 - **Non-invasive Estimation of the Powder Size Distribution from a Single Speckle Image**  
   Qihang Zhang, George Barbastathis, Ajinkya Pandit, Zhiguang Liu, <ins>Zhen Guo</ins>, et al.  
@@ -103,7 +105,7 @@
 
 ---
 
-## **Projects**
+## **Projects and Workshops**
 
 - **Gen-VQA: Generative Visual Question Answering with Abstract Scenes**  
   Yifan Yang, <ins>Zhen Guo</ins>  

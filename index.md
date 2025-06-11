@@ -1,8 +1,8 @@
 ## **Research and Product**
 
-I am a researcher and developer with a Ph.D. in data-efficient machine learning from MIT, focusing on foundation models, multi-modal models, and AI/agent applications.
+I am a researcher and developer with a Ph.D. from MIT in data-efficient machine learning. My work focuses on foundation models, multi-modal models, and AI applications.
 
-Before MIT, I earned a B.A. in Physics and English from UC Berkeley. I've founded a few startups and a venture DAO, driven by the desire to push the boundaries of what's possible and to create lasting impact with elegant solutions.
+Before MIT, I earned a B.A. in Physics and English from UC Berkeley. I've founded startups and a venture DAO to build impactful products.
 
 ---
 
@@ -12,31 +12,46 @@ Before MIT, I earned a B.A. in Physics and English from UC Berkeley. I've founde
 
 - **August 2024**: **Nature** paper on achieving 60× faster processing in pharmaceutical manufacturing. [Read more](https://meche.mit.edu/news-media/accelerating-particle-size-distribution-estimation)
   
-- **July 2024**: Joined the **Apple AIML Residency** to work on **Apple Intelligence** and **Siri**.
+- **July 2024**: Joined **Apple's AIML Residency** to work on **Apple Intelligence** and **Siri**.
 
 - **June 2024**: Collaboration on **Octo-planner** with **Nexa AI**, featured by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1806354919731179802)
 
-- **May 2024**: Congrats to **Nexa AI** from **Stanford** raises **15 million** in seed funding. [Read more](https://pitchbook.com/profiles/company/530794-99#overview)
+- **May 2024**: **Nexa AI** from **Stanford** raises **$15 million** in seed funding. [Read more](https://pitchbook.com/profiles/company/530794-99#overview)
 
 - **April 2024**: Foundation model research on **JetMoE** highlighted by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1775916496503656679)
 
 - **March 2024**: **MyShell AI** raises **$11 million** in pre-A round, led by **Dragonfly**. [Read more](https://www.theblock.co/post/285072/web3-ai-platform-myshell-funding)
 
-- **June 2023**: Internship at **MIT-IBM Watson AI Lab**, focused on developing large language models for code generation.
+- **June 2023**: Internship at **MIT-IBM Watson AI Lab**, focused on large language models for code generation.
 
-- **June 2023**: **Nature** paper on emergent ferromagnetism from low dimensional materials. [Read more](https://www.nature.com/articles/s41467-023-39002-6)
+- **June 2023**: **Nature** paper on emergent ferromagnetism from low-dimensional materials. [Read more](https://www.nature.com/articles/s41467-023-39002-6)
   
 - **May 2023**: **MIT-Takeda** develops AI models for medicine manufacturing, reported by **MIT News**. [Read more](https://news.mit.edu/2023/ai-based-estimator-manufacturing-medicine-0503)
 
-- **Feb 2020**: Appointed as **Vice President** at **MIT Chinese Entrepreneurs Organization** (MIT CEO). [Read more](https://www.chinese-entrepreneurs.mit.edu/our-team)
+- **Feb 2020**: Appointed **Vice President** at **MIT Chinese Entrepreneurs Organization** (MIT CEO). [Read more](https://www.chinese-entrepreneurs.mit.edu/our-team)
 
-- **July 2019**: Congrats to **Prof. Xiang Zhang** appointed **President and Vice-Chancellor** of the **University of Hong Kong**. [Read more](https://www.wikiwand.com/en/articles/Xiang_Zhang)
+- **July 2019**: **Prof. Xiang Zhang** appointed **President and Vice-Chancellor** of the **University of Hong Kong**. [Read more](https://www.wikiwand.com/en/articles/Xiang_Zhang)
 
 ---
 
 ## **Publications**
 
-Recent publications and technical reports include work on multimodal models, language models, and data-efficient machine learning. [View all publications](./pages/publications.md)
+Here are a few selected publications. [View all publications, patents, and projects](./pages/publications.md).
+
+- **Synthetic Data RL: Task Definition Is All You Need** (2025)  
+  A new paradigm for reinforcement learning using synthetic data. [[paper]](https://arxiv.org/abs/2505.17063)
+
+- **Scaling Law Hypothesis for Multimodal Model** (2024)  
+  A white paper from PIN AI exploring scaling laws for multimodal models. [[paper]](https://arxiv.org/pdf/2409.06754)
+
+- **JetMoE: Reaching Llama2 Performance with 0.1M Dollars** (2024)  
+  A technical report from MyShell AI on building a high-performance, cost-efficient Mixture-of-Experts model. [[paper]](https://arxiv.org/abs/2404.07413)
+
+- **Ferromagnetism Emerged from Non-ferromagnetic Atomic Crystals** (2023)  
+  Published in *Nature Communications*, this research demonstrates the emergence of ferromagnetism in novel materials. [[paper]](https://www.nature.com/articles/s41467-023-39002-6)
+
+- **Non-invasive Estimation of the Powder Size Distribution from a Single Speckle Image** (2023)  
+  Published in *Nature, Light: Science & Applications*, this work introduces a deep learning method for real-time process control in manufacturing. [[paper]](https://zguo0525.github.io/)
 
 ---
 
@@ -44,14 +59,14 @@ Recent publications and technical reports include work on multimodal models, lan
 
 1. [Pride Can Hold You Back: Lessons from My Time at Berkeley and MIT](./articles/pride-can-hold-you-back.md)
 
-   *This first post focuses on my personal experiences at Berkeley and MIT, highlighting how pride in my initial decisions led to both practical and emotional consequences.*
+   *Personal lessons from my time at Berkeley and MIT on the practical and emotional costs of pride.*
 
 2. [Why Standing Still Is the Riskiest Move in a Changing World](./articles/why-standing-still-is-risky.md)
 
-   *This blog post dives into the broader industry insights I gained after ChatGPT's release, and how pride in one's current status can blind people to the rapid changes happening in technology.*
+   *Industry insights after ChatGPT and how pride can create blind spots to rapid technological change.*
 
 ---
 
 ## **Opportunities**
 
-If you're seeking advisorship for venture funds or startups in **AI, Crypto**, and emerging technologies, connect with me on [X](https://twitter.com/Zhen4good) or [email me](mailto:zguo0525@mit.edu).
+I advise venture funds and startups in **AI, Crypto**, and emerging technologies. Connect with me on [X](https://twitter.com/Zhen4good) or [email me](mailto:zguo0525@mit.edu).

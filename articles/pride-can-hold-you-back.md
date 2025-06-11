@@ -7,16 +7,14 @@ categories: [Writing, Personal Growth]
 
 ## Pride Can Hold You Back: Lessons from My Time at Berkeley and MIT
 
-*Pride can be a tricky thing. It makes you feel good about where you are, confident that you’ve made the right choices. But over time, I’ve come to realize that pride can also hold you back, blinding you to opportunities for growth.*
+Let's talk about pride. It's a funny thing, right? It can give you a major confidence boost, making you feel like you've got it all figured out. But I've learned the hard way that it can also be a trap, closing you off to what's next.
 
-When I was a student at UC Berkeley, I majored in physics and English—subjects that I was deeply passionate about. I loved them both, but as graduation approached, I began to think more about job security and financial stability. The rise of machine learning and artificial intelligence was impossible to ignore. It was clear that studying computer science could offer a more secure, lucrative career path.
+My story starts back at UC Berkeley. I was all in on my majors, Physics and English—subjects I absolutely loved. But as graduation got closer, the real world started knocking. The AI boom was happening, and everyone was talking about job security. So, I made a pivot. I jumped into computer science for grad school.
 
-So, I made a big decision: I switched fields. When I applied to graduate school, I chose to pursue computer science. It wasn’t an easy decision, and in many ways, I wasn’t proud of it. By switching, I was giving up on what I loved to chase something more practical. I convinced myself that this was the “right” thing to do. After all, computer science promised a high-paying career—something that seemed especially important in an expensive place like the Bay Area.
+On the surface, it seemed like a smart, practical decision. A solid career path, especially in the pricey Bay Area. I told myself it was the right call, but a big part of that was just pride. I was proud of being able to make a "strategic" choice, even if it meant giving up what I was passionate about.
 
-But what I didn’t realize at the time was how much pride played a role in this decision. I was proud of my ability to make a “smart” choice, one that promised security and success. I was proud that I could adapt to a field that everyone said was the future. Yet, in chasing that pride, I lost sight of what truly fulfilled me—physics and English.
+Getting into MIT for my PhD felt like I'd won. I mean, it's MIT. The prestige, the smart people... it was easy to get swept up in it. I was proud of where I was, and for a while, that was enough. But then, something shifted. That pride turned into comfort, and comfort turned into complacency. I stopped being hungry. I figured I had "made it."
 
-When I got accepted to MIT for my PhD in computer science, it felt like I had made it. I was part of a prestigious program, surrounded by brilliant minds. For a while, it felt good. I took pride in where I was, thinking that I’d secured my place in the future. But over time, that pride turned into complacency. I stopped learning, stopped pushing myself to improve. I had achieved what I set out to achieve, and in my mind, I had “made it.” But the truth is, the moment you stop learning and growing is the moment you start falling behind.
+Big mistake. The moment you think you've made it is the exact moment you start to coast, and coasting is just a slow way of falling behind.
 
-Pride in what you’ve done can make you feel secure, but it can also blind you to the fact that growth is a continuous process. My time at MIT taught me that pride, when unchecked, can lead to stagnation.
-
-The lesson I took from this experience is simple: don’t let pride in your past achievements hold you back from future growth. It’s easy to feel secure in what you’ve accomplished, but in reality, the world keeps moving, and you have to keep moving with it. That’s the only way to stay relevant and fulfilled.
+That experience at MIT was a wake-up call. It taught me that if you let pride take the wheel, you're heading straight for stagnation. So here's what I took away from it all: don't get so hung up on what you've already done that you forget to keep growing. The world doesn't stop moving, and neither should you. That's the real secret to staying in the game and actually enjoying it.
