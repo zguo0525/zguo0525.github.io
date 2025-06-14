@@ -1,8 +1,8 @@
-## **Research and Product**
+## **Product Research**
 
-I am a researcher and developer with a Ph.D. from MIT CSAIL. My work focuses on foundation models, multi-modal models, and AI applications.
+I am a product-focused researcher with a Ph.D. from MIT CSAIL. My work bridges the gap between fundamental research on foundation models and the development of impactful AI applications.
 
-Before MIT, I earned a B.A. in Physics and English from UC Berkeley. I've founded startups and a venture DAO to build impactful products.
+Before MIT, I earned a B.A. in Physics and English from UC Berkeley. I've since founded startups and a venture DAO to translate research into real-world products.
 
 ---
 
@@ -75,4 +75,4 @@ Here are a few selected publications. [View all publications, patents, and proje
 
 ## **Opportunities**
 
-I advise venture funds and startups in **AI, Web3**, and emerging technologies. Connect with me on [X](https://twitter.com/Zhen4good) or [email me](mailto:zguo0525@mit.edu).
+I am passionate about turning research into impactful products. My focus is on **AI and Web3**, and I'm always eager to connect with founders and investors building at the frontier. Find me on [X](https://twitter.com/Zhen4good) or [email me](mailto:zguo0525@mit.edu).
