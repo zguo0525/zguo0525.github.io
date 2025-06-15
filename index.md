@@ -5,7 +5,7 @@ I build companies and products that turn research ideas into reality. My thesis 
 ---
 ## **Opportunities**
 
-To turn research ideas into reality, I partner with founders and investors. If you're tackling a hard problem in **AI and Web3**, let's connect on [X](https://twitter.com/Zhen4good) or [email me](mailto:zguo0525@mit.edu).
+To turn research ideas into reality, I partner with founders, developers, and investors. If you're tackling a hard problem in **AI and Web3**, let's connect on [X](https://twitter.com/Zhen4good) or [email me](mailto:zguo0525@mit.edu).
 
 ---
 ## **News Highlights**
