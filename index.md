@@ -1,13 +1,13 @@
 ## **Product Research**
 
-I am a product-driven researcher with a Ph.D. from MIT CSAIL, where I turn fundamental research into real-world applications. 
+I build companies and products in **AI and Web3** that turn research ideas into reality.
 
-My background in Physics and English from UC Berkeley provides a unique lens for this work. Physics trained me to think from first principles; English taught me to craft the narratives that turn technology into products. This is the foundation for how I build and advise companies in **AI and Web3**.
+I built my playbook at MIT and Berkeley: start with first-principles, build with engineering excellence, and win with a clear narrative.
 
 ---
 ## **Opportunities**
 
-I partner with founders and investors to solve hard problems grounded in fundamental research. If that resonates, let's connect on [X](https://twitter.com/Zhen4good) or [email me](mailto:zguo0525@mit.edu).
+I partner with founders and investors to build companies that turn research ideas into reality. If you're tackling a hard problem in **AI and Web3**, let's connect on [X](https://twitter.com/Zhen4good) or [email me](mailto:zguo0525@mit.edu).
 
 ---
 ## **News Highlights**
@@ -69,8 +69,8 @@ Here are a few selected publications. [View all publications, patents, and proje
 
 1. [Pride Can Hold You Back: Lessons from My Time at Berkeley and MIT](./articles/pride-can-hold-you-back.md)
 
-   *Lessons on the mindset required to turn research into real-world products.*
+   *The mindset behind the playbook: lessons on pride, growth, and building what's next.*
 
 2. [Why Standing Still Is the Riskiest Move in a Changing World](./articles/why-standing-still-is-risky.md)
 
-   *How pride can create blind spots to the technological change that drives new product cycles.*
+   *The strategy behind the playbook: how to spot and act on technological change.*
