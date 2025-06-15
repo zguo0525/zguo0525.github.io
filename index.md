@@ -1,6 +1,6 @@
 ## **Product Research**
 
-I build companies and products in **AI and Web3** that turn research ideas into reality, using a playbook from my time at MIT and Berkeley: start with first-principles, build with engineering excellence, and win with a clear narrative.
+I build companies and products that turn research ideas into reality, using a playbook from my time at Berkeley and MIT: start with first-principles, build with engineering excellence, and win with a clear narrative.
 
 ---
 ## **Opportunities**
