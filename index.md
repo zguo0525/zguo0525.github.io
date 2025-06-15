@@ -1,11 +1,15 @@
 ## **Product Research**
 
-I am a product-focused researcher with a Ph.D. from MIT CSAIL. My work bridges the gap between fundamental research on foundation models and the development of impactful AI applications.
+I am a product-driven researcher with a Ph.D. from MIT CSAIL, where I turn fundamental research into real-world applications. 
 
-Before MIT, I earned a B.A. in Physics and English from UC Berkeley. I've since founded startups and a venture DAO to translate research into real-world products.
+My background in Physics and English from UC Berkeley provides a unique lens for this work. Physics trained me to think from first principles; English taught me to craft the narratives that turn technology into products. This is the foundation for how I build and advise companies in **AI and Web3**.
 
 ---
+## **Opportunities**
 
+I partner with founders and investors to solve hard problems grounded in fundamental research. If that resonates, let's connect on [X](https://twitter.com/Zhen4good) or [email me](mailto:zguo0525@mit.edu).
+
+---
 ## **News Highlights**
 
 - **September 2024**: **PIN AI** secures **$10 million** in pre-seed funding, led by **a16z crypto**. [Read more](https://x.com/PINAI_IO/status/1833176031714541651)
@@ -65,14 +69,8 @@ Here are a few selected publications. [View all publications, patents, and proje
 
 1. [Pride Can Hold You Back: Lessons from My Time at Berkeley and MIT](./articles/pride-can-hold-you-back.md)
 
-   *Personal lessons from my time at Berkeley and MIT on the practical and emotional costs of pride.*
+   *Lessons on the mindset required to turn research into real-world products.*
 
 2. [Why Standing Still Is the Riskiest Move in a Changing World](./articles/why-standing-still-is-risky.md)
 
-   *Industry insights after ChatGPT and how pride can create blind spots to rapid technological change.*
-
----
-
-## **Opportunities**
-
-I am passionate about turning research into impactful products. My focus is on **AI and Web3**, and I'm always eager to connect with founders and investors building at the frontier. Find me on [X](https://twitter.com/Zhen4good) or [email me](mailto:zguo0525@mit.edu).
+   *How pride can create blind spots to the technological change that drives new product cycles.*
