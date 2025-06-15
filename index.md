@@ -1,13 +1,11 @@
 ## **Product Research**
 
-I build companies and products in **AI and Web3** that turn research ideas into reality.
-
-I built my playbook at MIT and Berkeley: start with first-principles, build with engineering excellence, and win with a clear narrative.
+I build companies and products in **AI and Web3** that turn research ideas into reality, using a playbook from my time at MIT and Berkeley: start with first-principles, build with engineering excellence, and win with a clear narrative.
 
 ---
 ## **Opportunities**
 
-I partner with founders and investors to build companies that turn research ideas into reality. If you're tackling a hard problem in **AI and Web3**, let's connect on [X](https://twitter.com/Zhen4good) or [email me](mailto:zguo0525@mit.edu).
+To turn research ideas into reality, I partner with founders and investors. If you're tackling a hard problem in **AI and Web3**, let's connect on [X](https://twitter.com/Zhen4good) or [email me](mailto:zguo0525@mit.edu).
 
 ---
 ## **News Highlights**
