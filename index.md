@@ -1,6 +1,6 @@
 ## **Product Research**
 
-I build companies and products that turn research ideas into reality, using a playbook from my time at Berkeley and MIT: start with first-principles, build with engineering excellence, and win with a clear narrative.
+I build companies and products that turn research ideas into reality. My thesis from Berkeley and MIT is simple: start with first-principles, build with engineering excellence, and win with a compelling narrative.
 
 ---
 ## **Opportunities**
