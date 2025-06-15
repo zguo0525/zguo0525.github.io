@@ -1,14 +1,14 @@
-## **Product Research**
+## **Thesis**
 
-I build companies and products that turn research ideas into reality. My thesis from Berkeley and MIT is simple: start with first-principles, build with engineering excellence, and win with a compelling narrative.
-
----
-## **Opportunities**
-
-To turn research ideas into reality, I partner with founders, developers, and investors. If you're tackling a hard problem in **AI and Web3**, let's connect on [X](https://twitter.com/Zhen4good) or [email me](mailto:zguo0525@mit.edu).
+I build products and companies that turn research ideas into reality. My thesis from Berkeley and MIT is simple: start with first-principles, build with engineering excellence, and win with a compelling narrative.
 
 ---
-## **News Highlights**
+## **Connect**
+
+I build with founders, developers, and investors in **AI and Web3**. If you're tackling a hard problem, let's connect on [X](https://twitter.com/Zhen4good) or [email me](mailto:zguo0525@mit.edu).
+
+---
+## **News**
 
 - **September 2024**: **PIN AI** secures **$10 million** in pre-seed funding, led by **a16z crypto**. [Read more](https://x.com/PINAI_IO/status/1833176031714541651)
 
@@ -32,7 +32,7 @@ To turn research ideas into reality, I partner with founders, developers, and in
 
 ---
 
-## **Publications**
+## **Papers**
 
 Here are a few selected publications. [View all publications, patents, and projects](./pages/publications.md).
 
@@ -63,7 +63,7 @@ Here are a few selected publications. [View all publications, patents, and proje
 
 ---
 
-## **Writing**
+## **Blogs**
 
 1. [Pride Can Hold You Back: Lessons from My Time at Berkeley and MIT](./articles/pride-can-hold-you-back.md)
 
