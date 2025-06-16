@@ -1,6 +1,6 @@
 ## **Thesis**
 
-I build products and companies that turn research ideas into reality. My thesis from Berkeley and MIT is simple: start with first-principles, build with engineering excellence, and win with a compelling narrative.
+I turn research ideas into products. My thesis from Berkeley and MIT is simple: start with first-principles, build with engineering excellence, and win with a compelling narrative.
 
 ---
 ## **Connect**
