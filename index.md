@@ -5,7 +5,7 @@ I build products and companies that turn research ideas into reality. My thesis 
 ---
 ## **Connect**
 
-I build with founders, developers, and investors in **AI and Web3**. If you're tackling a hard problem, let's connect on [X](https://twitter.com/Zhen4good) or [email me](mailto:zguo0525@mit.edu).
+If you're tackling a hard problem in **AI and Web3**, let's connect on [X](https://twitter.com/Zhen4good) or [email me](mailto:zguo0525@mit.edu).
 
 ---
 ## **News**
