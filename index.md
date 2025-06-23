@@ -12,23 +12,21 @@ If you're tackling a hard problem in **AI and Web3**, let's connect on [X](https
 
 - **September 2024**: **PIN AI** secures **$10 million** in pre-seed funding, led by **a16z crypto**. [Read more](https://x.com/PINAI_IO/status/1833176031714541651)
 
-- **August 2024**: **Nature** paper on achieving 60× faster processing in pharmaceutical manufacturing. [Read more](https://meche.mit.edu/news-media/accelerating-particle-size-distribution-estimation)
+- **August 2024**: **Nature** paper published on speckle imaging for pharmaceutical manufacturing. [Read more](https://meche.mit.edu/news-media/accelerating-particle-size-distribution-estimation)
   
 - **July 2024**: Joined **Apple's AIML Residency** to work on **Apple Intelligence** and **Siri**.
 
-- **June 2024**: Collaboration on **Octo-planner** with **Nexa AI**, featured by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1806354919731179802)
+- **June 2024**: **Octo-planner** collaboration with **Nexa AI**, featured by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1806354919731179802)
 
-- **April 2024**: Foundation model research on **JetMoE** highlighted by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1775916496503656679)
+- **April 2024**: **JetMoE** foundation model research highlighted by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1775916496503656679)
 
-- **March 2024**: **MyShell AI** raises **$11 million** in pre-A round, led by **Dragonfly**. [Read more](https://www.theblock.co/post/285072/web3-ai-platform-myshell-funding)
+- **March 2024**: **MyShell AI** raises **$11 million** in pre-A funding, led by **Dragonfly**. [Read more](https://www.theblock.co/post/285072/web3-ai-platform-myshell-funding)
 
-- **June 2023**: Internship at **MIT-IBM Watson AI Lab**, focused on large language models for code generation.
+- **June 2023**: Research internship at **MIT-IBM Watson AI Lab** on large language models for code generation.
 
-- **June 2023**: **Nature** paper on emergent ferromagnetism from low-dimensional materials. [Read more](https://www.nature.com/articles/s41467-023-39002-6)
+- **June 2023**: **Nature Communications** paper on emergent ferromagnetism published. [Read more](https://www.nature.com/articles/s41467-023-39002-6)
   
-- **May 2023**: **MIT-Takeda** develops AI models for medicine manufacturing, reported by **MIT News**. [Read more](https://news.mit.edu/2023/ai-based-estimator-manufacturing-medicine-0503)
-
-- **Feb 2020**: Appointed **Vice President** at **MIT Chinese Entrepreneurs Organization** (MIT CEO). [Read more](https://www.chinese-entrepreneurs.mit.edu/our-team)
+- **May 2023**: **MIT-Takeda** collaboration on AI for medicine manufacturing featured in **MIT News**. [Read more](https://news.mit.edu/2023/ai-based-estimator-manufacturing-medicine-0503)
 
 ---
 
@@ -58,8 +56,8 @@ Here are a few selected publications. [View all publications, patents, and proje
 
 - **Non-invasive Estimation of the Powder Size Distribution from a Single Speckle Image**  
   Qihang Zhang, George Barbastathis, Ajinkya Pandit, Zhiguang Liu, <ins>Zhen Guo</ins>, et al.  
-  *Nature, Light: Science & Applications*  
-  [[paper]](https://zguo0525.github.io/)
+  *Light: Science & Applications (2024)*  
+  [[paper]](https://www.nature.com/articles/s41377-024-01436-y)
 
 ---
 
@@ -67,8 +65,8 @@ Here are a few selected publications. [View all publications, patents, and proje
 
 1. [Pride Can Hold You Back: Lessons from My Time at Berkeley and MIT](./articles/pride-can-hold-you-back.md)
 
-   *The mindset behind the playbook: lessons on pride, growth, and building what's next.*
+   *Lessons on pride, growth, and building what's next.*
 
 2. [Why Standing Still Is the Riskiest Move in a Changing World](./articles/why-standing-still-is-risky.md)
 
-   *The strategy behind the playbook: how to spot and act on technological change.*
+   *How to spot and act on technological change.*
