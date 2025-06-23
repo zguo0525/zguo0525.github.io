@@ -5,7 +5,7 @@ I turn research ideas into products. My thesis from Berkeley and MIT is simple: 
 ---
 ## **Connect**
 
-If you're tackling a hard problem in **AI and Web3**, let's connect on [X](https://twitter.com/Zhen4good) or [email me](mailto:zguo0525@mit.edu).
+If you're tackling a hard problem in **AI and Web3**, let's connect on [X](https://twitter.com/Zhen4good), [LinkedIn](https://www.linkedin.com/in/gavin-guo-b764b6b4/), or [email me](mailto:zguo0525@mit.edu).
 
 ---
 ## **News**
@@ -61,7 +61,7 @@ Here are a few selected publications. [View all publications, patents, and proje
 
 ---
 
-## **Blogs**
+## **Writing**
 
 1. [Pride Can Hold You Back: Lessons from My Time at Berkeley and MIT](./articles/pride-can-hold-you-back.md)
 
