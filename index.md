@@ -65,7 +65,7 @@ Here are a few selected publications. [View all publications, patents, and proje
 
 1. [What I Learned During the Siri Makeover](./articles/what-i-learned-during-the-siri-makeover.md)
 
-   *Lessons on product integration and organizational design in large-scale AI projects.*
+   *Lessons on product integration and organizational design.*
 
 2. [Pride Can Hold You Back: Lessons from My Time at Berkeley and MIT](./articles/pride-can-hold-you-back.md)
 
