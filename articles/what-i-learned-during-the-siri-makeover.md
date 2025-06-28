@@ -8,7 +8,7 @@ When I saw the new Siri demoed on stage, I knew the teams were in for a challeng
 
 Siri's new capabilities were the most visible, but the quiet challenge of notification summaries was more instructive. The feature, designed to condense alerts, became a case study in how AI development unfolds.
 
-The public examples were often surprising—an AI turning a polite request into a blunt command or misreading a simple group chat message. The lesson wasn't just that the tech was still maturing; it was that the models lacked social context. This points to a fundamental tension in AI development, highlighted by the "Mini Mouse and Mighty Mouse" approaches in the reporting. To work well, AI needs data and context from the cloud. But to be private, as Apple promises, it must run on-device.
+The public examples were often surprising—an AI turning a polite request into a blunt command or misreading a simple group chat message. The lesson wasn't just that the tech was still maturing; it was that the models lacked social context. This points to a fundamental tension in AI development, highlighted by the "Mini Mouse and Mighty Mouse" approaches in the reporting. To work well, AI needs data and context from the cloud. But to be private, it must run on-device.
 
 The learning curve became clear when the feature was adjusted for news apps after media outlets like the BBC raised concerns. To me, this was a critical moment. It showed how quickly technical hurdles become a much bigger opportunity: building public trust. These instances illustrate the gap between what language models can do (process text) and what users need (understand meaning).
 
