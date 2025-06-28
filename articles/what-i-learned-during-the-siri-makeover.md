@@ -30,7 +30,7 @@ Three lessons from watching this unfold:
 
 **First, simple-seeming AI features are often the hardest.** Notification summaries looked trivial but required understanding context and tone that AI models couldn't handle reliably.
 
-**Second, organizational design is product design.** The alignment between teams is a structural component of shipping great AI products. You can't build the future with yesterday's org chart.
+**Second, organizational design is product design.** The alignment between teams is a structural component of shipping great AI products.
 
 **Third, privacy isn't just a marketing message; it's an engineering constraint.** On-device processing makes everything harder, but constraints breed creativity. Respecting privacy is a lasting advantage.
 
