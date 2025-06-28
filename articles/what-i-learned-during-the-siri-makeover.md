@@ -24,25 +24,15 @@ Apple's Siri experience reveals a truth about the next phase of AI: the winners 
 
 While it's often easier to build a product from scratch, as OpenAI did with ChatGPT, Apple faces a much different challenge: making Siri smarter for a billion users without breaking the features they already rely on. Refactoring a legacy system at that scale is a monumental task.
 
-The decision to put Craig Federighi in charge of Siri makes sense. His software engineering team has the execution muscle to ship AI features at Apple scale. But the deeper question remains: can Apple maintain its privacy principles while competing in an AI world that rewards data collection?
-
 ## Lessons for Builders
 
 Three lessons from watching this unfold:
 
-**First, simple-seeming AI features are often the hardest.** Notification summaries looked trivial but required understanding context and tone that our models couldn't handle reliably.
+**First, simple-seeming AI features are often the hardest.** Notification summaries looked trivial but required understanding context and tone that AI models couldn't handle reliably.
 
 **Second, organizational design is product design.** The alignment between teams is a structural component of shipping great AI products. You can't build the future with yesterday's org chart.
 
 **Third, privacy isn't just a marketing message; it's an engineering constraint.** On-device processing makes everything harder, but constraints breed creativity. Respecting privacy is a lasting advantage.
-
-## Looking Forward
-
-Apple will eventually ship great AI. The talent, resources, and focus are there. But the journey is a reminder that even Apple isn't immune to the challenges of transformational tech.
-
-The real question isn't just about matching competitors, but whether it can build AI that feels distinctly Apple—private, intuitive, and seamlessly integrated.
-
-It's a harder problem, but it's the only one that will keep Apple from becoming a beautiful hardware company powered by someone else's intelligence.
 
 ---
 
