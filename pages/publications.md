@@ -100,8 +100,13 @@
 
 ## **Patents**
 
+- **Pupil Engineering Method to Enhance the Signal of the Real-Time Determination of Particle Size Distribution in Powders**  
+  Qihang Zhang, Ajinkya Pandit, Allan S. Myerson, George Barbastathis, Janaka C. Gamekkanda Gamaethige, Richard D. Braatz, <ins>Zhen Guo</ins>  
+  *US Patent Application 18/845,719 (2025)*
+
 - **System and Method for Real-Time Determination of Particle Size Distributions in Dry Powders**  
-  Qihang Zhang, Ajinkya Pandit, Allan S. Myerson, George Barbastathis, Richard D. Braatz, and <ins>Zhen Guo</ins>
+  Qihang Zhang, Ajinkya Pandit, Allan S. Myerson, George Barbastathis, Janaka C. Gamekkanda Gamaethige, Richard D. Braatz, <ins>Zhen Guo</ins>  
+  *US Patent Application 18/845,766 (2025)*
 
 ---
 
