@@ -6,7 +6,7 @@ I turn research ideas into products. My thesis is simple: start with first-princ
 
 ## **About Me**
 
-I build and advise companies where AI and crypto intersect. My experience as a founding researcher at MyShell AI and PIN AI focused on turning new techologies into products. That work led to my current mission: building the next generation of AI that's owned by its community, ensuring value flows back to the people who power it. 
+I build and advise companies where AI and crypto meet. As a founding researcher at MyShell AI and PIN AI, I focused on turning new technologies into products. My mission is to build the next generation of community-owned AI, ensuring value flows back to the people who power it.
 
 I hold a PhD in Computer Science from MIT and a Bachelor's in Physics from UC Berkeley. 
 
