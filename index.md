@@ -6,7 +6,7 @@ I turn research ideas into products. My thesis is simple: start with first-princ
 
 ## **About Me**
 
-I build companies where AI and crypto intersect. From working on Siri at Apple to my role as a founding researcher at MyShell.ai, I've focused on turning research breakthroughs into products people use. My mission now is to build AI that's owned by its community, ensuring value flows back to the people who power it. 
+I build and advise companies where AI and crypto intersect. My work as a founding researcher at MyShell.ai and PIN AI has focused on turning research breakthroughs into products people use. My mission now is to build AI that's owned by its community, ensuring value flows back to the people who power it. 
 
 I hold a PhD in Computer Science from MIT and a Bachelor's in Physics from UC Berkeley. 
 
