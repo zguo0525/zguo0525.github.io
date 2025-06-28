@@ -42,7 +42,7 @@
   *NeurIPS 2023 on Generative AI for Education*  
   [[paper]](https://arxiv.org/abs/2311.07700)
 
-- **Improving Small Language Models on PubMedQA via Generative Data Augmentation**  
+- **Dr. LLaMA: Improving Small Language Models on PubMedQA via Generative Data Augmentation**  
   <ins>Zhen Guo</ins>, Peiqi Wang, Yanwei Wang, Shangdi Yu  
   *KDD 2023 Foundations and Applications in Large-scale AI Models*  
   [[paper]](https://arxiv.org/abs/2305.07804) [[code]](https://github.com/zguo0525/Dr.llama)

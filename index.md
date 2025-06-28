@@ -63,10 +63,14 @@ Here are a few selected publications. [View all publications, patents, and proje
 
 ## **Writing**
 
-1. [Pride Can Hold You Back: Lessons from My Time at Berkeley and MIT](./articles/pride-can-hold-you-back.md)
+1. [Inside Apple Intelligence: What I Learned During the Siri AI Makeover](./articles/inside-apple-intelligence.md)
+
+   *Firsthand insights from Apple's AIML Residency during the Siri transformation and 2026 delay.*
+
+2. [Pride Can Hold You Back: Lessons from My Time at Berkeley and MIT](./articles/pride-can-hold-you-back.md)
 
    *Lessons on pride, growth, and building what's next.*
 
-2. [Why Standing Still Is the Riskiest Move in a Changing World](./articles/why-standing-still-is-risky.md)
+3. [Why Standing Still Is the Riskiest Move in a Changing World](./articles/why-standing-still-is-risky.md)
 
    *How to spot and act on technological change.*
