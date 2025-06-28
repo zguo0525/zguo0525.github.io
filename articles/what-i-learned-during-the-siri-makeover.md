@@ -22,7 +22,7 @@ It's a meeting of different cultures. One is built for shipping products on a de
 
 Apple's Siri experience reveals a truth about the next phase of AI: the winners won't be those with the best models, but those with the best product integration.
 
-While it's often easier to build a product from scratch, as OpenAI did with ChatGPT, Apple faces a much different challenge: making Siri smarter for a billion users without breaking the features they already rely on. Refactoring a legacy system at that scale is a monumental task.
+While it's often easier to build a product from scratch, as OpenAI did with ChatGPT, Apple faces a much different challenge: making Siri smarter for a billion users without breaking the features they already rely on.
 
 ## Lessons for Builders
 
