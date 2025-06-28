@@ -1,6 +1,14 @@
 ## **Thesis**
 
-I turn research ideas into products. My thesis from Berkeley and MIT is simple: start with first-principles, build with engineering excellence, and win with a compelling narrative.
+I turn research ideas into products. My thesis is simple: start with first-principles, build with engineering excellence, and win with a compelling narrative.
+
+---
+
+## **About Me**
+
+I build companies where AI and crypto intersect. From working on Siri at Apple to my role as a founding researcher at MyShell.ai, I've focused on turning research breakthroughs into products people use. My mission now is to build AI that's owned by its community, ensuring value flows back to the people who power it. 
+
+I hold a PhD in Computer Science from MIT and a Bachelor's in Physics from UC Berkeley. 
 
 ---
 ## **Connect**
@@ -14,7 +22,7 @@ If you're tackling a hard problem in **AI and Web3**, let's connect on [X](https
 
 - **August 2024**: **Nature** paper published on speckle imaging for pharmaceutical manufacturing. [Read more](https://meche.mit.edu/news-media/accelerating-particle-size-distribution-estimation)
   
-- **July 2024**: Joined **Apple's AIML Residency** to work on **Apple Intelligence** and **Siri**.
+- **July 2024**: Joined **Apple AIML Residency** to work on **Siri**.
 
 - **June 2024**: **Octo-planner** collaboration with **Nexa AI**, featured by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1806354919731179802)
 
@@ -65,7 +73,7 @@ Here are a few selected publications. [View all publications, patents, and proje
 
 1. [What I Learned During the Siri Makeover](./articles/what-i-learned-during-the-siri-makeover.md)
 
-   *Lessons on product integration and organizational design.*
+   *Lessons on product integration and organization design.*
 
 2. [Pride Can Hold You Back: Lessons from My Time at Berkeley and MIT](./articles/pride-can-hold-you-back.md)
 
