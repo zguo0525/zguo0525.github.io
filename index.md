@@ -1,26 +1,40 @@
-## **About**
+## **Thesis**
 
-I'm a researcher and engineer focused on turning research ideas into products, especially where AI and crypto meet. 
+I enjoy turning research into products, guided by first-principles thinking, engineering quality, and clear communication.
 
-As a founding researcher at MyShell AI and PIN AI, I am passionate about building community-owned AI that fairly distributes value back to its users. 
+---
 
-I received my PhD in Computer Science from MIT and my Bachelor's in Physics from UC Berkeley.
+## **About Me**
+
+I build and advise at the intersection of AI and crypto. As a founding researcher at MyShell AI and PIN AI, I focus on turning new technologies into products. I'm passionate about community-owned AI that returns value to its users.
+
+I hold a PhD in Computer Science from MIT and a Bachelor's in Physics from UC Berkeley. 
 
 ---
 ## **Connect**
 
-If you're tackling a hard problem in **AI and Web3**, let's connect on [X](https://twitter.com/Zhen4good), [LinkedIn](https://www.linkedin.com/in/gavin-guo-b764b6b4/), or [email me](mailto:zguo0525@mit.edu).
+I'm always open to connecting with people interested in AI and Web3. Feel free to reach out on [X](https://twitter.com/Zhen4good), [LinkedIn](https://www.linkedin.com/in/gavin-guo-b764b6b4/), or by [email](mailto:zguo0525@mit.edu).
 
 ---
-## **Recent Updates**
+## **News**
 
-- **September 2024**: **PIN AI** raises **$10 million** in pre-seed funding, led by **a16z crypto**. [Read more](https://x.com/PINAI_IO/status/1833176031714541651)
+- **September 2024**: **PIN AI** secures **$10 million** in pre-seed funding, led by **a16z crypto**. [Read more](https://x.com/PINAI_IO/status/1833176031714541651)
 
 - **August 2024**: **Nature** paper published on speckle imaging for pharmaceutical manufacturing. [Read more](https://meche.mit.edu/news-media/accelerating-particle-size-distribution-estimation)
   
+- **July 2024**: Joined **Apple AIML Residency** to work on **Siri**.
+
+- **June 2024**: **Octo-planner** collaboration with **Nexa AI**, featured by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1806354919731179802)
+
+- **April 2024**: **JetMoE** foundation model research highlighted by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1775916496503656679)
+
 - **March 2024**: **MyShell AI** raises **$11 million** in pre-A funding, led by **Dragonfly**. [Read more](https://www.theblock.co/post/285072/web3-ai-platform-myshell-funding)
 
+- **June 2023**: Research internship at **MIT-IBM Watson AI Lab** on large language models for code generation.
+
 - **June 2023**: **Nature Communications** paper on emergent ferromagnetism published. [Read more](https://www.nature.com/articles/s41467-023-39002-6)
+  
+- **May 2023**: **MIT-Takeda** collaboration on AI for medicine manufacturing featured in **MIT News**. [Read more](https://news.mit.edu/2023/ai-based-estimator-manufacturing-medicine-0503)
 
 ---
 
