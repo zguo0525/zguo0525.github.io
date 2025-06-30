@@ -13,7 +13,7 @@ I hold a PhD in Computer Science from MIT and a Bachelor's in Physics from UC Be
 ---
 ## **Connect**
 
-I'm always open to connecting with people interested in AI and Web3. Feel free to reach out on [X](https://twitter.com/Zhen4good), [LinkedIn](https://www.linkedin.com/in/gavin-guo-b764b6b4/), or by [email](mailto:zguo0525@mit.edu).
+I'm open to connecting with people interested in AI and Web3. Feel free to reach out on [X](https://twitter.com/Zhen4good), [LinkedIn](https://www.linkedin.com/in/gavin-guo-b764b6b4/), or by [email](mailto:zguo0525@mit.edu).
 
 ---
 ## **News**
