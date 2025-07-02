@@ -1,29 +1,27 @@
 ## **About Me**
 
-I build and advise in AI and Crypto.
-
-I hold a PhD in Computer Science from MIT and a Bachelor's in Physics from UC Berkeley.
+I do product research.
 
 ---
 ## **News**
 
-- **September 2024**: **PIN AI** secures **$10 million** in pre-seed funding, led by **a16z crypto**. [Read more](https://x.com/PINAI_IO/status/1833176031714541651)
+- **September 2024**: **PIN AI** secured **$10 million** in pre-seed funding, led by **a16z crypto**. [Read more](https://x.com/PINAI_IO/status/1833176031714541651)
 
-- **August 2024**: **Light: Science & Applications** paper on imaging for pharmaceutical manufacturing. [Read more](https://meche.mit.edu/news-media/accelerating-particle-size-distribution-estimation)
+- **August 2024**: **Light: Science & Applications** on imaging for pharmaceutical manufacturing. [Read more](https://meche.mit.edu/news-media/accelerating-particle-size-distribution-estimation)
   
 - **July 2024**: Joined **Apple AIML Residency** to work on **Siri**.
 
-- **June 2024**: **Octo-planner** collaboration with **Nexa AI**, featured by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1806354919731179802)
+- **June 2024**: **Octo-planner** with **Nexa AI**, featured by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1806354919731179802)
 
-- **April 2024**: **JetMoE** foundation model research highlighted by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1775916496503656679)
+- **April 2024**: **JetMoE** foundation model highlighted by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1775916496503656679)
 
 - **March 2024**: **MyShell AI** raises **$11 million** in pre-A funding, led by **Dragonfly**. [Read more](https://www.theblock.co/post/285072/web3-ai-platform-myshell-funding)
 
-- **June 2023**: Research internship at **MIT-IBM Watson AI Lab** on large language models for code generation.
+- **June 2023**: Research internship at **MIT-IBM Watson AI Lab** on code generation and tool use.
 
-- **June 2023**: **Nature Communications** paper on emergent ferromagnetism published. [Read more](https://www.nature.com/articles/s41467-023-39002-6)
+- **June 2023**: **Nature Communications** on emergent ferromagnetism. [Read more](https://www.nature.com/articles/s41467-023-39002-6)
   
-- **May 2023**: **MIT-Takeda** collaboration on AI for medicine manufacturing featured in **MIT News**. [Read more](https://news.mit.edu/2023/ai-based-estimator-manufacturing-medicine-0503)
+- **May 2023**: **MIT-Takeda** AI for medicine manufacturing featured in **MIT News**. [Read more](https://news.mit.edu/2023/ai-based-estimator-manufacturing-medicine-0503)
 
 ---
 
@@ -55,19 +53,3 @@ Here are a few selected publications. [View all publications, patents, and proje
   Qihang Zhang, George Barbastathis, Ajinkya Pandit, Zhiguang Liu, <ins>Zhen Guo</ins>, et al.  
   *Light: Science & Applications (2024)*  
   [[paper]](https://www.nature.com/articles/s41377-024-01436-y)
-
-<!-- ---
-
-## **Writing**
-
-1. [What I Learned During the Siri Makeover](./articles/what-i-learned-during-the-siri-makeover.md)
-
-   *Lessons on product integration and organization design.*
-
-2. [Pride Can Hold You Back: Lessons from My Time at Berkeley and MIT](./articles/pride-can-hold-you-back.md)
-
-   *Lessons on pride, growth, and building what's next.*
-
-3. [Why Standing Still Is the Riskiest Move in a Changing World](./articles/why-standing-still-is-risky.md)
-
-   *How to spot and act on technological change.* -->
