@@ -1,19 +1,13 @@
-## **Thesis**
-
-I enjoy turning research into products, guided by first-principles thinking, engineering quality, and clear communication.
-
----
-
 ## **About Me**
 
-I build and advise at the intersection of AI and crypto. As a founding researcher at MyShell AI and PIN AI, I focus on turning new technologies into products. I'm passionate about community-owned AI that returns value to its users.
+I build and advise in AI and Crypto. As a founding researcher at MyShell AI and PIN AI, I focus on turning new technologies into products.
 
-I hold a PhD in Computer Science from MIT and a Bachelor's in Physics from UC Berkeley. 
+I hold a PhD in Computer Science from MIT and a Bachelor's in Physics from UC Berkeley.
 
 ---
 ## **Connect**
 
-I'm open to connecting with people interested in AI and Web3. Feel free to reach out on [X](https://twitter.com/Zhen4good), [LinkedIn](https://www.linkedin.com/in/gavin-guo-b764b6b4/), or by [email](mailto:zguo0525@mit.edu).
+Find me on [X](https://twitter.com/Zhen4good) or [LinkedIn](https://www.linkedin.com/in/gavin-guo-b764b6b4/).
 
 ---
 ## **News**
@@ -67,7 +61,7 @@ Here are a few selected publications. [View all publications, patents, and proje
   *Light: Science & Applications (2024)*  
   [[paper]](https://www.nature.com/articles/s41377-024-01436-y)
 
----
+<!-- ---
 
 ## **Writing**
 
@@ -81,4 +75,4 @@ Here are a few selected publications. [View all publications, patents, and proje
 
 3. [Why Standing Still Is the Riskiest Move in a Changing World](./articles/why-standing-still-is-risky.md)
 
-   *How to spot and act on technological change.*
+   *How to spot and act on technological change.* -->
