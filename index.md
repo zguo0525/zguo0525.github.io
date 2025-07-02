@@ -5,11 +5,6 @@ I build and advise in AI and Crypto. As a founding researcher at MyShell AI and 
 I hold a PhD in Computer Science from MIT and a Bachelor's in Physics from UC Berkeley.
 
 ---
-## **Connect**
-
-Find me on [X](https://twitter.com/Zhen4good) or [LinkedIn](https://www.linkedin.com/in/gavin-guo-b764b6b4/).
-
----
 ## **News**
 
 - **September 2024**: **PIN AI** secures **$10 million** in pre-seed funding, led by **a16z crypto**. [Read more](https://x.com/PINAI_IO/status/1833176031714541651)
