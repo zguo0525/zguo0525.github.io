@@ -1,6 +1,6 @@
 ## **About Me**
 
-I advise in AI and Crypto. As a founding researcher at MyShell AI and PIN AI, I focus on turning new technologies into products.
+I build and advise in AI and Crypto. As a founding member of MyShell AI and PIN AI, I focus on turning new technologies into products.
 
 I hold a PhD in Computer Science from MIT and a Bachelor's in Physics from UC Berkeley.
 
