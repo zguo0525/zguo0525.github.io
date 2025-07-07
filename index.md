@@ -2,6 +2,8 @@
 
 I do product research.
 
+I hold a Ph.D. in Computer Science from MIT and a Bachelor's degree in Physics from UC Berkeley.
+
 ---
 ## **News**
 
