@@ -1,6 +1,6 @@
 ## **About Me**
 
-I research AI products. I've worked at **Apple Siri** and am a founding researcher at **MyShell AI** and **PIN AI**, focusing on consumer AI products. Previously, I interned at **MIT-IBM Watson** working on **synthetic data** (Synthetic Data RL, API Pack) and **model training** (JetMoE).
+I research AI products. I've worked at [**Apple Siri**](https://www.apple.com/siri/) and am a founding researcher at [**MyShell AI**](https://myshell.ai/) and [**PIN AI**](https://www.pinai.io/), focusing on consumer AI products. Previously, I interned at [**MIT-IBM Watson**](https://mitibmwatsonailab.mit.edu/) working on **synthetic data** ([Synthetic Data RL](https://arxiv.org/abs/2505.17063), [API Pack](https://arxiv.org/abs/2402.09615)) and **model training** ([JetMoE](https://arxiv.org/abs/2404.07413)).
 
 I hold a Ph.D. in Computer Science from MIT and a Bachelor's degree in Physics from UC Berkeley.
 
@@ -38,6 +38,11 @@ Here are a few selected publications. [View all publications, patents, and proje
   *NeurIPS 2025 submission*  
   [[paper]](https://arxiv.org/abs/2505.17063)
 
+- **API Pack: A Massive Multi-Programming Language Dataset for API Call Generation**  
+  <ins>Zhen Guo</ins>, Adriana Meza Soria, Wei Sun, Yikang Shen, Rameswar Panda  
+  *ICLR 2025*  
+  [[paper]](https://arxiv.org/abs/2402.09615)
+
 - **Scaling Law Hypothesis for Multimodal Model**  
   Qingyun Sun, <ins>Zhen Guo</ins>  
   *[PIN AI White Paper](https://www.pinai.io/)*  
@@ -47,6 +52,11 @@ Here are a few selected publications. [View all publications, patents, and proje
   Yikang Shen, <ins>Zhen Guo</ins>, Tianle Cai, Zengyi Qin  
   *[MyShell AI Technical Report](https://myshell.ai/)*  
   [[paper]](https://arxiv.org/abs/2404.07413) [[code]](https://github.com/myshell-ai/JetMoE) [[demo]](https://www.lepton.ai/playground/chat?model=jetmoe-8b-chat)
+
+- **AuthentiGPT: Detecting Machine-Generated Text via Black-Box Language Models Denoising**  
+  <ins>Zhen Guo</ins>, Shangdi Yu  
+  *NeurIPS 2023 on Generative AI for Education*  
+  [[paper]](https://arxiv.org/abs/2311.07700)
 
 - **Ferromagnetism Emerged from Non-ferromagnetic Atomic Crystals**  
   Cheng Gong, Xiang Zhang, Peiyao Zhang, Tenzin Norden, Quanwei Li, <ins>Zhen Guo</ins>, Apoorva Chaturvedi, Arman Najafi, Shoufeng Lan, et al.  

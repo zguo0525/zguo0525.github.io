@@ -30,12 +30,12 @@
 - **API Pack: A Massive Multi-Programming Language Dataset for API Call Generation**  
   <ins>Zhen Guo</ins>, Adriana Meza Soria, Wei Sun, Yikang Shen, Rameswar Panda  
   *ICLR 2025*  
-  [[paper]](https://arxiv.org/abs/2311.07700)
+  [[paper]](https://arxiv.org/abs/2402.09615)
 
 - **Diversity Measurement and Subset Selection for Instruction Tuning Datasets**  
   Peiqi Wang, Yikang Shen, <ins>Zhen Guo</ins>, Matthew J. Stallone, Yoon Kim, Polina Golland, Rameswar Panda  
   *ICLR 2025 Data Problem*  
-  [[paper]](https://arxiv.org/abs/2311.07700)
+  [[paper]](https://arxiv.org/abs/2402.02318)
 
 - **AuthentiGPT: Detecting Machine-Generated Text via Black-Box Language Models Denoising**  
   <ins>Zhen Guo</ins>, Shangdi Yu  
