@@ -7,6 +7,8 @@ I hold a Ph.D. in Computer Science from MIT and a Bachelor's degree in Physics f
 ---
 ## **News**
 
+- **June 2025**: **Visual Intelligence** in **Apple Intelligence**, announced at **WWDC 2025**, featuring on-screen search and smart event creation. [Read more](https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/)
+
 - **September 2024**: **PIN AI** secured **$10 million** in pre-seed funding, led by **a16z crypto**. [Read more](https://x.com/PINAI_IO/status/1833176031714541651)
 
 - **August 2024**: **Light: Science & Applications** on imaging for pharmaceutical manufacturing. [Read more](https://meche.mit.edu/news-media/accelerating-particle-size-distribution-estimation)
