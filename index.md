@@ -1,13 +1,13 @@
 ## **About Me**
 
-I do product research.
+I research AI products. I've worked at **Apple Siri** and am a founding researcher at **MyShell AI** and **PIN AI**, focusing on consumer AI products. Previously, I interned at **MIT-IBM Watson** working on **synthetic data** (Synthetic Data RL, API Pack) and **model training** (JetMoE).
 
 I hold a Ph.D. in Computer Science from MIT and a Bachelor's degree in Physics from UC Berkeley.
 
 ---
 ## **News**
 
-- **June 2025**: **Visual Intelligence** in **Apple Intelligence**, announced at **WWDC 2025**, featuring on-screen search and smart event creation. [Read more](https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/)
+- **June 2025**: **Visual Intelligence** for **Apple Intelligence** announced at **WWDC 2025**, enabling on-screen search and smart event creation. [Read more](https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/)
 
 - **September 2024**: **PIN AI** secured **$10 million** in pre-seed funding, led by **a16z crypto**. [Read more](https://x.com/PINAI_IO/status/1833176031714541651)
 
