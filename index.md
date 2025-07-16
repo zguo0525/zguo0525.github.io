@@ -2,7 +2,9 @@
 
 I work on consumer AI products. 
 
-I've worked on Visual Intelligence features at [**Apple Siri**](https://www.apple.com/siri/) and am a founding researcher at [**MyShell AI**](https://myshell.ai/) and [**PIN AI**](https://www.pinai.io/), focusing on consumer AI products. Previously, I interned at [**MIT-IBM Watson**](https://mitibmwatsonailab.mit.edu/) working on **synthetic data** ([Synthetic Data RL](https://arxiv.org/abs/2505.17063), [API Pack](https://arxiv.org/abs/2402.09615), [AuthentiGPT](https://arxiv.org/abs/2311.07700)) and **model training** ([JetMoE](https://arxiv.org/abs/2404.07413)).
+I've worked on Visual Intelligence features at [**Apple Siri**](https://www.apple.com/siri/) and am a founding researcher at [**MyShell AI**](https://myshell.ai/) and [**PIN AI**](https://www.pinai.io/), focusing on consumer AI products. 
+
+Previously, I interned at [**MIT-IBM Watson**](https://mitibmwatsonailab.mit.edu/) working on **synthetic data** ([Synthetic Data RL](https://arxiv.org/abs/2505.17063), [API Pack](https://arxiv.org/abs/2402.09615), [AuthentiGPT](https://arxiv.org/abs/2311.07700)) and **model training** ([JetMoE](https://arxiv.org/abs/2404.07413)).
 
 I hold a Ph.D. in Computer Science from MIT and a Bachelor's degree in Physics from UC Berkeley.
 
