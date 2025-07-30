@@ -1,6 +1,6 @@
 ## **About Me**
 
-My focus is on consumer AI products. 
+Building personal superintelligence that empowers everyone at Meta. 
 
 I've worked on **Visual Intelligence** at [**Apple Siri**](https://www.apple.com/siri/) and am a **founding researcher** at [**MyShell AI**](https://myshell.ai/) and [**PIN AI**](https://www.pinai.io/). 
 
