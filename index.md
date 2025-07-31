@@ -11,7 +11,7 @@ I hold a **Ph.D. in Computer Science** from **MIT** and a **Bachelor's degree in
 ---
 ## **News**
 
-- **July 2025**: Joined **Meta Superintelligence Lab** for **multimodal embodiment**.
+- **July 2025**: Joined **Meta** for **multimodal embodiment**.
 
 - **June 2025**: **Visual Intelligence** for **Apple Intelligence** announced at **WWDC 2025**, enabling on-screen search and smart event creation. [Read more](https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/)
 
