@@ -1,15 +1,16 @@
-## **About Me**
+# About Me
 
-Building **Personal ASI** at **Meta**. 
+Building **Personal ASI** at **Meta**.
 
-I've worked on **Visual Intelligence** at [**Apple Siri**](https://www.apple.com/siri/) and am a **founding researcher** at [**MyShell AI**](https://myshell.ai/) and [**PIN AI**](https://www.pinai.io/). 
+I've worked on **Visual Intelligence** at [**Apple Siri**](https://www.apple.com/siri/) and am a **founding researcher** at [**MyShell AI**](https://myshell.ai/) and [**PIN AI**](https://www.pinai.io/).
 
 Before that, I interned at [**MIT-IBM Watson**](https://mitibmwatsonailab.mit.edu/) working on synthetic data and model training. Some of my projects include [Synthetic Data RL](https://arxiv.org/abs/2505.17063), [API Pack](https://arxiv.org/abs/2402.09615), [AuthentiGPT](https://arxiv.org/abs/2311.07700), and [JetMoE](https://arxiv.org/abs/2404.07413).
 
-I hold a **Ph.D. in Computer Science** from **MIT** and a **Bachelor's degree in Physics** with a minor in English from **UC Berkeley**. Outside of work, I enjoy reading, writing, and hiking. 
+I hold a **Ph.D. in Computer Science** from **MIT** and a **Bachelor's degree in Physics** with a minor in English from **UC Berkeley**. Outside of work, I enjoy reading, writing, and hiking.
 
 ---
-## **News**
+
+## News
 
 - **July 2025**: Joined **Meta Superintelligence Labs** for **multimodal embodiment**.
 
@@ -35,7 +36,13 @@ I hold a **Ph.D. in Computer Science** from **MIT** and a **Bachelor's degree in
 
 ---
 
-## **Papers**
+## Essays
+
+- **Siri’s AI Makeover: The Real Reason Apple Delayed — and 3 Rules to Ship AI That Works** (July 2025). [Read](./articles/what-i-learned-during-the-siri-makeover.html)
+
+---
+
+## Papers
 
 Here are a few selected publications. [View all publications, patents, and projects](./pages/publications.md).
 
@@ -72,4 +79,4 @@ Here are a few selected publications. [View all publications, patents, and proje
 - **Non-invasive Estimation of the Powder Size Distribution from a Single Speckle Image**  
   Qihang Zhang, George Barbastathis, Ajinkya Pandit, Zhiguang Liu, <ins>Zhen Guo</ins>, et al.  
   *Light: Science & Applications (2024)*  
-  [[paper]](https://www.nature.com/articles/s41377-024-01436-y)
+[[paper]](https://www.nature.com/articles/s41377-024-01436-y)
