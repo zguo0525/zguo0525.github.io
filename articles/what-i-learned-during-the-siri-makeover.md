@@ -66,13 +66,13 @@ Why it matters for Siri: Apple optimizes for privacy, stability, and platform co
 
 ## A practical playbook for AI inside a mature product
 
-1) Define one user problem and one constraint (e.g., on‑device only). Write crisp success criteria and failure examples.
-2) Build a tiny, trustworthy slice. Keep input/output predictable. Add an obvious “undo.”
-3) Instrument trust: tone errors, latency, task completion, user corrections. Review weekly.
-4) Create evals that mirror the live distribution (tone, sarcasm, group chat). Update evals as behavior drifts.
-5) Iterate model and product together. Ship small, frequent improvements. Avoid “big bangs.”
-6) Expand scope only when trust metrics rise and regressions are rare. Prefer per‑app rollouts to global switches.
-7) Let privacy shape the product: on‑device by default; escalate to cloud with consent and visible controls.
+- 1) Define one user problem and one constraint (e.g., on‑device only). Write crisp success criteria and failure examples.
+- 2) Build a tiny, trustworthy slice. Keep input/output predictable. Add an obvious “undo.”
+- 3) Instrument trust: tone errors, latency, task completion, user corrections. Review weekly.
+- 4) Create evals that mirror the live distribution (tone, sarcasm, group chat). Update evals as behavior drifts.
+- 5) Iterate model and product together. Ship small, frequent improvements. Avoid “big bangs.”
+- 6) Expand scope only when trust metrics rise and regressions are rare. Prefer per‑app rollouts to global switches.
+- 7) Let privacy shape the product: on‑device by default; escalate to cloud with consent and visible controls.
 
 ---
 
