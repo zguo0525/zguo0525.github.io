@@ -79,6 +79,10 @@
       </header>
       <section>
 
+      {% if page.path and page.path contains 'articles/' %}
+        <p><a href="https://zguo0525.github.io/">&larr; Home</a></p>
+      {% endif %}
+
       {{ content }}
 
       </section>
