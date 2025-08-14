@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Siri’s AI Makeover: The Real Reason Apple Delayed — and 3 Rules to Ship AI That Works"
+title: "What I Learned During the Siri Makeover"
 description: "Demos dazzle; delivery is hard. The notification summaries canary shows why integration, org alignment, and privacy constraints decide who wins."
 date: 2025-07-01
 tags: [Apple Intelligence, Siri, AI, product, privacy, LLM, on-device, ChatGPT, OpenAI, growth]
@@ -73,18 +73,6 @@ Why it matters for Siri: Apple optimizes for privacy, stability, and platform co
 5) Iterate model and product together. Ship small, frequent improvements. Avoid “big bangs.”
 6) Expand scope only when trust metrics rise and regressions are rare. Prefer per‑app rollouts to global switches.
 7) Let privacy shape the product: on‑device by default; escalate to cloud with consent and visible controls.
-
-## 3 Rules to Ship AI That Works
-
-Three takeaways:
-
-**First, simple‑looking AI is hardest.** Start narrow. Add guardrails. Measure trust. Summarization and tone look simple but hide long‑tail context. Win small before you go broad.
-
-**Second, organizational design is product design.** Pick an owner. Unify roadmaps. Share metrics. AI needs tight loops; split incentives guarantee slow learning.
-
-**Third, privacy is an engineering constraint.** Design on‑device first; escalate to cloud with consent. If privacy limits context, reduce scope or raise iteration speed—don’t promise both.
-
-Building AI into a mature product? Choose a user problem, a constraint, and an owner—then ship small, trustworthy wins. Integration beats ambition.
 
 ---
 
