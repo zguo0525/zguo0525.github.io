@@ -64,7 +64,7 @@ ChatGPT’s trajectory offers a clear playbook:
 
 Why it matters for Siri: Apple optimizes for privacy, stability, and platform coherence; OpenAI optimizes for speed, breadth, and model iteration. Both are valid. But when features like notification summaries depend on long‑tail context and vibe, you either (a) collect signals and iterate quickly, or (b) narrow scope and tighten evals/on‑device constraints. The middle—broad scope with heavy constraints—tends to underdeliver.
 
-### A practical playbook for AI inside a mature product
+## A practical playbook for AI inside a mature product
 
 1) Define one user problem and one constraint (e.g., on‑device only). Write crisp success criteria and failure examples.
 2) Build a tiny, trustworthy slice. Keep input/output predictable. Add an obvious “undo.”
