@@ -40,6 +40,8 @@ I hold a **Ph.D. in Computer Science** from **MIT** and a **Bachelor's degree in
 
 - **Siri’s AI Makeover: The Real Reason Apple Delayed — and 3 Rules to Ship AI That Works** (July 2025). [Read](./articles/what-i-learned-during-the-siri-makeover.html)
 
+- **From Code Red to Parity: The Humility Playbook for Google and OpenAI** (August 2025). [Read](./articles/humility-is-the-only-way-to-stay-relevant-google-openai.html)
+
 ---
 
 ## Papers
