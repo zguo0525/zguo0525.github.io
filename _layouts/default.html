@@ -85,6 +85,19 @@
 
       {{ content }}
 
+      {% if page.path and page.path contains 'articles/' %}
+        <hr>
+        <h3>Comments</h3>
+        <script src="https://utteranc.es/client.js"
+                repo="zguo0525/zguo0525.github.io"
+                issue-term="pathname"
+                label="comments"
+                theme="preferred-color-scheme"
+                crossorigin="anonymous"
+                async>
+        </script>
+      {% endif %}
+
       </section>
       <footer>
         {% if page.path and page.path contains 'articles/' %}
