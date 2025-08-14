@@ -6,7 +6,7 @@ date: 2025-07-01
 tags: [Apple Intelligence, Siri, AI, product, privacy, LLM, on-device, ChatGPT, OpenAI, growth]
 ---
 
-At WWDC 2024, Apple showed a flashier Siri. The demo looked great, but the hard work came afterward. As [The Information](https://www.theinformation.com/articles/apple-fumbled-siris-ai-makeover) reported, the problems were real. The main lesson is simple: in AI, the teams that connect the product end to end and learn quickly beat teams with bigger raw models but slow integration.
+At WWDC 2024, Apple unveiled a flashier Siri, and the demo dazzled—yet the hard work started afterward: turning a staged moment into reliable, everyday behavior. As [The Information](https://www.theinformation.com/articles/apple-fumbled-siris-ai-makeover) reported, the problems were real. The simple lesson is that, in AI, teams that connect the product end to end and learn quickly outperform teams with bigger raw models but slower integration.
 
 What I mean by a few terms, stated clearly:
 
@@ -26,23 +26,21 @@ Pricing note: ChatGPT normalized a $20 per month Plus plan and introduced a $200
 
 ## The Anatomy of an AI Challenge
 
-Siri’s big demos got the buzz. Notification summaries taught the real lesson. A feature meant to condense alerts exposed the hard problems: tone, context, and constraints.
+Siri’s big demos got the buzz, but notification summaries delivered the deeper lesson. A feature meant to condense alerts exposed the hard problems that matter in practice: tone, context, and constraints.
 
-Think about a family group chat full of inside jokes. A useful summary needs recent history, who said what, and the social tone. If signals stay on device and are not retained, the model sees only a short window. Add tight token budgets (limited input length) and strict latency budgets (limited time to respond), and you get truncation, flat tone, and missed nuance—even with a strong base model. Without weekly evaluations and updates, these errors persist.
+Think about a family group chat full of inside jokes. A useful summary needs recent history, who said what, and the social tone. When signals stay on device and are not retained, the model sees only a short window. Layer on tight token budgets (limited input length) and strict latency budgets (limited time to respond), and truncation, flat tone, and missed nuance become common—even with a strong base model. Without weekly evaluations and updates, these errors persist.
 
-Reviews backed this up: summaries were inconsistent—off on tone, weak with sarcasm, prone to context loss, and sometimes simply wrong (see [Ars Technica](https://arstechnica.com/apple/2024/11/apple-intelligence-notification-summaries-are-honestly-pretty-bad/)). Apple paused some categories, then re‑introduced them with disclaimers and per‑app controls. The true constraint was context and iteration speed (how fast teams can test and fix issues), not a missing billion parameters.
+Independent reviews backed this up: summaries were inconsistent—off on tone, weak with sarcasm, prone to context loss, and sometimes simply wrong (see [Ars Technica](https://arstechnica.com/apple/2024/11/apple-intelligence-notification-summaries-are-honestly-pretty-bad/)). Apple paused some categories, then re‑introduced them with disclaimers and per‑app controls. The true constraint was context and iteration speed (how quickly teams can test and fix issues), not a missing billion parameters.
 
-Inside, strategy swung between “Mini Mouse” (small, on‑device) and “Mighty Mouse” (large, cloud). Leaders later favored one big model—more cloud and more privacy tradeoffs—and delivery slowed.
+Internally, strategy swung between “Mini Mouse” (small, on‑device) and “Mighty Mouse” (large, cloud). Leaders later favored one big model—more cloud and more privacy tradeoffs—and delivery slowed.
 
 ## The Human Element
 
-The bigger blocker was organizational. Software’s default was “ship”; AI’s default was “explore.” Incentives, working rhythms, and ownership clashed. Federighi’s “Intelligent Systems” team trained models and shipped demos, sometimes bypassing Siri—fueling turf tensions. On Vision Pro, “Link” reduced scope when Siri could not meet the needed quality and speed.
-
-AI quality depends on a closed loop: data → evaluations → model tweaks → shipped behavior → new data. Split ownership breaks this loop. The result is predictable: hot demos, cold delivery.
+The bigger blocker was organizational: software’s default was “ship,” while AI’s default was “explore.” Incentives, working rhythms, and ownership clashed. Federighi’s “Intelligent Systems” team trained models and shipped demos, sometimes bypassing Siri—fueling turf tensions. On Vision Pro, “Link” reduced scope when Siri could not meet the needed quality and speed. AI quality depends on a closed loop—data → evaluations → model tweaks → shipped behavior → new data—and split ownership breaks that loop. The result is predictable: hot demos, cold delivery.
 
 ## What This Means for AI
 
-The next wave will be won by integration, not by leaderboard scores. Starting from scratch (ChatGPT) is one path. Apple’s harder path is upgrading Siri for a billion people without breakage. Software teams prototyped fast; AI teams moved more cautiously. Apple first barred third‑party models, then partnered with OpenAI so Siri could hand off requests. Some features shown in 2024 demos were not yet reliable internally.
+The next wave will be won by integration rather than leaderboard scores. One path is to start from scratch (as ChatGPT did). Apple chose the harder path: upgrading Siri for a billion people without breakage. Software teams prototyped fast while AI teams moved more cautiously. Apple first barred third‑party models, then partnered with OpenAI so Siri could hand off requests.
 
 Two implications:
 
@@ -51,7 +49,7 @@ Two implications:
 
 ## What ChatGPT Got Right (and Why It Matters)
 
-ChatGPT’s playbook, in plain terms:
+Here is ChatGPT’s playbook, in plain terms:
 
 - **Model = product**: Improve the model the way we improve software. Watch how people actually use it (writing, coding, advice) and optimize those journeys. Treat evaluations as core product work with clear success criteria for tone, helpfulness, and safety.
 - **Ship to learn**: Launch quickly. Rough edges produce the data you need. No waitlist, and a free, simple user interface lowers the barrier and reveals real demand.
