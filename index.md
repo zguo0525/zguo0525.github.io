@@ -38,6 +38,8 @@ I hold a **Ph.D. in Computer Science** from **MIT** and a **Bachelor's degree in
 
 ## Essays
 
+- **Why AI Has to Create Jobs—or Fail Spectacularly** (September 2025). [Read](./articles/why-ai-has-to-create-jobs-or-fail-spectacularly.html)
+
 - **What I Learned During the Siri Makeover** (July 2025). [Read](./articles/what-i-learned-during-the-siri-makeover.html)
 
 - **From Code Red to Parity: The Humility Playbook for Google and OpenAI** (August 2025). [Read](./articles/humility-is-the-only-way-to-stay-relevant-google-openai.html)
