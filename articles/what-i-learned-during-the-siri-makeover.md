@@ -6,6 +6,8 @@ date: 2025-07-01
 tags: [Apple Intelligence, Siri, AI, product, privacy, LLM, on-device, ChatGPT, OpenAI, growth]
 ---
 
+# What I Learned During the Siri Makeover
+
 At WWDC 2024, Apple unveiled a flashier Siri, and the demo dazzled—yet the hard work started afterward: turning a staged moment into reliable, everyday behavior. As [The Information](https://www.theinformation.com/articles/apple-fumbled-siris-ai-makeover) reported, the problems were real. The simple lesson is that, in AI, teams that connect the product end to end and learn quickly outperform teams with bigger raw models but slower integration.
 
 What I mean by a few terms, stated clearly:
