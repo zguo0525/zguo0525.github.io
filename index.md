@@ -12,6 +12,8 @@ I hold a **Ph.D. in Computer Science** from **MIT** and a **Bachelor's degree in
 
 ## News
 
+- **September 2025**: **Vibes** launched in **Meta AI app** for **AI video creation**, featuring personalized discovery feed and remix capabilities. [Read more](https://x.com/alexandr_wang/status/1971295156411433228)
+
 - **July 2025**: Joined **Meta Superintelligence Labs** for **multimodal embodiment**.
 
 - **June 2025**: **Visual Intelligence** for **Apple Intelligence** announced at **WWDC 2025**, enabling on-screen search and smart event creation. [Read more](https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/)
