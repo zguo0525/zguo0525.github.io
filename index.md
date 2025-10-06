@@ -2,7 +2,7 @@
 
 Building **Personal ASI** at **Meta**.
 
-Previously, I worked on **Visual Intelligence** and **on-device VLM** at [**Apple Siri**](https://www.apple.com/siri/), and served as a **founding researcher** at [**MyShell AI**](https://myshell.ai/) working on **multi-modal agents** and [**PIN AI**](https://www.pinai.io/) focusing on **personalized recommendation agents**.
+Previously, I worked on **Visual Intelligence** and **on-device VLM** at [**Apple Siri**](https://www.apple.com/siri/), and served as a **founding researcher** at [**MyShell AI**](https://myshell.ai/) working on **multi-modal agents** and [**PIN AI**](https://www.pinai.io/) focusing on **personalized agent cards**.
 
 Before that, I interned at [**MIT-IBM Watson**](https://mitibmwatsonailab.mit.edu/) working on synthetic data and model training. Some of my projects include [Synthetic Data RL](https://arxiv.org/abs/2505.17063), [API Pack](https://arxiv.org/abs/2402.09615), [AuthentiGPT](https://arxiv.org/abs/2311.07700), and [JetMoE](https://arxiv.org/abs/2404.07413).
 
