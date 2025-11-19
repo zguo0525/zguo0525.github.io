@@ -1,6 +1,6 @@
 # About Me
 
-Building **Personal ASI** at **Meta**.
+Building **Building Great Beautiful Things** at **Meta**.
 
 Previously, I worked on **Visual Intelligence** and **on-device VLM** at [**Apple Siri**](https://www.apple.com/siri/), and served as a **founding researcher** at [**MyShell AI**](https://myshell.ai/) working on **multi-modal agents**, and [**PIN AI**](https://www.pinai.io/) on **personalized agent cards**.
 
