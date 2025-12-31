@@ -78,4 +78,4 @@ Why this matters for Siri: Apple optimizes for privacy, stability, and platform 
 
 *These are my own views, not Apple’s. I’m grateful for my time in the AIML Residency and the chance to work with exceptional engineers.*
 
-Liked this? Follow on X: [@Zhen4good](https://x.com/Zhen4good). Collaborations/advising: [zguo0525@mit.edu](mailto:zguo0525@mit.edu) • [LinkedIn](https://www.linkedin.com/in/gavin-guo-b764b6b4/)
+Liked this? Follow on X: [@Zhen4good](https://x.com/Zhen4good). Collaborations/advising: [zguo0525@berkeley.edu](mailto:zguo0525@berkeley.edu) • [LinkedIn](https://www.linkedin.com/in/gavin-guo-b764b6b4/)

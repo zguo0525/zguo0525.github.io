@@ -80,6 +80,6 @@ For founders building AI companies or anyone making career decisions in this fie
 
 ---
 
-*These are my own views, not those of Apple or Meta. I'm grateful for both experiences and the exceptional people I've worked with at each company. If you're building an AI startup or navigating a career transition in this field, I'm always open to conversations: [zguo0525@mit.edu](mailto:zguo0525@mit.edu).*
+*These are my own views, not those of Apple or Meta. I'm grateful for both experiences and the exceptional people I've worked with at each company. If you're building an AI startup or navigating a career transition in this field, I'm always open to conversations: [zguo0525@berkeley.edu](mailto:zguo0525@berkeley.edu).*
 
-Liked this? Follow on X: [@Zhen4good](https://x.com/Zhen4good). Collaborations/advising: [zguo0525@mit.edu](mailto:zguo0525@mit.edu) • [LinkedIn](https://www.linkedin.com/in/gavin-guo-b764b6b4/)
+Liked this? Follow on X: [@Zhen4good](https://x.com/Zhen4good). Collaborations/advising: [zguo0525@berkeley.edu](mailto:zguo0525@berkeley.edu) • [LinkedIn](https://www.linkedin.com/in/gavin-guo-b764b6b4/)
