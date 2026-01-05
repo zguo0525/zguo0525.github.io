@@ -38,6 +38,8 @@ I hold a **Ph.D. in Computer Science** from **MIT** and a **Bachelor's degree in
 
 ## Essays
 
+- **The Billionaire Mindset: Look Up, Not Around** (January 2026). [Read](./articles/the-billionaire-mindset-helping-people-loving-what-you-do-being-different.html)
+
 - **Jumping from Apple to Meta: When Everything Changed** (December 2025). [Read](./articles/jumping-from-apple-to-meta-msl-a-year-end-reflection.html)
 
 - **Why AI Has to Create Jobs—or Fail Spectacularly** (September 2025). [Read](./articles/why-ai-has-to-create-jobs-or-fail-spectacularly.html)
