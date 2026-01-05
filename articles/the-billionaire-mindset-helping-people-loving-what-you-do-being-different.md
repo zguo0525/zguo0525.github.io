@@ -32,10 +32,6 @@ Early on, progress feels slow. But if you've found the right problem, the right 
 
 This is how you break the glass ceiling. You see the bigger picture. You have a better world model. You aim for the best and top, not the middle. Put in the energy. Watch the exponential curve work for you.
 
-## What This Means
-
-Don't look around. Look up. Help people solve problems they actually have. Find something you love—something that feels like play, not work. Be different—aim for 10x, not 20%. Get there early. Put in the energy.
-
 ---
 
 *If you're building something or navigating your own path, I'm always open to conversations: [zguo0525@berkeley.edu](mailto:zguo0525@berkeley.edu).*
