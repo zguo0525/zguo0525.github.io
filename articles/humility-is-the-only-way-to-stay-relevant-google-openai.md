@@ -85,4 +85,6 @@ Humility is not self‑effacement. It’s operational clarity: you don’t know 
 
 ---
 
+*If you're building something or navigating your own path, I'm always open to conversations: [zguo0525@berkeley.edu](mailto:zguo0525@berkeley.edu).*
+
 Liked this? Follow on X: [@Zhen4good](https://x.com/Zhen4good). Collaborations/advising: [zguo0525@berkeley.edu](mailto:zguo0525@berkeley.edu) • [LinkedIn](https://www.linkedin.com/in/gavin-guo-b764b6b4/)

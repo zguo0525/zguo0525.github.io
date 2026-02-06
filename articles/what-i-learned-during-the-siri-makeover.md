@@ -8,7 +8,7 @@ tags: [Apple Intelligence, Siri, AI, product, privacy, LLM, on-device, ChatGPT, 
 
 # What I Learned During the Siri Makeover
 
-At WWDC 2024, Apple unveiled a flashier Siri, and the demo dazzled—yet the hard work started afterward: turning a staged moment into reliable, everyday behavior. As [The Information](https://www.theinformation.com/articles/apple-fumbled-siris-ai-makeover) reported, the problems were real. The simple lesson is that, in AI, teams that connect the product end to end and learn quickly outperform teams with bigger raw models but slower integration.
+At WWDC 2024, Apple unveiled a flashier Siri, and the demo dazzled—yet the hard work started afterward: turning a staged moment into reliable, everyday behavior. As [The Information](https://www.theinformation.com/articles/apple-fumbled-siris-ai-makeover) reported, the problems were real. In AI, teams that connect the product end to end and learn quickly outperform teams with bigger raw models but slower integration.
 
 What I mean by a few terms, stated clearly:
 
@@ -30,9 +30,9 @@ Pricing note: ChatGPT normalized a $20 per month Plus plan and introduced a $200
 
 Siri’s big demos got the buzz, but notification summaries delivered the deeper lesson. A feature meant to condense alerts exposed the hard problems that matter in practice: tone, context, and constraints.
 
-Think about a family group chat full of inside jokes. A useful summary needs recent history, who said what, and the social tone. When signals stay on device and are not retained, the model sees only a short window. Layer on tight token budgets (limited input length) and strict latency budgets (limited time to respond), and truncation, flat tone, and missed nuance become common—even with a strong base model. Without weekly evaluations and updates, these errors persist.
+Think about a family group chat full of inside jokes. A useful summary needs recent history, who said what, and the social tone. When signals stay on device and are not retained, the model sees only a short window. Layer on tight token budgets and strict latency budgets, and truncation, flat tone, and missed nuance become common—even with a strong base model. Without weekly evaluations and updates, these errors persist.
 
-Independent reviews backed this up: summaries were inconsistent—off on tone, weak with sarcasm, prone to context loss, and sometimes simply wrong (see [Ars Technica](https://arstechnica.com/apple/2024/11/apple-intelligence-notification-summaries-are-honestly-pretty-bad/)). Apple paused some categories, then re‑introduced them with disclaimers and per‑app controls. The true constraint was context and iteration speed (how quickly teams can test and fix issues), not a missing billion parameters.
+Independent reviews backed this up: summaries were inconsistent—off on tone, weak with sarcasm, prone to context loss, and sometimes simply wrong (see [Ars Technica](https://arstechnica.com/apple/2024/11/apple-intelligence-notification-summaries-are-honestly-pretty-bad/)). Apple paused some categories, then re‑introduced them with disclaimers and per‑app controls. The true constraint was context and iteration speed, not a missing billion parameters.
 
 Internally, strategy swung between “Mini Mouse” (small, on‑device) and “Mighty Mouse” (large, cloud). Leaders later favored one big model—more cloud and more privacy tradeoffs—and delivery slowed.
 
@@ -42,7 +42,7 @@ The bigger blocker was organizational: software’s default was “ship,” whil
 
 ## What This Means for AI
 
-The next wave will be won by integration rather than leaderboard scores. One path is to start from scratch (as ChatGPT did). Apple chose the harder path: upgrading Siri for a billion people without breakage. Software teams prototyped fast while AI teams moved more cautiously. Apple first barred third‑party models, then partnered with OpenAI so Siri could hand off requests.
+The next wave will be won by integration rather than leaderboard scores. One path is to start from scratch (as ChatGPT did). Apple chose the harder path: upgrading Siri for a billion people without breakage. Apple first barred third‑party models, then partnered with OpenAI so Siri could hand off requests.
 
 Two implications:
 
@@ -62,7 +62,7 @@ Here is ChatGPT’s playbook, in plain terms:
 - **Pricing as throttle**: $20 set consumer norms; higher tiers serve power users. Set price points based on value testing, not doctrine.
 - **Natural language ≠ chat**: Natural language interfaces will persist, but chat is only one user experience. Let AI render purpose‑built interfaces and take action when appropriate. The destination is “your AI” that knows your goals, with visible controls.
 
-Why this matters for Siri: Apple optimizes for privacy, stability, and platform fit. OpenAI optimizes for speed, breadth, and model iteration. Both are valid. But if a feature depends on long‑tail context and social tone, you must either (a) collect the needed signals and iterate quickly, or (b) narrow the scope and tighten evaluations and on‑device limits. The middle—broad scope with heavy limits—tends to underdeliver.
+Why this matters for Siri: Apple optimizes for privacy, stability, and platform fit. OpenAI optimizes for speed, breadth, and model iteration. Both are valid. But if a feature depends on long‑tail context and social tone, you must either collect the needed signals and iterate quickly, or narrow the scope and tighten evaluations. The middle—broad scope with heavy limits—tends to underdeliver.
 
 ## A practical playbook for AI inside a mature product
 
