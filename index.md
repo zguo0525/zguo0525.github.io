@@ -38,6 +38,8 @@ I hold a **Ph.D. in Computer Science** from **MIT** and a **Bachelor's degree in
 
 ## Essays
 
+- **The $100B Monologue** (February 2026). [Read](./articles/the-100b-monologue.html)
+
 - **The Billionaire Mindset: Look Up, Not Around** (January 2026). [Read](./articles/the-billionaire-mindset-helping-people-loving-what-you-do-being-different.html)
 
 - **Jumping from Apple to Meta: When Everything Changed** (December 2025). [Read](./articles/jumping-from-apple-to-meta-msl-a-year-end-reflection.html)
