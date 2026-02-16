@@ -1,7 +1,5 @@
 # The OpenClaw Playbook: One Man. One Laptop. Some Ramen
 
-*By Gavin Guo | February 2026*
-
 ---
 
 Every AI startup in 2025 follows the same nauseating playbook: raise $10M+ seed, hire 20 engineers, build slick demos in public, hope Sam Altman doesn't clone you, then get acquired or die. Peter Steinberger said *fuck that*. He built OpenClaw — originally just a prototype in one hour — at night and on weekends, while working as a software engineer. Takeout ramen for company. No pitch deck. No CTO. No equity comp for early believers. Just code, conviction, and a lobster that made people smile.
@@ -39,3 +37,7 @@ The true alpha isn't the most funding, the biggest team, the best model, or the 
 In February 2026, OpenAI hired him to lead their personal AI agents division. Headlines wrote themselves: "OpenClaw creator joins OpenAI." But the project, the community, the idea — still open source, still running on people's machines, still *theirs*. Peter left. The lobster stayed.
 
 That's the point.
+
+---
+
+*zguo0525@berkeley.edu · [@Zhen4good](https://x.com/Zhen4good)*
