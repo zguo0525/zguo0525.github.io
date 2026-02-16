@@ -38,6 +38,8 @@ I hold a **Ph.D. in Computer Science** from **MIT** and a **Bachelor's degree in
 
 ## Essays
 
+- **The OpenClaw Playbook** (February 2026). [Read](./articles/the-openclaw-playbook.html)
+
 - **The $100B Monologue** (February 2026). [Read](./articles/the-100b-monologue.html)
 
 - **The Billionaire Mindset: Look Up, Not Around** (January 2026). [Read](./articles/the-billionaire-mindset-helping-people-loving-what-you-do-being-different.html)
