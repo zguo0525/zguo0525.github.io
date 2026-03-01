@@ -38,6 +38,8 @@ I hold a **Ph.D. in Computer Science** from **MIT** and a **Bachelor's degree in
 
 ## Essays
 
+- **How to Make a Great Product** (March 2026). [Read](./articles/how-to-make-a-great-product.html)
+
 - **The OpenClaw Playbook** (February 2026). [Read](./articles/the-openclaw-playbook.html)
 
 - **The $100B Monologue** (February 2026). [Read](./articles/the-100b-monologue.html)
