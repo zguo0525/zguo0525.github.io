@@ -2,8 +2,6 @@
 
 *March 2026*
 
-I've shipped a lot of code. Most of it nobody remembers. Some of it even broke — quietly, in ways users didn't complain about because they probably just worked around it.
-
 This essay is not advice from someone who's made it. It's observations from someone who's been paying attention.
 
 ---
