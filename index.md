@@ -38,6 +38,10 @@ I hold a **Ph.D. in Computer Science** from **MIT** and a **Bachelor's degree in
 
 ## Essays
 
+- **Agent Topology Follows Task, Not Template** (April 2026). [Read](./articles/agent-topology-manifesto.html)
+
+- **How to Start Up (Without Losing Your Mind)** (March 2026). [Read](./articles/how-to-start-up.html)
+
 - **How to Make a Great Product** (March 2026). [Read](./articles/how-to-make-a-great-product.html)
 
 - **The OpenClaw Playbook** (February 2026). [Read](./articles/the-openclaw-playbook.html)
