@@ -6,6 +6,7 @@ permalink: /essays.html
 
 ## Essays
 
+- **May 2026** — [What Machines Can't Stake](./articles/what-machines-cant-stake.html)
 - **Apr 2026** — [Agent Topology Follows Task, Not Template](./articles/agent-topology-manifesto.html)
 - **Mar 2026** — [How to Start Up (Without Losing Your Mind)](./articles/how-to-start-up.html)
 - **Mar 2026** — [How to Make a Great Product](./articles/how-to-make-a-great-product.html)
