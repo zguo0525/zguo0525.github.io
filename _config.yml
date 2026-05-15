@@ -1,7 +1,6 @@
 theme: jekyll-theme-minimal
-color-scheme: auto
 title: Gavin Guo (国振)
-description: Apple Intelligence, Siri
+description: AI researcher at Meta Superintelligence Labs. Previously Apple Siri, MIT-IBM Watson, MIT.
 logo: profile.jpeg
 author:
   email:         zguo0525@berkeley.edu
@@ -9,3 +8,14 @@ author:
   github:        zguo0525
   linkedin:      gavin-guo-b764b6b4/
   twitter:       Zhen4good
+
+exclude:
+  - new_design
+  - README.md
+  - "*.tex"
+  - "*.aux"
+  - "*.log"
+  - "*.fls"
+  - "*.fdb_latexmk"
+  - "*.out"
+  - resume.cls

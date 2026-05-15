@@ -1,100 +1,50 @@
-# About Me
-
-**Building Great Beautiful Things** at **Meta**.
-
-Previously, I worked on **Visual Intelligence** at [**Apple Siri**](https://www.apple.com/siri/), and interned at [**MIT-IBM Watson**](https://mitibmwatsonailab.mit.edu/) working on synthetic data and model training. Some of my research papers include [Synthetic Data RL](https://arxiv.org/abs/2505.17063), [API Pack](https://arxiv.org/abs/2402.09615), [AuthentiGPT](https://arxiv.org/abs/2311.07700), and [JetMoE](https://arxiv.org/abs/2404.07413).
-
-I hold a **Ph.D. in Computer Science** from **MIT** and a **Bachelor's degree in Physics** with a minor in English from **UC Berkeley**. Outside of work, I enjoy reading, writing, and hiking.
-
+---
+layout: default
+title: About
 ---
 
-## News
+## About
 
-- **September 2025**: **Vibes** launched in **Meta AI app** for **AI video creation**, featuring personalized discovery feed and remix capabilities. [Read more](https://x.com/alexandr_wang/status/1971295156411433228)
+Building great, beautiful things at **Meta Superintelligence Labs**.
 
-- **July 2025**: Joined **Meta Superintelligence Labs** for **multimodal embodiment**.
+Previously, I worked on **Visual Intelligence** at [Apple Siri](https://www.apple.com/siri/), and interned at [MIT-IBM Watson](https://mitibmwatsonailab.mit.edu/) on synthetic data and model training. I hold a **Ph.D. in Computer Science** from **MIT** and a **B.A. in Physics** with a minor in English from **UC Berkeley**. Outside of work, I read, write, and hike.
 
-- **June 2025**: **Visual Intelligence** for **Apple Intelligence** announced at **WWDC 2025**, enabling on-screen search and smart event creation. [Read more](https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/)
+## Selected Research
 
-- **September 2024**: **PIN AI** secured **$10 million** in pre-seed funding, led by **a16z crypto**. [Read more](https://x.com/PINAI_IO/status/1833176031714541651)
+<div class="paper-grid">
 
-- **August 2024**: **Light: Science & Applications** on imaging for pharmaceutical manufacturing. [Read more](https://meche.mit.edu/news-media/accelerating-particle-size-distribution-estimation)
-  
-- **July 2024**: Joined **Apple AIML Residency** to work on **Siri**.
+<a class="paper-card" href="https://arxiv.org/abs/2505.17063">
+  <div class="paper-thumb"><img src="{{ '/assets/papers/synthetic-data-rl.png' | relative_url }}" alt="Synthetic Data RL"></div>
+  <div class="paper-meta">
+    <div class="paper-title">Synthetic Data RL</div>
+    <div class="paper-sub">Task definition is all you need · NeurIPS 2025 submission</div>
+  </div>
+</a>
 
-- **June 2024**: **Octo-planner** with **Nexa AI**, featured by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1806354919731179802)
+<a class="paper-card" href="https://arxiv.org/abs/2402.09615">
+  <div class="paper-thumb"><img src="{{ '/assets/papers/api-pack.png' | relative_url }}" alt="API Pack"></div>
+  <div class="paper-meta">
+    <div class="paper-title">API Pack</div>
+    <div class="paper-sub">Multi-language dataset for API call generation · ICLR 2025</div>
+  </div>
+</a>
 
-- **April 2024**: **JetMoE** foundation model highlighted by **MIT CSAIL**. [Read more](https://x.com/MIT_CSAIL/status/1775916496503656679)
+<a class="paper-card" href="https://arxiv.org/abs/2404.07413">
+  <div class="paper-thumb"><img src="{{ '/assets/papers/jetmoe.png' | relative_url }}" alt="JetMoE"></div>
+  <div class="paper-meta">
+    <div class="paper-title">JetMoE</div>
+    <div class="paper-sub">Llama2 performance for $0.1M · MyShell AI Technical Report</div>
+  </div>
+</a>
 
-- **March 2024**: **MyShell AI** raises **$11 million** in pre-A funding, led by **Dragonfly**. [Read more](https://www.theblock.co/post/285072/web3-ai-platform-myshell-funding)
+<a class="paper-card" href="https://arxiv.org/abs/2311.07700">
+  <div class="paper-thumb"><img src="{{ '/assets/papers/authentigpt.png' | relative_url }}" alt="AuthentiGPT"></div>
+  <div class="paper-meta">
+    <div class="paper-title">AuthentiGPT</div>
+    <div class="paper-sub">Detecting machine-generated text · NeurIPS 2023</div>
+  </div>
+</a>
 
-- **June 2023**: Research internship at **MIT-IBM Watson AI Lab** on code generation and tool use.
+</div>
 
-- **June 2023**: **Nature Communications** on emergent ferromagnetism. [Read more](https://www.nature.com/articles/s41467-023-39002-6)
-  
-- **May 2023**: **MIT-Takeda** AI for medicine manufacturing featured in **MIT News**. [Read more](https://news.mit.edu/2023/ai-based-estimator-manufacturing-medicine-0503)
-
----
-
-## Essays
-
-- **Agent Topology Follows Task, Not Template** (April 2026). [Read](./articles/agent-topology-manifesto.html)
-
-- **How to Start Up (Without Losing Your Mind)** (March 2026). [Read](./articles/how-to-start-up.html)
-
-- **How to Make a Great Product** (March 2026). [Read](./articles/how-to-make-a-great-product.html)
-
-- **The OpenClaw Playbook** (February 2026). [Read](./articles/the-openclaw-playbook.html)
-
-- **The $100B Monologue** (February 2026). [Read](./articles/the-100b-monologue.html)
-
-- **The Billionaire Mindset: Look Up, Not Around** (January 2026). [Read](./articles/the-billionaire-mindset-helping-people-loving-what-you-do-being-different.html)
-
-- **Jumping from Apple to Meta: When Everything Changed** (December 2025). [Read](./articles/jumping-from-apple-to-meta-msl-a-year-end-reflection.html)
-
-- **Why AI Has to Create Jobs—or Fail Spectacularly** (September 2025). [Read](./articles/why-ai-has-to-create-jobs-or-fail-spectacularly.html)
-
-- **From Code Red to Parity: The Humility Playbook for Google and OpenAI** (August 2025). [Read](./articles/humility-is-the-only-way-to-stay-relevant-google-openai.html)
-
-- **What I Learned During the Siri Makeover** (July 2025). [Read](./articles/what-i-learned-during-the-siri-makeover.html)
-
----
-
-## Papers
-
-Here are a few selected publications. [View all publications, patents, and projects](./pages/publications.md).
-
-- **Synthetic Data RL: Task Definition Is All You Need**  
-  Yiduo Guo, <ins>Zhen Guo</ins>, Chuanwei Huang, Zi-Ang Wang, Zekai Zhang, Haofei Yu, Huishuai Zhang, Yikang Shen  
-  *NeurIPS 2025 submission*  
-  [[paper]](https://arxiv.org/abs/2505.17063)
-
-- **API Pack: A Massive Multi-Programming Language Dataset for API Call Generation**  
-  <ins>Zhen Guo</ins>, Adriana Meza Soria, Wei Sun, Yikang Shen, Rameswar Panda  
-  *ICLR 2025*  
-  [[paper]](https://arxiv.org/abs/2402.09615)
-
-- **Scaling Law Hypothesis for Multimodal Model**  
-  Qingyun Sun, <ins>Zhen Guo</ins>  
-  *[PIN AI White Paper](https://www.pinai.io/)*  
-  [[paper]](https://arxiv.org/pdf/2409.06754)
-
-- **JetMoE: Reaching Llama2 Performance with 0.1M Dollars**  
-  Yikang Shen, <ins>Zhen Guo</ins>, Tianle Cai, Zengyi Qin  
-  *[MyShell AI Technical Report](https://myshell.ai/)*  
-  [[paper]](https://arxiv.org/abs/2404.07413) [[code]](https://github.com/myshell-ai/JetMoE) [[demo]](https://www.lepton.ai/playground/chat?model=jetmoe-8b-chat)
-
-- **AuthentiGPT: Detecting Machine-Generated Text via Black-Box Language Models Denoising**  
-  <ins>Zhen Guo</ins>, Shangdi Yu  
-  *NeurIPS 2023 on Generative AI for Education*  
-  [[paper]](https://arxiv.org/abs/2311.07700)
-
-- **Ferromagnetism Emerged from Non-ferromagnetic Atomic Crystals**  
-  Cheng Gong, Xiang Zhang, Peiyao Zhang, Tenzin Norden, Quanwei Li, <ins>Zhen Guo</ins>, Apoorva Chaturvedi, Arman Najafi, Shoufeng Lan, et al.  
-  *Nature Communications (2023)*  
-  [[paper]](https://www.nature.com/articles/s41467-023-39002-6)
-
-- **Non-invasive Estimation of the Powder Size Distribution from a Single Speckle Image**  
-  Qihang Zhang, George Barbastathis, Ajinkya Pandit, Zhiguang Liu, <ins>Zhen Guo</ins>, et al.  
-  *Light: Science & Applications (2024)*  
-[[paper]](https://www.nature.com/articles/s41377-024-01436-y)
+<p style="text-align:center; margin-top: 1.5em;"><a href="{{ '/papers.html' | relative_url }}">All publications →</a></p>
