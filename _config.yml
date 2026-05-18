@@ -25,3 +25,8 @@ exclude:
   - "*.fdb_latexmk"
   - "*.out"
   - resume.cls
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - .bundle
+  - node_modules

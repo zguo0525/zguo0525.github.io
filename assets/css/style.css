@@ -368,13 +368,6 @@ hr.soft {
   font-weight: 500;
 }
 
-/* ---------- Visitor globe (Clustrmaps) ---------- */
-.visitor-globe {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  opacity: 0.75;
-}
 
 /* ---------- Topnav for articles ---------- */
 .topnav {
