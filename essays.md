@@ -6,14 +6,33 @@ permalink: /essays.html
 
 ## Essays
 
-- **May 2026** — [What Machines Can't Stake](./articles/what-machines-cant-stake.html)
-- **Apr 2026** — [Agent Topology Follows Task, Not Template](./articles/agent-topology-manifesto.html)
-- **Mar 2026** — [How to Start Up (Without Losing Your Mind)](./articles/how-to-start-up.html)
-- **Mar 2026** — [How to Make a Great Product](./articles/how-to-make-a-great-product.html)
-- **Feb 2026** — [The OpenClaw Playbook](./articles/the-openclaw-playbook.html)
-- **Feb 2026** — [The $100B Monologue](./articles/the-100b-monologue.html)
-- **Jan 2026** — [The Billionaire Mindset: Look Up, Not Around](./articles/the-billionaire-mindset-helping-people-loving-what-you-do-being-different.html)
-- **Dec 2025** — [Jumping from Apple to Meta: When Everything Changed](./articles/jumping-from-apple-to-meta-msl-a-year-end-reflection.html)
-- **Sep 2025** — [Why AI Has to Create Jobs—or Fail Spectacularly](./articles/why-ai-has-to-create-jobs-or-fail-spectacularly.html)
-- **Aug 2025** — [From Code Red to Parity: The Humility Playbook for Google and OpenAI](./articles/humility-is-the-only-way-to-stay-relevant-google-openai.html)
-- **Jul 2025** — [What I Learned During the Siri Makeover](./articles/what-i-learned-during-the-siri-makeover.html)
+<div class="essay-filters">
+  <button class="filter-chip active" data-filter="all">All</button>
+  <button class="filter-chip" data-filter="AI">AI</button>
+  <button class="filter-chip" data-filter="Career">Career</button>
+  <button class="filter-chip" data-filter="Strategy">Strategy</button>
+</div>
+
+<ul class="essay-list">
+{% assign sorted_essays = site.data.essays | sort: "date_sort" | reverse %}
+{% for e in sorted_essays %}
+  <li data-tags="{{ e.tags | join: ',' }}"><strong>{{ e.date }}</strong> — <a href="./articles/{{ e.slug }}.html">{{ e.title }}</a></li>
+{% endfor %}
+</ul>
+
+<script>
+(function() {
+  const chips = document.querySelectorAll('.filter-chip');
+  const items = document.querySelectorAll('.essay-list li');
+  chips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      const filter = chip.dataset.filter;
+      chips.forEach(c => c.classList.toggle('active', c === chip));
+      items.forEach(li => {
+        const tags = (li.dataset.tags || '').split(',');
+        li.style.display = (filter === 'all' || tags.includes(filter)) ? '' : 'none';
+      });
+    });
+  });
+})();
+</script>

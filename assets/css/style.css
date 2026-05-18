@@ -289,6 +289,93 @@ hr.soft {
   margin: 0 0 24px;
 }
 
+/* ---------- Essay filter chips ---------- */
+.essay-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 24px;
+}
+
+.filter-chip {
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  font-weight: 500;
+  padding: 6px 14px;
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.filter-chip:hover {
+  color: var(--text);
+  border-color: var(--muted);
+}
+
+.filter-chip.active {
+  color: #fff;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+@media (prefers-color-scheme: dark) {
+  .filter-chip.active { color: #1a1a1a; }
+}
+
+.essay-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ---------- Related essays at bottom of article ---------- */
+.related {
+  margin-top: 64px;
+  padding-top: 32px;
+  border-top: 1px solid var(--rule);
+}
+
+.related h3 {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 0 0 12px;
+}
+
+.related ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.related ul li {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.related ul li:last-child { border-bottom: none; }
+
+.related ul li strong {
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
+/* ---------- Visitor globe (Clustrmaps) ---------- */
+.visitor-globe {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  opacity: 0.75;
+}
+
 /* ---------- Topnav for articles ---------- */
 .topnav {
   margin-bottom: 32px;

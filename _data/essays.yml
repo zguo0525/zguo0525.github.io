@@ -1,0 +1,69 @@
+# Single source of truth for the Essays list.
+# Used by essays.md (filterable list) and the "More essays" section at the bottom of each article.
+# Add new essays at the top. `tags` controls filter chips on the Essays page.
+
+- title: "What Machines Can't Stake"
+  date: "May 2026"
+  date_sort: "2026-05"
+  slug: what-machines-cant-stake
+  tags: [AI]
+
+- title: "Agent Topology Follows Task, Not Template"
+  date: "Apr 2026"
+  date_sort: "2026-04"
+  slug: agent-topology-manifesto
+  tags: [AI]
+
+- title: "How to Start Up (Without Losing Your Mind)"
+  date: "Mar 2026"
+  date_sort: "2026-03-b"
+  slug: how-to-start-up
+  tags: [Career]
+
+- title: "How to Make a Great Product"
+  date: "Mar 2026"
+  date_sort: "2026-03-a"
+  slug: how-to-make-a-great-product
+  tags: [Career]
+
+- title: "The OpenClaw Playbook"
+  date: "Feb 2026"
+  date_sort: "2026-02-b"
+  slug: the-openclaw-playbook
+  tags: [Strategy]
+
+- title: "The $100B Monologue"
+  date: "Feb 2026"
+  date_sort: "2026-02-a"
+  slug: the-100b-monologue
+  tags: [AI]
+
+- title: "The Billionaire Mindset: Look Up, Not Around"
+  date: "Jan 2026"
+  date_sort: "2026-01"
+  slug: the-billionaire-mindset-helping-people-loving-what-you-do-being-different
+  tags: [Career]
+
+- title: "Jumping from Apple to Meta: When Everything Changed"
+  date: "Dec 2025"
+  date_sort: "2025-12"
+  slug: jumping-from-apple-to-meta-msl-a-year-end-reflection
+  tags: [Career]
+
+- title: "Why AI Has to Create Jobs—or Fail Spectacularly"
+  date: "Sep 2025"
+  date_sort: "2025-09"
+  slug: why-ai-has-to-create-jobs-or-fail-spectacularly
+  tags: [AI, Strategy]
+
+- title: "From Code Red to Parity: The Humility Playbook for Google and OpenAI"
+  date: "Aug 2025"
+  date_sort: "2025-08"
+  slug: humility-is-the-only-way-to-stay-relevant-google-openai
+  tags: [Strategy]
+
+- title: "What I Learned During the Siri Makeover"
+  date: "Jul 2025"
+  date_sort: "2025-07"
+  slug: what-i-learned-during-the-siri-makeover
+  tags: [Career]

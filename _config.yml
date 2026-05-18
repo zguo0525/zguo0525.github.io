@@ -1,7 +1,13 @@
 theme: jekyll-theme-minimal
 title: Gavin Guo (国振)
 description: AI researcher at Meta Superintelligence Labs. Previously Apple Siri, MIT-IBM Watson, MIT.
+url: "https://zguo0525.github.io"
 logo: profile.jpeg
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
 author:
   email:         zguo0525@berkeley.edu
   googlescholar: https://scholar.google.com/citations?user=P_cJy4MAAAAJ&hl=en
