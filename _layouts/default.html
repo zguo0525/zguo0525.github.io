@@ -61,7 +61,7 @@
           <h3>More essays</h3>
           <ul>
             {% for e in others limit:3 %}
-            <li><strong>{{ e.date }}</strong> — <a href="{{ '/articles/' | append: e.slug | append: '.html' | relative_url }}">{{ e.title }}</a></li>
+            <li><strong>{{ e.date }}</strong><a href="{{ '/articles/' | append: e.slug | append: '.html' | relative_url }}">{{ e.title }}</a></li>
             {% endfor %}
           </ul>
         </section>

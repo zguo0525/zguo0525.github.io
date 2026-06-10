@@ -16,7 +16,7 @@ permalink: /essays.html
 <ul class="essay-list">
 {% assign sorted_essays = site.data.essays | sort: "date_sort" | reverse %}
 {% for e in sorted_essays %}
-  <li data-tags="{{ e.tags | join: ',' }}"><strong>{{ e.date }}</strong> — <a href="./articles/{{ e.slug }}.html">{{ e.title }}</a></li>
+  <li data-tags="{{ e.tags | join: ',' }}"><span class="item-date">{{ e.date }}</span><a href="./articles/{{ e.slug }}.html">{{ e.title }}</a></li>
 {% endfor %}
 </ul>
 
