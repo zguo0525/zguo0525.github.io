@@ -16,7 +16,6 @@ author:
   twitter:       Zhen4good
 
 exclude:
-  - new_design
   - README.md
   - "*.tex"
   - "*.aux"

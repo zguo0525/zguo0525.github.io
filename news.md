@@ -6,9 +6,12 @@ permalink: /news.html
 
 ## News
 
+- **Apr 2026** — **Muse Spark** announced, the first model in the Muse series from Meta Superintelligence Labs, with multimodal perception built in. [Read more](https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/)
 - **Sep 2025** — **Vibes** launched in the Meta AI app for AI video creation, featuring a personalized discovery feed and remix capabilities. [Read more](https://x.com/alexandr_wang/status/1971295156411433228)
 - **Jul 2025** — Joined **Meta Superintelligence Labs** to work on multimodal embodiment.
 - **Jun 2025** — **Visual Intelligence** for Apple Intelligence announced at WWDC 2025. [Read more](https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/)
+- **May 2025** — **Synthetic Data RL** released on arXiv: reinforcement fine-tuning from a task definition alone. [Read more](https://arxiv.org/abs/2505.17063)
+- **Apr 2025** — **API Pack** presented at **ICLR 2025** in Singapore. [Read more](https://arxiv.org/abs/2402.09615)
 - **Sep 2024** — **PIN AI** secured $10M in pre-seed funding, led by a16z crypto. [Read more](https://x.com/PINAI_IO/status/1833176031714541651)
 - **Aug 2024** — **Light: Science & Applications** publication on imaging for pharmaceutical manufacturing. [Read more](https://meche.mit.edu/news-media/accelerating-particle-size-distribution-estimation)
 - **Jul 2024** — Joined **Apple AIML Residency** to work on Siri.
