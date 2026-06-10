@@ -214,7 +214,6 @@ html, body {
 }
 
 .content h2 {
-  font-size: 1.25rem;
   margin: 2.4em 0 0.9em;
   padding-bottom: 0.4em;
   border-bottom: 1px solid var(--rule);

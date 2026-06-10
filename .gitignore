@@ -9,3 +9,10 @@ vendor/
 
 # macOS
 .DS_Store
+
+# LaTeX build artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+cv*.log

@@ -4,7 +4,7 @@
 
 - **Synthetic Data RL: Task Definition Is All You Need**  
   Yiduo Guo, <ins>Zhen Guo</ins>, Chuanwei Huang, Zi-Ang Wang, Zekai Zhang, Haofei Yu, Huishuai Zhang, Yikang Shen  
-  *NeurIPS 2025 submission*  
+  *arXiv preprint (2025)*  
   [[paper]](https://arxiv.org/abs/2505.17063)
 
 - **Scaling Law Hypothesis for Multimodal Model**  
