@@ -1,9 +1,10 @@
 :root {
-  --bg: #fafaf7;
-  --text: #222;
-  --muted: #6b6b6b;
-  --rule: #e6e3dc;
-  --accent: #b04a2f;
+  --bg: #faf9f6;
+  --card: #ffffff;
+  --text: #1f1e1b;
+  --muted: #75716a;
+  --rule: #e8e4db;
+  --accent: #a8442a;
   --accent-hover: #8a3a24;
   --serif: "Source Serif 4", Charter, "Iowan Old Style", Georgia, serif;
   --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -12,7 +13,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #1a1a1a;
+    --bg: #191917;
+    --card: #20201e;
     --text: #e8e6e0;
     --muted: #9a9a92;
     --rule: #2e2e2c;
@@ -40,7 +42,8 @@ html, body {
   color: var(--text);
   font-family: var(--serif);
   font-size: 19px;
-  line-height: 1.65;
+  line-height: 1.7;
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -48,24 +51,24 @@ html, body {
 .container {
   max-width: var(--maxw);
   margin: 0 auto;
-  padding: 64px 24px 96px;
+  padding: 72px 24px 96px;
 }
 
 /* ---------- Header ---------- */
 .site-header {
   display: flex;
   align-items: center;
-  gap: 24px;
-  margin-bottom: 56px;
+  gap: 30px;
+  margin-bottom: 44px;
 }
 
 .avatar {
-  width: 144px;
-  height: 144px;
+  width: 132px;
+  height: 132px;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
-  box-shadow: 0 0 0 1px var(--rule), 0 2px 10px rgba(0,0,0,0.08);
+  box-shadow: 0 0 0 1px var(--rule), 0 2px 14px rgba(0,0,0,0.07);
 }
 
 .site-id { flex: 1; min-width: 0; }
@@ -73,9 +76,10 @@ html, body {
 .site-title {
   font-family: var(--serif);
   font-weight: 600;
-  font-size: 1.9rem;
-  margin: 0 0 4px;
-  letter-spacing: -0.015em;
+  font-size: 2.25rem;
+  margin: 0 0 6px;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
 }
 
 .site-title a {
@@ -84,10 +88,11 @@ html, body {
 }
 
 .site-tagline {
-  font-family: var(--sans);
+  font-family: var(--serif);
+  font-style: italic;
   color: var(--muted);
-  font-size: 0.92rem;
-  margin: 0 0 12px;
+  font-size: 1.02rem;
+  margin: 0 0 14px;
 }
 
 .links {
@@ -96,9 +101,9 @@ html, body {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 14px 18px;
+  gap: 12px 18px;
   font-family: var(--sans);
-  font-size: 0.85rem;
+  font-size: 0.82rem;
 }
 
 .links a {
@@ -110,32 +115,48 @@ html, body {
 .links a:hover { color: var(--accent); }
 .links i { margin-right: 4px; }
 
-/* ---------- Tab navigation ---------- */
+/* ---------- Site navigation ---------- */
 .tabnav {
   display: flex;
-  gap: 8px;
-  margin: 0 0 48px;
+  gap: 30px;
+  margin: 0 0 56px;
+  padding-bottom: 14px;
   border-bottom: 1px solid var(--rule);
   font-family: var(--sans);
-  font-size: 1.1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
   flex-wrap: wrap;
 }
 
 .tabnav a {
-  padding: 12px 20px;
+  position: relative;
+  padding: 0;
   color: var(--muted);
   text-decoration: none;
-  border-bottom: 2px solid transparent;
-  margin-bottom: -1px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  font-weight: 500;
+  transition: color 0.15s ease;
+}
+
+.tabnav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -15px;
+  height: 2px;
+  background: transparent;
+  transition: background 0.15s ease;
 }
 
 .tabnav a:hover { color: var(--text); }
 
 .tabnav a.active {
-  color: var(--accent);
-  border-bottom-color: var(--accent);
+  color: var(--text);
+}
+
+.tabnav a.active::after {
+  background: var(--accent);
 }
 
 /* ---------- Paper cards (research grid) ---------- */
@@ -152,17 +173,18 @@ html, body {
   text-decoration: none !important;
   color: var(--text) !important;
   border: 1px solid var(--rule);
-  border-radius: 8px;
+  border-radius: 10px;
   overflow: hidden;
-  background: var(--bg);
-  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  background: var(--card);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
   border-bottom: 1px solid var(--rule) !important;
 }
 
 .paper-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
-  border-color: var(--accent);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.08);
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--rule));
 }
 
 .paper-thumb {
@@ -221,7 +243,7 @@ html, body {
 }
 
 /* ---------- Typography ---------- */
-.content h1, .content h2, .content h3 {
+.content h2, .content h3 {
   font-family: var(--sans);
   font-weight: 600;
   letter-spacing: -0.01em;
@@ -231,33 +253,39 @@ html, body {
 
 /* Intro paragraph on the About page */
 .lede {
-  font-size: 1.14em;
-  line-height: 1.6;
+  font-size: 1.22em;
+  line-height: 1.55;
+  letter-spacing: -0.005em;
 }
 
 /* Article date line (the italic line right under an essay's title) */
 .content h1 + p em {
   font-style: normal;
   font-family: var(--sans);
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   color: var(--muted);
-  letter-spacing: 0.04em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
 .content h1 {
-  font-size: 1.9rem;
-  margin: 0 0 0.6em;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 2.2rem;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  text-wrap: balance;
+  margin: 0 0 0.5em;
 }
 
 .content h2 {
-  margin: 2.4em 0 0.9em;
-  padding-bottom: 0.4em;
+  margin: 2.6em 0 1em;
+  padding-bottom: 0.5em;
   border-bottom: 1px solid var(--rule);
   color: var(--muted);
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  font-size: 0.76rem;
   font-weight: 600;
 }
 
@@ -272,12 +300,14 @@ html, body {
 
 .content a {
   color: var(--accent);
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.15s ease;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--accent) 30%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.15s ease;
 }
 
-.content a:hover { border-bottom-color: var(--accent); }
+.content a:hover { text-decoration-color: var(--accent); }
 
 .content strong { font-weight: 600; }
 
@@ -453,11 +483,12 @@ hr.soft {
 }
 
 .site-footer {
-  margin-top: 80px;
+  margin-top: 88px;
   padding-top: 28px;
   border-top: 1px solid var(--rule);
   font-family: var(--sans);
-  font-size: 0.82rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
   color: var(--muted);
   text-align: center;
   display: flex;
@@ -471,15 +502,17 @@ hr.soft {
 /* ---------- Responsive ---------- */
 @media (max-width: 600px) {
   body { font-size: 17px; }
-  .container { padding: 40px 20px 64px; }
+  .container { padding: 44px 20px 64px; }
   .site-header {
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
-    margin-bottom: 40px;
+    margin-bottom: 36px;
   }
   .avatar { width: 96px; height: 96px; }
-  .content h1 { font-size: 1.6rem; }
+  .site-title { font-size: 1.85rem; }
+  .tabnav { gap: 20px; }
+  .content h1 { font-size: 1.7rem; }
 }
 
 /* ---------- Article content (essay pages) ---------- */
@@ -512,6 +545,21 @@ article.content {
 }
 
 .related ul li > strong:first-child { top: 15px; }
+
+/* List titles read as ink, warming to the accent on hover — quieter than
+   a column of accent-colored links. */
+.content ul.essay-list li a,
+.content ul.datelist li a:not([href^="http"]),
+.related ul li a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.content ul.essay-list li a:hover,
+.content ul.datelist li a:not([href^="http"]):hover,
+.related ul li a:hover {
+  color: var(--accent);
+}
 
 @media (max-width: 600px) {
   .content ul.datelist li,

@@ -16,3 +16,6 @@ vendor/
 *.fls
 *.out
 cv*.log
+
+# Local design screenshots (not published)
+screenshots/
