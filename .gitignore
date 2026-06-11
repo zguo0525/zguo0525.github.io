@@ -19,3 +19,8 @@ cv*.log
 
 # Local design screenshots (not published)
 screenshots/
+
+# Private CV sources (local only, never publish)
+cv*.pdf
+cv*.tex
+resume.cls

@@ -26,6 +26,8 @@ exclude:
   - resume.cls
   - vendor
   - Gemfile
+  - screenshots
+  - "cv*.pdf"
   - Gemfile.lock
   - .bundle
   - node_modules
