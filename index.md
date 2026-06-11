@@ -4,7 +4,6 @@ title: About
 ---
 
 Model research at **Meta Superintelligence Labs**.
-{: .lede}
 
 Previously, I worked on **Visual Intelligence** at [Apple Siri](https://www.apple.com/siri/), and interned at [MIT-IBM Watson](https://mitibmwatsonailab.mit.edu/) on synthetic data and model training. I hold a **Ph.D. in Computer Science** from **MIT** and a **B.A. in Physics** with a minor in English from **UC Berkeley**. Outside of work, I read, write, and hike.
 
