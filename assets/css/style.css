@@ -258,8 +258,10 @@ html, body {
   letter-spacing: -0.005em;
 }
 
-/* Article date line (the italic line right under an essay's title) */
-.content h1 + p em {
+/* Article date line (the italic line right under an essay's title);
+   .views is appended there by the GoatCounter script once the count loads */
+.content h1 + p em,
+.content h1 + p .views {
   font-style: normal;
   font-family: var(--sans);
   font-size: 0.78rem;
@@ -347,14 +349,6 @@ hr.soft {
   letter-spacing: 0.02em;
 }
 
-/* ---------- Article view counter ---------- */
-.article-meta {
-  font-family: var(--sans);
-  font-size: 0.85rem;
-  color: var(--muted);
-  margin: 0 0 24px;
-}
-
 /* ---------- Essay filter chips ---------- */
 .essay-filters {
   display: flex;
@@ -365,9 +359,11 @@ hr.soft {
 
 .filter-chip {
   font-family: var(--sans);
-  font-size: 0.88rem;
+  font-size: 0.78rem;
   font-weight: 500;
-  padding: 6px 14px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 5px 13px;
   background: transparent;
   color: var(--muted);
   border: 1px solid var(--rule);
@@ -382,13 +378,8 @@ hr.soft {
 }
 
 .filter-chip.active {
-  color: #fff;
-  background: var(--accent);
+  color: var(--accent);
   border-color: var(--accent);
-}
-
-@media (prefers-color-scheme: dark) {
-  .filter-chip.active { color: #1a1a1a; }
 }
 
 .essay-list {
@@ -456,6 +447,24 @@ hr.soft {
   border-radius: 3px;
   font-size: 0.88em;
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.content pre {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 16px 18px;
+  overflow-x: auto;
+  margin: 1.5em 0;
+  font-size: 0.85em;
+  line-height: 1.55;
+}
+
+.content pre code {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+  font-size: 1em;
 }
 
 .content blockquote {

@@ -21,7 +21,6 @@
 
       {% if is_article %}
         <nav class="topnav"><a href="{{ '/essays.html' | relative_url }}">← Essays</a></nav>
-        <div class="article-meta"><span class="views">👁 <span class="gc-count">—</span> views</span></div>
       {% else %}
       <header class="site-header">
         {% if site.logo %}
@@ -83,7 +82,15 @@
         var path = location.pathname;
         fetch('https://zguo0525.goatcounter.com/counter/' + encodeURIComponent(path) + '.json')
           .then(function(r) { return r.ok ? r.json() : null; })
-          .then(function(d) { if (d && d.count) { document.querySelectorAll('.gc-count').forEach(function(e) { e.textContent = d.count; }); } })
+          .then(function(d) {
+            if (!d || !d.count) return;
+            var dateLine = document.querySelector('article.content h1 + p');
+            if (!dateLine) return;
+            var span = document.createElement('span');
+            span.className = 'views';
+            span.textContent = ' · ' + d.count + ' views';
+            dateLine.appendChild(span);
+          })
           .catch(function() {});
       })();
     </script>
