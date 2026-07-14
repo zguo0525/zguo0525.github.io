@@ -4,8 +4,6 @@ title: Essays
 permalink: /essays.html
 ---
 
-## Essays
-
 <div class="essay-filters">
   <button class="filter-chip active" data-filter="all">All</button>
   <button class="filter-chip" data-filter="AI">AI</button>
@@ -17,7 +15,7 @@ permalink: /essays.html
 {% assign sorted_essays = site.data.essays | sort: "date_sort" | reverse %}
 {% for e in sorted_essays %}
   {% capture essay_url %}/articles/{{ e.slug }}.html{% endcapture %}
-  {% assign apage = site.pages | where: "url", essay_url | first %}
+  {% assign apage = site.articles | where: "url", essay_url | first %}
   <li data-tags="{{ e.tags | join: ',' }}"><span class="item-date">{{ e.date }}</span><a href="./articles/{{ e.slug }}.html">{{ e.title }}</a>{% if apage.description %}<p class="essay-desc">{{ apage.description }}</p>{% endif %}</li>
 {% endfor %}
 </ul>
