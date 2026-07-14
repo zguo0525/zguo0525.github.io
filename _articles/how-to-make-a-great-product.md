@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "How to Make a Great Product"
+image: /assets/cards/how-to-make-a-great-product.png
 description: "Not advice from someone who's made it — observations from someone who's been paying attention to what separates great products from everything else."
 date: 2026-03-12
 tags: [Career, product]

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Everything Paul Graham Wrote: 231 Essays Summarized"
+image: /assets/cards/everything-paul-graham-wrote.png
 description: "All 231 Paul Graham essays, from Programming Bottom-Up (1993) to The Brand Age (2025), read and distilled: what he said, what he meant, and what actually matters."
 date: 2026-03-15
 tags: [Career, writing, startups]

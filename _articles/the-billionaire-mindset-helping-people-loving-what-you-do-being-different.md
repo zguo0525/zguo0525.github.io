@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "The Billionaire Mindset: Look Up, Not Around"
+image: /assets/cards/the-billionaire-mindset-helping-people-loving-what-you-do-being-different.png
 description: "Don't fall into the rat race. The only way to go up is to look up, not look around. Three principles: help people, love what you do, be different."
 date: 2026-01-01
 tags: [mindset, entrepreneurship, strategy]

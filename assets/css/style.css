@@ -25,6 +25,24 @@
 
 * { box-sizing: border-box; }
 
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: var(--card);
+  color: var(--accent);
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  padding: 10px 16px;
+  border-radius: 0 0 6px 0;
+  border: 1px solid var(--rule);
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
 ::selection {
   background: color-mix(in srgb, var(--accent) 22%, transparent);
 }

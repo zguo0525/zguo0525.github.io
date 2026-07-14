@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Jumping from Apple to Meta: When Everything Changed"
+image: /assets/cards/jumping-from-apple-to-meta-msl-a-year-end-reflection.png
 description: "What I learned from Apple's pivot away from AI and why I joined Meta's Superintelligence Labs. Insights on building AI products at scale, organizational culture, and making career transitions in fast-moving industries."
 date: 2025-12-31
 tags: [Apple, Meta, MSL, career, AI, product, research, transition, reflection, leadership, strategy]

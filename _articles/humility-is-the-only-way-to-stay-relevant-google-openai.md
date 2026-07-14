@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "From Code Red to Parity: The Humility Playbook for Google and OpenAI"
+image: /assets/cards/humility-is-the-only-way-to-stay-relevant-google-openai.png
 description: "From monopoly comfort to Code Red: how humility resets strategy, saves products, and keeps teams learning when the ground shifts."
 date: 2025-08-14
 tags: [AI, Google, OpenAI, strategy, culture, product]

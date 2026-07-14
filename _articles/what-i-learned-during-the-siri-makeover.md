@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "What I Learned During the Siri Makeover"
+image: /assets/cards/what-i-learned-during-the-siri-makeover.png
 description: "Demos wow; shipping is harder. Notification summaries show how integration, org design, and privacy limits decide who wins."
 date: 2025-07-01
 tags: [Apple Intelligence, Siri, AI, product, privacy, LLM, on-device, ChatGPT, OpenAI, growth]

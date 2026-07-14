@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <main class="container">
 
       {% assign is_article = false %}
@@ -44,14 +45,14 @@
 
       {% assign current = page.url | default: '/' %}
       <nav class="tabnav">
-        <a href="{{ '/' | relative_url }}"{% if current == '/' or current == '/index.html' %} class="active"{% endif %}>About</a>
-        <a href="{{ '/news.html' | relative_url }}"{% if current contains 'news' %} class="active"{% endif %}>News</a>
-        <a href="{{ '/essays.html' | relative_url }}"{% if current contains 'essays' %} class="active"{% endif %}>Essays</a>
-        <a href="{{ '/papers.html' | relative_url }}"{% if current contains 'papers' %} class="active"{% endif %}>Papers</a>
+        <a href="{{ '/' | relative_url }}"{% if current == '/' or current == '/index.html' %} class="active" aria-current="page"{% endif %}>About</a>
+        <a href="{{ '/news.html' | relative_url }}"{% if current contains 'news' %} class="active" aria-current="page"{% endif %}>News</a>
+        <a href="{{ '/essays.html' | relative_url }}"{% if current contains 'essays' %} class="active" aria-current="page"{% endif %}>Essays</a>
+        <a href="{{ '/papers.html' | relative_url }}"{% if current contains 'papers' %} class="active" aria-current="page"{% endif %}>Papers</a>
       </nav>
       {% endif %}
 
-      <article class="content">
+      <article class="content" id="main">
         {{ content }}
       </article>
 
@@ -77,6 +78,30 @@
       </footer>
     </main>
 
+    {% if page.url == '/' or page.url == '/index.html' %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Gavin Guo",
+      "alternateName": "Zhen Guo (国振)",
+      "url": "{{ site.url }}",
+      "image": "{{ site.url }}/profile.jpeg",
+      "jobTitle": "AI Researcher",
+      "worksFor": { "@type": "Organization", "name": "Meta Superintelligence Labs" },
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "Massachusetts Institute of Technology" },
+        { "@type": "CollegeOrUniversity", "name": "University of California, Berkeley" }
+      ],
+      "sameAs": [
+        "{{ site.author.googlescholar }}",
+        "https://github.com/{{ site.author.github }}",
+        "https://www.linkedin.com/in/{{ site.author.linkedin }}",
+        "https://twitter.com/{{ site.author.twitter }}"
+      ]
+    }
+    </script>
+    {% endif %}
     <script data-goatcounter="https://zguo0525.goatcounter.com/count"
             async src="//gc.zgo.at/count.js"></script>
     {% if is_article %}

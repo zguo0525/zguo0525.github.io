@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Agent Topology Follows Task, Not Template"
+image: /assets/cards/agent-topology-manifesto.png
 description: "Hierarchical multi-agent systems import human coordination constraints into a substrate that doesn't have them. The evidence, the mechanism, and the alternative."
 date: 2026-04-19
 tags: [AI, LLM, multi-agent, architecture, topology]

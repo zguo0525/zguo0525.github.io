@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "The OpenClaw Playbook: One Man. One Laptop. Some Ramen"
+image: /assets/cards/the-openclaw-playbook.png
 description: "Every AI startup followed the same funded playbook and lost to one man who shipped. What OpenClaw proves about real problems, data ownership, and meeting users where they already are."
 date: 2026-02-20
 tags: [Strategy, startups, open-source]

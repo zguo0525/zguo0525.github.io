@@ -17,6 +17,10 @@ collections:
 feed:
   collections:
     - articles
+twitter:
+  username: Zhen4good
+  card: summary_large_image
+
 author:
   email:         zguo0525@berkeley.edu
   googlescholar: https://scholar.google.com/citations?user=P_cJy4MAAAAJ&hl=en
@@ -47,5 +51,6 @@ exclude:
   - screenshots
   - "cv*.pdf"
   - Gemfile.lock
+  - scripts
   - .bundle
   - node_modules

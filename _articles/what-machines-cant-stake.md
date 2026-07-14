@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "What Machines Can't Stake"
+image: /assets/cards/what-machines-cant-stake.png
 description: "Machines compute. Humans commit. The difference is not intelligence — it is what you are willing to wager when the evidence runs out."
 date: 2026-05-15
 tags: [AI, philosophy, agency, commitment]

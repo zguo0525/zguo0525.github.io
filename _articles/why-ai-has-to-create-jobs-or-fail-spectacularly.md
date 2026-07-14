@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Why AI Has to Create Jobs—or Fail Spectacularly"
+image: /assets/cards/why-ai-has-to-create-jobs-or-fail-spectacularly.png
 description: "If AI doesn't create more jobs than it destroys and get money flowing broadly through the economy, the whole enterprise will fail spectacularly—not technically, but socially."
 date: 2025-09-12
 tags: [AI, Technology, Economics, Jobs, Society]
