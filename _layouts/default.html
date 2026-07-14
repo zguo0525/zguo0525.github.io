@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#faf9f6">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#191917">
     {% seo %}
     <link rel="icon" type="image/png" href="{{ '/favicon.png' | relative_url }}">
     <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
@@ -19,6 +21,7 @@
       {% if page.path and page.path contains 'articles/' %}{% assign is_article = true %}{% endif %}
 
       {% if is_article %}
+        <div class="readbar" aria-hidden="true"></div>
         <nav class="topnav"><a href="{{ '/essays.html' | relative_url }}">← Essays</a></nav>
       {% else %}
       <header class="site-header">
@@ -76,6 +79,34 @@
     <script data-goatcounter="https://zguo0525.goatcounter.com/count"
             async src="//gc.zgo.at/count.js"></script>
     {% if is_article %}
+    <script>
+      (function() {
+        var art = document.querySelector('article.content');
+        var dateLine = document.querySelector('article.content h1 + p');
+        if (art && dateLine) {
+          var words = (art.innerText || '').trim().split(/\s+/).length;
+          var mins = Math.max(1, Math.round(words / 220));
+          var span = document.createElement('span');
+          span.className = 'views';
+          span.textContent = ' · ' + mins + ' min read';
+          dateLine.appendChild(span);
+        }
+        var bar = document.querySelector('.readbar');
+        if (bar) {
+          var ticking = false;
+          window.addEventListener('scroll', function() {
+            if (ticking) return;
+            ticking = true;
+            requestAnimationFrame(function() {
+              var h = document.documentElement;
+              var max = h.scrollHeight - h.clientHeight;
+              bar.style.transform = 'scaleX(' + (max > 0 ? h.scrollTop / max : 0) + ')';
+              ticking = false;
+            });
+          }, { passive: true });
+        }
+      })();
+    </script>
     <script>
       (function() {
         var path = location.pathname;

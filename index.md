@@ -46,3 +46,12 @@ Previously, I worked on **Visual Intelligence** at [Apple Siri](https://www.appl
 </div>
 
 <p style="text-align:center; margin-top: 1.5em;"><a href="{{ '/papers.html' | relative_url }}">All publications →</a></p>
+
+## Recent Essays
+
+<ul class="datelist">
+{% assign recent_essays = site.data.essays | sort: "date_sort" | reverse %}
+{% for e in recent_essays limit:3 %}<li><strong>{{ e.date }}</strong><a href="{{ '/articles/' | append: e.slug | append: '.html' | relative_url }}">{{ e.title }}</a></li>
+{% endfor %}</ul>
+
+<p style="text-align:center; margin-top: 1.5em;"><a href="{{ '/essays.html' | relative_url }}">All essays →</a></p>

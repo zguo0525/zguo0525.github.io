@@ -123,9 +123,16 @@ html, body {
 
 /* ---------- Site navigation ---------- */
 .tabnav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: color-mix(in srgb, var(--bg) 82%, transparent);
+  -webkit-backdrop-filter: blur(12px) saturate(1.4);
+  backdrop-filter: blur(12px) saturate(1.4);
   display: flex;
   gap: 30px;
   margin: 0 0 56px;
+  padding-top: 14px;
   padding-bottom: 14px;
   border-bottom: 1px solid var(--rule);
   font-family: var(--sans);
@@ -588,5 +595,43 @@ article.content {
     position: static;
     display: block;
     margin-bottom: 2px;
+  }
+}
+
+/* ---------- Essay list descriptions ---------- */
+.essay-list .essay-desc {
+  margin: 3px 0 0;
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  color: var(--muted);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ---------- Reading progress bar (essay pages) ---------- */
+.readbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: 0 0;
+  z-index: 50;
+  pointer-events: none;
+}
+
+/* ---------- Cross-page fade (progressive enhancement) ---------- */
+@view-transition {
+  navigation: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  @view-transition {
+    navigation: none;
   }
 }
