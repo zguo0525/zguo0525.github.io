@@ -1,3 +1,11 @@
+---
+layout: default
+title: "How to Start Up (Without Losing Your Mind)"
+description: "What 231 Paul Graham essays teach about starting a company: what works, what doesn't, and why most people get it wrong."
+date: 2026-03-18
+tags: [Career, startups]
+---
+
 # How to Start Up (Without Losing Your Mind)
 
 *March 2026*

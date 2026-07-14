@@ -15,8 +15,17 @@ author:
   linkedin:      gavin-guo-b764b6b4/
   twitter:       Zhen4good
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /profile.jpeg
+
 exclude:
   - README.md
+  - group.png
+  - neo.jpeg
+  - assets/fonts
   - "*.tex"
   - "*.aux"
   - "*.log"

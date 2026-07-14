@@ -22,8 +22,14 @@
 
 - title: "How to Start Up (Without Losing Your Mind)"
   date: "Mar 2026"
-  date_sort: "2026-03-b"
+  date_sort: "2026-03-c"
   slug: how-to-start-up
+  tags: [Career]
+
+- title: "Everything Paul Graham Wrote: 231 Essays Summarized"
+  date: "Mar 2026"
+  date_sort: "2026-03-b"
+  slug: everything-paul-graham-wrote
   tags: [Career]
 
 - title: "How to Make a Great Product"

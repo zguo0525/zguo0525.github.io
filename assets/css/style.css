@@ -113,7 +113,13 @@ html, body {
 }
 
 .links a:hover { color: var(--accent); }
-.links i { margin-right: 4px; }
+.links .icon {
+  width: 0.9em;
+  height: 0.9em;
+  margin-right: 4px;
+  vertical-align: -0.1em;
+  fill: currentColor;
+}
 
 /* ---------- Site navigation ---------- */
 .tabnav {

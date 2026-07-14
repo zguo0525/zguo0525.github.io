@@ -10,7 +10,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
   <body>
@@ -30,11 +29,11 @@
           <h1 class="site-title"><a href="{{ '/' | absolute_url }}">{{ site.title }}</a></h1>
           <p class="site-tagline">{{ site.description }}</p>
           <ul class="links">
-            <li><a href="mailto:{{ site.author.email }}"><i class="fas fa-envelope"></i> Email</a></li>
-            <li><a href="{{ site.author.googlescholar }}"><i class="fas fa-graduation-cap"></i> Scholar</a></li>
-            <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github"></i> GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-            <li><a href="https://twitter.com/{{ site.author.twitter }}"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="mailto:{{ site.author.email }}">{% include icon-envelope.svg %} Email</a></li>
+            <li><a href="{{ site.author.googlescholar }}">{% include icon-graduation-cap.svg %} Scholar</a></li>
+            <li><a href="https://github.com/{{ site.author.github }}">{% include icon-github.svg %} GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">{% include icon-linkedin.svg %} LinkedIn</a></li>
+            <li><a href="https://twitter.com/{{ site.author.twitter }}">{% include icon-twitter.svg %} Twitter</a></li>
           </ul>
         </div>
       </header>

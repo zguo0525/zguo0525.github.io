@@ -1,3 +1,11 @@
+---
+layout: default
+title: "How to Make a Great Product"
+description: "Not advice from someone who's made it — observations from someone who's been paying attention to what separates great products from everything else."
+date: 2026-03-12
+tags: [Career, product]
+---
+
 # How to Make a Great Product
 
 *March 2026*

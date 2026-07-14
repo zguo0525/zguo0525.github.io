@@ -1,3 +1,11 @@
+---
+layout: default
+title: "The $100B Monologue"
+description: "The internal monologue of reasoning models is now the majority of all tokens generated on Earth — text no one reads, in a medium the model doesn't natively think in. This is the vacuum-tube era of AI reasoning."
+date: 2026-02-08
+tags: [AI, reasoning, efficiency]
+---
+
 # The $100B Monologue
 
 *February 2026*
