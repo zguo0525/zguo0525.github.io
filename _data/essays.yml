@@ -1,6 +1,10 @@
 # Single source of truth for the Essays list.
 # Used by essays.md (filterable list) and the "More essays" section at the bottom of each article.
 # Add new essays at the top. `tags` controls filter chips on the Essays page.
+# New essay checklist:
+# 1. Add the entry below and a matching _articles/<slug>.md file.
+# 2. Add the date line followed by {: .essay-meta}.
+# 3. Run python3 scripts/gen_og_cards.py and commit the generated card.
 
 - title: "Intelligence per Watt: Nobody Got Rich Owning the Grid"
   date: "Jul 2026"
