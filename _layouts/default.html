@@ -17,15 +17,25 @@
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <main class="container">
 
-      {% assign is_article = false %}
-      {% if page.path and page.path contains 'articles/' %}{% assign is_article = true %}{% endif %}
+    {% assign is_article = false %}
+    {% if page.path and page.path contains 'articles/' %}{% assign is_article = true %}{% endif %}
+    {% assign is_home = false %}
+    {% if page.url == '/' or page.url == '/index.html' %}{% assign is_home = true %}{% endif %}
+
+    {% capture navlinks %}
+        <a href="{{ '/' | relative_url }}"{% if is_home %} class="active" aria-current="page"{% endif %}>About</a>
+        <a href="{{ '/news.html' | relative_url }}"{% if page.url contains 'news' %} class="active" aria-current="page"{% endif %}>News</a>
+        <a href="{{ '/essays.html' | relative_url }}"{% if page.url contains 'essays' %} class="active" aria-current="page"{% endif %}>Essays</a>
+        <a href="{{ '/papers.html' | relative_url }}"{% if page.url contains 'papers' %} class="active" aria-current="page"{% endif %}>Papers</a>
+    {% endcapture %}
+
+    <main class="container{% if is_article %} container--essay{% endif %}">
 
       {% if is_article %}
         <div class="readbar" aria-hidden="true"></div>
         <nav class="topnav"><a href="{{ '/essays.html' | relative_url }}">← Essays</a></nav>
-      {% else %}
+      {% elsif is_home %}
       <header class="site-header">
         {% if site.logo %}
         <img class="avatar" src="{{ site.logo | relative_url }}" alt="Gavin Guo" width="144" height="144" />
@@ -42,17 +52,19 @@
           </ul>
         </div>
       </header>
-
-      {% assign current = page.url | default: '/' %}
-      <nav class="tabnav">
-        <a href="{{ '/' | relative_url }}"{% if current == '/' or current == '/index.html' %} class="active" aria-current="page"{% endif %}>About</a>
-        <a href="{{ '/news.html' | relative_url }}"{% if current contains 'news' %} class="active" aria-current="page"{% endif %}>News</a>
-        <a href="{{ '/essays.html' | relative_url }}"{% if current contains 'essays' %} class="active" aria-current="page"{% endif %}>Essays</a>
-        <a href="{{ '/papers.html' | relative_url }}"{% if current contains 'papers' %} class="active" aria-current="page"{% endif %}>Papers</a>
-      </nav>
+      <nav class="tabnav">{{ navlinks }}</nav>
+      {% else %}
+      <header class="pagehead">
+        <a class="pagehead-name" href="{{ '/' | relative_url }}">Gavin Guo</a>
+        <nav class="tabnav tabnav--inline">{{ navlinks }}</nav>
+      </header>
+      <div class="page-intro">
+        <h1 class="page-title">{{ page.title }}</h1>
+        {% if page.subtitle %}<p class="page-dek">{{ page.subtitle }}</p>{% endif %}
+      </div>
       {% endif %}
 
-      <article class="content{% if is_article %} essay-content{% endif %}" id="main">
+      <article class="content{% if is_article %} essay-content{% endif %}{% if page.url contains 'papers' %} pubs{% endif %}" id="main">
         {{ content }}
       </article>
 
@@ -78,7 +90,7 @@
       </footer>
     </main>
 
-    {% if page.url == '/' or page.url == '/index.html' %}
+    {% if is_home %}
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",

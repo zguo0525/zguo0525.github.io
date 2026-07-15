@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Essays
+subtitle: Thinking in public about AI, product, and strategy.
 permalink: /essays.html
 ---
 
@@ -16,7 +17,7 @@ permalink: /essays.html
 {% for e in sorted_essays %}
   {% capture essay_url %}/articles/{{ e.slug }}.html{% endcapture %}
   {% assign apage = site.articles | where: "url", essay_url | first %}
-  <li data-tags="{{ e.tags | join: ',' }}"><span class="item-date">{{ e.date }}</span><a href="./articles/{{ e.slug }}.html">{{ e.title }}</a>{% if apage.description %}<p class="essay-desc">{{ apage.description }}</p>{% endif %}</li>
+  <li data-tags="{{ e.tags | join: ',' }}"><span class="item-date">{{ e.date }}</span><a href="./articles/{{ e.slug }}.html">{{ e.title }}</a>{% if e.tags %}<span class="item-tag">{{ e.tags | first }}</span>{% endif %}{% if apage.description %}<p class="essay-desc">{{ apage.description }}</p>{% endif %}</li>
 {% endfor %}
 </ul>
 

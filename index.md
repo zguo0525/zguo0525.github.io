@@ -9,37 +9,40 @@ Previously, I worked on **Visual Intelligence** at [Apple Siri](https://www.appl
 
 ## Selected Research
 
-<div class="paper-grid">
-
-<a class="paper-card" href="https://arxiv.org/abs/2505.17063">
-  <div class="paper-thumb"><img src="{{ '/assets/papers/synthetic-data-rl.png' | relative_url }}" alt="Synthetic Data RL" loading="lazy" decoding="async"></div>
+<div markdown="0">
+<a class="paper-feature" href="https://arxiv.org/abs/2505.17063">
+  <div class="paper-thumb"><img src="{{ '/assets/papers/cards/synthetic-data-rl.png' | relative_url }}" alt="Synthetic Data RL" loading="lazy" decoding="async"></div>
   <div class="paper-meta">
-    <div class="paper-title">Synthetic Data RL</div>
-    <div class="paper-sub">Task definition is all you need · arXiv 2025</div>
+    <div class="paper-kicker">Featured · arXiv 2025</div>
+    <div class="paper-title">Synthetic Data RL: Task Definition Is All You Need</div>
+    <p class="paper-desc">Reinforcement fine-tuning from a task definition alone — synthesize the data, adapt the difficulty, train with RL. No labeled dataset required.</p>
   </div>
 </a>
+</div>
+
+<div class="paper-grid">
 
 <a class="paper-card" href="https://arxiv.org/abs/2402.09615">
-  <div class="paper-thumb"><img src="{{ '/assets/papers/api-pack.png' | relative_url }}" alt="API Pack" loading="lazy" decoding="async"></div>
+  <div class="paper-thumb"><img src="{{ '/assets/papers/cards/api-pack.png' | relative_url }}" alt="API Pack" loading="lazy" decoding="async"></div>
   <div class="paper-meta">
     <div class="paper-title">API Pack</div>
-    <div class="paper-sub">Multi-language dataset for API call generation · ICLR 2025</div>
+    <div class="paper-sub">ICLR 2025</div>
   </div>
 </a>
 
 <a class="paper-card" href="https://arxiv.org/abs/2404.07413">
-  <div class="paper-thumb"><img src="{{ '/assets/papers/jetmoe.png' | relative_url }}" alt="JetMoE" loading="lazy" decoding="async"></div>
+  <div class="paper-thumb"><img src="{{ '/assets/papers/cards/jetmoe.png' | relative_url }}" alt="JetMoE" loading="lazy" decoding="async"></div>
   <div class="paper-meta">
     <div class="paper-title">JetMoE</div>
-    <div class="paper-sub">Llama2 performance for $0.1M · MyShell AI Technical Report</div>
+    <div class="paper-sub">MyShell AI, 2024</div>
   </div>
 </a>
 
 <a class="paper-card" href="https://arxiv.org/abs/2311.07700">
-  <div class="paper-thumb"><img src="{{ '/assets/papers/authentigpt.png' | relative_url }}" alt="AuthentiGPT" loading="lazy" decoding="async"></div>
+  <div class="paper-thumb"><img src="{{ '/assets/papers/cards/authentigpt.png' | relative_url }}" alt="AuthentiGPT" loading="lazy" decoding="async"></div>
   <div class="paper-meta">
     <div class="paper-title">AuthentiGPT</div>
-    <div class="paper-sub">Detecting machine-generated text · NeurIPS 2023</div>
+    <div class="paper-sub">NeurIPS 2023</div>
   </div>
 </a>
 
@@ -49,9 +52,13 @@ Previously, I worked on **Visual Intelligence** at [Apple Siri](https://www.appl
 
 ## Recent Essays
 
-<ul class="datelist">
+<ul class="essay-list">
 {% assign recent_essays = site.data.essays | sort: "date_sort" | reverse %}
-{% for e in recent_essays limit:3 %}<li><strong>{{ e.date }}</strong><a href="{{ '/articles/' | append: e.slug | append: '.html' | relative_url }}">{{ e.title }}</a></li>
-{% endfor %}</ul>
+{% for e in recent_essays limit:3 %}
+  {% capture essay_url %}/articles/{{ e.slug }}.html{% endcapture %}
+  {% assign apage = site.articles | where: "url", essay_url | first %}
+  <li><span class="item-date">{{ e.date }}</span><a href="{{ essay_url | relative_url }}">{{ e.title }}</a>{% if e.tags %}<span class="item-tag">{{ e.tags | first }}</span>{% endif %}{% if apage.description %}<p class="essay-desc">{{ apage.description }}</p>{% endif %}</li>
+{% endfor %}
+</ul>
 
 <p class="more-link"><a href="{{ '/essays.html' | relative_url }}">All essays →</a></p>

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: News
+subtitle: Milestones, releases, and appearances.
 permalink: /news.html
 ---
 

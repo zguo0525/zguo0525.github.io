@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Papers
+subtitle: Publications, patents, and selected projects.
 permalink: /papers.html
 ---
 
