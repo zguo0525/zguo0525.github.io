@@ -9,6 +9,9 @@ tags: [Apple, Meta, MSL, career, AI, product, research, transition, reflection, 
 
 # Jumping from Apple to Meta: When Everything Changed
 
+*December 2025*
+{: .essay-meta}
+
 In June 2025, Apple published ["The Illusion of Thinking"](https://machinelearning.apple.com/research/illusion-of-thinking), questioning if AI models actually reason. Days later, WWDC 2025 announced Liquid Glass—a visual redesign, not AI advancement. The stock dropped 1.2% ([CNBC](https://www.cnbc.com/2025/06/09/apple-wwdc-underwhelms-on-ai-software-biggest-facelift-in-decade-.html)).
 
 That's when I realized: the company I joined to build AI products was moving in a different direction. I'd spent a year shipping Visual Intelligence to millions of users, but the strategic shift was clear. The question wasn't whether to stay or go—it was whether I wanted to build the future or watch it get built elsewhere.

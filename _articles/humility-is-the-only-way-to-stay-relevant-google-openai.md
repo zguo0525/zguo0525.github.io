@@ -9,6 +9,9 @@ tags: [AI, Google, OpenAI, strategy, culture, product]
 
 # From Code Red to Parity: The Humility Playbook for Google and OpenAI
 
+*August 2025*
+{: .essay-meta}
+
 Google's decade of comfort optimized for excellence without urgency. Then ChatGPT rewired user behavior overnight. Code Red forced a choice: double down on theater or rebuild with humility—ship small, measure hard, correct fast.
 
 TL;DR: Comfort stalls learning; humility restores velocity. Google’s shift from Bard’s theater to Gemini 2.5’s measurable progress shows the winning loop: ship → measure → correct.

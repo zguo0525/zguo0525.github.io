@@ -302,10 +302,10 @@ body {
   letter-spacing: -0.005em;
 }
 
-/* Article date line (the italic line right under an essay's title);
+/* Article date line (tagged .essay-meta in each essay's markdown);
    .views is appended there by the GoatCounter script once the count loads */
-.content h1 + p em,
-.content h1 + p .views {
+.essay-meta em,
+.essay-meta .views {
   font-style: normal;
   font-family: var(--sans);
   font-size: 0.78rem;
@@ -331,7 +331,7 @@ body {
   line-height: 1.15;
 }
 
-.essay-content h1 + p {
+.essay-content .essay-meta {
   margin-bottom: 2.4em;
 }
 

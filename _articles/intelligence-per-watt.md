@@ -10,6 +10,7 @@ tags: [AI, Strategy]
 # Intelligence per Watt: Nobody Got Rich Owning the Grid
 
 *July 2026*
+{: .essay-meta}
 
 Watch what the frontier labs brag about now.
 

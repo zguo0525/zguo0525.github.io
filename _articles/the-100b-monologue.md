@@ -10,6 +10,7 @@ tags: [AI, reasoning, efficiency]
 # The $100B Monologue
 
 *February 2026*
+{: .essay-meta}
 
 The AI industry spends over a hundred billion dollars a year making computers talk to themselves.
 

@@ -10,6 +10,7 @@ tags: [Career, writing, startups]
 # Everything Paul Graham Wrote: 231 Essays Summarized
 
 *March 2026*
+{: .essay-meta}
 
 I read all 231 of Paul Graham's essays. Every single one, from "Programming Bottom-Up" (1993) to "The Brand Age" (2025). Here's what he said, what he meant, and what I think matters most.
 

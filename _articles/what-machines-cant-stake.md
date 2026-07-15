@@ -10,6 +10,7 @@ tags: [AI, philosophy, agency, commitment]
 # What Machines Can't Stake
 
 *May 2026*
+{: .essay-meta}
 
 A language model, asked to predict the next token, computes probabilities across its entire training distribution and samples one.
 

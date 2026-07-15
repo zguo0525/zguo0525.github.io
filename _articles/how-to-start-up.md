@@ -10,6 +10,7 @@ tags: [Career, startups]
 # How to Start Up (Without Losing Your Mind)
 
 *March 2026*
+{: .essay-meta}
 
 I've never started a company. But I've read every word Paul Graham has ever published — all 231 essays. Here's what I learned about what works, what doesn't, and why most people get it wrong.
 

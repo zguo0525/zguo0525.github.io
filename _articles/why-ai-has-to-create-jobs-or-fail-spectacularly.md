@@ -9,6 +9,9 @@ tags: [AI, Technology, Economics, Jobs, Society]
 
 # Why AI Has to Create Jobs—or Fail Spectacularly
 
+*September 2025*
+{: .essay-meta}
+
 Imagine graduating college in 2025 and finding that every entry-level job you're qualified for has been automated. The data entry positions? Gone. Basic customer service roles? Handled by chatbots. Junior coding tasks? AI writes better code than most humans. This isn't dystopian fiction—it's happening right now.
 
 AI is systematically eliminating entry-level jobs—the traditional gateway into careers—and if it doesn't create new pathways for people to enter the workforce and progress economically, then the whole enterprise is going to look like a massive failure. Not a technical failure—the models will keep getting smarter—but a failure in the way that matters most: how it shapes society and economic mobility.

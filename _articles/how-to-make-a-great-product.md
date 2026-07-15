@@ -10,6 +10,7 @@ tags: [Career, product]
 # How to Make a Great Product
 
 *March 2026*
+{: .essay-meta}
 
 This essay is not advice from someone who's made it. It's observations from someone who's been paying attention.
 

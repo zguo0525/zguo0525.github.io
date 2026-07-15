@@ -10,6 +10,7 @@ tags: [AI, LLM, multi-agent, architecture, topology]
 # Agent Topology Follows Task, Not Template
 
 *April 2026*
+{: .essay-meta}
 
 Everyone is building org-chart agents.
 

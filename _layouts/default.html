@@ -108,7 +108,7 @@
     <script>
       (function() {
         var art = document.querySelector('article.content');
-        var dateLine = document.querySelector('article.content h1 + p');
+        var dateLine = document.querySelector('.essay-meta');
         if (art && dateLine) {
           var words = (art.innerText || '').trim().split(/\s+/).length;
           var mins = Math.max(1, Math.round(words / 220));
@@ -140,7 +140,7 @@
           .then(function(r) { return r.ok ? r.json() : null; })
           .then(function(d) {
             if (!d || !d.count) return;
-            var dateLine = document.querySelector('article.content h1 + p');
+            var dateLine = document.querySelector('.essay-meta');
             if (!dateLine) return;
             var span = document.createElement('span');
             span.className = 'views';
