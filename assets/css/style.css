@@ -66,6 +66,23 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Soft ambient glow along the top of every page */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 420px;
+  pointer-events: none;
+  z-index: -1;
+  background:
+    radial-gradient(620px 300px at 18% -60px,
+      color-mix(in srgb, var(--accent) 6%, transparent), transparent 70%),
+    radial-gradient(820px 380px at 92% -100px,
+      color-mix(in srgb, #d9a441 6%, transparent), transparent 70%);
+}
+
 .container {
   max-width: var(--maxw);
   margin: 0 auto;
@@ -204,7 +221,7 @@ html, body {
   text-decoration: none !important;
   color: var(--text) !important;
   border: 1px solid var(--rule);
-  border-radius: 10px;
+  border-radius: 12px;
   overflow: hidden;
   background: var(--card);
   box-shadow: 0 1px 3px rgba(0,0,0,0.03);
@@ -304,11 +321,16 @@ html, body {
 .content h1 {
   font-family: var(--serif);
   font-weight: 600;
-  font-size: 2.2rem;
-  letter-spacing: -0.02em;
-  line-height: 1.2;
+  font-size: 2.5rem;
+  letter-spacing: -0.022em;
+  line-height: 1.15;
   text-wrap: balance;
   margin: 0 0 0.5em;
+}
+
+/* Date line under an essay title gets room to breathe */
+.content h1 + p {
+  margin-bottom: 2.4em;
 }
 
 .content h2 {
@@ -351,10 +373,22 @@ html, body {
 
 .content strong { font-weight: 600; }
 
+/* Essay section breaks render as a centered ornament, not a rule */
 .content hr {
   border: none;
-  border-top: 1px solid var(--rule);
-  margin: 3em 0;
+  margin: 2.8em 0;
+  text-align: center;
+}
+
+.content hr::before {
+  content: "· · ·";
+  display: block;
+  color: var(--muted);
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  letter-spacing: 0.7em;
+  text-indent: 0.7em;
+  line-height: 1;
 }
 
 hr.soft {
@@ -679,6 +713,41 @@ article.content {
 }
 
 .site-footer a:hover { color: var(--accent); }
+
+/* ---------- "All essays →" style centered links ---------- */
+.more-link {
+  text-align: center;
+  margin: 1.6em 0 0;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  letter-spacing: 0.03em;
+}
+
+.more-link a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.more-link a:hover { color: var(--accent); }
+
+/* ---------- Gentle entrance ---------- */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: none; }
+}
+
+.site-header,
+article.content {
+  animation: rise 0.45s ease both;
+}
+
+article.content { animation-delay: 0.06s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .site-header,
+  article.content { animation: none; }
+}
 
 /* ---------- Cross-page fade (progressive enhancement) ---------- */
 @view-transition {
