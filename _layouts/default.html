@@ -52,7 +52,7 @@
       </nav>
       {% endif %}
 
-      <article class="content" id="main">
+      <article class="content{% if is_article %} essay-content{% endif %}" id="main">
         {{ content }}
       </article>
 
