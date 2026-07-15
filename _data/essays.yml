@@ -2,7 +2,7 @@
 # Used by essays.md (filterable list) and the "More essays" section at the bottom of each article.
 # Add new essays at the top. `tags` controls filter chips on the Essays page.
 
-- title: "Intelligence per Watt"
+- title: "Intelligence per Watt: Nobody Got Rich Owning the Grid"
   date: "Jul 2026"
   date_sort: "2026-07"
   slug: intelligence-per-watt

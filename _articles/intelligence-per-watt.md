@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "Intelligence per Watt"
+title: "Intelligence per Watt: Nobody Got Rich Owning the Grid"
 image: /assets/cards/intelligence-per-watt.png
 description: "The race quietly stopped being about how smart models are and became about how cheaply smart they are. That changes where all the money goes."
 date: 2026-07-14
 tags: [AI, Strategy]
 ---
 
-# Intelligence per Watt
+# Intelligence per Watt: Nobody Got Rich Owning the Grid
 
 *July 2026*
 
