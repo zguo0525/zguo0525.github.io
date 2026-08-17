@@ -12,11 +12,11 @@
     <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v=20260817-2">
   </head>
   <body>
-    <a class="skip-link" href="#main">Skip to content</a>
+    <a class="skip-link" href="#content">Skip to content</a>
 
     {% assign is_article = false %}
     {% if page.path and page.path contains 'articles/' %}{% assign is_article = true %}{% endif %}
@@ -34,46 +34,50 @@
 
       {% if is_article %}
         <div class="readbar" aria-hidden="true"></div>
-        <nav class="topnav"><a href="{{ '/essays.html' | relative_url }}">← Essays</a></nav>
+        <nav class="topnav" aria-label="Back to essay index"><a href="{{ '/essays.html' | relative_url }}">← Essays</a></nav>
       {% elsif is_home %}
       <header class="site-header">
         {% if site.logo %}
-        <img class="avatar" src="{{ site.logo | relative_url }}" alt="Gavin Guo" width="144" height="144" />
+        <img class="avatar" src="{{ site.logo | relative_url }}" alt="Portrait of Gavin Guo" width="144" height="144" />
         {% endif %}
         <div class="site-id">
-          <h1 class="site-title"><a href="{{ '/' | absolute_url }}">{{ site.title }}</a></h1>
-          <p class="site-tagline">{{ site.description }}</p>
-          <ul class="links">
-            <li><a href="mailto:{{ site.author.email }}">{% include icon-envelope.svg %} Email</a></li>
-            <li><a href="{{ site.author.googlescholar }}">{% include icon-graduation-cap.svg %} Scholar</a></li>
-            <li><a href="https://github.com/{{ site.author.github }}">{% include icon-github.svg %} GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">{% include icon-linkedin.svg %} LinkedIn</a></li>
-            <li><a href="https://twitter.com/{{ site.author.twitter }}">{% include icon-twitter.svg %} Twitter</a></li>
-          </ul>
+          <div class="title-row">
+            <h1 class="site-title"><a href="{{ '/' | absolute_url }}">Gavin Guo</a></h1>
+            {% include seal.svg %}
+          </div>
+          <p class="site-tagline">Multimodal Research · Meta Superintelligence Labs</p>
         </div>
+        <ul class="links" aria-label="Contact and profiles">
+          <li><a href="mailto:{{ site.author.email }}">Email</a></li>
+          <li><a href="{{ site.author.googlescholar }}">Scholar</a></li>
+          <li><a href="https://github.com/{{ site.author.github }}">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a></li>
+          <li><a href="https://twitter.com/{{ site.author.twitter }}">X</a></li>
+        </ul>
       </header>
-      <nav class="tabnav">{{ navlinks }}</nav>
+      <nav class="tabnav" aria-label="Primary navigation">{{ navlinks }}</nav>
       {% else %}
       <header class="pagehead">
         <a class="pagehead-name" href="{{ '/' | relative_url }}">Gavin Guo</a>
-        <nav class="tabnav tabnav--inline">{{ navlinks }}</nav>
+        <nav class="tabnav tabnav--inline" aria-label="Primary navigation">{{ navlinks }}</nav>
       </header>
-      <div class="page-intro">
+      <div class="page-intro" id="content" tabindex="-1">
         <h1 class="page-title">{{ page.title }}</h1>
         {% if page.subtitle %}<p class="page-dek">{{ page.subtitle }}</p>{% endif %}
       </div>
       {% endif %}
 
-      <article class="content{% if is_article %} essay-content{% endif %}{% if page.url contains 'papers' %} pubs{% endif %}" id="main">
+      <article class="content{% if is_home %} home-content{% endif %}{% if is_article %} essay-content{% endif %}{% if page.url contains 'papers' %} pubs{% endif %}"{% if is_home or is_article %} id="content" tabindex="-1"{% endif %}>
         {{ content }}
       </article>
 
       {% if is_article %}
+        <div class="colophon" aria-hidden="true">{% include seal.svg %}</div>
         {% assign current_slug = page.path | split: '/' | last | replace: '.md', '' | replace: '.html', '' %}
         {% assign others = site.data.essays | where_exp: "e", "e.slug != current_slug" | sort: "date_sort" | reverse %}
         {% if others.size > 0 %}
         <section class="related">
-          <h3>More essays</h3>
+          <h2>More essays</h2>
           <ul>
             {% for e in others limit:3 %}
             <li><strong>{{ e.date }}</strong><a href="{{ '/articles/' | append: e.slug | append: '.html' | relative_url }}">{{ e.title }}</a></li>
@@ -81,12 +85,11 @@
           </ul>
         </section>
         {% endif %}
-        <nav class="topnav" style="margin-top:32px;"><a href="{{ '/essays.html' | relative_url }}">← Essays</a></nav>
+        <nav class="topnav" aria-label="Return to essay index" style="margin-top:32px;"><a href="{{ '/essays.html' | relative_url }}">← Essays</a></nav>
       {% endif %}
 
       <footer class="site-footer">
         <p>© {{ 'now' | date: "%Y" }} Gavin Guo · <a href="{{ '/feed/articles.xml' | relative_url }}">RSS</a></p>
-        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=0UDjgG7gErBe3gForwyKxVD0dW8YNx8H0WHKWL_sAKU"></script>
       </footer>
     </main>
 
@@ -132,7 +135,7 @@
         var bar = document.querySelector('.readbar');
         if (bar) {
           var ticking = false;
-          window.addEventListener('scroll', function() {
+          var updateBar = function() {
             if (ticking) return;
             ticking = true;
             requestAnimationFrame(function() {
@@ -141,7 +144,10 @@
               bar.style.transform = 'scaleX(' + (max > 0 ? h.scrollTop / max : 0) + ')';
               ticking = false;
             });
-          }, { passive: true });
+          };
+          window.addEventListener('scroll', updateBar, { passive: true });
+          window.addEventListener('resize', updateBar, { passive: true });
+          updateBar();
         }
       })();
     </script>

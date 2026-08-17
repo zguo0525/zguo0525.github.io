@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: Gavin Guo (国振)
-description: AI researcher at Meta Superintelligence Labs. Previously Apple Siri, MIT-IBM Watson, MIT.
+description: Multi-Avocado and Multi-Mango at Meta Superintelligence Labs. Previously Apple Siri, MIT-IBM Watson, and MIT.
 url: "https://zguo0525.github.io"
 logo: profile.jpeg
 
@@ -32,10 +32,13 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /profile.jpeg
+      image: /assets/cards/gavin-guo-og.png
 
 exclude:
   - README.md
+  - readme.md
+  - GOATCOUNTER-SETUP.md
+  - codex-visual-maxxing-plan.html
   - group.png
   - neo.jpeg
   - assets/fonts

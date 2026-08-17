@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-Model research at **Meta Superintelligence Labs**.
+**Multi-Avocado** and **Multi-Mango** at **Meta Superintelligence Labs**.
 
 Previously, I worked on **Visual Intelligence** at [Apple Siri](https://www.apple.com/siri/), and interned at [MIT-IBM Watson](https://mitibmwatsonailab.mit.edu/) on synthetic data and model training. I hold a **Ph.D. in Computer Science** from **MIT** and a **B.A. in Physics** with a minor in English from **UC Berkeley**. Outside of work, I read, write, and hike.
 
@@ -11,7 +11,7 @@ Previously, I worked on **Visual Intelligence** at [Apple Siri](https://www.appl
 
 <div markdown="0">
 <a class="paper-feature" href="https://arxiv.org/abs/2505.17063">
-  <div class="paper-thumb"><img src="{{ '/assets/papers/cards/synthetic-data-rl.png' | relative_url }}" alt="Synthetic Data RL" loading="lazy" decoding="async"></div>
+  <div class="paper-thumb"><img src="{{ '/assets/papers/cards/synthetic-data-rl.png' | relative_url }}" alt="" loading="lazy" decoding="async"></div>
   <div class="paper-meta">
     <div class="paper-kicker">Featured · arXiv 2025</div>
     <div class="paper-title">Synthetic Data RL: Task Definition Is All You Need</div>
@@ -23,7 +23,7 @@ Previously, I worked on **Visual Intelligence** at [Apple Siri](https://www.appl
 <div class="paper-grid">
 
 <a class="paper-card" href="https://arxiv.org/abs/2402.09615">
-  <div class="paper-thumb"><img src="{{ '/assets/papers/cards/api-pack.png' | relative_url }}" alt="API Pack" loading="lazy" decoding="async"></div>
+  <div class="paper-thumb"><img src="{{ '/assets/papers/cards/api-pack.png' | relative_url }}" alt="" loading="lazy" decoding="async"></div>
   <div class="paper-meta">
     <div class="paper-title">API Pack</div>
     <div class="paper-sub">ICLR 2025</div>
@@ -31,7 +31,7 @@ Previously, I worked on **Visual Intelligence** at [Apple Siri](https://www.appl
 </a>
 
 <a class="paper-card" href="https://arxiv.org/abs/2404.07413">
-  <div class="paper-thumb"><img src="{{ '/assets/papers/cards/jetmoe.png' | relative_url }}" alt="JetMoE" loading="lazy" decoding="async"></div>
+  <div class="paper-thumb"><img src="{{ '/assets/papers/cards/jetmoe.png' | relative_url }}" alt="" loading="lazy" decoding="async"></div>
   <div class="paper-meta">
     <div class="paper-title">JetMoE</div>
     <div class="paper-sub">MyShell AI, 2024</div>
@@ -39,7 +39,7 @@ Previously, I worked on **Visual Intelligence** at [Apple Siri](https://www.appl
 </a>
 
 <a class="paper-card" href="https://arxiv.org/abs/2311.07700">
-  <div class="paper-thumb"><img src="{{ '/assets/papers/cards/authentigpt.png' | relative_url }}" alt="AuthentiGPT" loading="lazy" decoding="async"></div>
+  <div class="paper-thumb"><img src="{{ '/assets/papers/cards/authentigpt.png' | relative_url }}" alt="" loading="lazy" decoding="async"></div>
   <div class="paper-meta">
     <div class="paper-title">AuthentiGPT</div>
     <div class="paper-sub">NeurIPS 2023</div>

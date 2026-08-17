@@ -5,11 +5,11 @@ subtitle: Thinking in public about AI, product, and strategy.
 permalink: /essays.html
 ---
 
-<div class="essay-filters">
-  <button class="filter-chip active" data-filter="all">All</button>
-  <button class="filter-chip" data-filter="AI">AI</button>
-  <button class="filter-chip" data-filter="Career">Career</button>
-  <button class="filter-chip" data-filter="Strategy">Strategy</button>
+<div class="essay-filters" role="group" aria-label="Filter essays by topic">
+  <button type="button" class="filter-chip active" data-filter="all" aria-pressed="true">All</button>
+  <button type="button" class="filter-chip" data-filter="AI" aria-pressed="false">AI</button>
+  <button type="button" class="filter-chip" data-filter="Career" aria-pressed="false">Career</button>
+  <button type="button" class="filter-chip" data-filter="Strategy" aria-pressed="false">Strategy</button>
 </div>
 
 <ul class="essay-list">
@@ -21,6 +21,8 @@ permalink: /essays.html
 {% endfor %}
 </ul>
 
+<p class="more-link"><a href="{{ '/predictions.html' | relative_url }}">Prediction log →</a></p>
+
 <script>
 (function() {
   const chips = document.querySelectorAll('.filter-chip');
@@ -28,7 +30,11 @@ permalink: /essays.html
   chips.forEach(chip => {
     chip.addEventListener('click', () => {
       const filter = chip.dataset.filter;
-      chips.forEach(c => c.classList.toggle('active', c === chip));
+      chips.forEach(c => {
+        const selected = c === chip;
+        c.classList.toggle('active', selected);
+        c.setAttribute('aria-pressed', String(selected));
+      });
       items.forEach(li => {
         const tags = (li.dataset.tags || '').split(',');
         li.style.display = (filter === 'all' || tags.includes(filter)) ? '' : 'none';

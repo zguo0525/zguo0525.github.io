@@ -20,7 +20,7 @@ What I mean by a few terms, stated clearly:
 - **Org design**: Clear owners with decision rights, shared metrics, and a weekly working rhythm across Siri, platform, and privacy teams.
 - **Model size**: The model’s raw capability (for example, number of parameters and benchmark scores). Size helps, but without integration and clear ownership, it does not turn into reliable features.
 
-### Key Takeaways
+## Key Takeaways
 
 - **What failed**: Summaries often misread tone and sarcasm, missed key details in group chats, and gave different results on separate runs.
 - **Why**: On‑device privacy limited long‑term context; small token budgets (limited input length) forced aggressive trimming; split ownership slowed evaluations and fixes from shipping weekly.
