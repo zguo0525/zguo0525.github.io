@@ -8,6 +8,7 @@ permalink: /news.html
 ## 2026
 
 {: .datelist}
+- **Oct** Attending **COLM 2026** in San Francisco, Oct 6–9. Say hello at the poster sessions or the Lifelong Agents workshop. [Program](https://colm.cc/)
 - **Jul** **Muse Spark 1.1** released, a multimodal reasoning model for agentic tasks, debuting alongside the Meta Model API public preview. [Read more](https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/)
 - **Jul** **Muse Image** launched, the first image generation model from Meta Superintelligence Labs — agentic generation paired with Muse Spark. [Read more](https://x.com/alexandr_wang/status/2074555909347369105)
 - **Apr** **Muse Spark** announced, the first model in the Muse series from Meta Superintelligence Labs, with multimodal perception built in. [Read more](https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/)

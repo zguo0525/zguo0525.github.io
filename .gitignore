@@ -24,3 +24,8 @@ screenshots/
 cv*.pdf
 cv*.tex
 resume.cls
+
+# Local resume experiments (never publish)
+resume_variants/
+build_public/
+build_check/
