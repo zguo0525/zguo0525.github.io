@@ -29,3 +29,6 @@ resume.cls
 resume_variants/
 build_public/
 build_check/
+
+# Resume sources and PDFs (private)
+resume/

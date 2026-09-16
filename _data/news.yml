@@ -1,0 +1,126 @@
+- id: 2026-10-at-colm-2026-in-san-francisco-oct-6-9-em
+  year: 2026
+  month: Oct
+  date_sort: 2026-10
+  text: At **COLM 2026** in San Francisco, Oct 6–9. Email me to meet at the poster sessions or the Lifelong Agents workshop.
+  link: https://colm.cc/
+  thumb: /assets/news/2026-10-at-colm-2026-in-san-francisco-oct-6-9-em.webp
+- id: 2026-07-muse-spark-1-1-released-a-multimodal-rea
+  year: 2026
+  month: Jul
+  date_sort: 2026-07
+  text: '**Muse Spark 1.1** released, a multimodal reasoning model for agentic tasks, debuting alongside the Meta Model API public preview.'
+  link: https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/
+  thumb: /assets/news/2026-07-muse-spark-1-1-released-a-multimodal-rea.webp
+- id: 2026-07-muse-image-launched-the-first-image-gene
+  year: 2026
+  month: Jul
+  date_sort: 2026-07
+  text: '**Muse Image** launched, the first image generation model from Meta Superintelligence Labs — agentic generation paired with Muse Spark.'
+  link: https://x.com/alexandr_wang/status/2074555909347369105
+  thumb: /assets/news/2026-07-muse-image-launched-the-first-image-gene.webp
+- id: 2026-04-muse-spark-announced-the-first-model-in-
+  year: 2026
+  month: Apr
+  date_sort: 2026-04
+  text: '**Muse Spark** announced, the first model in the Muse series from Meta Superintelligence Labs, with multimodal perception built in.'
+  link: https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/
+  thumb: /assets/news/2026-04-muse-spark-announced-the-first-model-in-.webp
+- id: 2025-09-vibes-launched-in-the-meta-ai-app-for-ai
+  year: 2025
+  month: Sep
+  date_sort: 2025-09
+  text: '**Vibes** launched in the Meta AI app for AI video creation, featuring a personalized discovery feed and remix capabilities.'
+  link: https://x.com/alexandr_wang/status/1971295156411433228
+  thumb: /assets/news/2025-09-vibes-launched-in-the-meta-ai-app-for-ai.webp
+- id: 2025-07-joined-meta-superintelligence-labs-to-wo
+  year: 2025
+  month: Jul
+  date_sort: 2025-07
+  text: Joined **Meta Superintelligence Labs** to work on multimodal embodiment.
+  link: null
+  thumb: /assets/news/2025-07-joined-meta-superintelligence-labs-to-wo.webp
+- id: 2025-06-visual-intelligence-for-apple-intelligen
+  year: 2025
+  month: Jun
+  date_sort: 2025-06
+  text: '**Visual Intelligence** for Apple Intelligence announced at WWDC 2025.'
+  link: https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/
+  thumb: /assets/news/2025-06-visual-intelligence-for-apple-intelligen.webp
+- id: 2025-05-synthetic-data-rl-released-on-arxiv-rein
+  year: 2025
+  month: May
+  date_sort: 2025-05
+  text: '**Synthetic Data RL** released on arXiv: reinforcement fine-tuning from a task definition alone.'
+  link: https://arxiv.org/abs/2505.17063
+  thumb: /assets/news/2025-05-synthetic-data-rl-released-on-arxiv-rein.webp
+- id: 2025-04-api-pack-presented-at-iclr-2025-in-singa
+  year: 2025
+  month: Apr
+  date_sort: 2025-04
+  text: '**API Pack** presented at **ICLR 2025** in Singapore.'
+  link: https://arxiv.org/abs/2402.09615
+  thumb: /assets/news/2025-04-api-pack-presented-at-iclr-2025-in-singa.webp
+- id: 2024-09-pin-ai-where-i-co-authored-the-multimoda
+  year: 2024
+  month: Sep
+  date_sort: 2024-09
+  text: '**PIN AI**, where I co-authored the multimodal scaling-law white paper, secured $10M in pre-seed funding led by a16z crypto.'
+  link: https://x.com/PINAI_IO/status/1833176031714541651
+  thumb: /assets/news/2024-09-pin-ai-where-i-co-authored-the-multimoda.webp
+- id: 2024-08-light-science-applications-publication-o
+  year: 2024
+  month: Aug
+  date_sort: 2024-08
+  text: '**Light: Science & Applications** publication on imaging for pharmaceutical manufacturing.'
+  link: https://meche.mit.edu/news-media/accelerating-particle-size-distribution-estimation
+  thumb: /assets/news/2024-08-light-science-applications-publication-o.webp
+- id: 2024-07-joined-apple-aiml-residency-to-work-on-s
+  year: 2024
+  month: Jul
+  date_sort: 2024-07
+  text: Joined **Apple AIML Residency** to work on Siri.
+  link: null
+  thumb: /assets/news/2024-07-joined-apple-aiml-residency-to-work-on-s.webp
+- id: 2024-06-octo-planner-with-nexa-ai-featured-by-mi
+  year: 2024
+  month: Jun
+  date_sort: 2024-06
+  text: '**Octo-planner** with Nexa AI, featured by MIT CSAIL.'
+  link: https://x.com/MIT_CSAIL/status/1806354919731179802
+  thumb: /assets/news/2024-06-octo-planner-with-nexa-ai-featured-by-mi.webp
+- id: 2024-04-jetmoe-foundation-model-highlighted-by-m
+  year: 2024
+  month: Apr
+  date_sort: 2024-04
+  text: '**JetMoE** foundation model highlighted by MIT CSAIL.'
+  link: https://x.com/MIT_CSAIL/status/1775916496503656679
+  thumb: /assets/news/2024-04-jetmoe-foundation-model-highlighted-by-m.webp
+- id: 2024-03-myshell-ai-where-jetmoe-was-built-raised
+  year: 2024
+  month: Mar
+  date_sort: 2024-03
+  text: '**MyShell AI**, where JetMoE was built, raised $11M in pre-A funding led by Dragonfly.'
+  link: https://www.theblock.co/post/285072/web3-ai-platform-myshell-funding
+  thumb: /assets/news/2024-03-myshell-ai-where-jetmoe-was-built-raised.webp
+- id: 2023-06-research-internship-at-mit-ibm-watson-ai
+  year: 2023
+  month: Jun
+  date_sort: 2023-06
+  text: Research internship at **MIT-IBM Watson AI Lab** on code generation and tool use.
+  link: null
+  thumb: /assets/news/2023-06-research-internship-at-mit-ibm-watson-ai.webp
+- id: 2023-06-nature-communications-publication-on-eme
+  year: 2023
+  month: Jun
+  date_sort: 2023-06
+  text: '**Nature Communications** publication on emergent ferromagnetism.'
+  link: https://www.nature.com/articles/s41467-023-39002-6
+  thumb: /assets/news/2023-06-nature-communications-publication-on-eme.webp
+- id: 2023-05-mit-takeda-ai-for-medicine-manufacturing
+  year: 2023
+  month: May
+  date_sort: 2023-05
+  text: '**MIT-Takeda** AI for medicine manufacturing featured in MIT News.'
+  link: https://news.mit.edu/2023/ai-based-estimator-manufacturing-medicine-0503
+  thumb: /assets/news/2023-05-mit-takeda-ai-for-medicine-manufacturing.webp

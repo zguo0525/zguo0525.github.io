@@ -5,85 +5,21 @@ subtitle: Publications, patents, and selected projects.
 permalink: /papers.html
 ---
 
-## Publications
-
-### AI and Language Models
-
-- **[Synthetic Data RL: Task Definition Is All You Need](https://arxiv.org/abs/2505.17063)**  
-  Yiduo Guo, <ins>Zhen Guo</ins>, Chuanwei Huang, Zi-Ang Wang, Zekai Zhang, Haofei Yu, Huishuai Zhang, Yikang Shen. *arXiv preprint (2025).*
-
-- **[Scaling Law Hypothesis for Multimodal Model](https://arxiv.org/pdf/2409.06754)**  
-  Qingyun Sun, <ins>Zhen Guo</ins>. *[PIN AI White Paper](https://www.pinai.io/).*
-
-- **[Octo-planner: On-device Language Model for Planner-Action Agents](https://arxiv.org/abs/2406.18082)**  
-  Wei Chen, Zhiyuan Li, <ins>Zhen Guo</ins>, Yikang Shen. *[Nexa AI Technical Report](https://nexaai.com/).*
-
-- **[More Compute Is What You Need](https://arxiv.org/abs/2404.19484)**  
-  <ins>Zhen Guo</ins>. *Speculation paper on arXiv.*
-
-- **[JetMoE: Reaching Llama2 Performance with 0.1M Dollars](https://arxiv.org/abs/2402.09615)**  
-  Yikang Shen, <ins>Zhen Guo</ins>, Tianle Cai, Zengyi Qin. *[MyShell AI Technical Report](https://myshell.ai/).*  
-  [code](https://github.com/myshell-ai/JetMoE){:.chip} · [demo](https://www.lepton.ai/playground/chat?model=jetmoe-8b-chat){:.chip}
-
-- **[API Pack: A Massive Multi-Programming Language Dataset for API Call Generation](https://arxiv.org/abs/2305.07804)**  
-  <ins>Zhen Guo</ins>, Adriana Meza Soria, Wei Sun, Yikang Shen, Rameswar Panda. *ICLR 2025.*
-
-- **[Diversity Measurement and Subset Selection for Instruction Tuning Datasets](https://arxiv.org/abs/2402.02318)**  
-  Peiqi Wang, Yikang Shen, <ins>Zhen Guo</ins>, Matthew J. Stallone, Yoon Kim, Polina Golland, Rameswar Panda. *ICLR 2025 Data Problem.*
-
-- **[AuthentiGPT: Detecting Machine-Generated Text via Black-Box Language Models Denoising](https://arxiv.org/abs/2311.07700)**  
-  <ins>Zhen Guo</ins>, Shangdi Yu. *NeurIPS 2023 on Generative AI for Education.*
-
-- **[Dr. LLaMA: Improving Small Language Models on PubMedQA via Generative Data Augmentation](https://www.nature.com/articles/s41377-024-01436-y)**  
-  <ins>Zhen Guo</ins>, Peiqi Wang, Yanwei Wang, Shangdi Yu. *KDD 2023 Foundations and Applications in Large-scale AI Models.*  
-  [code](https://github.com/zguo0525/Dr.llama){:.chip}
-
-### Optics, Imaging, and Applied Physics
-
-- **[Non-invasive Estimation of the Powder Size Distribution from a Single Speckle Image](https://preprints.opticaopen.org/articles/preprint/Noise-resilient_deep_tomographic_imaging/21931557)**  
-  Qihang Zhang, George Barbastathis, Ajinkya Pandit, Zhiguang Liu, <ins>Zhen Guo</ins>, et al. *Light: Science & Applications (2024).*
-
-- **[Ferromagnetism Emerged from Non-ferromagnetic Atomic Crystals](https://www.nature.com/articles/s41467-023-39002-6)**  
-  Cheng Gong, Xiang Zhang, Peiyao Zhang, Tenzin Norden, Quanwei Li, <ins>Zhen Guo</ins>, Apoorva Chaturvedi, Arman Najafi, Shoufeng Lan, et al. *Nature Communications (2023).*
-
-- **[PLayer: A Plug-and-Play Embedded Neural System to Boost Neural Organoid 3D Reconstruction](https://www.spiedigitallibrary.org/journals/advanced-photonics-nexus/volume-4/issue-3/036007/PLayer--a-plug-and-play-embedded-neural-system-to/10.1117/1.APN.4.3.036007.full)**  
-  Yuanzheng Ma, Davit Khutsishvili, Zihan Zang, Wei Yue, <ins>Zhen Guo</ins>, Tao Feng, Zitian Wang, Liwei Lin, Shaohua Ma, Xun Guan. *Advanced Photonics Nexus (2025).*
-
-- **[On the Use of Deep Learning for Three-Dimensional Computational Imaging](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12445/2655261/On-the-use-of-deep-learning-for-three-dimensional-computational/10.1117/12.2655261.short)**  
-  George Barbastathis, Subeen Pang, Iksung Kang, Zhiguang Liu, <ins>Zhen Guo</ins>, Fucai Zhang. *SPIE Photonics West (2023).*
-
-- **[Noise-resilient Deep Tomographic Imaging](./papers/lion.pdf)**  
-  <ins>Zhen Guo</ins>, Zhiguang Liu, George Barbastathis, Qihang Zhang, Michael E. Glinsky, Bradley K. Alpert, Zachary H. Levine. *Optica Open (2022).*  
-  [code](https://github.com/zguo0525/Noise-resilience-deep-reconstruction-for-X-ray-Tomography){:.chip}
-
-- **[Physics-assisted Generative Adversarial Network for X-ray Tomography](./papers/PGAN.pdf)**  
-  <ins>Zhen Guo</ins>, Jung Ki Song, George Barbastathis, Michael E. Glinsky, Courtenay T. Vaughan, Kurt W. Larson, Bradley K. Alpert, Zachary H. Levine. *Optics Express (2022); Electronic Imaging: ML for Scientific Imaging (2022).*  
-  [slides](./slides/PGAN.pdf){:.chip} · [code](https://github.com/zguo0525/Physics-assisted-Generative-Adversarial-Network-for-X-Ray-Tomography){:.chip}
-
-- **[LION: Learning to Invert 3D Objects by Neural Networks](./papers/RPI.pdf)**  
-  George Barbastathis, Jungki Song, Zilin Wu, Subeen Pang, <ins>Zhen Guo</ins>. *MIT MTL Annual Research Report (2021).*
-
-- **[Randomized Probe Imaging Through Deep k-learning](./papers/wafer.pdf)**  
-  <ins>Zhen Guo</ins>, Abraham Levitan, George Barbastathis, Riccardo Comin. *Optics Express (2022); Computational Optical Sensing and Imaging (2021).*  
-  [code](https://github.com/zguo0525/Randomized-probe-imaging-through-deep-k-learning){:.chip}
-
-- **Wafer-scale On-chip Synthesis and Field Emission Properties of Vertically Aligned Boron Nitride Based Nanofiber Arrays**  
-  Hu Long, Thang Pham, Aiming Yan, <ins>Zhen Guo</ins>, Hiroya Ishida, Wu Shi, Sally Turner, S. Matt Gilbert, Alex Zettl. *Applied Physics Letters (2019).*
-
-## Patents
-
-- **Pupil Engineering Method to Enhance the Signal of the Real-Time Determination of Particle Size Distribution in Powders**  
-  Qihang Zhang, Ajinkya Pandit, Allan S. Myerson, George Barbastathis, Janaka C. Gamekkanda Gamaethige, Richard D. Braatz, <ins>Zhen Guo</ins>. *US Patent Application 18/845,719 (2025).*
-
-- **System and Method for Real-Time Determination of Particle Size Distributions in Dry Powders**  
-  Qihang Zhang, Ajinkya Pandit, Allan S. Myerson, George Barbastathis, Janaka C. Gamekkanda Gamaethige, Richard D. Braatz, <ins>Zhen Guo</ins>. *US Patent Application 18/845,766 (2025).*
-
-## Projects and Workshops
-
-- **Gen-VQA: Generative Visual Question Answering with Abstract Scenes**  
-  Yifan Yang, <ins>Zhen Guo</ins>. *MIT 6.869 Advances in Computer Vision, Fall 2019.*  
-  [report](https://github.com/Yang-YiFan/vqa-gan){:.chip} · [code](https://github.com/Yang-YiFan/vqa-gan){:.chip}
-
-- **Hardware Efficient Quantum Computing via Circuit Decomposition**  
-  Tianyi Peng, Linsen Li, Kaidong Peng, Yufeng Ye, <ins>Zhen Guo</ins>. *iQuHACK MIT Quantum Hackathon (first place), Winter 2019.*  
-  [code](https://github.com/zguo0525/Hardware-Efficient-Quantum-Computing-via-Circuit-Decomposition){:.chip}
+{% for sec in site.data.papers %}
+## {{ sec.title }}
+{% for g in sec.groups %}{% if g.title %}
+### {{ g.title }}
+{% endif %}
+<ul class="publist" markdown="0">
+{% for p in g.items %}
+  <li class="pub-row" id="{{ p.id }}">
+    {% if p.url %}<a class="pub-thumb" href="{{ p.url }}" aria-hidden="true" tabindex="-1"><img src="{{ p.thumb | relative_url }}" alt="" loading="lazy" decoding="async" width="640" height="360"></a>{% else %}<span class="pub-thumb"><img src="{{ p.thumb | relative_url }}" alt="" loading="lazy" decoding="async" width="640" height="360"></span>{% endif %}
+    <div class="pub-body">
+      <strong>{% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</strong>
+      <div class="pub-meta">{{ p.meta | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+      {% if p.chips.size > 0 %}<div class="pub-chips">{% for c in p.chips %}<a class="chip" href="{{ c.url }}">{{ c.label }}</a>{% endfor %}</div>{% endif %}
+    </div>
+  </li>
+{% endfor %}
+</ul>
+{% endfor %}{% endfor %}

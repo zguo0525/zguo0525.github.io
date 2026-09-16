@@ -32,7 +32,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/cards/gavin-guo-og.png
+      image: /assets/cards/gavin-guo-og.jpg
 
 exclude:
   - README.md
@@ -42,6 +42,11 @@ exclude:
   - group.png
   - neo.jpeg
   - assets/fonts
+  - assets/css/style.scss
+  - assets/css/colors-auto-default-dark.scss
+  - assets/css/colors-auto.scss
+  - assets/css/colors-dark.scss
+  - assets/css/colors-light.scss
   - "*.tex"
   - "*.aux"
   - "*.log"

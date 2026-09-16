@@ -5,36 +5,19 @@ subtitle: Milestones, releases, and appearances.
 permalink: /news.html
 ---
 
-## 2026
+{% assign years = site.data.news | map: "year" | uniq %}
+{% for y in years %}
+## {{ y }}
 
-{: .datelist}
-- **Oct** Attending **COLM 2026** in San Francisco, Oct 6–9. Say hello at the poster sessions or the Lifelong Agents workshop. [Program](https://colm.cc/)
-- **Jul** **Muse Spark 1.1** released, a multimodal reasoning model for agentic tasks, debuting alongside the Meta Model API public preview. [Read more](https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/)
-- **Jul** **Muse Image** launched, the first image generation model from Meta Superintelligence Labs — agentic generation paired with Muse Spark. [Read more](https://x.com/alexandr_wang/status/2074555909347369105)
-- **Apr** **Muse Spark** announced, the first model in the Muse series from Meta Superintelligence Labs, with multimodal perception built in. [Read more](https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/)
-
-## 2025
-
-{: .datelist}
-- **Sep** **Vibes** launched in the Meta AI app for AI video creation, featuring a personalized discovery feed and remix capabilities. [Read more](https://x.com/alexandr_wang/status/1971295156411433228)
-- **Jul** Joined **Meta Superintelligence Labs** to work on multimodal embodiment.
-- **Jun** **Visual Intelligence** for Apple Intelligence announced at WWDC 2025. [Read more](https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/)
-- **May** **Synthetic Data RL** released on arXiv: reinforcement fine-tuning from a task definition alone. [Read more](https://arxiv.org/abs/2505.17063)
-- **Apr** **API Pack** presented at **ICLR 2025** in Singapore. [Read more](https://arxiv.org/abs/2402.09615)
-
-## 2024
-
-{: .datelist}
-- **Sep** **PIN AI** secured $10M in pre-seed funding, led by a16z crypto. [Read more](https://x.com/PINAI_IO/status/1833176031714541651)
-- **Aug** **Light: Science & Applications** publication on imaging for pharmaceutical manufacturing. [Read more](https://meche.mit.edu/news-media/accelerating-particle-size-distribution-estimation)
-- **Jul** Joined **Apple AIML Residency** to work on Siri.
-- **Jun** **Octo-planner** with Nexa AI, featured by MIT CSAIL. [Read more](https://x.com/MIT_CSAIL/status/1806354919731179802)
-- **Apr** **JetMoE** foundation model highlighted by MIT CSAIL. [Read more](https://x.com/MIT_CSAIL/status/1775916496503656679)
-- **Mar** **MyShell AI** raised $11M in pre-A funding, led by Dragonfly. [Read more](https://www.theblock.co/post/285072/web3-ai-platform-myshell-funding)
-
-## 2023
-
-{: .datelist}
-- **Jun** Research internship at **MIT-IBM Watson AI Lab** on code generation and tool use.
-- **Jun** **Nature Communications** publication on emergent ferromagnetism. [Read more](https://www.nature.com/articles/s41467-023-39002-6)
-- **May** **MIT-Takeda** AI for medicine manufacturing featured in MIT News. [Read more](https://news.mit.edu/2023/ai-based-estimator-manufacturing-medicine-0503)
+<ul class="newslist" markdown="0">
+{% for n in site.data.news %}{% if n.year == y %}
+  <li class="news-row">
+    {% if n.link %}<a class="news-thumb" href="{{ n.link }}" aria-hidden="true" tabindex="-1"><img src="{{ n.thumb | relative_url }}" alt="" loading="lazy" decoding="async" width="640" height="360"></a>{% else %}<span class="news-thumb"><img src="{{ n.thumb | relative_url }}" alt="" loading="lazy" decoding="async" width="640" height="360"></span>{% endif %}
+    <div class="news-body">
+      <span class="item-date">{{ n.month }} {{ n.year }}</span>
+      <p>{{ n.text | markdownify | remove: '<p>' | remove: '</p>' }}{% if n.link %} <a class="news-link" href="{{ n.link }}">Read more</a>{% endif %}</p>
+    </div>
+  </li>
+{% endif %}{% endfor %}
+</ul>
+{% endfor %}

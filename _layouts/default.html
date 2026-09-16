@@ -2,18 +2,19 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#faf9f6">
-    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#191917">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#191917">
+    <meta name="color-scheme" content="dark">
     {% seo %}
     <link rel="alternate" type="application/atom+xml" title="Essays — Gavin Guo" href="{{ '/feed/articles.xml' | relative_url }}">
     <link rel="icon" type="image/png" href="{{ '/favicon.png' | relative_url }}">
     <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v=20260915-8">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400;1,8..60,600&amp;family=Inter:wght@400;500;600&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400;1,8..60,600&amp;family=Inter:wght@400;500;600&amp;display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400;1,8..60,600&amp;family=Inter:wght@400;500;600&amp;display=swap"></noscript>
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   </head>
   <body>
     <a class="skip-link" href="#content">Skip to content</a>
@@ -24,35 +25,38 @@
     {% if page.url == '/' or page.url == '/index.html' %}{% assign is_home = true %}{% endif %}
 
     {% capture navlinks %}
-        <a href="{{ '/' | relative_url }}"{% if is_home %} class="active" aria-current="page"{% endif %}>About</a>
-        <a href="{{ '/news.html' | relative_url }}"{% if page.url contains 'news' %} class="active" aria-current="page"{% endif %}>News</a>
-        <a href="{{ '/essays.html' | relative_url }}"{% if page.url contains 'essays' %} class="active" aria-current="page"{% endif %}>Essays</a>
-        <a href="{{ '/papers.html' | relative_url }}"{% if page.url contains 'papers' %} class="active" aria-current="page"{% endif %}>Papers</a>
+        <a href="{{ '/' | relative_url }}"{% if is_home %} class="active" aria-current="page"{% endif %}>{% include icon-nav-about.svg %}About</a>
+        <a href="{{ '/news.html' | relative_url }}"{% if page.url contains 'news' %} class="active" aria-current="page"{% endif %}>{% include icon-nav-news.svg %}News</a>
+        <a href="{{ '/essays.html' | relative_url }}"{% if page.url contains 'essays' %} class="active" aria-current="page"{% endif %}>{% include icon-nav-essays.svg %}Essays</a>
+        <a href="{{ '/papers.html' | relative_url }}"{% if page.url contains 'papers' %} class="active" aria-current="page"{% endif %}>{% include icon-nav-papers.svg %}Papers</a>
     {% endcapture %}
 
     <main class="container{% if is_article %} container--essay{% endif %}">
 
       {% if is_article %}
         <div class="readbar" aria-hidden="true"></div>
+        <header class="pagehead">
+          <a class="pagehead-name" href="{{ '/' | relative_url }}">Gavin Guo</a>
+          <nav class="tabnav tabnav--inline" aria-label="Primary navigation">{{ navlinks }}</nav>
+        </header>
         <nav class="topnav" aria-label="Back to essay index"><a href="{{ '/essays.html' | relative_url }}">← Essays</a></nav>
       {% elsif is_home %}
       <header class="site-header">
         {% if site.logo %}
-        <img class="avatar" src="{{ site.logo | relative_url }}" alt="Portrait of Gavin Guo" width="144" height="144" />
+        <img class="avatar" src="{{ site.logo | relative_url }}" alt="Portrait of Gavin Guo" width="148" height="148" />
         {% endif %}
         <div class="site-id">
           <div class="title-row">
-            <h1 class="site-title"><a href="{{ '/' | absolute_url }}">Gavin Guo</a></h1>
-            {% include seal.svg %}
+            <h1 class="site-title"><a href="{{ '/' | absolute_url }}">Gavin Guo</a><span class="site-cjk">（国振）</span></h1>
           </div>
           <p class="site-tagline"><span class="tagline-thesis">Post-training, synthetic data, and RL for agents that perceive and act.</span> <span class="tagline-org">Meta Superintelligence Labs</span></p>
         </div>
         <ul class="links" aria-label="Contact and profiles">
-          <li><a href="mailto:{{ site.author.email }}">Email</a></li>
-          <li><a href="{{ site.author.googlescholar }}">Scholar</a></li>
-          <li><a href="https://github.com/{{ site.author.github }}">GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a></li>
-          <li><a href="https://twitter.com/{{ site.author.twitter }}">X</a></li>
+          <li><a href="mailto:{{ site.author.email }}">{% include icon-envelope.svg %}Email</a></li>
+          <li><a href="{{ site.author.googlescholar }}">{% include icon-graduation-cap.svg %}Scholar</a></li>
+          <li><a href="https://github.com/{{ site.author.github }}">{% include icon-github.svg %}GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">{% include icon-linkedin.svg %}LinkedIn</a></li>
+          <li><a href="https://twitter.com/{{ site.author.twitter }}">{% include icon-twitter.svg %}X</a></li>
         </ul>
       </header>
       <nav class="tabnav" aria-label="Primary navigation">{{ navlinks }}</nav>
@@ -67,12 +71,11 @@
       </div>
       {% endif %}
 
-      <article class="content{% if is_home %} home-content{% endif %}{% if is_article %} essay-content{% endif %}{% if page.url contains 'papers' %} pubs{% endif %}"{% if is_home or is_article %} id="content" tabindex="-1"{% endif %}>
+      {% if is_home %}<div class="content home-content" id="content" tabindex="-1">{{ content }}</div>{% else %}<article class="content{% if is_article %} essay-content{% endif %}{% if page.url contains 'papers' %} pubs{% endif %}"{% if is_article %} id="content" tabindex="-1"{% endif %}>
         {{ content }}
-      </article>
+      </article>{% endif %}
 
       {% if is_article %}
-        <div class="colophon" aria-hidden="true">{% include seal.svg %}</div>
         {% assign current_slug = page.path | split: '/' | last | replace: '.md', '' | replace: '.html', '' %}
         {% assign others = site.data.essays | where_exp: "e", "e.slug != current_slug" | sort: "date_sort" | reverse %}
         {% if others.size > 0 %}
@@ -89,7 +92,7 @@
       {% endif %}
 
       <footer class="site-footer">
-        <p>© {{ 'now' | date: "%Y" }} Gavin Guo · <a href="{{ '/feed/articles.xml' | relative_url }}">RSS</a></p>
+        <p>© {{ 'now' | date: "%Y" }} Gavin Guo · <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> · <a href="{{ site.author.googlescholar }}">Scholar</a> · <a href="https://github.com/{{ site.author.github }}">GitHub</a> · <a href="{{ '/feed/articles.xml' | relative_url }}">RSS</a> · Updated {{ site.time | date: "%b %Y" }}</p>
       </footer>
     </main>
 
@@ -118,7 +121,7 @@
     </script>
     {% endif %}
     <script data-goatcounter="https://zguo0525.goatcounter.com/count"
-            async src="//gc.zgo.at/count.js"></script>
+            async src="https://gc.zgo.at/count.js"></script>
     {% if is_article %}
     <script>
       (function() {

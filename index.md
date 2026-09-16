@@ -1,11 +1,12 @@
 ---
 layout: default
-title: About
+title: Post-training, synthetic data, and RL for agents
+nav_title: About
 ---
 
-I train models that perceive and act in real environments: turning a target capability into tasks, environments, rewards, and data, then post-training frontier multimodal models on them.
+I post-train multimodal models that act in real environments. Given a capability we want, I build the tasks, environments, rewards, and synthetic data that teach it, then train with RL. Right now I care most about RL environments and post-training for computer-use and real-time multimodal agents.
 
-Now at **Meta Superintelligence Labs** on real-time omni models for personal agents. Previously **Visual Intelligence** at [Apple](https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/) and [MIT-IBM Watson](https://mitibmwatsonailab.mit.edu/) on synthetic data. **Ph.D. in Computer Science, MIT**; **B.A. in Physics, UC Berkeley**. I read, write, and hike.
+Now at <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url }}" alt="" width="16" height="16">**Meta Superintelligence Labs** on real-time omni models for personal agents. Previously **Visual Intelligence** at <img class="logo-inline" src="{{ '/assets/logos/apple.com.png' | relative_url }}" alt="" width="16" height="16">[Apple](https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/) and <img class="logo-inline" src="{{ '/assets/logos/mitibmwatsonailab.mit.edu.png' | relative_url }}" alt="" width="16" height="16">[MIT-IBM Watson](https://mitibmwatsonailab.mit.edu/) on synthetic data. **Ph.D. in Computer Science** at <img class="logo-inline" src="{{ '/assets/logos/mit.edu.png' | relative_url }}" alt="" width="16" height="16">**MIT**; **B.A. in Physics** at <img class="logo-inline" src="{{ '/assets/logos/berkeley.edu.png' | relative_url }}" alt="" width="16" height="16">**UC Berkeley**. I read, write, and hike.
 
 ## Research
 
@@ -13,71 +14,65 @@ Now at **Meta Superintelligence Labs** on real-time omni models for personal age
 
 <article class="rs-row">
   <div class="rs-fig rs-fig--diagram" role="img" aria-label="Turn-based interaction alternates listening and responding; continuous interaction perceives and responds in overlapping streams">
-    <svg viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, sans-serif">
+    <svg viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, Menlo, monospace" aria-hidden="true" focusable="false">
       <defs>
-        <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-          <line x1="0" y1="0" x2="0" y2="7" stroke="var(--dg-ink)" stroke-opacity="0.4" stroke-width="1.4"/>
+        <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+          <line x1="0" y1="0" x2="0" y2="6" stroke="var(--dg-ink)" stroke-opacity="0.45" stroke-width="1.6"/>
         </pattern>
       </defs>
-      <text x="0" y="34" font-size="13" fill="var(--dg-muted)" letter-spacing="0.12em">TURN-BASED</text>
-      <text x="0" y="66" font-size="15" fill="var(--dg-ink)">perceive</text>
-      <text x="0" y="104" font-size="15" fill="var(--dg-ink)">act</text>
-      <rect x="96" y="50" width="118" height="22" rx="4" fill="url(#hatch)" stroke="var(--dg-ink)" stroke-opacity="0.5"/>
-      <rect x="220" y="88" width="88" height="22" rx="4" fill="var(--dg-accent)"/>
-      <rect x="314" y="50" width="140" height="22" rx="4" fill="url(#hatch)" stroke="var(--dg-ink)" stroke-opacity="0.5"/>
-      <rect x="460" y="88" width="98" height="22" rx="4" fill="var(--dg-accent)"/>
-
-      <line x1="0" y1="146" x2="558" y2="146" stroke="var(--dg-ink)" stroke-opacity="0.14"/>
-
-      <text x="0" y="180" font-size="13" fill="var(--dg-muted)" letter-spacing="0.12em">CONTINUOUS</text>
-      <text x="0" y="212" font-size="15" fill="var(--dg-ink)">perceive</text>
-      <text x="0" y="250" font-size="15" fill="var(--dg-ink)">act</text>
-      <rect x="96" y="196" width="462" height="22" rx="4" fill="url(#hatch)" stroke="var(--dg-ink)" stroke-opacity="0.5"/>
-      <rect x="128" y="234" width="76" height="22" rx="4" fill="var(--dg-accent)"/>
-      <rect x="226" y="234" width="36" height="22" rx="4" fill="var(--dg-accent)"/>
-      <rect x="290" y="234" width="126" height="22" rx="4" fill="var(--dg-accent)"/>
-      <rect x="446" y="234" width="60" height="22" rx="4" fill="var(--dg-accent)"/>
-      <line x1="262" y1="188" x2="262" y2="262" stroke="var(--dg-accent)" stroke-width="1.4" stroke-dasharray="3 3"/>
-      <text x="268" y="184" font-size="12" fill="var(--dg-muted)">interrupted, re-plans</text>
-
-      <line x1="96" y1="284" x2="558" y2="284" stroke="var(--dg-ink)" stroke-opacity="0.35"/>
-      <text x="558" y="299" font-size="11" fill="var(--dg-muted)" text-anchor="end" letter-spacing="0.1em">TIME →</text>
+      <text x="0" y="22" font-size="13" fill="var(--dg-muted)" letter-spacing="0.08em">TURN-BASED</text>
+      <text x="0" y="50" font-size="15" fill="var(--dg-ink)">perceive</text>
+      <text x="0" y="82" font-size="15" fill="var(--dg-ink)">act</text>
+      <rect x="82" y="36" width="80" height="20" rx="3" fill="url(#hatch)" stroke="var(--dg-ink)" stroke-opacity="0.55"/>
+      <rect x="166" y="68" width="60" height="20" rx="3" fill="var(--dg-accent)"/>
+      <rect x="230" y="36" width="80" height="20" rx="3" fill="url(#hatch)" stroke="var(--dg-ink)" stroke-opacity="0.55"/>
+      <rect x="314" y="68" width="46" height="20" rx="3" fill="var(--dg-accent)"/>
+      <line x1="0" y1="106" x2="360" y2="106" stroke="var(--dg-ink)" stroke-opacity="0.15"/>
+      <text x="0" y="130" font-size="13" fill="var(--dg-muted)" letter-spacing="0.08em">CONTINUOUS</text>
+      <text x="0" y="158" font-size="15" fill="var(--dg-ink)">perceive</text>
+      <text x="0" y="190" font-size="15" fill="var(--dg-ink)">act</text>
+      <rect x="82" y="144" width="278" height="20" rx="3" fill="url(#hatch)" stroke="var(--dg-ink)" stroke-opacity="0.55"/>
+      <rect x="100" y="176" width="52" height="20" rx="3" fill="var(--dg-accent)"/>
+      <rect x="164" y="176" width="24" height="20" rx="3" fill="var(--dg-accent)"/>
+      <rect x="200" y="176" width="84" height="20" rx="3" fill="var(--dg-accent)"/>
+      <rect x="302" y="176" width="40" height="20" rx="3" fill="var(--dg-accent)"/>
+      <line x1="188" y1="140" x2="188" y2="198" stroke="var(--dg-accent)" stroke-width="1.5" stroke-dasharray="3 3"/>
     </svg>
   </div>
   <div class="rs-text">
     <div class="rs-kicker">Omni models · 2025–26</div>
     <h3>Muse: Real-time perception and action</h3>
-    <p>Omni models and proactive question answering on egocentric streaming video: models that perceive and respond continuously instead of turn by turn, and can be interrupted mid-action.</p>
+    <p>An omni model that perceives and responds in real time instead of turn by turn, and can be interrupted mid-action. I lead efforts in synthetic data and RL, and work on the distillation that makes it fast and natural enough to talk to.</p>
   </div>
 </article>
 
 <article class="rs-row">
-  <a class="rs-fig" href="https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/" aria-label="Vibes announcement">
-    <img src="{{ '/assets/papers/cards/vibes.png' | relative_url }}" alt="Vibes: AI video creation and remix in the Meta AI app" loading="lazy" decoding="async">
+  <a class="rs-fig rs-fig--photo" href="https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/" aria-label="Vibes announcement">
+    <img src="{{ '/assets/papers/cards/vibes.webp' | relative_url }}" width="800" height="589" alt="Vibes: AI video creation and remix in the Meta AI app" loading="lazy" decoding="async">
   </a>
   <div class="rs-text">
     <div class="rs-kicker">Vibes · 2025</div>
-    <h3>Preference learning and offline RL for a generated-video feed</h3>
-    <p>Agentic long-form video generation with Midjourney and Flux, and the preference-learning and offline RL system behind Meta AI's personalized video feed.</p>
+    <h3>DPO and offline RL for a generated-video feed</h3>
+    <p>Built the agentic long-form video generation workflow and the DPO and offline RL system behind Vibes, Meta AI's personalized video feed, and led the human-evaluation data behind it.</p>
     <p class="rs-refs"><a class="chip" href="https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/">Announcement</a></p>
   </div>
 </article>
 
 <article class="rs-row">
-  <a class="rs-fig" href="https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/" aria-label="Apple Intelligence at WWDC 2025">
-    <img src="{{ '/assets/papers/cards/visual-intelligence.png' | relative_url }}" alt="Apple Intelligence features across iPhone, Mac, and iPad" loading="lazy" decoding="async">
+  <a class="rs-fig rs-fig--photo" href="https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/" aria-label="Apple Intelligence at WWDC 2025">
+    <img src="{{ '/assets/papers/cards/visual-intelligence.webp' | relative_url }}" width="800" height="554" alt="Apple Intelligence features across iPhone, Mac, and iPad" loading="lazy" decoding="async">
   </a>
   <div class="rs-text">
     <div class="rs-kicker">Apple · 2025</div>
     <h3>Visual Lookup and StreamingQA on device</h3>
-    <p>Datasets for on-device visual question answering with privacy-preserving VLMs, and post-training AFM+ on 100K synthetic examples for proactive question answering on egocentric streaming video.</p>
+    <p>Built the datasets for on-device visual question answering on iPhone with privacy-preserving VLMs, and post-trained Apple's foundation model for proactive question answering on egocentric video. Shipped in Apple Intelligence at WWDC 2025.</p>
     <p class="rs-refs"><a class="chip" href="https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/">WWDC 2025</a></p>
   </div>
 </article>
 
 <article class="rs-row">
   <a class="rs-fig" href="https://arxiv.org/abs/2505.17063" aria-label="Synthetic Data RL paper">
-    <img src="{{ '/assets/papers/cards/synthetic-data-rl.png' | relative_url }}" alt="Synthetic Data RL pipeline: data synthesis, difficulty adaptation, selection and RL" loading="lazy" decoding="async">
+    <img src="{{ '/assets/papers/cards/synthetic-data-rl.webp' | relative_url }}" width="800" height="408" alt="Synthetic Data RL pipeline: data synthesis, difficulty adaptation, selection and RL" loading="lazy" decoding="async">
   </a>
   <div class="rs-text">
     <div class="rs-kicker">Synthetic Data RL · 2025</div>
@@ -89,24 +84,24 @@ Now at **Meta Superintelligence Labs** on real-time omni models for personal age
 
 <article class="rs-row">
   <a class="rs-fig" href="https://arxiv.org/abs/2404.07413" aria-label="JetMoE report">
-    <img src="{{ '/assets/papers/cards/jetmoe.png' | relative_url }}" alt="JetMoE-8B benchmark comparison against Llama2-13B" loading="lazy" decoding="async">
+    <img src="{{ '/assets/papers/cards/jetmoe.webp' | relative_url }}" width="800" height="344" alt="JetMoE-8B benchmark comparison against Llama2-13B" loading="lazy" decoding="async">
   </a>
   <div class="rs-text">
     <div class="rs-kicker">JetMoE · 2024</div>
-    <h3>Llama2-13B quality from an open MoE trained on 96 H100s</h3>
-    <p>JetMoE-8B, an open-source mixture-of-experts model trained on a 1.25T-token synthetic corpus for pre-training and post-training. Nearly 1,000 GitHub stars.</p>
+    <h3>Open MoE at Llama2-13B quality</h3>
+    <p>JetMoE-8B, an open-source mixture-of-experts model trained for a fraction of the usual cost that outperforms Llama2-13B, with a synthetic corpus for pre-training and post-training.</p>
     <p class="rs-refs"><a class="chip" href="https://arxiv.org/abs/2404.07413">Paper</a><a class="chip" href="https://github.com/myshell-ai/JetMoE">Code</a></p>
   </div>
 </article>
 
 <article class="rs-row">
   <a class="rs-fig" href="https://arxiv.org/abs/2406.18082" aria-label="Octo-Planner paper">
-    <img src="{{ '/assets/papers/cards/octo-planner.png' | relative_url }}" alt="Octo-Planner decomposing a user request into web search, video search, and email actions on a phone" loading="lazy" decoding="async">
+    <img src="{{ '/assets/papers/cards/octo-planner.webp' | relative_url }}" width="800" height="515" alt="Octo-Planner decomposing a user request into web search, video search, and email actions on a phone" loading="lazy" decoding="async">
   </a>
   <div class="rs-text">
     <div class="rs-kicker">Octo-Planner · 2024</div>
     <h3>On-device planner-action agents</h3>
-    <p>Efficient on-device task planning and decomposition, trained on a GPT-4-synthesized planning dataset with a multi-LoRA post-training pipeline. 100K+ downloads.</p>
+    <p>Efficient on-device task planning and decomposition, trained on a synthetic planning dataset with a multi-LoRA post-training pipeline.</p>
     <p class="rs-refs"><a class="chip" href="https://arxiv.org/abs/2406.18082">Paper</a></p>
   </div>
 </article>
@@ -114,6 +109,22 @@ Now at **Meta Superintelligence Labs** on real-time omni models for personal age
 </div>
 
 <p class="more-link"><a href="{{ '/papers.html' | relative_url }}">All publications →</a></p>
+
+## News
+
+<ul class="newslist newslist--home" markdown="0">
+{% for n in site.data.news limit:3 %}
+  <li class="news-row">
+    {% if n.link %}<a class="news-thumb" href="{{ n.link }}" aria-hidden="true" tabindex="-1"><img src="{{ n.thumb | relative_url }}" alt="" loading="lazy" decoding="async" width="640" height="360"></a>{% else %}<span class="news-thumb"><img src="{{ n.thumb | relative_url }}" alt="" loading="lazy" decoding="async" width="640" height="360"></span>{% endif %}
+    <div class="news-body">
+      <span class="item-date">{{ n.month }} {{ n.year }}</span>
+      <p>{{ n.text | markdownify | remove: '<p>' | remove: '</p>' }}{% if n.link %} <a class="news-link" href="{{ n.link }}">Read more</a>{% endif %}</p>
+    </div>
+  </li>
+{% endfor %}
+</ul>
+
+<p class="more-link"><a href="{{ '/news.html' | relative_url }}">All news →</a></p>
 
 ## Recent Essays
 
