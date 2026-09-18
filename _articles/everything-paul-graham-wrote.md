@@ -2,7 +2,7 @@
 layout: default
 title: "Everything Paul Graham Wrote: 231 Essays Summarized"
 image: /assets/cards/everything-paul-graham-wrote.png
-description: "All 231 Paul Graham essays, from Programming Bottom-Up (1993) to The Brand Age (2025), read and distilled: what he said, what he meant, and what actually matters."
+description: "All 231 Paul Graham essays, from 1993 to 2025, read and distilled: what he said, what he meant, and what actually matters."
 date: 2026-03-15
 tags: [Career, writing, startups]
 ---
@@ -40,9 +40,9 @@ This connects to **"How to Get Startup Ideas"**: the best ideas come not from br
 
 **"Startup = Growth"** defines what a startup actually is — not a new company, not a tech company, but a company designed to grow fast. Growth rate is the compass for every decision. Small differences in weekly growth (1% vs. 5% vs. 10%) produce dramatically different outcomes over time because growth compounds.
 
-**"Superlinear Returns"** generalizes this: in most domains, performance returns are not linear. Small differences in quality produce dramatically disproportionate outcomes. If your product is only half as good as your competitor's, you don't get half as many customers — you get none. Two mechanisms drive this: exponential growth (success compounds) and thresholds (winner-take-all dynamics).
+**"Superlinear Returns"** generalizes this: in most domains, performance returns are not linear. Small differences in quality produce disproportionate outcomes. If your product is only half as good as your competitor's, you don't get half as many customers — you get none. Two mechanisms drive this: exponential growth (success compounds) and thresholds (winner-take-all dynamics).
 
-**"Default Alive or Default Dead?"** asks the question every founder should answer weekly: given current revenue, growth rate, and expenses, will we reach profitability before running out of money? Surprisingly many founders can't answer this. The biggest killer is overhiring — confusing the correlation between successful companies having many employees with causation.
+**"Default Alive or Default Dead?"** asks the question every founder should answer weekly: given current revenue, growth rate, and expenses, will we reach profitability before running out of money? Surprisingly, many founders can't answer this. The biggest killer is overhiring — confusing the correlation between successful companies having many employees with causation.
 
 ### The Founder's Character
 
@@ -112,7 +112,7 @@ This is arguably PG's deepest conviction, repeated across dozens of essays.
 
 **"Good and Bad Procrastination"**: procrastination is unavoidable. Three types based on what you do instead: nothing (bad), less important work (mediocre), or more important work (good). The most productive people deliberately avoid trivial tasks to pursue significant work.
 
-**"Life is Short"**: not a cliche but a measurable reality — you get about 52 weekends with a two-year-old. Ruthlessly eliminate "bullshit" (unnecessary meetings, online arguments, addictive pastimes). Act now rather than assuming future opportunities.
+**"Life is Short"**: not a cliché but a measurable reality — you get about 52 weekends with a two-year-old. Ruthlessly eliminate "bullshit" (unnecessary meetings, online arguments, addictive pastimes). Act now rather than assuming future opportunities.
 
 ### Finding Your Work
 
@@ -180,7 +180,7 @@ This is arguably PG's deepest conviction, repeated across dozens of essays.
 
 ### Culture and Conformity
 
-**"The Refragmentation"**: mid-20th century American cultural cohesion was an anomaly caused by WWII and national oligopolies. Natural fragmentation returned as those forces faded. Rather than restoring artificial unity, acknowledge fragmentation as the natural state.
+**"The Refragmentation"**: mid-20th-century American cultural cohesion was an anomaly caused by WWII and national oligopolies. Natural fragmentation returned as those forces faded. Rather than restoring artificial unity, acknowledge fragmentation as the natural state.
 
 **"Cities and Ambition"**: different cities send distinct messages — New York says "make more money," Cambridge says "be smarter," Silicon Valley says "be more powerful." These ambient signals are powerful enough to override willpower.
 
@@ -200,7 +200,7 @@ This is arguably PG's deepest conviction, repeated across dozens of essays.
 
 **"The Airbnbs"**: when Airbnb applied to YC, the company was nearly dead — maxed credit cards, universal investor rejection. What set them apart was relentless energy (Brian Chesky: "The Tasmanian Devil") combined with genuine conviction born from firsthand experience.
 
-**"What We Look for in Founders"**: five key qualities — determination, flexibility, imaginative intelligence, willingness to bend rules creatively, and strong co-founder relationships. Determination and adaptability outweigh raw intelligence.
+**"What We Look for in Founders"**: five key qualities — determination, flexibility, imaginative intelligence, willingness to bend rules creatively, and strong cofounder relationships. Determination and adaptability outweigh raw intelligence.
 
 **"Before the Startup"**: the way to get startup ideas is not to try to think of startup ideas. Develop deep expertise, work on genuinely interesting problems, and let business opportunities emerge naturally.
 

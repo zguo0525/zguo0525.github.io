@@ -42,9 +42,9 @@ I think about this constantly. Smart people consistently choose elegant problems
 
 Graham defines a startup not as a new company, not as a tech company, but as a company designed to grow fast. Growth rate is the compass for every decision. ["Startup = Growth"](https://www.paulgraham.com/growth.html) argues that small differences in weekly growth — 1% vs. 5% vs. 10% — produce dramatically different outcomes over time because growth compounds.
 
-["Superlinear Returns"](https://www.paulgraham.com/superlinear.html) generalizes this: small differences in quality produce dramatically disproportionate outcomes. If your product is half as good as your competitor's, you don't get half as many customers. You get none. The returns are exponential, not linear.
+["Superlinear Returns"](https://www.paulgraham.com/superlinear.html) generalizes this: small differences in quality produce disproportionate outcomes. If your product is half as good as your competitor's, you don't get half as many customers. You get none. The returns are exponential, not linear.
 
-["Default Alive or Default Dead?"](https://www.paulgraham.com/aord.html) asks the question every founder should answer weekly: given current revenue, growth, and expenses, will you reach profitability before running out of money? Surprisingly many founders can't answer this. The biggest killer is overhiring — confusing the *correlation* between successful companies having many employees with *causation*.
+["Default Alive or Default Dead?"](https://www.paulgraham.com/aord.html) asks the question every founder should answer weekly: given current revenue, growth, and expenses, will you reach profitability before running out of money? Surprisingly, many founders can't answer this. The biggest killer is overhiring — confusing the *correlation* between successful companies having many employees with *causation*.
 
 ---
 
@@ -118,7 +118,7 @@ Perfect is the enemy of done. Ship ugly, learn fast, iterate. The startup's only
 The best opportunities hide behind work nobody wants to do. If it makes you groan, it's probably worth pursuing. Everyone else is avoiding it. That's your moat.
 
 **4. Care more than everyone else.**
-You can't out-scale the big guys. But you can out-care them. You can be the one who answers user emails at 2am. You can be the one who notices the detail everyone else missed. That's the startup's only real unfair advantage.
+You can't out-scale the big guys. But you can out-care them. You can be the one who answers user emails at 2 a.m.. You can be the one who notices the detail everyone else missed. That's the startup's only real unfair advantage.
 
 **5. Stay weird.**
 The best ideas start as bad ideas. Most people optimize for looking right. Startups should optimize for *being right* — even when it looks wrong. Embrace it.

@@ -2,7 +2,7 @@
 layout: default
 title: "Jumping from Apple to Meta: When Everything Changed"
 image: /assets/cards/jumping-from-apple-to-meta-msl-a-year-end-reflection.png
-description: "What I learned from Apple's pivot away from AI and why I joined Meta's Superintelligence Labs. Insights on building AI products at scale, organizational culture, and making career transitions in fast-moving industries."
+description: "Why I left Apple after 'The Illusion of Thinking' and Liquid Glass to join Meta Superintelligence Labs, and what shipping AI at scale taught me."
 date: 2025-12-31
 tags: [Apple, Meta, MSL, career, AI, product, research, transition, reflection, leadership, strategy]
 ---
@@ -12,7 +12,7 @@ tags: [Apple, Meta, MSL, career, AI, product, research, transition, reflection, 
 *December 2025*
 {: .essay-meta}
 
-In June 2025, Apple published ["The Illusion of Thinking"](https://machinelearning.apple.com/research/illusion-of-thinking), questioning if AI models actually reason. Days later, WWDC 2025 announced Liquid Glass—a visual redesign, not AI advancement. The stock dropped 1.2% ([CNBC](https://www.cnbc.com/2025/06/09/apple-wwdc-underwhelms-on-ai-software-biggest-facelift-in-decade-.html)).
+In June 2025, Apple published ["The Illusion of Thinking"](https://machinelearning.apple.com/research/illusion-of-thinking), questioning whether AI models actually reason. Days later, WWDC 2025 announced Liquid Glass—a visual redesign, not AI advancement. The stock dropped 1.2% ([CNBC](https://www.cnbc.com/2025/06/09/apple-wwdc-underwhelms-on-ai-software-biggest-facelift-in-decade-.html)).
 
 That's when I realized: the company I joined to build AI products was moving in a different direction. I'd spent a year shipping Visual Intelligence to millions of users, but the strategic shift was clear. The question wasn't whether to stay or go—it was whether I wanted to build the future or watch it get built elsewhere.
 
@@ -24,15 +24,15 @@ Apple's smartphone dominance created comfort. When the AI revolution accelerated
 
 ## The Competitive Landscape
 
-While Apple was publishing critiques, DeepSeek R1, OpenAI's Gibili, and Gemini Nano Banana were pushing boundaries. The competition in AI is unforgiving: you either ship something remarkable, or you fall behind.
+While Apple was publishing critiques, DeepSeek R1, OpenAI's Ghibli-style image generation, and Gemini's Nano Banana were pushing boundaries. The competition in AI is unforgiving: you either ship something remarkable, or you fall behind.
 
 Visual Intelligence shipped, and I'm proud of what we built. But the signals were clear: when your company publishes papers questioning whether AI works instead of building AI that works, that's not a technical problem—it's a strategic one.
 
 ## The Strategic Pivot
 
-Meta's approach was different. In 2025, Mark Zuckerberg entered ["founder's mode"](https://www.bloomberg.com/news/newsletters/2025-06-12/zuckerberg-snaps-back-into-founder-mode-on-ai-for-better-or-worse)—personally spearheading AGI and ASI ([Bloomberg](https://www.bloomberg.com/news/newsletters/2025-06-12/zuckerberg-snaps-back-into-founder-mode-on-ai-for-better-or-worse)).
+Meta's approach was different. In 2025, Mark Zuckerberg entered ["founder mode"](https://www.bloomberg.com/news/newsletters/2025-06-12/zuckerberg-snaps-back-into-founder-mode-on-ai-for-better-or-worse)—personally spearheading AGI and ASI ([Bloomberg](https://www.bloomberg.com/news/newsletters/2025-06-12/zuckerberg-snaps-back-into-founder-mode-on-ai-for-better-or-worse)).
 
-The commitment was visible: Zuckerberg established Meta Superintelligence Labs (MSL), recruited Alexandr Wang (Scale AI) and Nat Friedman (GitHub), and offered $200-300M compensation packages to elite researchers ([Bloomberg](https://www.bloomberg.com/news/articles/2025-06-10/zuckerberg-recruits-new-superintelligence-ai-group-at-meta), [CNBC](https://www.cnbc.com/amp/2025/06/30/mark-zuckerberg-creating-meta-superintelligence-labs-read-the-memo.html), [AM World Group](https://www.amworldgroup.com/blog/meta-ai-takes-first-step-to-superintelligence)). Infrastructure matched: "Prometheus" (1 GW by 2026) and "Hyperion" (up to 5 GW) data centers, plus custom silicon via MTIA ([Tom's Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/meta-plans-multi-gw-data-center-thats-nearly-the-size-of-manhattan-zuckerberg-promises-enormous-ai-splash-as-company-uses-tents-to-try-and-keep-up-with-rate-of-expansion), [Meta Engineering](https://engineering.fb.com/2024/10/15/data-infrastructure/metas-open-ai-hardware-vision/)). The company is building models from scratch, training Llama 3, and aligning teams with AGI objectives ([Axios](https://www.axios.com/2024/01/18/zuckerberg-meta-llama-3-ai)).
+The commitment was visible: Zuckerberg established Meta Superintelligence Labs (MSL), recruited Alexandr Wang (Scale AI) and Nat Friedman (GitHub), and offered $200–300M compensation packages to elite researchers ([Bloomberg](https://www.bloomberg.com/news/articles/2025-06-10/zuckerberg-recruits-new-superintelligence-ai-group-at-meta), [CNBC](https://www.cnbc.com/amp/2025/06/30/mark-zuckerberg-creating-meta-superintelligence-labs-read-the-memo.html), [AM World Group](https://www.amworldgroup.com/blog/meta-ai-takes-first-step-to-superintelligence)). Infrastructure matched: "Prometheus" (1 GW by 2026) and "Hyperion" (up to 5 GW) data centers, plus custom silicon via MTIA ([Tom's Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/meta-plans-multi-gw-data-center-thats-nearly-the-size-of-manhattan-zuckerberg-promises-enormous-ai-splash-as-company-uses-tents-to-try-and-keep-up-with-rate-of-expansion), [Meta Engineering](https://engineering.fb.com/2024/10/15/data-infrastructure/metas-open-ai-hardware-vision/)). The company is building models from scratch, training Llama 3, and aligning teams with AGI objectives ([Axios](https://www.axios.com/2024/01/18/zuckerberg-meta-llama-3-ai)).
 
 I joined Meta's Superintelligence Labs. At Apple, I learned what it takes to ship AI products at scale. At Meta MSL, I'm learning what it takes to push capability frontiers. This positions me for where AI is heading.
 
@@ -42,7 +42,7 @@ My experience spans research (MIT, MIT-IBM Watson, papers like JetMoE, API Pack)
 
 **1. You need both capability and integration, but most teams optimize for only one.** At MIT-IBM Watson, I pushed capability frontiers. At Apple, I learned integration. The teams that win do both. Apple had integration but wasn't pushing capability. Meta builds models from scratch while also building integration systems.
 
-**2. Constraints teach optimization, but they can limit ambition.** JetMoE taught me efficiency (Llama2 performance with $0.1M). Apple's on-device constraints forced similar optimization. But constraints can become excuses. The best teams use constraints to force creativity, not limit ambition. Meta's approach—infrastructure first, then capability—avoids this trap.
+**2. Constraints teach optimization, but they can limit ambition.** JetMoE taught me efficiency (Llama 2 performance for $0.1M). Apple's on-device constraints forced similar optimization. But constraints can become excuses. The best teams use constraints to force creativity, not to limit ambition. Meta's approach—infrastructure first, then capability—avoids this trap.
 
 **3. Integration is harder than capability.** Notification summaries seemed straightforward but exposed the real challenge: making AI work reliably across edge cases, privacy boundaries, and organizational silos. Demos wow, but shipping is harder. At Apple, I learned benchmarks don't matter if features break in production.
 
@@ -70,11 +70,11 @@ That's what I'm betting on.
 
 **For career decisions: Look for strategic signals, not role descriptions.** When deciding to leave Apple, I looked at three things: (1) What is the company actually doing? Apple published "The Illusion of Thinking" and announced Liquid Glass—actions signaling a shift away from AI. (2) Where is the industry heading? Meta was going all-in on AGI; Apple was questioning whether AI works. (3) Does the culture match the ambition? Apple optimized for polish and stability; Meta MSL optimizes for speed and exploration.
 
-Signals to watch: Are they publishing papers questioning AI or building AI that works? Investing in infrastructure or cutting costs? Recruiting aggressively or slowing hiring? These signal strategic commitment.
+Signals to watch: Are they publishing papers questioning AI or building AI that works? Investing in infrastructure or cutting costs? Recruiting aggressively or slowing hiring? These reveal strategic commitment.
 
 **For evaluating opportunities: Capability and integration both matter.** When I evaluate AI companies, I look for teams that do both. Apple had integration but wasn't pushing capability. Some research labs push capability but can't integrate. The teams that win do both.
 
-**For timing: In an exponentially growing industry, the gap widens fast.** I left Apple because I saw the strategic shift happening. In AI, timing matters more. The difference between joining a company going all-in versus one questioning fundamentals compounds over time. The question isn't just "is this a good role?" but "is this where the industry is heading?"
+**For timing: In an exponentially growing industry, the gap widens fast.** I left Apple because I saw the strategic shift happening. In AI, timing matters even more. The difference between joining a company going all-in versus one questioning fundamentals compounds over time. The question isn't just "is this a good role?" but "is this where the industry is heading?"
 
 For founders building AI companies or anyone making career decisions in this field: align with where the industry is going, not where it is.
 

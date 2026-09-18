@@ -2,7 +2,7 @@
 layout: default
 title: "The $100B Monologue"
 image: /assets/cards/the-100b-monologue.png
-description: "The internal monologue of reasoning models is now the majority of all tokens generated on Earth — text no one reads, in a medium the model doesn't natively think in. This is the vacuum-tube era of AI reasoning."
+description: "Reasoning models now spend most of the world's tokens talking to themselves. It works — but this is the vacuum-tube era of AI reasoning."
 date: 2026-02-08
 tags: [AI, reasoning, efficiency]
 ---
@@ -84,11 +84,11 @@ A few research groups have shown that you can achieve equivalent reasoning perfo
 
 The implications are hard to overstate. If reasoning doesn't require language, then the entire infrastructure we've built around generating, storing, and billing for thinking tokens is unnecessary overhead. Not a moat. Not a feature. Overhead.
 
-We are probably living through the vacuum tube era of AI reasoning. Everything works. Everything is expensive. And something much simpler is about to make it all obsolete.
+We are probably living through the vacuum-tube era of AI reasoning. Everything works. Everything is expensive. And something much simpler is about to make it all obsolete.
 
 ---
 
-I don't know what replaces the monologue. Nobody does yet. The research is early, the results are promising, the engineering is hard. It might take two years or ten.
+I don't know what replaces the monologue. Nobody does yet. The research is early, the results are promising, and the engineering is hard. It might take two years or ten.
 
 But I'm fairly confident about one thing: we will look back at this era and find it absurd. A hundred billion dollars a year, generating text that no one reads, in a medium the model doesn't natively think in, to solve a problem that doesn't require language.
 

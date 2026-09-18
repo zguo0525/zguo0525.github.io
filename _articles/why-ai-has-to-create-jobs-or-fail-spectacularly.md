@@ -2,7 +2,7 @@
 layout: default
 title: "Why AI Has to Create Jobs—or Fail Spectacularly"
 image: /assets/cards/why-ai-has-to-create-jobs-or-fail-spectacularly.png
-description: "If AI doesn't create more jobs than it destroys and get money flowing broadly through the economy, the whole enterprise will fail spectacularly—not technically, but socially."
+description: "If AI doesn't create more jobs than it destroys and keep money flowing broadly, it will fail spectacularly—not technically, but socially."
 date: 2025-09-12
 tags: [AI, Technology, Economics, Jobs, Society]
 ---
@@ -18,17 +18,17 @@ AI is systematically eliminating entry-level jobs—the traditional gateway into
 
 ## The Historical Pattern
 
-The Industrial Revolution wiped out manual labor jobs but created factories, railroads, and entire new industries. Computers automated paperwork but spawned software engineering, web design, and data analysis roles. The pattern is clear: big tech shifts displace workers in the short term, but they succeed when they generate net new opportunities. AI has to follow that script, or we're in trouble.
+The Industrial Revolution wiped out manual labor jobs but created factories, railroads, and entire new industries. Computers automated paperwork but spawned software engineering, web design, and data analysis roles. The pattern is clear: big technology shifts displace workers in the short term, but they succeed when they generate net new opportunities. AI has to follow that script, or we're in trouble.
 
 ## The Entry-Level Crisis
 
 AI is already automating routine tasks in manufacturing, data entry, customer service, and even some creative fields. Entry-level jobs are vanishing. Recent reports show that 14% of workers have already been displaced by AI, with the hit landing hardest on younger and mid-career folks in tech and creative sectors.
 
-But it's not inevitable doom. If done right, AI could free people up for more interesting roles—overseeing AI systems, designing ethical frameworks, or building entirely new businesses. The industry needs to invest in that transition: retraining programs, new skill development, and incentives for companies to create rather than just cut. Without it, we'll end up with widespread unemployment, where the gains go to shareholders while everyone else struggles.
+But it's not inevitable doom. If done right, AI could free people up for more interesting roles—overseeing AI systems, designing ethical frameworks, or building entirely new businesses. The industry needs to invest in that transition: retraining programs, new skill development, and incentives for companies to create rather than just cut. Without it, we'll end up with widespread unemployment, with the gains going to shareholders while everyone else struggles.
 
 ## Economic Velocity Matters
 
-It's not just about jobs. AI has to make the economy hum more efficiently, getting money to flow faster and more broadly. Velocity of money matters because a stagnant economy where wealth piles up at the top kills growth. AI could supercharge this by optimizing supply chains, predicting trends, and enabling quicker, smarter transactions.
+It's not just about jobs. AI has to make the economy hum more efficiently, getting money to flow faster and more broadly. Velocity of money matters: a stagnant economy where wealth piles up at the top kills growth. AI could supercharge this by optimizing supply chains, predicting trends, and enabling quicker, smarter transactions.
 
 ## The Inequality Trap
 

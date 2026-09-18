@@ -14,7 +14,7 @@ tags: [Apple Intelligence, Siri, AI, product, privacy, LLM, on-device, ChatGPT, 
 
 At WWDC 2024, Apple unveiled a flashier Siri, and the demo dazzled—yet the hard work started afterward: turning a staged moment into reliable, everyday behavior. As [The Information](https://www.theinformation.com/articles/apple-fumbled-siris-ai-makeover) reported, the problems were real. In AI, teams that connect the product end to end and learn quickly outperform teams with bigger raw models but slower integration.
 
-What I mean by a few terms, stated clearly:
+A few terms, stated clearly:
 
 - **Integration**: How the whole product fits together across data access (with consent), privacy limits, latency (time to respond), the user interface, recovery states when things go wrong, and the evaluations and telemetry (metrics and logs) that tell us what to fix.
 - **Org design**: Clear owners with decision rights, shared metrics, and a weekly working rhythm across Siri, platform, and privacy teams.
@@ -62,21 +62,21 @@ Here is ChatGPT’s playbook, in plain terms:
 - **Growth flywheel**:
   - Research‑driven capabilities (search/browse, memory, voice) unlock new jobs to be done.
   - Focus upgrades on the most common and valuable use cases you observe in the wild.
-  - Add classic growth levers (no‑login try, simple onboarding) once infrastructure can handle the load.
+  - Add classic growth levers (no‑login trial, simple onboarding) once infrastructure can handle the load.
 - **Pricing as throttle**: $20 set consumer norms; higher tiers serve power users. Set price points based on value testing, not doctrine.
 - **Natural language ≠ chat**: Natural language interfaces will persist, but chat is only one user experience. Let AI render purpose‑built interfaces and take action when appropriate. The destination is “your AI” that knows your goals, with visible controls.
 
 Why this matters for Siri: Apple optimizes for privacy, stability, and platform fit. OpenAI optimizes for speed, breadth, and model iteration. Both are valid. But if a feature depends on long‑tail context and social tone, you must either collect the needed signals and iterate quickly, or narrow the scope and tighten evaluations. The middle—broad scope with heavy limits—tends to underdeliver.
 
-## A practical playbook for AI inside a mature product
+## A Practical Playbook for AI Inside a Mature Product
 
-- 1) Pick one user problem and one constraint (e.g., on‑device only). Write crisp success and failure examples.
-- 2) Build a tiny, trustworthy slice. Keep input and output predictable. Add an obvious “undo.”
-- 3) Instrument trust: tone errors, latency, task completion, user corrections. Review weekly.
-- 4) Create evals that match the live distribution (tone, sarcasm, group chat). Update as behavior drifts.
-- 5) Iterate model and product together. Ship small, frequent improvements. Avoid big‑bang releases.
-- 6) Expand scope only when trust rises and regressions are rare. Prefer per‑app rollouts to global switches.
-- 7) Let privacy shape the product: on‑device by default; escalate to cloud with consent and visible controls.
+1. Pick one user problem and one constraint (e.g., on‑device only). Write crisp success and failure examples.
+2. Build a tiny, trustworthy slice. Keep input and output predictable. Add an obvious “undo.”
+3. Instrument trust: tone errors, latency, task completion, user corrections. Review weekly.
+4. Create evals that match the live distribution (tone, sarcasm, group chat). Update as behavior drifts.
+5. Iterate model and product together. Ship small, frequent improvements. Avoid big‑bang releases.
+6. Expand scope only when trust rises and regressions are rare. Prefer per‑app rollouts to global switches.
+7. Let privacy shape the product: on‑device by default; escalate to cloud with consent and visible controls.
 
 ---
 
