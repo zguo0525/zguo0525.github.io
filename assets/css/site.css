@@ -1336,3 +1336,11 @@ a.news-thumb:hover img, a.pub-thumb:hover img { transform: scale(1.03); }
   .content .now-row, .content ol.timeline li { grid-template-columns: 1fr; gap: 4px; }
   .pub-note { white-space: normal; display: block; margin: 4px 0 0; }
 }
+
+/* Open questions: jump chips + target highlight */
+.content .now-row dd a.chip-jump { display: inline-block; margin: 0 0 0 6px; vertical-align: 2px; text-decoration: none; color: var(--accent); border-color: color-mix(in srgb, var(--accent) 45%, var(--rule)); }
+.content .now-row dd a.chip-jump:hover { color: var(--bg); background: var(--accent); border-color: var(--accent); }
+.rs-row { scroll-margin-top: 28px; }
+.rs-row:target { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent), 0 8px 22px rgba(0,0,0,0.25); }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

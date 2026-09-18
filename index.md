@@ -11,9 +11,9 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
 <dl class="now" markdown="0">
   <div class="now-row"><dt>Open questions</dt><dd>
     <ul>
-      <li><a href="#muse">What does an agent need to perceive and act continuously, rather than turn by turn?</a></li>
-      <li><a href="#synthetic-data-rl">How far can a task definition alone take you: environment, reward, and data?</a></li>
-      <li><a href="#octo-planner">How small can a model be and still plan on-device?</a></li>
+      <li>What does an agent need to perceive and act continuously, rather than turn by turn? <a class="chip chip-jump" href="#muse">Muse ↓</a></li>
+      <li>How far can a task definition alone take you: environment, reward, and data? <a class="chip chip-jump" href="#synthetic-data-rl">Synthetic Data RL ↓</a></li>
+      <li>How small can a model be and still plan on-device? <a class="chip chip-jump" href="#octo-planner">Octo-planner ↓</a></li>
     </ul>
   </dd></div>
   <div class="now-row"><dt>Talk to me</dt><dd>If you work on real-time agents, RL environments, or post-training, <a href="mailto:{{ site.author.email }}">email me</a>. I reply. Meeting at <a href="https://colm.cc/">COLM 2026</a>, Oct 6–9.</dd></div>
