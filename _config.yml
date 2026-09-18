@@ -1,6 +1,5 @@
-theme: jekyll-theme-minimal
 title: Gavin Guo (国振)
-description: Training agents that perceive and act. Post-training, synthetic data, and RL at Meta Superintelligence Labs; previously Apple Visual Intelligence, MIT-IBM Watson, and MIT.
+description: Training agents that perceive and act. Synthetic data and RL for real-time omni models at Meta Superintelligence Labs; previously Visual Intelligence at Apple and foundation models at MIT-IBM Watson AI Lab. Ph.D. MIT.
 url: "https://zguo0525.github.io"
 logo: profile.jpeg
 
@@ -35,6 +34,11 @@ defaults:
       image: /assets/cards/gavin-guo-og.jpg
 
 exclude:
+  - resume
+  - resume_variants
+  - build_public
+  - build_check
+  - "*.cls"
   - README.md
   - readme.md
   - GOATCOUNTER-SETUP.md

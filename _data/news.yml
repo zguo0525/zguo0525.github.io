@@ -10,7 +10,7 @@
   year: 2026
   month: Jul
   date_sort: 2026-07
-  text: '**Muse Spark 1.1** released, a multimodal reasoning model for agentic tasks, alongside the Meta Model API public preview. I lead synthetic data and RL for the real-time omni model in the Muse series.'
+  text: '**Muse Spark 1.1** released, a multimodal reasoning model for agentic tasks, alongside the Meta Model API public preview.'
   link: https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/
   thumb: /assets/news/2026-07-muse-spark-1-1-released-a-multimodal-rea.webp
 - id: 2026-07-muse-image-launched-the-first-image-gene
@@ -24,7 +24,7 @@
   year: 2026
   month: Apr
   date_sort: 2026-04
-  text: '**Muse Spark** announced, the first model in the Muse series from Meta Superintelligence Labs, with multimodal perception built in. I work on the real-time omni model in this series.'
+  text: '**Muse Spark** announced, the first model in the Muse series from Meta Superintelligence Labs, with multimodal perception built in. I lead synthetic data and RL for Muse, the real-time omni model in this series.'
   link: https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/
   thumb: /assets/news/2026-04-muse-spark-announced-the-first-model-in-.webp
 - id: 2025-09-vibes-launched-in-the-meta-ai-app-for-ai

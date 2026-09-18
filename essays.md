@@ -3,6 +3,7 @@ layout: default
 title: Essays
 subtitle: Thinking in public about AI, product, and strategy.
 permalink: /essays.html
+description: Essays by Gavin Guo on AI, agents, product, and strategy.
 ---
 
 <div class="essay-filters" role="group" aria-label="Filter essays by topic">

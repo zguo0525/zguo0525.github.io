@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Training agents that perceive and act
-nav_title: About
 ---
 
 I train multimodal models to act in the real world. Start from the capability we want, build the tasks, environments, rewards, and synthetic data that teach it, then train with RL.
@@ -16,7 +15,7 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
       <li>How small can a model be and still plan on-device? <a class="chip chip-jump" href="#octo-planner">Octo-planner ↓</a></li>
     </ul>
   </dd></div>
-  <div class="now-row"><dt>Talk to me</dt><dd>If you work on real-time agents, RL environments, or post-training, <a href="mailto:{{ site.author.email }}">email me</a>. I reply. Meeting at <a href="https://colm.cc/">COLM 2026</a>, Oct 6–9.</dd></div>
+  <div class="now-row"><dt>Talk to me</dt><dd>If you work on real-time agents, RL environments, or post-training, <a href="mailto:{{ site.author.email }}">email me</a>. I reply. I'll be at <a href="https://colm.cc/">COLM 2026</a>, Oct 6–9.</dd></div>
 </dl>
 
 ## Research
@@ -51,9 +50,10 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
     </svg>
   </div>
   <div class="rs-text">
-    <div class="rs-kicker">Omni models · 2025–26</div>
+    <div class="rs-kicker">Muse · 2025–26</div>
     <h3>Muse: Real-time perception and action</h3>
-    <p>An omni model that perceives and responds in real time instead of turn by turn, and can be interrupted mid-action. I lead efforts in synthetic data and RL, and work on the distillation that makes it fast and natural enough to talk to.</p>
+    <p>An omni model that perceives and responds in real time instead of turn by turn, and can be interrupted mid-action. I lead synthetic data and RL, and work on the distillation that makes it fast and natural enough to talk to.</p>
+    <p class="rs-refs"><a class="chip" href="https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/">Blog</a></p>
   </div>
 </article>
 
@@ -64,7 +64,7 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
   <div class="rs-text">
     <div class="rs-kicker">Vibes · 2025</div>
     <h3><a href="https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/">Offline RL for a generated-video feed</a></h3>
-    <p>Built the agentic long-form video generation workflow and the offline RL system behind Vibes, Meta AI's personalized video feed, and led the human-evaluation data behind it.</p>
+    <p>Built the agentic long-form video workflow and the offline RL system behind Vibes, Meta AI's personalized video feed, and led its human-evaluation data.</p>
     <p class="rs-refs"><a class="chip" href="https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/">Blog</a></p>
   </div>
 </article>
@@ -75,7 +75,7 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
   </a>
   <div class="rs-text">
     <div class="rs-kicker">Apple · 2025</div>
-    <h3><a href="https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/">Visual Lookup and StreamingQA on device</a></h3>
+    <h3><a href="https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/">Visual Intelligence on device</a></h3>
     <p>Built the datasets for on-device visual question answering on iPhone with privacy-preserving VLMs, and post-trained Apple's foundation model for proactive question answering on egocentric video. Shipped in Apple Intelligence at WWDC 2025.</p>
     <p class="rs-refs"><a class="chip" href="https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/">Blog</a></p>
   </div>
@@ -106,11 +106,11 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
 </article>
 
 <article class="rs-row" id="octo-planner">
-  <a class="rs-fig" href="https://arxiv.org/abs/2406.18082" aria-label="Octo-Planner paper">
-    <img src="{{ '/assets/papers/cards/octo-planner.webp' | relative_url }}" width="800" height="515" alt="Octo-Planner decomposing a user request into web search, video search, and email actions on a phone" loading="lazy" decoding="async">
+  <a class="rs-fig" href="https://arxiv.org/abs/2406.18082" aria-label="Octo-planner paper">
+    <img src="{{ '/assets/papers/cards/octo-planner.webp' | relative_url }}" width="800" height="515" alt="Octo-planner decomposing a user request into web search, video search, and email actions on a phone" loading="lazy" decoding="async">
   </a>
   <div class="rs-text">
-    <div class="rs-kicker">Octo-Planner · 2024</div>
+    <div class="rs-kicker">Octo-planner · 2024</div>
     <h3><a href="https://arxiv.org/abs/2406.18082">On-device planner-action agents</a></h3>
     <p>Efficient on-device task planning and decomposition, trained on a synthetic planning dataset with a multi-LoRA post-training pipeline.</p>
     <p class="rs-refs"><a class="chip" href="https://arxiv.org/abs/2406.18082">Paper</a></p>

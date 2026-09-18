@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Prediction Log"
+title: "Prediction log"
 description: "Testable predictions extracted from my essays. Dated, specific, falsifiable. Updated as reality resolves them."
 subtitle: "Dated, specific, and falsifiable forecasts from my essays."
 permalink: /predictions.html

@@ -3,6 +3,7 @@ layout: default
 title: News
 subtitle: Milestones, releases, and appearances.
 permalink: /news.html
+description: Milestones, releases, and appearances from Gavin Guo, research scientist at Meta Superintelligence Labs.
 ---
 
 {% assign years = site.data.news | map: "year" | uniq %}

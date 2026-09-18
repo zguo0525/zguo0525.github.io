@@ -3,12 +3,14 @@ layout: default
 title: Papers
 subtitle: Publications, patents, and selected projects.
 permalink: /papers.html
+description: Publications, patents, and selected projects by Gavin Guo, with a one-line takeaway for each.
 ---
 
 <div class="essay-filters" role="group" aria-label="Show selected or all papers">
   <button type="button" class="filter-chip active" data-filter="all" aria-pressed="true">All</button>
   <button type="button" class="filter-chip" data-filter="selected" aria-pressed="false">Selected</button>
 </div>
+<p class="filter-status" aria-live="polite"></p>
 
 {% for sec in site.data.papers %}
 ## {{ sec.title }}
@@ -39,6 +41,8 @@ permalink: /papers.html
       const sel = chip.dataset.filter === 'selected';
       chips.forEach(c => { const on = c === chip; c.classList.toggle('active', on); c.setAttribute('aria-pressed', String(on)); });
       rows.forEach(li => { li.style.display = (!sel || li.dataset.selected) ? '' : 'none'; });
+      const shown = [...rows].filter(li => li.style.display !== 'none').length;
+      const st = document.querySelector('.filter-status'); if (st) st.textContent = sel ? shown + ' of ' + rows.length + ' selected' : '';
       document.querySelectorAll('.pubs ul.publist').forEach(ul => {
         const any = [...ul.querySelectorAll('.pub-row')].some(li => li.style.display !== 'none');
         ul.style.display = any ? '' : 'none';

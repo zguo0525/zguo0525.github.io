@@ -129,14 +129,7 @@ body {
 
 .title-row .site-title { margin: 0; }
 
-.seal-mark {
-  display: block;
-  width: 34px;
-  height: auto;
-  flex: 0 0 auto;
-  transform: translateY(-3px) rotate(-0.8deg);
-  filter: drop-shadow(0 2px 5px rgba(103, 35, 24, 0.1));
-}
+
 
 .site-title {
   font-family: var(--serif);
@@ -321,24 +314,11 @@ body {
 }
 
 
-.paper-meta {
-  padding: 12px 14px;
-}
 
-.paper-title {
-  font-family: var(--sans);
-  font-weight: 600;
-  font-size: var(--fs-m);
-  line-height: 1.3;
-  margin-bottom: 3px;
-}
 
-.paper-sub {
-  font-family: var(--sans);
-  color: var(--muted);
-  font-size: var(--fs-s);
-  line-height: 1.4;
-}
+
+
+
 
 @media (max-width: 640px) {
   .paper-grid { grid-template-columns: 1fr; }
@@ -676,25 +656,11 @@ body {
 .content th:last-child { padding-right: 0; }
 
 /* ---------- Essay colophon ---------- */
-.colophon {
-  display: grid;
-  grid-template-columns: minmax(32px, 1fr) auto minmax(32px, 1fr);
-  align-items: center;
-  gap: 16px;
-  margin: 3.25rem 0 2.5rem;
-}
 
-.colophon::before,
-.colophon::after {
-  content: "";
-  height: 1px;
-  background: var(--rule);
-}
 
-.colophon .seal-mark {
-  width: 30px;
-  opacity: 0.78;
-}
+
+
+
 
 /* ---------- Comments + footer ---------- */
 
@@ -1285,18 +1251,16 @@ a.news-thumb:hover img, a.pub-thumb:hover img { transform: scale(1.03); }
 .content .now-row dd a { color: var(--text); text-decoration-color: color-mix(in srgb, var(--text) 30%, transparent); }
 .content .now-row dd a:hover { color: var(--accent); text-decoration-color: currentColor; }
 
-/* Career timeline */
-.content ol.timeline { list-style: none; margin: 30px 0 0; padding: 0; }
-.content ol.timeline li { display: grid; grid-template-columns: 118px minmax(0, 1fr); gap: 16px; padding: 5px 0; margin: 0; font-family: var(--sans); font-size: var(--fs-s); color: var(--muted); line-height: 1.5; }
-.content ol.timeline .tl-when { font-family: var(--mono); font-size: var(--label-size); letter-spacing: 0.04em; color: var(--muted); font-variant-numeric: tabular-nums; padding-top: 2px; }
-.content ol.timeline strong { color: var(--text); font-weight: 600; }
 
-/* Talks list */
-.content ul.talklist li { padding-right: 0; }
-.content ul.talklist .tl-title { color: var(--text); font-weight: 600; }
-.content ul.talklist .talk-venue { display: block; font-family: var(--sans); font-size: var(--fs-s); color: var(--muted); margin-top: 2px; }
-.content ul.talklist .talk-chips { display: flex; gap: 6px; margin-top: 6px; }
-.content ul.talklist .talk-chips a.chip { margin: 0; }
+
+
+
+
+
+
+
+
+
 
 /* Papers: takeaway, note, selected */
 .pub-tldr { font-family: var(--serif); font-size: 0.95rem; color: var(--text); line-height: 1.5; margin: 6px 0 0; opacity: 0.88; }
@@ -1344,3 +1308,66 @@ a.news-thumb:hover img, a.pub-thumb:hover img { transform: scale(1.03); }
 .rs-row:target { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent), 0 8px 22px rgba(0,0,0,0.25); }
 html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* ==========================================================================
+   Polish round 2 (2026-09-18): desktop rhythm, mobile fit, a11y
+   ========================================================================== */
+
+/* Open questions: chip pinned right of each question on wide screens */
+@media (min-width: 601px) {
+  .content .now-row dd ul li { display: flex; justify-content: space-between; align-items: baseline; gap: 14px; }
+  .content .now-row dd a.chip-jump { margin: 0; flex: none; }
+}
+@media (max-width: 600px) {
+  .content .now-row dd a.chip-jump { display: inline-flex; margin: 6px 0 0; vertical-align: baseline; }
+}
+
+/* Thumbnails: tame light figures on the dark ground; center news thumbs */
+.pub-thumb img, .news-thumb img { filter: brightness(0.88) contrast(0.97); }
+.news-row { align-items: center; }
+
+/* Papers: quieter group label, rail inside the gutter */
+.pubs h3 { margin: 34px 0 6px; font-size: 0.66rem; letter-spacing: 0.16em; color: color-mix(in srgb, var(--muted) 70%, var(--text)); }
+.pub-row.is-selected::before { left: -10px; }
+.filter-status { font-family: var(--mono); font-size: var(--label-size); letter-spacing: var(--label-track); color: var(--muted); margin: -6px 0 0; min-height: 1.2em; }
+
+/* Essay list: tight two-line titles */
+.content ul.essay-list li a { line-height: 1.25; margin-bottom: 2px; }
+
+/* Bio headshot matches the masthead avatar */
+.content img.headshot { width: 180px; height: 180px; border-radius: 50%; object-fit: cover; margin: 0; }
+
+/* Footer and page end */
+.container { padding-bottom: 88px; }
+.site-footer a { text-decoration-color: color-mix(in srgb, var(--muted) 80%, transparent); }
+.content pre { padding-right: 28px; }
+.topnav a { display: inline-block; padding: 8px 0; }
+
+/* Masthead tagline: avoid one-word orphans */
+.site-tagline .tagline-thesis, .site-tagline .tagline-org { text-wrap: balance; }
+
+/* Mobile */
+@media (max-width: 600px) {
+  .site-header { grid-template-areas: "avatar identity" "profiles profiles"; row-gap: 6px; }
+  .links { column-gap: 10px; justify-content: space-between; }
+  :root { --label-size: 0.76rem; }
+  .content h2, .links, .item-date, .news-body .item-date, .rs-kicker, .content a.chip { font-size: 0.76rem; }
+  .content .rs-text p, .essay-list .essay-desc, .pub-meta { font-size: 0.88rem; }
+  .content a.chip, .content .now-row dd a.chip-jump { min-height: 40px; padding: 8px 12px; }
+  .pub-row { grid-template-columns: 88px minmax(0, 1fr); gap: 12px; }
+  .pub-body strong { font-size: 1rem; line-height: 1.3; }
+  .pub-row.is-selected::before { left: -8px; }
+  .site-footer { font-size: 0.84rem; }
+  .site-footer p { line-height: 2.1; padding-inline: 8px; }
+  .site-footer a { display: inline-block; padding: 4px 3px; margin: -4px 0; }
+}
+@media (max-width: 430px) {
+  .rs-row { flex-direction: column; }
+  .rs-fig { flex: none; aspect-ratio: 16 / 9; border-right: 0; border-bottom: 1px solid var(--rule); }
+  .rs-kicker { white-space: nowrap; }
+}
+.filter-status:empty { display: none; }
+@media (max-width: 600px) {
+  .links { justify-content: flex-start; column-gap: 14px; row-gap: 0; }
+  .content .now-row dd a.chip-jump { display: flex; width: fit-content; }
+}

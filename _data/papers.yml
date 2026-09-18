@@ -62,7 +62,7 @@
       note: 'MIT CSAIL spotlight · HackerNews front page'
       selected: true
       chips:
-      - label: code
+      - label: Code
         url: https://github.com/myshell-ai/JetMoE
       year: 2024
       thumb: /assets/papers/thumbs/jetmoe-reaching-llama2-performance-with-.webp
@@ -80,7 +80,7 @@
       meta: <ins>Zhen Guo</ins>, Peiqi Wang, Yanwei Wang, Shangdi Yu. *KDD 2023 Foundations and Applications in Large-scale AI Models.*
       tldr: 'Generative data augmentation lifts small models on PubMedQA; the first LLaMA fine-tune on medical QA.'
       chips:
-      - label: code
+      - label: Code
         url: https://github.com/zguo0525/Dr.llama
       year: 2023
       thumb: /assets/papers/thumbs/dr-llama-improving-small-language-models.webp
@@ -125,7 +125,7 @@
       meta: <ins>Zhen Guo</ins>, Zhiguang Liu, George Barbastathis, Qihang Zhang, Michael E. Glinsky, Bradley K. Alpert, Zachary H. Levine. *Optica Open (2022).*
       tldr: 'Reconstruct X-ray tomograms at low photon counts by learning the noise structure instead of averaging it away.'
       chips:
-      - label: code
+      - label: Code
         url: https://github.com/zguo0525/Noise-resilience-deep-reconstruction-for-X-ray-Tomography
       year: 2022
       thumb: /assets/papers/thumbs/noise-resilient-deep-tomographic-imaging.webp
@@ -137,9 +137,9 @@
       note: 'Optics Express'
       selected: true
       chips:
-      - label: slides
+      - label: Slides
         url: ./slides/PGAN.pdf
-      - label: code
+      - label: Code
         url: https://github.com/zguo0525/Physics-assisted-Generative-Adversarial-Network-for-X-Ray-Tomography
       year: 2022
       thumb: /assets/papers/thumbs/physics-assisted-generative-adversarial-.webp
@@ -158,7 +158,7 @@
       tldr: 'Recover a sample from a single randomized probe measurement by unrolling gradient descent into a network.'
       note: 'Optics Express'
       chips:
-      - label: code
+      - label: Code
         url: https://github.com/zguo0525/Randomized-probe-imaging-through-deep-k-learning
       year: 2021
       thumb: /assets/papers/thumbs/randomized-probe-imaging-through-deep-k-.webp
@@ -200,9 +200,9 @@
       meta: Yifan Yang, <ins>Zhen Guo</ins>. *MIT 6.869 Advances in Computer Vision, Fall 2019.*
       tldr: 'Answer questions about abstract scenes by generating the scene, not just classifying it.'
       chips:
-      - label: report
+      - label: Report
         url: https://github.com/Yang-YiFan/vqa-gan
-      - label: code
+      - label: Code
         url: https://github.com/Yang-YiFan/vqa-gan
       year: 2019
       thumb: /assets/papers/thumbs/gen-vqa-generative-visual-question-answe.webp
@@ -213,7 +213,7 @@
       tldr: "Decompose circuits to fit the target hardware's native gates and connectivity."
       note: 'First place, iQuHACK 2019'
       chips:
-      - label: code
+      - label: Code
         url: https://github.com/zguo0525/Hardware-Efficient-Quantum-Computing-via-Circuit-Decomposition
       year: 2019
       thumb: /assets/papers/thumbs/hardware-efficient-quantum-computing-via.webp
