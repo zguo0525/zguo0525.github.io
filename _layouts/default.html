@@ -9,8 +9,8 @@
     <title>{% if is_home_head %}Gavin Guo (国振) · Training agents that perceive and act{% else %}{{ page.title }} · Gavin Guo{% endif %}</title>
     {% seo title=false %}
     <link rel="alternate" type="application/atom+xml" title="Essays — Gavin Guo" href="{{ '/feed/articles.xml' | relative_url }}">
-    <link rel="icon" type="image/png" href="{{ '/favicon.png' | relative_url }}?v={{ site.time | date: '%s' }}">
-    <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}?v={{ site.time | date: '%s' }}">
+    <link rel="icon" type="image/png" sizes="64x64" href="{{ '/favicon.png' | relative_url }}?v={{ site.time | date: '%s' }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}?v={{ site.time | date: '%s' }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400;1,8..60,600&amp;family=Inter:wght@400;500;600&amp;display=swap">
@@ -75,27 +75,39 @@
       {% endif %}
 
       {% if is_home %}<div class="content home-content" id="content" tabindex="-1">{{ content }}</div>{% else %}<article class="content{% if is_article %} essay-content{% endif %}{% if page.url contains 'papers' %} pubs{% endif %}"{% if is_article %} id="content" tabindex="-1"{% endif %}>
+        {% if is_article %}
+        <header class="essay-head">
+          <h1>{{ page.title }}</h1>
+          {% if page.description %}<p class="essay-dek">{{ page.description }}</p>{% endif %}
+          {% assign words = content | strip_html | number_of_words %}{% assign mins = words | divided_by: 220 | at_least: 1 %}
+          <p class="essay-meta"><em>{{ page.date | date: "%B %Y" }}</em><span class="views"> · {{ mins }} min read</span></p>
+        </header>
+        {% endif %}
         {{ content }}
+        {% if is_article %}<p class="essay-end">— Gavin Guo, {{ page.date | date: "%B %Y" }}</p>{% endif %}
       </article>{% endif %}
 
       {% if is_article %}
         {% assign current_slug = page.path | split: '/' | last | replace: '.md', '' | replace: '.html', '' %}
         {% assign others = site.data.essays | where_exp: "e", "e.slug != current_slug" | sort: "date_sort" | reverse %}
-        {% if others.size > 0 %}
+        {% assign me = site.data.essays | where: "slug", current_slug | first %}
+        {% assign same = "" | split: "" %}{% assign rest = "" | split: "" %}
+        {% for e in others %}{% assign hit = false %}{% if me %}{% for t in me.tags %}{% if e.tags contains t %}{% assign hit = true %}{% endif %}{% endfor %}{% endif %}{% if hit %}{% assign same = same | push: e %}{% else %}{% assign rest = rest | push: e %}{% endif %}{% endfor %}
+        {% assign ordered = same | concat: rest %}
+        {% if ordered.size > 0 %}
         <section class="related">
-          <h2>More essays</h2>
+          <h2>Read next</h2>
           <ul>
-            {% for e in others limit:3 %}
+            {% for e in ordered limit:3 %}
             <li><strong>{{ e.date }}</strong><a href="{{ '/articles/' | append: e.slug | append: '.html' | relative_url }}">{{ e.title }}</a></li>
             {% endfor %}
           </ul>
         </section>
         {% endif %}
-        <nav class="topnav" aria-label="Return to essay index" style="margin-top:32px;"><a href="{{ '/essays.html' | relative_url }}">← Essays</a></nav>
       {% endif %}
 
       <footer class="site-footer">
-        <p>© {{ 'now' | date: "%Y" }} Gavin Guo · <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> · <a href="{{ site.author.googlescholar }}">Scholar</a> · <a href="https://github.com/{{ site.author.github }}">GitHub</a> · <a href="{{ '/bio.html' | relative_url }}">Bio</a> · <a href="{{ '/feed/articles.xml' | relative_url }}">RSS</a> · Updated {{ site.time | date: "%b %Y" }}</p>
+        <p>© {{ 'now' | date: "%Y" }} Gavin Guo · <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> · <a href="{{ site.author.googlescholar }}">Scholar</a> · <a href="https://github.com/{{ site.author.github }}">GitHub</a> · <a href="{{ '/bio.html' | relative_url }}">Bio</a> · <a href="{{ '/predictions.html' | relative_url }}">Predictions</a> · <a href="{{ '/feed/articles.xml' | relative_url }}">RSS</a> · <span class="nowrap">Updated {{ site.time | date: "%b %Y" }}</span></p>
       </footer>
     </main>
 
@@ -130,14 +142,6 @@
       (function() {
         var art = document.querySelector('article.content');
         var dateLine = document.querySelector('.essay-meta');
-        if (art && dateLine) {
-          var words = (art.innerText || '').trim().split(/\s+/).length;
-          var mins = Math.max(1, Math.round(words / 220));
-          var span = document.createElement('span');
-          span.className = 'views';
-          span.textContent = ' · ' + mins + ' min read';
-          dateLine.appendChild(span);
-        }
         var bar = document.querySelector('.readbar');
         if (bar) {
           var ticking = false;

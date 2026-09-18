@@ -6,12 +6,6 @@ description: "Every funded AI startup ran the same playbook and lost to one man 
 date: 2026-02-20
 tags: [Strategy, startups, open-source]
 ---
-
-# The OpenClaw Playbook: One Man. One Laptop. Some Ramen
-
-*February 2026*
-{: .essay-meta}
-
 ---
 
 Every AI startup in 2025 followed the same nauseating playbook: raise $10M+ seed, hire 20 engineers, build slick demos in public, hope Sam Altman doesn't clone you, then get acquired or die. Peter Steinberger said *fuck that*. He built OpenClaw — originally just a prototype in one hour — at night and on weekends, while working as a software engineer. Takeout ramen for company. No pitch deck. No CTO. No equity comp for early believers. Just code, conviction, and a lobster that made people smile.

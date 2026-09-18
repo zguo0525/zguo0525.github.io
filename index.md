@@ -15,7 +15,7 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
       <li>How small can a model be and still plan on-device? <a class="chip chip-jump" href="#octo-planner">Octo-planner ↓</a></li>
     </ul>
   </dd></div>
-  <div class="now-row"><dt>Talk to me</dt><dd>If you work on real-time agents, RL environments, or post-training, <a href="mailto:{{ site.author.email }}">email me</a>. I reply. I'll be at <a href="https://colm.cc/">COLM 2026</a>, Oct 6–9.</dd></div>
+  <div class="now-row"><dt>Talk to me</dt><dd>I'm at <a href="https://colm.cc/">COLM 2026</a>, Oct 6–9, and want to compare notes on two things: rewards for real-time models that act while they perceive, and how far a task definition alone can carry an RL environment. If that's your problem too, <a href="mailto:{{ site.author.email }}">email me</a>. I reply.</dd></div>
 </dl>
 
 ## Research
@@ -128,8 +128,8 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
   <li class="news-row">
     {% if n.link %}<a class="news-thumb" href="{{ n.link }}" aria-hidden="true" tabindex="-1"><img src="{{ n.thumb | relative_url }}" alt="" loading="lazy" decoding="async" width="640" height="360"></a>{% else %}<span class="news-thumb"><img src="{{ n.thumb | relative_url }}" alt="" loading="lazy" decoding="async" width="640" height="360"></span>{% endif %}
     <div class="news-body">
-      <span class="item-date">{{ n.month }} {{ n.year }}{% if n.upcoming %} · Upcoming{% endif %}</span>
-      <p>{{ n.text | markdownify | remove: '<p>' | remove: '</p>' }}{% if n.link %} <a class="news-link" href="{{ n.link }}">Read more</a>{% endif %}</p>
+      <span class="item-date">{{ n.month }} {{ n.year }}{% if n.upcoming %} <span class="news-upcoming">· Upcoming</span>{% endif %}</span>
+      <p>{{ n.text | markdownify | remove: '<p>' | remove: '</p>' }}</p>{% if n.link %}<a class="news-link" href="{{ n.link }}">Read more →</a>{% endif %}
     </div>
   </li>
 {% endfor %}

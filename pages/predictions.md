@@ -18,10 +18,10 @@ I update the **Status** column as evidence comes in. Resolved predictions keep t
 
 | ID | Essay | Resolve by | Status |
 |---|---|---|---|
-| P1 | [Agent Topology Follows Task, Not Template](../articles/agent-topology-manifesto.html) | 2029-Q1 | Open |
-| P2 | [The $100B Monologue](../articles/the-100b-monologue.html) | 2029-Q1 | Open |
-| P3 | [Why AI Has to Create Jobs](../articles/why-ai-has-to-create-jobs-or-fail-spectacularly.html) | 2029-12-31 | Open |
-| P4 | [The OpenClaw Playbook](../articles/the-openclaw-playbook.html) | 2027-12-31 | Open |
+| P1 | [Agent Topology Follows Task, Not Template](../articles/agent-topology-manifesto.html) | 2029-Q1 | <span class="status status-open">Open</span> |
+| P2 | [The $100B Monologue](../articles/the-100b-monologue.html) | 2029-Q1 | <span class="status status-open">Open</span> |
+| P3 | [Why AI Has to Create Jobs](../articles/why-ai-has-to-create-jobs-or-fail-spectacularly.html) | 2029-12-31 | <span class="status status-open">Open</span> |
+| P4 | [The OpenClaw Playbook](../articles/the-openclaw-playbook.html) | 2027-12-31 | <span class="status status-open">Open</span> |
 
 Status legend: **Open** (waiting), **Right** (resolved correctly), **Wrong** (resolved against), **Partial** (mixed), **Voided** (premise invalidated).
 

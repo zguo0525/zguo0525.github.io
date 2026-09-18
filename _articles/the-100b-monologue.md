@@ -6,12 +6,6 @@ description: "Reasoning models now spend most of the world's tokens talking to t
 date: 2026-02-08
 tags: [AI, reasoning, efficiency]
 ---
-
-# The $100B Monologue
-
-*February 2026*
-{: .essay-meta}
-
 The AI industry spends over a hundred billion dollars a year making computers talk to themselves.
 
 Not to users. To themselves. The internal monologue — the "thinking" that reasoning models do before answering — is now the majority of all tokens generated on Earth. Thousands of words of self-talk that no human reads, no human asked for, and no human would pay for if they understood what was happening.

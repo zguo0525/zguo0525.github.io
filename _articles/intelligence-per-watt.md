@@ -6,12 +6,6 @@ description: "When the headline metric becomes output per joule, a technology ha
 date: 2026-07-14
 tags: [AI, Strategy]
 ---
-
-# Intelligence per Watt: Nobody Got Rich Owning the Grid
-
-*July 2026*
-{: .essay-meta}
-
 Watch what the frontier labs brag about now. Two years ago every launch led with a benchmark table; this year's lead with a price.
 
 The old launches were MMLU, GPQA, SWE-bench — bar charts with your model in a slightly darker color, two points ahead of the competition. The launches of 2026 lead with price per million tokens, latency, efficiency curves. And since inference cost is mostly electricity plus depreciation, tokens per dollar is really tokens per joule.

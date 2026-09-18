@@ -1371,3 +1371,63 @@ html { scroll-behavior: smooth; }
   .links { justify-content: flex-start; column-gap: 14px; row-gap: 0; }
   .content .now-row dd a.chip-jump { display: flex; width: fit-content; }
 }
+
+/* ==========================================================================
+   Polish round 3 (2026-09-18): essay page, index pages, details
+   ========================================================================== */
+
+/* Essay title block */
+.essay-head { margin-bottom: 2.2em; }
+.essay-content .essay-head h1 { margin-bottom: 0.35em; }
+.essay-dek { font-family: var(--serif); font-style: italic; font-size: 1.15rem; line-height: 1.4; color: var(--muted); margin: 0 0 1.1em; text-wrap: balance; }
+.essay-content .essay-head .essay-meta { margin-bottom: 0; min-height: 1.4em; }
+.essay-end { font-family: var(--mono); font-size: var(--label-size); letter-spacing: var(--label-track); color: var(--muted); margin: 3em 0 0; }
+.related { margin-top: 48px; }
+
+/* Essay headings: serif hierarchy, no rules */
+.essay-content h2 { font-family: var(--serif); font-size: var(--fs-xl); font-weight: 600; text-transform: none; letter-spacing: -0.01em; color: var(--text); border-bottom: 0; padding-bottom: 0; margin: 2.2em 0 0.6em; }
+.essay-content h3 { font-family: var(--serif); font-size: var(--fs-l); font-style: italic; font-weight: 400; margin: 1.6em 0 0.4em; }
+.essay-content hr { margin: 2.2em 0; }
+.essay-content hr + h2 { margin-top: 0; }
+.essay-content :is(li, blockquote, figcaption) a { color: var(--text); text-decoration-color: color-mix(in srgb, var(--text) 35%, transparent); }
+.essay-content :is(li, blockquote, figcaption) a:hover { color: var(--accent-hover); text-decoration-color: currentColor; }
+.essay-content blockquote { color: var(--text); }
+
+/* News rows */
+.news-link { display: inline-block; margin-top: 6px; font-family: var(--mono); font-size: 0.7rem; letter-spacing: var(--label-track); text-transform: uppercase; color: var(--muted); text-decoration: none; }
+.news-link:hover { color: var(--accent); }
+.news-upcoming { color: var(--accent); }
+.content h2 + ul.newslist { margin-top: 6px; }
+.news-row:first-child { padding-top: 6px; }
+
+/* Essays list */
+.content ul.essay-list li a { text-wrap: pretty; }
+.content ul.essay-list .item-date, .item-tag { top: 22px; line-height: 1.25; }
+.essay-read { font-family: var(--mono); font-size: 0.68rem; letter-spacing: var(--label-track); color: var(--muted); text-transform: uppercase; margin-right: 4px; }
+.item-tags { position: absolute; right: 0; top: 22px; display: flex; gap: 6px; }
+.item-tags .item-tag { position: static; top: auto; }
+@media (max-width: 600px) {
+  .essay-list .essay-desc { -webkit-line-clamp: 3; }
+  .item-tags { position: static; display: inline-flex; margin-left: 8px; vertical-align: 1px; }
+  .item-tags .item-tag { display: inline-block; }
+  .pagehead-name { display: inline-block; font-size: 0.95rem; }
+  .tabnav .icon-nav { display: none; }
+}
+
+/* Predictions status */
+.status { font-family: var(--mono); font-size: 0.68rem; letter-spacing: var(--label-track); text-transform: uppercase; }
+.status-open { color: var(--muted); }
+.status-right { color: #5ec27a; }
+.status-wrong { color: var(--accent); }
+.status-partial { color: #d9a441; }
+.status-voided { color: var(--muted); text-decoration: line-through; }
+
+/* Footer, 404 */
+.nowrap { white-space: nowrap; }
+.content .error-code { margin: -0.12em 0 0.08em; }
+
+@media print {
+  .content a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.8em; color: #555; }
+  .rs-row, .news-row, .pub-row { break-inside: avoid; }
+  .readbar, .essay-end { display: none; }
+}

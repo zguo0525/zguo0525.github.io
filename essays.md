@@ -20,7 +20,8 @@ description: Essays by Gavin Guo on AI, agents, product, and strategy.
 {% for e in sorted_essays %}
   {% capture essay_url %}/articles/{{ e.slug }}.html{% endcapture %}
   {% assign apage = site.articles | where: "url", essay_url | first %}
-  <li data-tags="{{ e.tags | join: ',' }}"><span class="item-date">{{ e.date }}</span><a href="./articles/{{ e.slug }}.html">{{ e.title }}</a>{% if e.tags %}<span class="item-tag">{{ e.tags | first }}</span>{% endif %}{% if apage.description %}<p class="essay-desc">{{ apage.description }}</p>{% endif %}</li>
+  {% assign words = apage.content | strip_html | number_of_words %}{% assign mins = words | divided_by: 220 | at_least: 1 %}
+  <li data-tags="{{ e.tags | join: ',' }}"><span class="item-date">{{ e.date }}</span><a href="./articles/{{ e.slug }}.html">{{ e.title }}</a><span class="item-tags"><span class="essay-read">{{ mins }} min</span>{% for t in e.tags %}<span class="item-tag">{{ t }}</span>{% endfor %}</span>{% if apage.description %}<p class="essay-desc">{{ apage.description }}</p>{% endif %}</li>
 {% endfor %}
 </ul>
 

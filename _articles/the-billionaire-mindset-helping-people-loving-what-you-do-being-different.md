@@ -6,12 +6,6 @@ description: "Don't fall into the rat race. The only way to go up is to look up,
 date: 2026-01-01
 tags: [mindset, entrepreneurship, strategy]
 ---
-
-# The Billionaire Mindset: Look Up, Not Around
-
-*January 2026*
-{: .essay-meta}
-
 Most people are stuck in a rat race. They look around, see what others are doing, and try to do it slightly better—20% better, 50% better, maybe 100% better. This is a death spiral.
 
 The only way to go up is to look up, not look around.

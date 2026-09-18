@@ -7,8 +7,8 @@ description: Publications, patents, and selected projects by Gavin Guo, with a o
 ---
 
 <div class="essay-filters" role="group" aria-label="Show selected or all papers">
-  <button type="button" class="filter-chip active" data-filter="all" aria-pressed="true">All</button>
-  <button type="button" class="filter-chip" data-filter="selected" aria-pressed="false">Selected</button>
+  <button type="button" class="filter-chip active" data-filter="selected" aria-pressed="true">Selected</button>
+  <button type="button" class="filter-chip" data-filter="all" aria-pressed="false">All</button>
 </div>
 <p class="filter-status" aria-live="polite"></p>
 
@@ -36,8 +36,7 @@ description: Publications, patents, and selected projects by Gavin Guo, with a o
 (function() {
   const chips = document.querySelectorAll('.filter-chip');
   const rows = document.querySelectorAll('.pub-row');
-  chips.forEach(chip => {
-    chip.addEventListener('click', () => {
+  const apply = (chip) => {
       const sel = chip.dataset.filter === 'selected';
       chips.forEach(c => { const on = c === chip; c.classList.toggle('active', on); c.setAttribute('aria-pressed', String(on)); });
       rows.forEach(li => { li.style.display = (!sel || li.dataset.selected) ? '' : 'none'; });
@@ -54,7 +53,8 @@ description: Publications, patents, and selected projects by Gavin Guo, with a o
         while (el && el.tagName !== 'H2') { if (el.classList.contains('publist') && el.style.display !== 'none') any = true; el = el.nextElementSibling; }
         h2.style.display = any ? '' : 'none';
       });
-    });
-  });
+  };
+  chips.forEach(chip => chip.addEventListener('click', () => apply(chip)));
+  apply(document.querySelector('.filter-chip.active'));
 })();
 </script>

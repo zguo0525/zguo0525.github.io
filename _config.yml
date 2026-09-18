@@ -14,6 +14,7 @@ collections:
     permalink: "/articles/:name:output_ext"
 
 feed:
+  posts_limit: 20
   collections:
     - articles
 twitter:
@@ -21,6 +22,7 @@ twitter:
   card: summary_large_image
 
 author:
+  name:          Gavin Guo
   email:         zguo0525@berkeley.edu
   googlescholar: https://scholar.google.com/citations?user=P_cJy4MAAAAJ&hl=en
   github:        zguo0525

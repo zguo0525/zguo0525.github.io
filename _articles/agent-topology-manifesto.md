@@ -6,12 +6,6 @@ description: "Org-chart agent systems import human coordination limits into mach
 date: 2026-04-19
 tags: [AI, LLM, multi-agent, architecture, topology]
 ---
-
-# Agent Topology Follows Task, Not Template
-
-*April 2026*
-{: .essay-meta}
-
 Everyone is building org-chart agents, and the org chart is the bug.
 
 Planner → Executor → Critic. Manager → Worker → Validator. Trees of LLMs wired into patterns that look suspiciously like the company structure on a whiteboard.

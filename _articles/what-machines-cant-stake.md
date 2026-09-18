@@ -6,12 +6,6 @@ description: "Machines calculate. Humans commit. The gap is not intelligence —
 date: 2026-05-15
 tags: [AI, philosophy, agency, commitment]
 ---
-
-# What Machines Can't Stake
-
-*May 2026*
-{: .essay-meta}
-
 A language model never decides. It calculates.
 
 Asked for the next token, it computes a probability over everything it has seen and samples one. That sounds like a small distinction. It is the line between everything machines can do and everything humans are for.
