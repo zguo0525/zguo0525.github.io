@@ -4,9 +4,9 @@ title: Post-training, synthetic data, and RL for agents
 nav_title: About
 ---
 
-I post-train multimodal models that act in real environments. Given a capability we want, I build the tasks, environments, rewards, and synthetic data that teach it, then train with RL. Right now I care most about RL environments and post-training for computer-use and real-time multimodal agents.
+I post-train multimodal models to act in the real world. Start from the capability we want, build the tasks, environments, rewards, and synthetic data that teach it, then train with RL. The problems I care about now: RL environments and post-training for agents that use computers and interact in real time.
 
-Now at <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url }}" alt="" width="16" height="16">**Meta Superintelligence Labs** on real-time omni models for personal agents. Previously **Visual Intelligence** at <img class="logo-inline" src="{{ '/assets/logos/apple.com.png' | relative_url }}" alt="" width="16" height="16">[Apple](https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/) and <img class="logo-inline" src="{{ '/assets/logos/mitibmwatsonailab.mit.edu.png' | relative_url }}" alt="" width="16" height="16">[MIT-IBM Watson](https://mitibmwatsonailab.mit.edu/) on synthetic data. **Ph.D. in Computer Science** at <img class="logo-inline" src="{{ '/assets/logos/mit.edu.png' | relative_url }}" alt="" width="16" height="16">**MIT**; **B.A. in Physics** at <img class="logo-inline" src="{{ '/assets/logos/berkeley.edu.png' | relative_url }}" alt="" width="16" height="16">**UC Berkeley**. I read, write, and hike.
+At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url }}" alt="" width="16" height="16">**Meta Superintelligence Labs** I work on real-time omni models for personal agents. Before that, **Visual Intelligence** at <img class="logo-inline" src="{{ '/assets/logos/apple.com.png' | relative_url }}" alt="" width="16" height="16">[Apple](https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/) and synthetic data at <img class="logo-inline" src="{{ '/assets/logos/mitibmwatsonailab.mit.edu.png' | relative_url }}" alt="" width="16" height="16">[MIT-IBM Watson](https://mitibmwatsonailab.mit.edu/). **Ph.D. in Computer Science** at <img class="logo-inline" src="{{ '/assets/logos/mit.edu.png' | relative_url }}" alt="" width="16" height="16">**MIT**, and **B.A. in Physics** at <img class="logo-inline" src="{{ '/assets/logos/berkeley.edu.png' | relative_url }}" alt="" width="16" height="16">**UC Berkeley**. I read, write, and hike.
 
 ## Research
 
@@ -52,7 +52,7 @@ Now at <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_
   </a>
   <div class="rs-text">
     <div class="rs-kicker">Vibes · 2025</div>
-    <h3>DPO and offline RL for a generated-video feed</h3>
+    <h3><a href="https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/">DPO and offline RL for a generated-video feed</a></h3>
     <p>Built the agentic long-form video generation workflow and the DPO and offline RL system behind Vibes, Meta AI's personalized video feed, and led the human-evaluation data behind it.</p>
     <p class="rs-refs"><a class="chip" href="https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/">Announcement</a></p>
   </div>
@@ -64,7 +64,7 @@ Now at <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_
   </a>
   <div class="rs-text">
     <div class="rs-kicker">Apple · 2025</div>
-    <h3>Visual Lookup and StreamingQA on device</h3>
+    <h3><a href="https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/">Visual Lookup and StreamingQA on device</a></h3>
     <p>Built the datasets for on-device visual question answering on iPhone with privacy-preserving VLMs, and post-trained Apple's foundation model for proactive question answering on egocentric video. Shipped in Apple Intelligence at WWDC 2025.</p>
     <p class="rs-refs"><a class="chip" href="https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/">WWDC 2025</a></p>
   </div>
@@ -76,7 +76,7 @@ Now at <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_
   </a>
   <div class="rs-text">
     <div class="rs-kicker">Synthetic Data RL · 2025</div>
-    <h3>Environments and rewards from task definitions</h3>
+    <h3><a href="https://arxiv.org/abs/2505.17063">Environments and rewards from task definitions</a></h3>
     <p>Given a target capability, synthesize the tasks, the environment, and the reward, then train with RL. No labeled dataset required; the task definition is the input.</p>
     <p class="rs-refs"><a class="chip" href="https://arxiv.org/abs/2505.17063">Paper</a><a class="chip" href="https://arxiv.org/abs/2402.09615">API Pack</a></p>
   </div>
@@ -88,7 +88,7 @@ Now at <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_
   </a>
   <div class="rs-text">
     <div class="rs-kicker">JetMoE · 2024</div>
-    <h3>Open MoE at Llama2-13B quality</h3>
+    <h3><a href="https://arxiv.org/abs/2404.07413">Open MoE at Llama2-13B quality</a></h3>
     <p>JetMoE-8B, an open-source mixture-of-experts model trained for a fraction of the usual cost that outperforms Llama2-13B, with a synthetic corpus for pre-training and post-training.</p>
     <p class="rs-refs"><a class="chip" href="https://arxiv.org/abs/2404.07413">Paper</a><a class="chip" href="https://github.com/myshell-ai/JetMoE">Code</a></p>
   </div>
@@ -100,7 +100,7 @@ Now at <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_
   </a>
   <div class="rs-text">
     <div class="rs-kicker">Octo-Planner · 2024</div>
-    <h3>On-device planner-action agents</h3>
+    <h3><a href="https://arxiv.org/abs/2406.18082">On-device planner-action agents</a></h3>
     <p>Efficient on-device task planning and decomposition, trained on a synthetic planning dataset with a multi-LoRA post-training pipeline.</p>
     <p class="rs-refs"><a class="chip" href="https://arxiv.org/abs/2406.18082">Paper</a></p>
   </div>
@@ -129,11 +129,20 @@ Now at <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_
 ## Recent Essays
 
 <ul class="essay-list">
-{% assign recent_essays = site.data.essays | sort: "date_sort" | reverse %}
-{% for e in recent_essays limit:3 %}
-  {% capture essay_url %}/articles/{{ e.slug }}.html{% endcapture %}
-  {% assign apage = site.articles | where: "url", essay_url | first %}
-  <li><span class="item-date">{{ e.date }}</span><a href="{{ essay_url | relative_url }}">{{ e.title }}</a>{% if e.tags %}<span class="item-tag">{{ e.tags | first }}</span>{% endif %}{% if apage.description %}<p class="essay-desc">{{ apage.description }}</p>{% endif %}</li>
+{% assign sorted_essays = site.data.essays | sort: "date_sort" | reverse %}
+{% assign home_tags = "AI|Strategy|Career" | split: "|" %}
+{% assign used = "" %}
+{% for tag in home_tags %}
+  {% for hit in sorted_essays %}
+    {% assign key = "|" | append: hit.slug | append: "|" %}
+    {% if hit.tags contains tag %}{% unless used contains key %}
+      {% assign used = used | append: key %}
+      {% capture essay_url %}/articles/{{ hit.slug }}.html{% endcapture %}
+      {% assign apage = site.articles | where: "url", essay_url | first %}
+      <li><span class="item-date">{{ hit.date }}</span><a href="{{ essay_url | relative_url }}">{{ hit.title }}</a><span class="item-tag">{{ tag }}</span>{% if apage.description %}<p class="essay-desc">{{ apage.description }}</p>{% endif %}</li>
+      {% break %}
+    {% endunless %}{% endif %}
+  {% endfor %}
 {% endfor %}
 </ul>
 

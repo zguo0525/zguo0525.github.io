@@ -1263,3 +1263,7 @@ a.news-thumb:hover img, a.pub-thumb:hover img { transform: scale(1.03); }
   .news-row, .pub-row { grid-template-columns: 112px minmax(0, 1fr); gap: 12px; padding: 12px 0; }
 }
 @media (prefers-reduced-motion: reduce) { .news-thumb img, .pub-thumb img { transition: none; } a.news-thumb:hover img, a.pub-thumb:hover img { transform: none; } }
+
+/* Card titles are links */
+.content .rs-text h3 a { color: var(--text); text-decoration: none; }
+.content .rs-text h3 a:hover { color: var(--accent); }
