@@ -3,13 +3,14 @@
   month: Oct
   date_sort: 2026-10
   text: At **COLM 2026** in San Francisco, Oct 6–9. Email me to meet at the poster sessions or the Lifelong Agents workshop.
+  upcoming: true
   link: https://colm.cc/
   thumb: /assets/news/2026-10-at-colm-2026-in-san-francisco-oct-6-9-em.webp
 - id: 2026-07-muse-spark-1-1-released-a-multimodal-rea
   year: 2026
   month: Jul
   date_sort: 2026-07
-  text: '**Muse Spark 1.1** released, a multimodal reasoning model for agentic tasks, alongside the Meta Model API public preview. My real-time omni model work feeds this series.'
+  text: '**Muse Spark 1.1** released, a multimodal reasoning model for agentic tasks, alongside the Meta Model API public preview. I lead synthetic data and RL for the real-time omni model in the Muse series.'
   link: https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/
   thumb: /assets/news/2026-07-muse-spark-1-1-released-a-multimodal-rea.webp
 - id: 2026-07-muse-image-launched-the-first-image-gene
@@ -23,7 +24,7 @@
   year: 2026
   month: Apr
   date_sort: 2026-04
-  text: '**Muse Spark** announced, the first model in the Muse series from Meta Superintelligence Labs, with multimodal perception built in. The series my team contributes to.'
+  text: '**Muse Spark** announced, the first model in the Muse series from Meta Superintelligence Labs, with multimodal perception built in. I work on the real-time omni model in this series.'
   link: https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/
   thumb: /assets/news/2026-04-muse-spark-announced-the-first-model-in-.webp
 - id: 2025-09-vibes-launched-in-the-meta-ai-app-for-ai
@@ -37,7 +38,7 @@
   year: 2025
   month: Jul
   date_sort: 2025-07
-  text: Joined **Meta Superintelligence Labs** to work on multimodal embodiment.
+  text: Joined **Meta Superintelligence Labs** to work on real-time omni models for personal agents.
   link: null
   thumb: /assets/news/2025-07-joined-meta-superintelligence-labs-to-wo.webp
 - id: 2025-06-visual-intelligence-for-apple-intelligen

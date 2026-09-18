@@ -6,6 +6,8 @@
       title: 'Synthetic Data RL: Task Definition Is All You Need'
       url: https://arxiv.org/abs/2505.17063
       meta: Yiduo Guo, <ins>Zhen Guo</ins>, Chuanwei Huang, Zi-Ang Wang, Zekai Zhang, Haofei Yu, Huishuai Zhang, Yikang Shen. *arXiv preprint (2025).*
+      tldr: 'Reinforcement fine-tuning from a task definition alone: synthesize the data, adapt the difficulty, then train with RL. No labeled dataset required.'
+      selected: true
       chips: []
       year: 2025
       thumb: /assets/papers/thumbs/synthetic-data-rl-task-definition-is-all.webp
@@ -13,6 +15,8 @@
       title: 'API Pack: A Massive Multi-Programming Language Dataset for API Call Generation'
       url: https://arxiv.org/abs/2402.09615
       meta: <ins>Zhen Guo</ins>, Adriana Meza Soria, Wei Sun, Yikang Shen, Rameswar Panda. *ICLR 2025.*
+      tldr: 'A million-plus instruction dataset for API call generation across ten languages; fine-tuning on it beats GPT-3.5 and GPT-4 on unseen APIs.'
+      selected: true
       chips: []
       year: 2025
       thumb: /assets/papers/thumbs/api-pack-a-massive-multi-programming-lan.webp
@@ -20,6 +24,7 @@
       title: Diversity Measurement and Subset Selection for Instruction Tuning Datasets
       url: https://arxiv.org/abs/2402.02318
       meta: Peiqi Wang, Yikang Shen, <ins>Zhen Guo</ins>, Matthew J. Stallone, Yoon Kim, Polina Golland, Rameswar Panda. *ICLR 2025 Data Problem.*
+      tldr: 'Measure instruction-set diversity with determinantal point processes, then pick the subset that keeps it; small diverse subsets match the full set.'
       chips: []
       year: 2025
       thumb: /assets/papers/thumbs/diversity-measurement-and-subset-selecti.webp
@@ -27,13 +32,17 @@
       title: 'Octo-planner: On-device Language Model for Planner-Action Agents'
       url: https://arxiv.org/abs/2406.18082
       meta: Wei Chen, Zhiyuan Li, <ins>Zhen Guo</ins>, Yikang Shen. *EMAS 2025 (AAMAS workshop), [Springer LNCS](https://doi.org/10.1007/978-3-032-18011-7_9).*
+      tldr: 'Split planning from action so a small on-device model can decompose a request into steps; trained on synthetic plans with multi-LoRA.'
+      note: 'MIT CSAIL spotlight'
+      selected: true
       chips: []
       year: 2025
       thumb: /assets/papers/thumbs/octo-planner-on-device-language-model-fo.webp
     - id: scaling-law-hypothesis-for-multimodal-mo
       title: Scaling Law Hypothesis for Multimodal Model
       url: https://arxiv.org/pdf/2409.06754
-      meta: Qingyun Sun, <ins>Zhen Guo</ins>. *[PIN AI White Paper](https://www.pinai.io/) (2024).*
+      meta: Qingyun Sun, <ins>Zhen Guo</ins>. *[PIN AI White Paper](https://www.pinai.com/) (2024).*
+      tldr: 'A single scaling law across text, image, audio, and video tokens, tied to the token count each modality actually needs.'
       chips: []
       year: 2024
       thumb: /assets/papers/thumbs/scaling-law-hypothesis-for-multimodal-mo.webp
@@ -41,6 +50,7 @@
       title: More Compute Is What You Need
       url: https://arxiv.org/abs/2404.19484
       meta: <ins>Zhen Guo</ins>. *arXiv (2024).*
+      tldr: 'Argues that model quality tracks total training compute more than architecture or data recipe, with implications for how to spend a fixed budget.'
       chips: []
       year: 2024
       thumb: /assets/papers/thumbs/more-compute-is-what-you-need.webp
@@ -48,17 +58,19 @@
       title: 'JetMoE: Reaching Llama2 Performance with 0.1M Dollars'
       url: https://arxiv.org/abs/2404.07413
       meta: Yikang Shen, <ins>Zhen Guo</ins>, Tianle Cai, Zengyi Qin. *[MyShell AI Technical Report](https://myshell.ai/) (2024).*
+      tldr: 'An open 8B mixture-of-experts model trained on 96 H100s that outperforms Llama2-13B, with the full recipe released.'
+      note: 'MIT CSAIL spotlight · HackerNews front page'
+      selected: true
       chips:
       - label: code
         url: https://github.com/myshell-ai/JetMoE
-      - label: demo
-        url: https://www.lepton.ai/playground/chat?model=jetmoe-8b-chat
       year: 2024
       thumb: /assets/papers/thumbs/jetmoe-reaching-llama2-performance-with-.webp
     - id: authentigpt-detecting-machine-generated-
       title: 'AuthentiGPT: Detecting Machine-Generated Text via Black-Box Language Models Denoising'
       url: https://arxiv.org/abs/2311.07700
       meta: <ins>Zhen Guo</ins>, Shangdi Yu. *NeurIPS 2023 on Generative AI for Education.*
+      tldr: 'Detect machine-generated text by denoising it with a black-box LLM and measuring how much survives.'
       chips: []
       year: 2023
       thumb: /assets/papers/thumbs/authentigpt-detecting-machine-generated-.webp
@@ -66,6 +78,7 @@
       title: 'Dr. LLaMA: Improving Small Language Models on PubMedQA via Generative Data Augmentation'
       url: https://arxiv.org/abs/2305.07804
       meta: <ins>Zhen Guo</ins>, Peiqi Wang, Yanwei Wang, Shangdi Yu. *KDD 2023 Foundations and Applications in Large-scale AI Models.*
+      tldr: 'Generative data augmentation lifts small models on PubMedQA; the first LLaMA fine-tune on medical QA.'
       chips:
       - label: code
         url: https://github.com/zguo0525/Dr.llama
@@ -77,6 +90,8 @@
       title: Non-invasive Estimation of the Powder Size Distribution from a Single Speckle Image
       url: https://www.nature.com/articles/s41377-024-01436-y
       meta: 'Qihang Zhang, George Barbastathis, Ajinkya Pandit, Zhiguang Liu, <ins>Zhen Guo</ins>, et al. *Light: Science & Applications (2024).*'
+      tldr: "Estimate a pharmaceutical powder's size distribution from one speckle image, in real time, for continuous manufacturing."
+      note: 'MIT News'
       chips: []
       year: 2024
       thumb: /assets/papers/thumbs/non-invasive-estimation-of-the-powder-si.webp
@@ -84,6 +99,7 @@
       title: Ferromagnetism Emerged from Non-ferromagnetic Atomic Crystals
       url: https://www.nature.com/articles/s41467-023-39002-6
       meta: Cheng Gong, Xiang Zhang, Peiyao Zhang, Tenzin Norden, Quanwei Li, <ins>Zhen Guo</ins>, Apoorva Chaturvedi, Arman Najafi, Shoufeng Lan, et al. *Nature Communications (2023).*
+      tldr: 'Ferromagnetism appears when two non-ferromagnetic 2D crystals are stacked, from interlayer charge transfer.'
       chips: []
       year: 2023
       thumb: /assets/papers/thumbs/ferromagnetism-emerged-from-non-ferromag.webp
@@ -91,6 +107,7 @@
       title: 'PLayer: A Plug-and-Play Embedded Neural System to Boost Neural Organoid 3D Reconstruction'
       url: https://www.spiedigitallibrary.org/journals/advanced-photonics-nexus/volume-4/issue-3/036007/PLayer--a-plug-and-play-embedded-neural-system-to/10.1117/1.APN.4.3.036007.full
       meta: Yuanzheng Ma, Davit Khutsishvili, Zihan Zang, Wei Yue, <ins>Zhen Guo</ins>, Tao Feng, Zitian Wang, Liwei Lin, Shaohua Ma, Xun Guan. *Advanced Photonics Nexus (2025).*
+      tldr: 'A plug-in embedded neural system that speeds 3D reconstruction of neural organoids on lab hardware.'
       chips: []
       year: 2025
       thumb: /assets/papers/thumbs/player-a-plug-and-play-embedded-neural-s.webp
@@ -98,6 +115,7 @@
       title: On the Use of Deep Learning for Three-Dimensional Computational Imaging
       url: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12445/2655261/On-the-use-of-deep-learning-for-three-dimensional-computational/10.1117/12.2655261.short
       meta: George Barbastathis, Subeen Pang, Iksung Kang, Zhiguang Liu, <ins>Zhen Guo</ins>, Fucai Zhang. *SPIE Photonics West (2023).*
+      tldr: 'Survey of where learned priors help three-dimensional computational imaging and where they fail.'
       chips: []
       year: 2023
       thumb: /assets/papers/thumbs/on-the-use-of-deep-learning-for-three-di.webp
@@ -105,6 +123,7 @@
       title: Noise-resilient Deep Tomographic Imaging
       url: https://preprints.opticaopen.org/articles/preprint/Noise-resilient_deep_tomographic_imaging/21931557
       meta: <ins>Zhen Guo</ins>, Zhiguang Liu, George Barbastathis, Qihang Zhang, Michael E. Glinsky, Bradley K. Alpert, Zachary H. Levine. *Optica Open (2022).*
+      tldr: 'Reconstruct X-ray tomograms at low photon counts by learning the noise structure instead of averaging it away.'
       chips:
       - label: code
         url: https://github.com/zguo0525/Noise-resilience-deep-reconstruction-for-X-ray-Tomography
@@ -113,7 +132,10 @@
     - id: physics-assisted-generative-adversarial-
       title: Physics-assisted Generative Adversarial Network for X-ray Tomography
       url: ./papers/PGAN.pdf
-      meta: '<ins>Zhen Guo</ins>, Jung Ki Song, George Barbastathis, Michael E. Glinsky, Courtenay T. Vaughan, Kurt W. Larson, Bradley K. Alpert, Zachary H. Levine. *Optics Express (2022); Electronic Imaging: ML for Scientific Imaging (2022).*'
+      meta: '<ins>Zhen Guo</ins>, Jung Ki Song, George Barbastathis, Michael E. Glinsky, Courtenay T. Vaughan, Kurt W. Larson, Bradley K. Alpert, Zachary H. Levine. *[Optics Express](https://doi.org/10.1364/OE.460208) (2022); Electronic Imaging: ML for Scientific Imaging (2022).*'
+      tldr: 'A GAN with the X-ray forward model built in, so reconstructions stay physically consistent at low dose.'
+      note: 'Optics Express'
+      selected: true
       chips:
       - label: slides
         url: ./slides/PGAN.pdf
@@ -125,13 +147,16 @@
       title: 'LION: Learning to Invert 3D Objects by Neural Networks'
       url: ./papers/lion.pdf
       meta: George Barbastathis, Jungki Song, Zilin Wu, Subeen Pang, <ins>Zhen Guo</ins>. *MIT MTL Annual Research Report (2021).*
+      tldr: 'Neural inversion of 3D objects from limited-angle projections.'
       chips: []
       year: 2021
       thumb: /assets/papers/thumbs/lion-learning-to-invert-3d-objects-by-ne.webp
     - id: randomized-probe-imaging-through-deep-k-
       title: Randomized Probe Imaging Through Deep k-learning
       url: ./papers/RPI.pdf
-      meta: <ins>Zhen Guo</ins>, Abraham Levitan, George Barbastathis, Riccardo Comin. *Optics Express (2022); Computational Optical Sensing and Imaging (2021).*
+      meta: <ins>Zhen Guo</ins>, Abraham Levitan, George Barbastathis, Riccardo Comin. *[Optics Express](https://doi.org/10.1364/OE.445498) (2022); [COSI](https://doi.org/10.1364/COSI.2021.CTh7A.6) (2021).*
+      tldr: 'Recover a sample from a single randomized probe measurement by unrolling gradient descent into a network.'
+      note: 'Optics Express'
       chips:
       - label: code
         url: https://github.com/zguo0525/Randomized-probe-imaging-through-deep-k-learning
@@ -141,6 +166,7 @@
       title: Wafer-scale On-chip Synthesis and Field Emission Properties of Vertically Aligned Boron Nitride Based Nanofiber Arrays
       url: ./papers/wafer.pdf
       meta: Hu Long, Thang Pham, Aiming Yan, <ins>Zhen Guo</ins>, Hiroya Ishida, Wu Shi, Sally Turner, S. Matt Gilbert, Alex Zettl. *Applied Physics Letters (2019).*
+      tldr: 'Wafer-scale growth of vertically aligned boron nitride nanofibers and their field-emission behavior.'
       chips: []
       year: 2019
       thumb: /assets/papers/thumbs/wafer-scale-on-chip-synthesis-and-field-.webp
@@ -152,6 +178,7 @@
       title: Pupil Engineering Method to Enhance the Signal of the Real-Time Determination of Particle Size Distribution in Powders
       url: null
       meta: Qihang Zhang, Ajinkya Pandit, Allan S. Myerson, George Barbastathis, Janaka C. Gamekkanda Gamaethige, Richard D. Braatz, <ins>Zhen Guo</ins>. *US Patent Application 18/845,719 (2025).*
+      tldr: 'Pupil design that boosts the speckle signal used for real-time particle sizing.'
       chips: []
       year: 2025
       thumb: /assets/papers/thumbs/pupil-engineering-method-to-enhance-the-.webp
@@ -159,6 +186,7 @@
       title: System and Method for Real-Time Determination of Particle Size Distributions in Dry Powders
       url: null
       meta: Qihang Zhang, Ajinkya Pandit, Allan S. Myerson, George Barbastathis, Janaka C. Gamekkanda Gamaethige, Richard D. Braatz, <ins>Zhen Guo</ins>. *US Patent Application 18/845,766 (2025).*
+      tldr: 'Optical system and method for real-time particle size distribution in dry powders.'
       chips: []
       year: 2025
       thumb: /assets/papers/thumbs/system-and-method-for-real-time-determin.webp
@@ -170,6 +198,7 @@
       title: 'Gen-VQA: Generative Visual Question Answering with Abstract Scenes'
       url: null
       meta: Yifan Yang, <ins>Zhen Guo</ins>. *MIT 6.869 Advances in Computer Vision, Fall 2019.*
+      tldr: 'Answer questions about abstract scenes by generating the scene, not just classifying it.'
       chips:
       - label: report
         url: https://github.com/Yang-YiFan/vqa-gan
@@ -181,6 +210,8 @@
       title: Hardware Efficient Quantum Computing via Circuit Decomposition
       url: null
       meta: Tianyi Peng, Linsen Li, Kaidong Peng, Yufeng Ye, <ins>Zhen Guo</ins>. *iQuHACK MIT Quantum Hackathon (first place), Winter 2019.*
+      tldr: "Decompose circuits to fit the target hardware's native gates and connectivity."
+      note: 'First place, iQuHACK 2019'
       chips:
       - label: code
         url: https://github.com/zguo0525/Hardware-Efficient-Quantum-Computing-via-Circuit-Decomposition

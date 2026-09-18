@@ -4,15 +4,26 @@ title: Training agents that perceive and act
 nav_title: About
 ---
 
-I train multimodal models to act in the real world. Start from the capability we want, build the tasks, environments, rewards, and synthetic data that teach it, then train with RL. The problems I care about now: RL environments and post-training for agents that use computers and interact in real time.
+I train multimodal models to act in the real world. Start from the capability we want, build the tasks, environments, rewards, and synthetic data that teach it, then train with RL.
 
-At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url }}" alt="" width="16" height="16">**Meta Superintelligence Labs** I work on real-time omni models for personal agents. Before that, **Visual Intelligence** at <img class="logo-inline" src="{{ '/assets/logos/apple.com.png' | relative_url }}" alt="" width="16" height="16">[Apple](https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/) and synthetic data at <img class="logo-inline" src="{{ '/assets/logos/mitibmwatsonailab.mit.edu.png' | relative_url }}" alt="" width="16" height="16">[MIT-IBM Watson](https://mitibmwatsonailab.mit.edu/). **Ph.D. in Computer Science** at <img class="logo-inline" src="{{ '/assets/logos/mit.edu.png' | relative_url }}" alt="" width="16" height="16">**MIT**, and **B.A. in Physics** at <img class="logo-inline" src="{{ '/assets/logos/berkeley.edu.png' | relative_url }}" alt="" width="16" height="16">**UC Berkeley**. I read, write, and hike.
+At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url }}" alt="" width="16" height="16">**Meta Superintelligence Labs** I lead synthetic data and RL for Muse, a real-time omni model for personal agents, and built the offline RL system behind [Vibes](https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/). Before that, **Visual Intelligence** at <img class="logo-inline" src="{{ '/assets/logos/apple.com.png' | relative_url }}" alt="" width="16" height="16">[Apple](https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/) and <img class="logo-inline" src="{{ '/assets/logos/mitibmwatsonailab.mit.edu.png' | relative_url }}" alt="" width="16" height="16">[MIT-IBM Watson](https://mitibmwatsonailab.mit.edu/). **Ph.D. in Computer Science** at <img class="logo-inline" src="{{ '/assets/logos/mit.edu.png' | relative_url }}" alt="" width="16" height="16">**MIT**, and **B.A. in Physics** at <img class="logo-inline" src="{{ '/assets/logos/berkeley.edu.png' | relative_url }}" alt="" width="16" height="16">**UC Berkeley**. I read, write, and hike.
+
+<dl class="now" markdown="0">
+  <div class="now-row"><dt>Open questions</dt><dd>
+    <ul>
+      <li><a href="#muse">What does an agent need to perceive and act continuously, rather than turn by turn?</a></li>
+      <li><a href="#synthetic-data-rl">How far can a task definition alone take you: environment, reward, and data?</a></li>
+      <li><a href="#octo-planner">How small can a model be and still plan on-device?</a></li>
+    </ul>
+  </dd></div>
+  <div class="now-row"><dt>Talk to me</dt><dd>If you work on real-time agents, RL environments, or post-training, <a href="mailto:{{ site.author.email }}">email me</a>. I reply. Meeting at <a href="https://colm.cc/">COLM 2026</a>, Oct 6–9.</dd></div>
+</dl>
 
 ## Research
 
 <div markdown="0" class="research">
 
-<article class="rs-row">
+<article class="rs-row" id="muse">
   <div class="rs-fig rs-fig--diagram" role="img" aria-label="Turn-based interaction alternates listening and responding; continuous interaction perceives and responds in overlapping streams">
     <svg viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, Menlo, monospace" aria-hidden="true" focusable="false">
       <defs>
@@ -52,9 +63,9 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
   </a>
   <div class="rs-text">
     <div class="rs-kicker">Vibes · 2025</div>
-    <h3><a href="https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/">DPO and offline RL for a generated-video feed</a></h3>
-    <p>Built the agentic long-form video generation workflow and the DPO and offline RL system behind Vibes, Meta AI's personalized video feed, and led the human-evaluation data behind it.</p>
-    <p class="rs-refs"><a class="chip" href="https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/">Announcement</a></p>
+    <h3><a href="https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/">Offline RL for a generated-video feed</a></h3>
+    <p>Built the agentic long-form video generation workflow and the offline RL system behind Vibes, Meta AI's personalized video feed, and led the human-evaluation data behind it.</p>
+    <p class="rs-refs"><a class="chip" href="https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/">Blog</a></p>
   </div>
 </article>
 
@@ -66,11 +77,11 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
     <div class="rs-kicker">Apple · 2025</div>
     <h3><a href="https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/">Visual Lookup and StreamingQA on device</a></h3>
     <p>Built the datasets for on-device visual question answering on iPhone with privacy-preserving VLMs, and post-trained Apple's foundation model for proactive question answering on egocentric video. Shipped in Apple Intelligence at WWDC 2025.</p>
-    <p class="rs-refs"><a class="chip" href="https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/">WWDC 2025</a></p>
+    <p class="rs-refs"><a class="chip" href="https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/">Blog</a></p>
   </div>
 </article>
 
-<article class="rs-row">
+<article class="rs-row" id="synthetic-data-rl">
   <a class="rs-fig" href="https://arxiv.org/abs/2505.17063" aria-label="Synthetic Data RL paper">
     <img src="{{ '/assets/papers/cards/synthetic-data-rl.webp' | relative_url }}" width="800" height="408" alt="Synthetic Data RL pipeline: data synthesis, difficulty adaptation, selection and RL" loading="lazy" decoding="async">
   </a>
@@ -94,7 +105,7 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
   </div>
 </article>
 
-<article class="rs-row">
+<article class="rs-row" id="octo-planner">
   <a class="rs-fig" href="https://arxiv.org/abs/2406.18082" aria-label="Octo-Planner paper">
     <img src="{{ '/assets/papers/cards/octo-planner.webp' | relative_url }}" width="800" height="515" alt="Octo-Planner decomposing a user request into web search, video search, and email actions on a phone" loading="lazy" decoding="async">
   </a>
@@ -117,7 +128,7 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
   <li class="news-row">
     {% if n.link %}<a class="news-thumb" href="{{ n.link }}" aria-hidden="true" tabindex="-1"><img src="{{ n.thumb | relative_url }}" alt="" loading="lazy" decoding="async" width="640" height="360"></a>{% else %}<span class="news-thumb"><img src="{{ n.thumb | relative_url }}" alt="" loading="lazy" decoding="async" width="640" height="360"></span>{% endif %}
     <div class="news-body">
-      <span class="item-date">{{ n.month }} {{ n.year }}</span>
+      <span class="item-date">{{ n.month }} {{ n.year }}{% if n.upcoming %} · Upcoming{% endif %}</span>
       <p>{{ n.text | markdownify | remove: '<p>' | remove: '</p>' }}{% if n.link %} <a class="news-link" href="{{ n.link }}">Read more</a>{% endif %}</p>
     </div>
   </li>
@@ -126,23 +137,18 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
 
 <p class="more-link"><a href="{{ '/news.html' | relative_url }}">All news →</a></p>
 
-## Recent Essays
+## Essays on AI
 
 <ul class="essay-list">
 {% assign sorted_essays = site.data.essays | sort: "date_sort" | reverse %}
-{% assign home_tags = "AI|Strategy|Career" | split: "|" %}
-{% assign used = "" %}
-{% for tag in home_tags %}
-  {% for hit in sorted_essays %}
-    {% assign key = "|" | append: hit.slug | append: "|" %}
-    {% if hit.tags contains tag %}{% unless used contains key %}
-      {% assign used = used | append: key %}
-      {% capture essay_url %}/articles/{{ hit.slug }}.html{% endcapture %}
-      {% assign apage = site.articles | where: "url", essay_url | first %}
-      <li><span class="item-date">{{ hit.date }}</span><a href="{{ essay_url | relative_url }}">{{ hit.title }}</a><span class="item-tag">{{ tag }}</span>{% if apage.description %}<p class="essay-desc">{{ apage.description }}</p>{% endif %}</li>
-      {% break %}
-    {% endunless %}{% endif %}
-  {% endfor %}
+{% assign shown = 0 %}
+{% for hit in sorted_essays %}
+  {% if hit.tags contains "AI" and shown < 3 %}
+    {% assign shown = shown | plus: 1 %}
+    {% capture essay_url %}/articles/{{ hit.slug }}.html{% endcapture %}
+    {% assign apage = site.articles | where: "url", essay_url | first %}
+    <li><span class="item-date">{{ hit.date }}</span><a href="{{ essay_url | relative_url }}">{{ hit.title }}</a><span class="item-tag">AI</span>{% if apage.description %}<p class="essay-desc">{{ apage.description }}</p>{% endif %}</li>
+  {% endif %}
 {% endfor %}
 </ul>
 

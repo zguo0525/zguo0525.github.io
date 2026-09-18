@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#191917">
     <meta name="color-scheme" content="dark">
-    {% seo %}
+    {% assign is_home_head = false %}{% if page.url == '/' or page.url == '/index.html' %}{% assign is_home_head = true %}{% endif %}
+    <title>{% if is_home_head %}Gavin Guo (国振) · Training agents that perceive and act{% else %}{{ page.title }} · Gavin Guo{% endif %}</title>
+    {% seo title=false %}
     <link rel="alternate" type="application/atom+xml" title="Essays — Gavin Guo" href="{{ '/feed/articles.xml' | relative_url }}">
     <link rel="icon" type="image/png" href="{{ '/favicon.png' | relative_url }}?v={{ site.time | date: '%s' }}">
     <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}?v={{ site.time | date: '%s' }}">
@@ -49,7 +51,7 @@
           <div class="title-row">
             <h1 class="site-title"><a href="{{ '/' | absolute_url }}">Gavin Guo</a><span class="site-cjk">（国振）</span></h1>
           </div>
-          <p class="site-tagline"><span class="tagline-thesis">Training agents that perceive and act.</span> <span class="tagline-org">Meta Superintelligence Labs</span></p>
+          <p class="site-tagline"><span class="tagline-thesis">Training agents that perceive and act.</span> <span class="tagline-org">Research Scientist, Meta Superintelligence Labs · 2025–</span></p>
         </div>
         <ul class="links" aria-label="Contact and profiles">
           <li><a href="mailto:{{ site.author.email }}">{% include icon-envelope.svg %}Email</a></li>
@@ -57,7 +59,7 @@
           <li><a href="https://github.com/{{ site.author.github }}">{% include icon-github.svg %}GitHub</a></li>
           <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">{% include icon-linkedin.svg %}LinkedIn</a></li>
           <li><a href="https://twitter.com/{{ site.author.twitter }}">{% include icon-twitter.svg %}X</a></li>
-          <li><a href="{{ '/essays.html' | relative_url }}">{% include icon-nav-essays.svg %}Essays</a></li>
+          <li><a href="{{ '/feed/articles.xml' | relative_url }}">{% include icon-rss.svg %}RSS</a></li>
         </ul>
       </header>
       <nav class="tabnav" aria-label="Primary navigation">{{ navlinks }}</nav>
@@ -93,7 +95,7 @@
       {% endif %}
 
       <footer class="site-footer">
-        <p>© {{ 'now' | date: "%Y" }} Gavin Guo · <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> · <a href="{{ site.author.googlescholar }}">Scholar</a> · <a href="https://github.com/{{ site.author.github }}">GitHub</a> · <a href="{{ '/feed/articles.xml' | relative_url }}">RSS</a> · Updated {{ site.time | date: "%b %Y" }}</p>
+        <p>© {{ 'now' | date: "%Y" }} Gavin Guo · <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> · <a href="{{ site.author.googlescholar }}">Scholar</a> · <a href="https://github.com/{{ site.author.github }}">GitHub</a> · <a href="{{ '/bio.html' | relative_url }}">Bio</a> · <a href="{{ '/feed/articles.xml' | relative_url }}">RSS</a> · Updated {{ site.time | date: "%b %Y" }}</p>
       </footer>
     </main>
 
@@ -106,7 +108,7 @@
       "alternateName": "Zhen Guo (国振)",
       "url": "{{ site.url }}",
       "image": "{{ site.url }}/profile.jpeg",
-      "jobTitle": "AI Researcher",
+      "jobTitle": "Research Scientist",
       "worksFor": { "@type": "Organization", "name": "Meta Superintelligence Labs" },
       "alumniOf": [
         { "@type": "CollegeOrUniversity", "name": "Massachusetts Institute of Technology" },
