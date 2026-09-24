@@ -6,6 +6,13 @@
   upcoming: true
   link: https://colm.cc/
   thumb: /assets/news/2026-10-at-colm-2026-in-san-francisco-oct-6-9-em.webp
+- id: 2026-09-muse-realtime-voice-and-avatar-announced
+  year: 2026
+  month: Sep
+  date_sort: 2026-09
+  text: '**Muse Realtime Voice and Avatar** announced at the Meta Connect 2026 keynote: one streaming system for conversation, speech, and a live, expressive avatar. I lead synthetic data and RL for Muse.'
+  link: https://research.meta.ai/blog/bringing-your-muse-to-life
+  thumb: /assets/news/2026-09-muse-realtime-voice-and-avatar-announced.webp
 - id: 2026-07-muse-spark-1-1-released-a-multimodal-rea
   year: 2026
   month: Jul

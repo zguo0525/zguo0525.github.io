@@ -5,7 +5,7 @@ title: Training agents that perceive and act
 
 I train multimodal models to act in the real world. Start from the capability we want, build the tasks, environments, rewards, and synthetic data that teach it, then train with RL.
 
-At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url }}" alt="" width="16" height="16">[**Meta Superintelligence Labs**](https://ai.meta.com/) I lead synthetic data and RL for [Muse](https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/), a real-time omni model for personal agents, and built the offline RL system behind [Vibes](https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/). Before that, I worked on **Visual Intelligence** at <img class="logo-inline" src="{{ '/assets/logos/apple.com.png' | relative_url }}" alt="" width="16" height="16">[Apple](https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/) and **foundation models** at <img class="logo-inline" src="{{ '/assets/logos/mitibmwatsonailab.mit.edu.png' | relative_url }}" alt="" width="16" height="16">[MIT-IBM Watson](https://mitibmwatsonailab.mit.edu/). I got my **Ph.D. in Computer Science** at <img class="logo-inline" src="{{ '/assets/logos/mit.edu.png' | relative_url }}" alt="" width="16" height="16">[**MIT**](https://www.mit.edu/), and **B.A. in Physics** at <img class="logo-inline" src="{{ '/assets/logos/berkeley.edu.png' | relative_url }}" alt="" width="16" height="16">[**UC Berkeley**](https://www.berkeley.edu/). Outside work I read, write, bike, and hike.
+At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url }}" alt="" width="16" height="16">[**Meta Superintelligence Labs**](https://ai.meta.com/) I lead synthetic data and RL for [Muse](https://research.meta.ai/blog/bringing-your-muse-to-life), a real-time omni model for personal agents, and built the offline RL system behind [Vibes](https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/). Before that, I worked on **Visual Intelligence** at <img class="logo-inline" src="{{ '/assets/logos/apple.com.png' | relative_url }}" alt="" width="16" height="16">[Apple](https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/) and **foundation models** at <img class="logo-inline" src="{{ '/assets/logos/mitibmwatsonailab.mit.edu.png' | relative_url }}" alt="" width="16" height="16">[MIT-IBM Watson](https://mitibmwatsonailab.mit.edu/). I got my **Ph.D. in Computer Science** at <img class="logo-inline" src="{{ '/assets/logos/mit.edu.png' | relative_url }}" alt="" width="16" height="16">[**MIT**](https://www.mit.edu/), and **B.A. in Physics** at <img class="logo-inline" src="{{ '/assets/logos/berkeley.edu.png' | relative_url }}" alt="" width="16" height="16">[**UC Berkeley**](https://www.berkeley.edu/). Outside work I read, write, bike, and hike.
 
 <dl class="now" markdown="0">
   <div class="now-row"><dt>Open questions</dt><dd>
@@ -23,37 +23,14 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
 <div markdown="0" class="research">
 
 <article class="rs-row" id="muse">
-  <div class="rs-fig rs-fig--diagram" role="img" aria-label="Turn-based interaction alternates listening and responding; continuous interaction perceives and responds in overlapping streams">
-    <svg viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, Menlo, monospace" aria-hidden="true" focusable="false">
-      <defs>
-        <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-          <line x1="0" y1="0" x2="0" y2="6" stroke="var(--dg-ink)" stroke-opacity="0.45" stroke-width="1.6"/>
-        </pattern>
-      </defs>
-      <text x="0" y="22" font-size="13" fill="var(--dg-muted)" letter-spacing="0.08em">TURN-BASED</text>
-      <text x="0" y="50" font-size="15" fill="var(--dg-ink)">perceive</text>
-      <text x="0" y="82" font-size="15" fill="var(--dg-ink)">act</text>
-      <rect x="82" y="36" width="80" height="20" rx="3" fill="url(#hatch)" stroke="var(--dg-ink)" stroke-opacity="0.55"/>
-      <rect x="166" y="68" width="60" height="20" rx="3" fill="var(--dg-accent)"/>
-      <rect x="230" y="36" width="80" height="20" rx="3" fill="url(#hatch)" stroke="var(--dg-ink)" stroke-opacity="0.55"/>
-      <rect x="314" y="68" width="46" height="20" rx="3" fill="var(--dg-accent)"/>
-      <line x1="0" y1="106" x2="360" y2="106" stroke="var(--dg-ink)" stroke-opacity="0.15"/>
-      <text x="0" y="130" font-size="13" fill="var(--dg-muted)" letter-spacing="0.08em">CONTINUOUS</text>
-      <text x="0" y="158" font-size="15" fill="var(--dg-ink)">perceive</text>
-      <text x="0" y="190" font-size="15" fill="var(--dg-ink)">act</text>
-      <rect x="82" y="144" width="278" height="20" rx="3" fill="url(#hatch)" stroke="var(--dg-ink)" stroke-opacity="0.55"/>
-      <rect x="100" y="176" width="52" height="20" rx="3" fill="var(--dg-accent)"/>
-      <rect x="164" y="176" width="24" height="20" rx="3" fill="var(--dg-accent)"/>
-      <rect x="200" y="176" width="84" height="20" rx="3" fill="var(--dg-accent)"/>
-      <rect x="302" y="176" width="40" height="20" rx="3" fill="var(--dg-accent)"/>
-      <line x1="188" y1="140" x2="188" y2="198" stroke="var(--dg-accent)" stroke-width="1.5" stroke-dasharray="3 3"/>
-    </svg>
-  </div>
+  <a class="rs-fig rs-fig--photo" href="https://research.meta.ai/blog/bringing-your-muse-to-life" aria-label="Muse Realtime Avatar announcement">
+    <img src="{{ '/assets/papers/cards/muse.webp' | relative_url }}" width="800" height="600" alt="Grid of characters animated by Muse Realtime Avatar" loading="lazy" decoding="async">
+  </a>
   <div class="rs-text">
-    <div class="rs-kicker">Muse · 2025–26</div>
-    <h3>Muse: Real-time perception and action</h3>
-    <p>An omni model that perceives and responds in real time instead of turn by turn, and can be interrupted mid-action. I lead synthetic data and RL, and work on the distillation that makes it fast and natural enough to talk to.</p>
-    <p class="rs-refs"><a class="chip" href="https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/">Blog</a></p>
+    <div class="rs-kicker">Muse · Meta Connect 2026</div>
+    <h3><a href="https://research.meta.ai/blog/bringing-your-muse-to-life">Muse Realtime Voice and Avatar</a></h3>
+    <p>Muse Realtime Voice carries the conversation as a stream of speech tokens, and Muse Realtime Avatar turns the same stream into a live, expressive character for as long as the conversation runs. I lead synthetic data and RL, and work on the distillation that makes it fast enough to serve in real time.</p>
+    <p class="rs-refs"><a class="chip" href="https://research.meta.ai/blog/bringing-your-muse-to-life">Keynote</a></p>
   </div>
 </article>
 
