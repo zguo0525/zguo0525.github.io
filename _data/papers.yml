@@ -2,6 +2,18 @@
   groups:
   - title: AI and Language Models
     items:
+    - id: bringing-your-muse-to-life
+      title: 'Bringing Your Muse to Life'
+      url: https://research.meta.ai/blog/bringing-your-muse-to-life
+      meta: Meta Superintelligence Labs, Muse Team. *Meta AI Research Blog (2026).*
+      tldr: 'Muse Realtime Avatar: a causal video model that turns Muse Realtime Voice into a live, expressive character, distilled to run in real time.'
+      note: 'Meta Connect 2026 keynote'
+      selected: true
+      chips:
+      - label: Keynote
+        url: https://x.com/AIatMeta/status/2102997291732766943
+      year: 2026
+      thumb: /assets/news/2026-09-muse-realtime-voice-and-avatar-announced.webp
     - id: synthetic-data-rl-task-definition-is-all
       title: 'Synthetic Data RL: Task Definition Is All You Need'
       url: https://arxiv.org/abs/2505.17063
@@ -58,12 +70,14 @@
       title: 'JetMoE: Reaching Llama2 Performance with 0.1M Dollars'
       url: https://arxiv.org/abs/2404.07413
       meta: Yikang Shen, <ins>Zhen Guo</ins>, Tianle Cai, Zengyi Qin. *[MyShell AI Technical Report](https://myshell.ai/) (2024).*
-      tldr: 'An open 8B mixture-of-experts model trained on 96 H100s that outperforms Llama2-13B, with the full recipe released.'
+      tldr: 'An open 8B mixture-of-experts model trained on 96 H100s; its chat model beats Llama2-13B-Chat on MT-Bench, with the full recipe released.'
       note: 'MIT CSAIL spotlight · HackerNews front page'
       selected: true
       chips:
       - label: Code
         url: https://github.com/myshell-ai/JetMoE
+      - label: Model
+        url: https://huggingface.co/jetmoe/jetmoe-8b
       year: 2024
       thumb: /assets/papers/thumbs/jetmoe-reaching-llama2-performance-with-.webp
     - id: authentigpt-detecting-machine-generated-

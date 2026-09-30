@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#191917">
     <meta name="color-scheme" content="dark">
     {% assign is_home_head = false %}{% if page.url == '/' or page.url == '/index.html' %}{% assign is_home_head = true %}{% endif %}
-    <title>{% if is_home_head %}Gavin Guo (国振) · Training agents that perceive and act{% else %}{{ page.title }} · Gavin Guo{% endif %}</title>
+    <title>{% if is_home_head %}Gavin Guo (国振) · Training real-time multimodal agents{% else %}{{ page.title }} · Gavin Guo{% endif %}</title>
     {% seo title=false %}
     <link rel="alternate" type="application/atom+xml" title="Essays — Gavin Guo" href="{{ '/feed/articles.xml' | relative_url }}">
     <link rel="icon" type="image/png" sizes="64x64" href="{{ '/favicon.png' | relative_url }}?v={{ site.time | date: '%s' }}">
@@ -51,7 +51,7 @@
           <div class="title-row">
             <h1 class="site-title"><a href="{{ '/' | absolute_url }}">Gavin Guo</a><span class="site-cjk">（国振）</span></h1>
           </div>
-          <p class="site-tagline"><span class="tagline-thesis">Training agents that perceive and act.</span> <span class="tagline-org">Research Scientist, Meta Superintelligence Labs · 2025–</span></p>
+          <p class="site-tagline"><span class="tagline-thesis">Training real-time multimodal agents.</span> <span class="tagline-org">Research Scientist, Meta Superintelligence Labs · 2025–</span></p>
         </div>
         <ul class="links" aria-label="Contact and profiles">
           <li><a href="mailto:{{ site.author.email }}">{% include icon-envelope.svg %}Email</a></li>

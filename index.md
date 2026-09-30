@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Training agents that perceive and act
+title: Training real-time multimodal agents
 ---
 
-I train multimodal models to act in the real world. Start from the capability we want, build the tasks, environments, rewards, and synthetic data that teach it, then train with RL.
+I train real-time multimodal agents that talk, listen, and act while the interaction is still going. I build the tasks, synthetic data, and rewards, then train with RL.
 
-At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url }}" alt="" width="16" height="16">[**Meta Superintelligence Labs**](https://ai.meta.com/) I lead synthetic data and RL for [Muse](https://research.meta.ai/blog/bringing-your-muse-to-life), a real-time omni model for personal agents, and built the offline RL system behind [Vibes](https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/). Before that, I worked on **Visual Intelligence** at <img class="logo-inline" src="{{ '/assets/logos/apple.com.png' | relative_url }}" alt="" width="16" height="16">[Apple](https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/) and **foundation models** at <img class="logo-inline" src="{{ '/assets/logos/mitibmwatsonailab.mit.edu.png' | relative_url }}" alt="" width="16" height="16">[MIT-IBM Watson](https://mitibmwatsonailab.mit.edu/). I got my **Ph.D. in Computer Science** at <img class="logo-inline" src="{{ '/assets/logos/mit.edu.png' | relative_url }}" alt="" width="16" height="16">[**MIT**](https://www.mit.edu/), and **B.A. in Physics** at <img class="logo-inline" src="{{ '/assets/logos/berkeley.edu.png' | relative_url }}" alt="" width="16" height="16">[**UC Berkeley**](https://www.berkeley.edu/). Outside work I read, write, bike, and hike.
+At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url }}" alt="" width="16" height="16">[**Meta Superintelligence Labs**](https://ai.meta.com/) I lead synthetic data and RL for [Muse](https://research.meta.ai/blog/bringing-your-muse-to-life), and built the offline RL system behind [Vibes](https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/). Before that, I worked on **Visual Intelligence** at <img class="logo-inline" src="{{ '/assets/logos/apple.com.png' | relative_url }}" alt="" width="16" height="16">[Apple](https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/) and **foundation models** at <img class="logo-inline" src="{{ '/assets/logos/mitibmwatsonailab.mit.edu.png' | relative_url }}" alt="" width="16" height="16">[MIT-IBM Watson](https://mitibmwatsonailab.mit.edu/). I got my **Ph.D. in Computer Science** at <img class="logo-inline" src="{{ '/assets/logos/mit.edu.png' | relative_url }}" alt="" width="16" height="16">[**MIT**](https://www.mit.edu/), and **B.A. in Physics** at <img class="logo-inline" src="{{ '/assets/logos/berkeley.edu.png' | relative_url }}" alt="" width="16" height="16">[**UC Berkeley**](https://www.berkeley.edu/). Outside work I read, write, bike, and hike.
 
 <dl class="now" markdown="0">
   <div class="now-row"><dt>Open questions</dt><dd>
     <ul>
-      <li>What does an agent need to perceive and act continuously, rather than turn by turn? <a class="chip chip-jump" href="#muse">Muse ↓</a></li>
+      <li>What does an agent need to keep state and act continuously, rather than turn by turn? <a class="chip chip-jump" href="#muse">Muse ↓</a></li>
       <li>How far can a task definition alone take you: environment, reward, and data? <a class="chip chip-jump" href="#synthetic-data-rl">Synthetic Data RL ↓</a></li>
       <li>How small can a model be and still plan on-device? <a class="chip chip-jump" href="#octo-planner">Octo-planner ↓</a></li>
     </ul>
@@ -28,9 +28,9 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
   </a>
   <div class="rs-text">
     <div class="rs-kicker">Muse · Meta Connect 2026</div>
-    <h3><a href="https://research.meta.ai/blog/bringing-your-muse-to-life">Muse Realtime Voice and Avatar</a></h3>
-    <p>Muse Realtime Voice carries the conversation as a stream of speech tokens, and Muse Realtime Avatar turns the same stream into a live, expressive character for as long as the conversation runs. I lead synthetic data and RL, and work on the distillation that makes it fast enough to serve in real time.</p>
-    <p class="rs-refs"><a class="chip" href="https://research.meta.ai/blog/bringing-your-muse-to-life">Keynote</a></p>
+    <h3><a href="https://research.meta.ai/blog/bringing-your-muse-to-life">Real-time avatars for live conversation</a></h3>
+    <p>A live, expressive avatar that talks with you in real time. I lead synthetic data and RL, and developed the self-forcing and DMD distillation that makes it fast enough to run live.</p>
+    <p class="rs-refs"><a class="chip" href="https://research.meta.ai/blog/bringing-your-muse-to-life">Blog</a><a class="chip" href="https://x.com/AIatMeta/status/2102997291732766943">Keynote</a></p>
   </div>
 </article>
 
@@ -42,7 +42,7 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
     <div class="rs-kicker">Vibes · 2025</div>
     <h3><a href="https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/">Offline RL for a generated-video feed</a></h3>
     <p>Built the agentic long-form video workflow and the offline RL system behind Vibes, Meta AI's personalized video feed, and led its human-evaluation data.</p>
-    <p class="rs-refs"><a class="chip" href="https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/">Blog</a></p>
+    <p class="rs-refs"><a class="chip" href="https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/">Blog</a><a class="chip" href="https://s21.q4cdn.com/399680738/files/doc_financials/2025/q3/META-Q3-2025-Earnings-Call-Transcript.pdf">Earnings call</a><a class="chip" href="https://about.fb.com/news/2025/11/bringing-vibes-to-europe-a-new-way-to-create-share-and-play-in-the-meta-ai-app/">Europe</a></p>
   </div>
 </article>
 
@@ -54,7 +54,7 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
     <div class="rs-kicker">Apple · 2025</div>
     <h3><a href="https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/">Visual Intelligence on device</a></h3>
     <p>Built the datasets for on-device visual question answering on iPhone with privacy-preserving VLMs, and post-trained Apple's foundation model for proactive question answering on egocentric video. Shipped in Apple Intelligence at WWDC 2025.</p>
-    <p class="rs-refs"><a class="chip" href="https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/">Blog</a></p>
+    <p class="rs-refs"><a class="chip" href="https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/">Blog</a><a class="chip" href="https://machinelearning.apple.com/research/apple-foundation-models-tech-report-2025">Tech report</a></p>
   </div>
 </article>
 
@@ -76,9 +76,9 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
   </a>
   <div class="rs-text">
     <div class="rs-kicker">JetMoE · 2024</div>
-    <h3><a href="https://arxiv.org/abs/2404.07413">Open MoE at Llama2-13B quality</a></h3>
-    <p>JetMoE-8B, an open-source mixture-of-experts model trained for a fraction of the usual cost that outperforms Llama2-13B, with a synthetic corpus for pre-training and post-training.</p>
-    <p class="rs-refs"><a class="chip" href="https://arxiv.org/abs/2404.07413">Paper</a><a class="chip" href="https://github.com/myshell-ai/JetMoE">Code</a></p>
+    <h3><a href="https://arxiv.org/abs/2404.07413">Llama2-level open MoE on a small budget</a></h3>
+    <p>JetMoE-8B, an open-source mixture-of-experts model trained for a fraction of the usual cost, with a synthetic corpus for pre-training and post-training. Its chat model beats Llama2-13B-Chat on MT-Bench.</p>
+    <p class="rs-refs"><a class="chip" href="https://arxiv.org/abs/2404.07413">Paper</a><a class="chip" href="https://github.com/myshell-ai/JetMoE">Code</a><a class="chip" href="https://huggingface.co/jetmoe/jetmoe-8b">Model</a><a class="chip" href="https://x.com/MIT_CSAIL/status/1775916496503656679">CSAIL</a></p>
   </div>
 </article>
 
@@ -90,13 +90,13 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
     <div class="rs-kicker">Octo-planner · 2024</div>
     <h3><a href="https://arxiv.org/abs/2406.18082">On-device planner-action agents</a></h3>
     <p>Efficient on-device task planning and decomposition, trained on a synthetic planning dataset with a multi-LoRA post-training pipeline.</p>
-    <p class="rs-refs"><a class="chip" href="https://arxiv.org/abs/2406.18082">Paper</a></p>
+    <p class="rs-refs"><a class="chip" href="https://arxiv.org/abs/2406.18082">Paper</a><a class="chip" href="https://huggingface.co/NexaAI/octopus-planning">Model</a><a class="chip" href="https://x.com/MIT_CSAIL/status/1806354919731179802">CSAIL</a></p>
   </div>
 </article>
 
 </div>
 
-<p class="more-link"><a href="{{ '/papers.html' | relative_url }}">All publications →</a></p>
+<p class="more-link"><a href="{{ '/papers.html' | relative_url }}">All publications →</a> · <a href="{{ site.author.googlescholar }}">Google Scholar →</a></p>
 
 ## News
 
