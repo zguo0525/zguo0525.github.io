@@ -8,15 +8,15 @@ description: Short bios and a headshot of Gavin Guo for organizers, hosts, and r
 
 ## One line
 
-Gavin Guo is a research scientist at Meta Superintelligence Labs working on real-time omni models for personal agents.
+Gavin Guo is a research scientist at Meta Superintelligence Labs who trains real-time multimodal agents.
 
 ## Short
 
-Gavin Guo is a research scientist at Meta Superintelligence Labs, where he leads synthetic data and RL for Muse, a real-time omni model for personal agents. He previously worked on Visual Intelligence at Apple, shipped in Apple Intelligence at WWDC 2025, and on foundation models at the MIT-IBM Watson AI Lab. He holds a Ph.D. in Computer Science from MIT and a B.A. in Physics from UC Berkeley.
+Gavin Guo is a research scientist at Meta Superintelligence Labs, where he trains real-time multimodal agents and leads synthetic data and RL for Muse. He previously worked on Visual Intelligence at Apple, shipped in Apple Intelligence at WWDC 2025, and on foundation models at the MIT-IBM Watson AI Lab. He holds a Ph.D. in Computer Science from MIT and a B.A. in Physics from UC Berkeley.
 
 ## Long
 
-Gavin Guo is a research scientist at Meta Superintelligence Labs. He leads synthetic data and RL for Muse, a real-time omni model that perceives and responds continuously rather than turn by turn, and built the offline RL system behind Vibes, Meta AI's personalized video feed. Before Meta, he was an AIML Resident at Apple, where he built the datasets for on-device visual question answering and post-trained Apple's foundation model for Visual Intelligence, shipped in Apple Intelligence at WWDC 2025. Earlier he worked on foundation models at the MIT-IBM Watson AI Lab, was a founding researcher at MyShell AI and PIN AI, co-led JetMoE, an open mixture-of-experts model whose chat model beats Llama2-13B-Chat on MT-Bench, and co-authored Synthetic Data RL and Octo-planner. He holds a Ph.D. in Computer Science from MIT and a B.A. in Physics with Highest Honors from UC Berkeley. His current interests are RL environments and post-training for agents that use computers and interact in real time.
+Gavin Guo is a research scientist at Meta Superintelligence Labs. He trains real-time multimodal agents that talk, listen, and act while the interaction is still going. He leads synthetic data and RL for Muse, whose Realtime Avatar was unveiled at Meta Connect 2026, and built the offline RL system behind Vibes, Meta AI's personalized video feed. Before Meta, he was an AIML Resident at Apple, where he built the datasets for on-device visual question answering and post-trained Apple's foundation model for Visual Intelligence, shipped in Apple Intelligence at WWDC 2025. Earlier he worked on foundation models at the MIT-IBM Watson AI Lab, was a founding researcher at MyShell AI and PIN AI, co-led JetMoE, an open mixture-of-experts model whose chat model beats Llama2-13B-Chat on MT-Bench, and co-authored Synthetic Data RL and Octo-planner. He holds a Ph.D. in Computer Science from MIT and a B.A. in Physics with Highest Honors from UC Berkeley. His current interests are how agents keep state and act continuously, and how to turn their interactions and failures into training signal.
 
 ## Headshot
 

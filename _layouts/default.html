@@ -179,5 +179,10 @@
       })();
     </script>
     {% endif %}
+    <script>
+      document.querySelectorAll('[data-until]').forEach(function (el) {
+        if (new Date() >= new Date(el.dataset.until + 'T00:00:00')) el.remove();
+      });
+    </script>
   </body>
 </html>

@@ -6,6 +6,12 @@
 # 2. Add the date line followed by {: .essay-meta}.
 # 3. Run python3 scripts/gen_og_cards.py and commit the generated card.
 
+- title: "Real-Time Video Is a Control Problem"
+  date: "Sep 2026"
+  date_sort: "2026-09"
+  slug: real-time-video-is-a-control-problem
+  tags: [AI]
+
 - title: "Intelligence per Watt: Nobody Got Rich Owning the Grid"
   date: "Jul 2026"
   date_sort: "2026-07"

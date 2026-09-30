@@ -12,10 +12,10 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
     <ul>
       <li>What does an agent need to keep state and act continuously, rather than turn by turn? <a class="chip chip-jump" href="#muse">Muse ↓</a></li>
       <li>How far can a task definition alone take you: environment, reward, and data? <a class="chip chip-jump" href="#synthetic-data-rl">Synthetic Data RL ↓</a></li>
-      <li>How small can a model be and still plan on-device? <a class="chip chip-jump" href="#octo-planner">Octo-planner ↓</a></li>
+      <li>How do you turn an agent's interactions and failures into training signal? <a class="chip chip-jump" href="#vibes">Vibes ↓</a> <a class="chip chip-jump" href="#synthetic-data-rl">Synthetic Data RL ↓</a></li>
     </ul>
   </dd></div>
-  <div class="now-row"><dt>Talk to me</dt><dd>I'm at <a href="https://colm.cc/">COLM 2026</a>, Oct 6–9, and want to compare notes on two things: rewards for real-time models that act while they perceive, and how far a task definition alone can carry an RL environment. If that's your problem too, <a href="mailto:{{ site.author.email }}">email me</a>. I reply.</dd></div>
+  <div class="now-row"><dt>Talk to me</dt><dd><span data-until="2026-10-10">I'm at <a href="https://colm.cc/">COLM 2026</a>, Oct 6–9. </span>I want to compare notes on two things: rewards for real-time agents, and how far a task definition alone can carry an RL environment. If that's your problem too, <a href="mailto:{{ site.author.email }}">email me</a>. I reply.</dd></div>
 </dl>
 
 ## Research
@@ -34,7 +34,7 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
   </div>
 </article>
 
-<article class="rs-row">
+<article class="rs-row" id="vibes">
   <a class="rs-fig rs-fig--photo" href="https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/" aria-label="Vibes announcement">
     <img src="{{ '/assets/papers/cards/vibes.webp' | relative_url }}" width="800" height="589" alt="Vibes: AI video creation and remix in the Meta AI app" loading="lazy" decoding="async">
   </a>
@@ -105,7 +105,7 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
   <li class="news-row">
     {% if n.link %}<a class="news-thumb" href="{{ n.link }}" aria-hidden="true" tabindex="-1"><img src="{{ n.thumb | relative_url }}" alt="" loading="lazy" decoding="async" width="640" height="360"></a>{% else %}<span class="news-thumb"><img src="{{ n.thumb | relative_url }}" alt="" loading="lazy" decoding="async" width="640" height="360"></span>{% endif %}
     <div class="news-body">
-      <span class="item-date">{{ n.month }} {{ n.year }}{% if n.upcoming %} <span class="news-upcoming">· Upcoming</span>{% endif %}</span>
+      <span class="item-date">{{ n.month }} {{ n.year }}{% if n.upcoming %} <span class="news-upcoming" data-until="2026-10-10">· Upcoming</span>{% endif %}</span>
       <p>{{ n.text | markdownify | remove: '<p>' | remove: '</p>' }}</p>{% if n.link %}<a class="news-link" href="{{ n.link }}">Read more →</a>{% endif %}
     </div>
   </li>
