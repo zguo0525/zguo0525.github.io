@@ -5,12 +5,12 @@ title: Training real-time multimodal agents
 
 I train real-time multimodal agents that talk, listen, and act while the interaction is still going. I build the tasks, synthetic data, and rewards, then train with RL.
 
-At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url }}" alt="" width="16" height="16">[**Meta Superintelligence Labs**](https://ai.meta.com/) I lead synthetic data and RL for [Muse](https://research.meta.ai/blog/bringing-your-muse-to-life), and built the offline RL system behind [Vibes](https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/). Before that, I worked on **Visual Intelligence** at <img class="logo-inline" src="{{ '/assets/logos/apple.com.png' | relative_url }}" alt="" width="16" height="16">[Apple](https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/) and **foundation models** at <img class="logo-inline" src="{{ '/assets/logos/mitibmwatsonailab.mit.edu.png' | relative_url }}" alt="" width="16" height="16">[MIT-IBM Watson](https://mitibmwatsonailab.mit.edu/). I got my **Ph.D. in Computer Science** at <img class="logo-inline" src="{{ '/assets/logos/mit.edu.png' | relative_url }}" alt="" width="16" height="16">[**MIT**](https://www.mit.edu/), and **B.A. in Physics** at <img class="logo-inline" src="{{ '/assets/logos/berkeley.edu.png' | relative_url }}" alt="" width="16" height="16">[**UC Berkeley**](https://www.berkeley.edu/). Outside work I read, write, bike, and hike.
+At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url }}" alt="" width="16" height="16">[**Meta Superintelligence Labs**](https://ai.meta.com/) I lead synthetic data for [Muse Realtime Avatar](https://research.meta.ai/blog/bringing-your-muse-to-life), and built the offline RL system behind [Vibes](https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/). Before that, I worked on **Visual Intelligence** at <img class="logo-inline" src="{{ '/assets/logos/apple.com.png' | relative_url }}" alt="" width="16" height="16">[Apple](https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/) and **foundation models** at <img class="logo-inline" src="{{ '/assets/logos/mitibmwatsonailab.mit.edu.png' | relative_url }}" alt="" width="16" height="16">[MIT-IBM Watson](https://mitibmwatsonailab.mit.edu/). I got my **Ph.D. in Computer Science** at <img class="logo-inline" src="{{ '/assets/logos/mit.edu.png' | relative_url }}" alt="" width="16" height="16">[**MIT**](https://www.mit.edu/), and **B.A. in Physics** at <img class="logo-inline" src="{{ '/assets/logos/berkeley.edu.png' | relative_url }}" alt="" width="16" height="16">[**UC Berkeley**](https://www.berkeley.edu/). Outside work I read, write, bike, and hike.
 
 <dl class="now" markdown="0">
   <div class="now-row"><dt>Open questions</dt><dd>
     <ul>
-      <li>What does an agent need to keep state and act continuously, rather than turn by turn? <a class="chip chip-jump" href="#muse">Muse ↓</a></li>
+      <li>What does an agent need to keep state and act continuously, rather than turn by turn? <a class="chip chip-jump" href="#muse">Muse Realtime Avatar ↓</a></li>
       <li>How far can a task definition alone take you: environment, reward, and data? <a class="chip chip-jump" href="#synthetic-data-rl">Synthetic Data RL ↓</a></li>
       <li>How do you turn an agent's interactions and failures into training signal? <a class="chip chip-jump" href="#vibes">Vibes ↓</a> <a class="chip chip-jump" href="#synthetic-data-rl">Synthetic Data RL ↓</a></li>
     </ul>
@@ -27,9 +27,9 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
     <img src="{{ '/assets/papers/cards/muse.webp' | relative_url }}" width="800" height="600" alt="Grid of characters animated by Muse Realtime Avatar" loading="lazy" decoding="async">
   </a>
   <div class="rs-text">
-    <div class="rs-kicker">Muse · Meta Connect 2026</div>
+    <div class="rs-kicker">Muse Realtime Avatar · Meta Connect 2026</div>
     <h3><a href="https://research.meta.ai/blog/bringing-your-muse-to-life">Real-time avatars for live conversation</a></h3>
-    <p>A live, expressive avatar that talks with you in real time. I lead synthetic data and RL, and developed the self-forcing and DMD distillation that makes it fast enough to run live.</p>
+    <p>A live, expressive avatar that talks with you in real time. I lead its synthetic data, and applied self-forcing and DMD distillation to make it fast enough to run live.</p>
     <p class="rs-refs"><a class="chip" href="https://research.meta.ai/blog/bringing-your-muse-to-life">Blog</a><a class="chip" href="https://x.com/AIatMeta/status/2102997291732766943">Keynote</a></p>
   </div>
 </article>
@@ -41,7 +41,7 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
   <div class="rs-text">
     <div class="rs-kicker">Vibes · 2025</div>
     <h3><a href="https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/">Offline RL for a generated-video feed</a></h3>
-    <p>Built the agentic long-form video workflow and the offline RL system behind Vibes, Meta AI's personalized video feed, and led its human-evaluation data.</p>
+    <p>Built the launch video workflow, then preference learning and offline RL for Vibes, Meta AI's personalized video feed.</p>
     <p class="rs-refs"><a class="chip" href="https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/">Blog</a><a class="chip" href="https://s21.q4cdn.com/399680738/files/doc_financials/2025/q3/META-Q3-2025-Earnings-Call-Transcript.pdf">Earnings call</a><a class="chip" href="https://about.fb.com/news/2025/11/bringing-vibes-to-europe-a-new-way-to-create-share-and-play-in-the-meta-ai-app/">Europe</a></p>
   </div>
 </article>
@@ -53,7 +53,7 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
   <div class="rs-text">
     <div class="rs-kicker">Apple · 2025</div>
     <h3><a href="https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/">Visual Intelligence on device</a></h3>
-    <p>Built the datasets for on-device visual question answering on iPhone with privacy-preserving VLMs, and post-trained Apple's foundation model for proactive question answering on egocentric video. Shipped in Apple Intelligence at WWDC 2025.</p>
+    <p>Built the datasets for on-device visual question answering on iPhone with privacy-preserving VLMs, and post-trained Apple's foundation model for Visual Intelligence. Shipped in Apple Intelligence at WWDC 2025.</p>
     <p class="rs-refs"><a class="chip" href="https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/">Blog</a><a class="chip" href="https://machinelearning.apple.com/research/apple-foundation-models-tech-report-2025">Tech report</a></p>
   </div>
 </article>

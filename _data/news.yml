@@ -10,7 +10,7 @@
   year: 2026
   month: Sep
   date_sort: 2026-09
-  text: '**Muse Realtime Voice and Avatar** announced at the Meta Connect 2026 keynote: one streaming system for conversation, speech, and a live, expressive avatar. I lead synthetic data and RL for Muse.'
+  text: '**Muse Realtime Voice and Avatar** announced at the Meta Connect 2026 keynote: one streaming system for conversation, speech, and a live, expressive avatar. I lead synthetic data for Muse Realtime Avatar.'
   link: https://research.meta.ai/blog/bringing-your-muse-to-life
   thumb: /assets/news/2026-09-muse-realtime-voice-and-avatar-announced.webp
 - id: 2026-07-muse-spark-1-1-released-a-multimodal-rea
@@ -31,7 +31,7 @@
   year: 2026
   month: Apr
   date_sort: 2026-04
-  text: '**Muse Spark** announced, the first model in the Muse series from Meta Superintelligence Labs, with multimodal perception built in. I lead synthetic data and RL for Muse, the real-time omni model in this series.'
+  text: '**Muse Spark** announced, the first model in the Muse series from Meta Superintelligence Labs, with multimodal perception built in. I lead synthetic data for Muse Realtime Avatar.'
   link: https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/
   thumb: /assets/news/2026-04-muse-spark-announced-the-first-model-in-.webp
 - id: 2025-09-vibes-launched-in-the-meta-ai-app-for-ai
@@ -45,7 +45,7 @@
   year: 2025
   month: Jul
   date_sort: 2025-07
-  text: Joined **Meta Superintelligence Labs** to work on real-time omni models for personal agents.
+  text: Joined **Meta Superintelligence Labs** to work on real-time multimodal agents.
   link: null
   thumb: /assets/news/2025-07-joined-meta-superintelligence-labs-to-wo.webp
 - id: 2025-06-visual-intelligence-for-apple-intelligen
@@ -69,13 +69,6 @@
   text: '**API Pack** presented at **ICLR 2025** in Singapore.'
   link: https://arxiv.org/abs/2402.09615
   thumb: /assets/news/2025-04-api-pack-presented-at-iclr-2025-in-singa.webp
-- id: 2024-09-pin-ai-where-i-co-authored-the-multimoda
-  year: 2024
-  month: Sep
-  date_sort: 2024-09
-  text: '**PIN AI**, where I co-authored the multimodal scaling-law white paper, secured $10M in pre-seed funding led by a16z crypto.'
-  link: https://x.com/PINAI_IO/status/1833176031714541651
-  thumb: /assets/news/2024-09-pin-ai-where-i-co-authored-the-multimoda.webp
 - id: 2024-08-light-science-applications-publication-o
   year: 2024
   month: Aug
@@ -87,7 +80,7 @@
   year: 2024
   month: Jul
   date_sort: 2024-07
-  text: Joined **Apple AIML Residency** to work on Siri.
+  text: Joined **Apple AIML Residency** to work on Visual Intelligence.
   link: null
   thumb: /assets/news/2024-07-joined-apple-aiml-residency-to-work-on-s.webp
 - id: 2024-06-octo-planner-with-nexa-ai-featured-by-mi
@@ -104,13 +97,6 @@
   text: '**JetMoE** foundation model highlighted by MIT CSAIL.'
   link: https://x.com/MIT_CSAIL/status/1775916496503656679
   thumb: /assets/news/2024-04-jetmoe-foundation-model-highlighted-by-m.webp
-- id: 2024-03-myshell-ai-where-jetmoe-was-built-raised
-  year: 2024
-  month: Mar
-  date_sort: 2024-03
-  text: '**MyShell AI**, where JetMoE was built, raised $11M in pre-A funding led by Dragonfly.'
-  link: https://www.theblock.co/post/285072/web3-ai-platform-myshell-funding
-  thumb: /assets/news/2024-03-myshell-ai-where-jetmoe-was-built-raised.webp
 - id: 2023-06-research-internship-at-mit-ibm-watson-ai
   year: 2023
   month: Jun

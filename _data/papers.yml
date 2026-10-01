@@ -2,18 +2,6 @@
   groups:
   - title: AI and Language Models
     items:
-    - id: bringing-your-muse-to-life
-      title: 'Bringing Your Muse to Life'
-      url: https://research.meta.ai/blog/bringing-your-muse-to-life
-      meta: Meta Superintelligence Labs, Muse Team. *Meta AI Research Blog (2026).*
-      tldr: 'Muse Realtime Avatar: a causal video model that turns Muse Realtime Voice into a live, expressive character, distilled to run in real time.'
-      note: 'Meta Connect 2026 keynote'
-      selected: true
-      chips:
-      - label: Keynote
-        url: https://x.com/AIatMeta/status/2102997291732766943
-      year: 2026
-      thumb: /assets/news/2026-09-muse-realtime-voice-and-avatar-announced.webp
     - id: synthetic-data-rl-task-definition-is-all
       title: 'Synthetic Data RL: Task Definition Is All You Need'
       url: https://arxiv.org/abs/2505.17063
@@ -35,9 +23,13 @@
     - id: diversity-measurement-and-subset-selecti
       title: Diversity Measurement and Subset Selection for Instruction Tuning Datasets
       url: https://arxiv.org/abs/2402.02318
-      meta: Peiqi Wang, Yikang Shen, <ins>Zhen Guo</ins>, Matthew J. Stallone, Yoon Kim, Polina Golland, Rameswar Panda. *ICLR 2025 Data Problem.*
+      meta: Peiqi Wang, Yikang Shen, <ins>Zhen Guo</ins>, Matthew J. Stallone, Yoon Kim, Polina Golland, Rameswar Panda. *ICLR 2025 DATA-FM Workshop (poster).*
       tldr: 'Measure instruction-set diversity with determinantal point processes, then pick the subset that keeps it; small diverse subsets match the full set.'
-      chips: []
+      chips:
+      - label: OpenReview
+        url: https://openreview.net/forum?id=cV9OF45hBb
+      - label: Workshop
+        url: https://datafm.github.io/accepted/
       year: 2025
       thumb: /assets/papers/thumbs/diversity-measurement-and-subset-selecti.webp
     - id: octo-planner-on-device-language-model-fo
