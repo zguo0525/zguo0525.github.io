@@ -22,13 +22,11 @@ The tech is not the point. Agent frameworks are a commodity — LangChain, AutoG
 
 First, **one man who actually ships**. In a world of 50-person teams and $100M valuations, Peter shipped alone. His philosophy: "I ship code I don't read." No pivots, no corporate speak, no "we're a team of 10 but actually 3 founders and some contractors." Just one dude shipping at 2 a.m., iterating based on community feedback, releasing "rough, dangerous" code. That resonates. Deeply.
 
-Second, **local-first data ownership**. This is the real differentiator. OpenClaw runs on *your* machine. Your data stays on *your* device. Not on Anthropic's servers. Not on OpenAI's cloud. Not training their models. Every other "personal AI" — Pi, Rabbit, PIN AI — still owns your data. OpenClaw hands it back. In an era of privacy anxiety, that narrative is unbeatable. It's not a feature. It's a philosophy.
+Second, **local-first data ownership**. This is the real differentiator. OpenClaw runs on *your* machine. Your data stays on *your* device. Not on Anthropic's servers. Not on OpenAI's cloud. Not training their models. Every other "personal AI" — Pi, Rabbit — still owns your data. OpenClaw hands it back. In an era of privacy anxiety, that narrative is unbeatable. It's not a feature. It's a philosophy.
 
 Third, **it comes to you**. OpenClaw doesn't ask you to download a new app or create a new account. It connects to WhatsApp, Telegram, Discord, Slack — platforms you already use every day. You don't go to AI. AI comes to you. This seems minor. It's everything. Pi had to build a product. Rabbit had to build hardware. OpenClaw just needed to integrate. That's leverage.
 
 Compare this to the competition:
-
-**PIN AI** — $10M from a16z, "all-star angels," enterprise landing page, ecosystem diagrams. They did everything "right": platform thinking, moats, growth metrics, investor logos. And they went nowhere.
 
 **Pi AI** — $1.5B+ raised, co-founded by Mustafa Suleyman (DeepMind), positioned as "emotionally intelligent" personal AI. Massive funding, famous founder, enterprise polish. Still just another chatbot — and it owns your data.
 
