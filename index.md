@@ -29,7 +29,7 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
   <div class="rs-text">
     <div class="rs-kicker">Muse Realtime Avatar · Meta Connect 2026</div>
     <h3><a href="https://research.meta.ai/blog/bringing-your-muse-to-life">Real-time avatars for live conversation</a></h3>
-    <p>A live, expressive avatar that talks with you in real time. I co-lead its post-training, lead its synthetic data, and applied self-forcing and DMD distillation to make it fast enough to run live.</p>
+    <p>A live, expressive avatar that talks with you in real time. I co-lead its post-training, lead its synthetic data, designed its human-preference evals, and applied self-forcing and DMD distillation to make it fast enough to run live.</p>
     <p class="rs-refs"><a class="chip" href="https://research.meta.ai/blog/bringing-your-muse-to-life">Blog</a><a class="chip" href="https://x.com/AIatMeta/status/2102997291732766943">Keynote</a></p>
   </div>
 </article>

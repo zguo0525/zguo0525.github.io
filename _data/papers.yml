@@ -5,7 +5,7 @@
     - id: synthetic-data-rl-task-definition-is-all
       title: 'Synthetic Data RL: Task Definition Is All You Need'
       url: https://arxiv.org/abs/2505.17063
-      meta: Yiduo Guo, <ins>Zhen Guo</ins>, Chuanwei Huang, Zi-Ang Wang, Zekai Zhang, Haofei Yu, Huishuai Zhang, Yikang Shen. *arXiv preprint (2025).*
+      meta: Yiduo Guo, <ins>Zhen Guo</ins>, Chuanwei Huang, Zi-Ang Wang, Zekai Zhang, Haofei Yu, Huishuai Zhang, Yikang Shen. *Technical report (2025).*
       tldr: 'Reinforcement fine-tuning from a task definition alone: synthesize the data, adapt the difficulty, then train with RL. No labeled dataset required.'
       selected: true
       chips: []
