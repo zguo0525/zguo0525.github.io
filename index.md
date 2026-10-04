@@ -77,7 +77,7 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
   <div class="rs-text">
     <div class="rs-kicker">JetMoE · 2024</div>
     <h3><a href="https://arxiv.org/abs/2404.07413">Llama2-level open MoE on a small budget</a></h3>
-    <p>JetMoE-8B, an open-source mixture-of-experts model trained for a fraction of the usual cost, with a synthetic corpus for pre-training and post-training. Its chat model beats Llama2-13B-Chat on MT-Bench.</p>
+    <p>JetMoE-8B, an open-source mixture-of-experts model trained for a fraction of the usual cost on a curated mix of public real and synthetic data. Its chat model beats Llama2-13B-Chat on MT-Bench.</p>
     <p class="rs-refs"><a class="chip" href="https://arxiv.org/abs/2404.07413">Paper</a><a class="chip" href="https://github.com/myshell-ai/JetMoE">Code</a><a class="chip" href="https://huggingface.co/jetmoe/jetmoe-8b">Model</a><a class="chip" href="https://x.com/MIT_CSAIL/status/1775916496503656679">CSAIL</a></p>
   </div>
 </article>
