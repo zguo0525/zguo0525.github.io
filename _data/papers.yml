@@ -98,6 +98,7 @@
       meta: 'Qihang Zhang, George Barbastathis, Ajinkya Pandit, Zhiguang Liu, <ins>Zhen Guo</ins>, et al. *Light: Science & Applications (2024).*'
       tldr: "Estimate a pharmaceutical powder's size distribution from one speckle image, in real time, for continuous manufacturing."
       note: 'MIT News'
+      selected: true
       chips: []
       year: 2024
       thumb: /assets/papers/thumbs/non-invasive-estimation-of-the-powder-si.webp
@@ -106,6 +107,7 @@
       url: https://www.nature.com/articles/s41467-023-39002-6
       meta: Cheng Gong, Xiang Zhang, Peiyao Zhang, Tenzin Norden, Quanwei Li, <ins>Zhen Guo</ins>, Apoorva Chaturvedi, Arman Najafi, Shoufeng Lan, et al. *Nature Communications (2023).*
       tldr: 'Ferromagnetism appears when two non-ferromagnetic 2D crystals are stacked, from interlayer charge transfer.'
+      selected: true
       chips: []
       year: 2023
       thumb: /assets/papers/thumbs/ferromagnetism-emerged-from-non-ferromag.webp
@@ -141,7 +143,6 @@
       meta: '<ins>Zhen Guo</ins>, Jung Ki Song, George Barbastathis, Michael E. Glinsky, Courtenay T. Vaughan, Kurt W. Larson, Bradley K. Alpert, Zachary H. Levine. *[Optics Express](https://doi.org/10.1364/OE.460208) (2022); Electronic Imaging: ML for Scientific Imaging (2022).*'
       tldr: 'A GAN with the X-ray forward model built in, so reconstructions stay physically consistent at low dose.'
       note: 'Optics Express'
-      selected: true
       chips:
       - label: Slides
         url: ./slides/PGAN.pdf
@@ -185,6 +186,7 @@
       url: null
       meta: Qihang Zhang, Ajinkya Pandit, Allan S. Myerson, George Barbastathis, Janaka C. Gamekkanda Gamaethige, Richard D. Braatz, <ins>Zhen Guo</ins>. *US Patent Application 18/845,719 (2025).*
       tldr: 'Pupil design that boosts the speckle signal used for real-time particle sizing.'
+      selected: true
       chips: []
       year: 2025
       thumb: /assets/papers/thumbs/pupil-engineering-method-to-enhance-the-.webp
@@ -193,6 +195,7 @@
       url: null
       meta: Qihang Zhang, Ajinkya Pandit, Allan S. Myerson, George Barbastathis, Janaka C. Gamekkanda Gamaethige, Richard D. Braatz, <ins>Zhen Guo</ins>. *US Patent Application 18/845,766 (2025).*
       tldr: 'Optical system and method for real-time particle size distribution in dry powders.'
+      selected: true
       chips: []
       year: 2025
       thumb: /assets/papers/thumbs/system-and-method-for-real-time-determin.webp
