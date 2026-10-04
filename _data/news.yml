@@ -10,7 +10,7 @@
   year: 2026
   month: Sep
   date_sort: 2026-09
-  text: '**Muse Realtime Voice and Avatar** announced at the Meta Connect 2026 keynote: one streaming system for conversation, speech, and a live, expressive avatar. I lead synthetic data for Muse Realtime Avatar.'
+  text: '**Muse Realtime Voice and Avatar** announced at the Meta Connect 2026 keynote: one streaming system for conversation, speech, and a live, expressive avatar. I co-lead post-training and lead synthetic data for Muse Realtime Avatar.'
   link: https://research.meta.ai/blog/bringing-your-muse-to-life
   thumb: /assets/news/2026-09-muse-realtime-voice-and-avatar-announced.webp
 - id: 2026-07-muse-spark-1-1-released-a-multimodal-rea
@@ -31,7 +31,7 @@
   year: 2026
   month: Apr
   date_sort: 2026-04
-  text: '**Muse Spark** announced, the first model in the Muse series from Meta Superintelligence Labs, with multimodal perception built in. I lead synthetic data for Muse Realtime Avatar.'
+  text: '**Muse Spark** announced, the first model in the Muse series from Meta Superintelligence Labs, with multimodal perception built in. I co-lead post-training and lead synthetic data for Muse Realtime Avatar.'
   link: https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/
   thumb: /assets/news/2026-04-muse-spark-announced-the-first-model-in-.webp
 - id: 2025-09-vibes-launched-in-the-meta-ai-app-for-ai
