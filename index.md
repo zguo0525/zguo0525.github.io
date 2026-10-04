@@ -29,7 +29,7 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
   <div class="rs-text">
     <div class="rs-kicker">Muse Realtime Avatar · Meta Connect 2026</div>
     <h3><a href="https://research.meta.ai/blog/bringing-your-muse-to-life">Real-time avatars for live conversation</a></h3>
-    <p>A live, expressive avatar that talks with you in real time. I co-lead its post-training, lead its synthetic data, designed its human-preference evals, and applied self-forcing and DMD distillation to make it fast enough to run live.</p>
+    <p>A live, expressive avatar that talks with you in real time. It's audio-driven, streams as you talk, and is fast enough to hold a real conversation. Announced in Mark Zuckerberg's Meta Connect keynote.</p>
     <p class="rs-refs"><a class="chip" href="https://research.meta.ai/blog/bringing-your-muse-to-life">Blog</a><a class="chip" href="https://x.com/AIatMeta/status/2102997291732766943">Keynote</a></p>
   </div>
 </article>
@@ -41,7 +41,7 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
   <div class="rs-text">
     <div class="rs-kicker">Vibes · 2025</div>
     <h3><a href="https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/">Offline RL for a generated-video feed</a></h3>
-    <p>Built the launch video-generation workflow, then developed preference learning and offline RL for Vibes, Meta AI's personalized video feed.</p>
+    <p>A feed of AI-generated short videos in the Meta AI app, where anyone can create and remix. Personalized with preference learning and offline RL.</p>
     <p class="rs-refs"><a class="chip" href="https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/">Blog</a><a class="chip" href="https://s21.q4cdn.com/399680738/files/doc_financials/2025/q3/META-Q3-2025-Earnings-Call-Transcript.pdf">Earnings call</a><a class="chip" href="https://about.fb.com/news/2025/11/bringing-vibes-to-europe-a-new-way-to-create-share-and-play-in-the-meta-ai-app/">Europe</a></p>
   </div>
 </article>
@@ -53,7 +53,7 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
   <div class="rs-text">
     <div class="rs-kicker">Apple · 2025</div>
     <h3><a href="https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/">Visual Intelligence on device</a></h3>
-    <p>Built the datasets for on-device visual question answering on iPhone with privacy-preserving VLMs, and post-trained Apple's foundation model for Visual Intelligence. Shipped in Apple Intelligence at WWDC 2025.</p>
+    <p>Ask about anything your iPhone sees, answered on device by Apple's foundation model. Shipped in Apple Intelligence at WWDC 2025.</p>
     <p class="rs-refs"><a class="chip" href="https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/">Blog</a><a class="chip" href="https://machinelearning.apple.com/research/apple-foundation-models-tech-report-2025">Tech report</a></p>
   </div>
 </article>
@@ -89,7 +89,7 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
   <div class="rs-text">
     <div class="rs-kicker">Octo-planner · 2024</div>
     <h3><a href="https://arxiv.org/abs/2406.18082">On-device planner-action agents</a></h3>
-    <p>Efficient on-device task planning and decomposition, trained on a synthetic planning dataset with a multi-LoRA post-training pipeline.</p>
+    <p>A small on-device model that breaks a request into steps for an action model to carry out, so a phone agent can plan without the cloud.</p>
     <p class="rs-refs"><a class="chip" href="https://arxiv.org/abs/2406.18082">Paper</a><a class="chip" href="https://huggingface.co/NexaAI/octopus-planning">Model</a><a class="chip" href="https://x.com/MIT_CSAIL/status/1806354919731179802">CSAIL</a></p>
   </div>
 </article>
