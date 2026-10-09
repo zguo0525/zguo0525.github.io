@@ -2,23 +2,29 @@
 layout: default
 title: "Real-Time Video Is a Control Problem"
 image: /assets/cards/real-time-video-is-a-control-problem.png
-description: "A clip model never faces consequences. A real-time model does: any frame can change what the user does next. That makes it a policy, not a generator."
+description: "A clip model is judged on a finished video. A real-time model is judged mid-conversation, on inputs it helped cause. That makes it a policy, not just a generator."
 date: 2026-09-27
 tags: [AI]
 ---
-Everyone's racing to make video models faster than playback. That's solving the wrong problem. Real-time video isn't a rendering problem. It's a control problem.
+Making a video model fast enough to run live is hard. For [Muse Realtime Avatar](https://research.meta.ai/blog/bringing-your-muse-to-life), we went from 120 model evaluations per chunk to 2, and now serve 12 live sessions on a single GB200.
 
-We learned that building one: 120 evals down to 2, 12 real-time sessions on a single GB200 ([Muse Realtime Avatar](https://research.meta.ai/blog/bringing-your-muse-to-life)). Speed got us in the door. The hard part came after.
+Once it was fast, a different problem showed up. Speed got us in the door. It didn't tell us whether the avatar was good to talk to.
 
-A clip model never faces consequences. Nothing it generates changes what happens next. The whole thing exists before anyone watches.
+A clip model makes a finished video. Nobody reacts while it's being made, so nothing it generates changes what it has to generate next.
 
-A real-time model answers to a live user. Any frame can change what the user does next, and that changes what it has to generate. That's not generation anymore. It's a policy, and the user is the environment.
+A real-time model is in the middle of a conversation. Every frame lands in front of a person, and the person reacts: they keep talking, pause, interrupt, or repeat themselves. That reaction is the model's next input. Its outputs shape its own future inputs.
 
-So you can't evaluate it offline. A clip is scored on its best take. A conversation is scored live, on its worst second, on inputs your own model caused.
+That makes it a control problem. The model is a policy, and the user is part of the environment.
 
-Yet video models are still trained on recorded clips nobody reacted to. Even self-forcing, which trains on the model's own rollouts, only closes the loop on its own frames, not on the person watching them.
+Three things follow.
 
-The next leap in video won't come from fewer steps. It'll come from models that learn the consequences of their outputs — trained inside the loop, not on recordings of it.
+**Evaluation has to be live.** A clip is judged on its best take. A conversation is judged on its worst moment, a frozen face or a drifting identity, on inputs no fixed test set contains. Offline metrics still catch regressions, but only live sessions tell you whether it works. That's why we evaluated Muse with people holding 2–3 minute conversations, not with frame scores.
+
+**Training data is off-policy.** Video models are trained on recorded clips nobody reacted to. Self-forcing helps: training on the model's own rollouts closes the loop on its own frames. It doesn't close the loop on the person watching them.
+
+**The missing signal is the user's reaction.** A live session is full of feedback on what the model just did: interruptions, pauses, repeated questions. Today almost none of it becomes training signal.
+
+Fewer steps made real-time video possible. I think the next gains come from training inside the loop, where what people do in response to the model becomes the reward.
 
 ---
 
