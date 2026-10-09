@@ -6,9 +6,9 @@
 # 2. Add the date line followed by {: .essay-meta}.
 # 3. Run python3 scripts/gen_og_cards.py and commit the generated card.
 
-- title: "Start From the Person on the Other Side"
-  date: "Sep 2026"
-  date_sort: "2026-09"
+- title: "Why People Took to Muse"
+  date: "Oct 2026"
+  date_sort: "2026-10"
   slug: real-time-video-is-a-control-problem
   tags: [AI]
 
