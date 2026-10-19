@@ -2,89 +2,89 @@
 layout: default
 title: "Nobody Got Rich Owning the Grid"
 image: /assets/cards/intelligence-per-watt.png
-description: "When the headline metric becomes output per joule, a technology has become a utility. Intelligence just did, and the money will go where it always goes: upstairs."
+description: "When the headline metric becomes output per dollar, a technology has become a utility. Intelligence just did, and the money will go where it always goes: upstairs."
 date: 2026-07-14
 tags: [AI, Strategy]
 ---
-Watch what the frontier labs brag about now. Two years ago every launch led with a benchmark table; this year's lead with a price.
+Look at how AI models are compared now. The chart that gets passed around isn't a benchmark table. It's a plot of intelligence against cost.
 
-The old launches were MMLU, GPQA, SWE-bench — bar charts with your model in a slightly darker color, two points ahead of the competition. The launches of 2026 lead with price per million tokens, latency, efficiency curves. And since inference cost is mostly electricity plus depreciation, tokens per dollar is really tokens per joule.
+Two years ago a launch meant bar charts: MMLU, GPQA, SWE-bench, your model in a slightly darker color, two points ahead. Today the comparison that matters is [intelligence versus cost per task](https://x.com/ArtificialAnlys/status/2080384902571139386), and the question is whether a model sits on the **Pareto frontier**: the set of models that no other model beats on both axes. Cost is mostly electricity plus depreciation, so the race has moved from *how smart* to *how smart per dollar*, and underneath that, *how smart per watt*.
 
-Nobody announced the change, but the scoreboard is different, and it has a name: the **Pareto frontier**. The race is no longer *how smart*. It's *how smart per dollar*, and since the dollar is mostly electricity plus depreciation, *how smart per watt*.
-
-That shift is worth staring at, because an industry only changes its headline metric when it has changed what it is.
+An industry only changes its headline metric when it has changed what it is. My argument is that intelligence is becoming a utility, and that the money will not go to the people who build it.
 
 ---
 
-Electricity did this first. The 1880s were pure spectacle — arc lamps, world's fairs, Edison electrocuting an elephant to frighten people about alternating current. Then the spectacle wore off and electricity became cents per kilowatt-hour.
+## The rule
 
-Chips did it a century later. The 1990s were the megahertz wars: raw clock speed printed on the box, bigger number wins. Then mobile arrived, batteries became the constraint, and the metric that mattered became performance per watt. Nobody puts clock speed on a billboard anymore.
+Electricity went through this first. The 1880s were spectacle: arc lamps, world's fairs, Edison electrocuting an elephant to scare people off alternating current. Then the spectacle wore off and electricity became cents per kilowatt-hour.
 
-Here is the rule hiding in both stories: when a technology's defining metric becomes **output per unit of energy**, the technology is confessing what it has become. An input. A commodity. A utility. Not a marvel anymore — an ingredient, priced like one.
+Chips did it a century later. In the 1990s the fight was clock speed, printed on the box, bigger number wins. Then mobile arrived, batteries became the constraint, and the metric became performance per watt. Nobody puts megahertz on a billboard anymore.
 
-Intelligence just made that confession.
-
----
-
-## The frontier is the confession
-
-Here is what that scoreboard looks like. [Artificial Analysis](https://x.com/ArtificialAnlys/status/2080384902571139386) plots every model by intelligence and cost per task, and defines the Pareto frontier as the models that no other model beats on both. In its words, everything else is paying more for less.
-
-Read one of its recent posts as a price list. Anthropic's Fable 5 led the index at 60, at $2.75 a task. xAI's Grok 4.5 scored 54 at $0.31, about 9x cheaper, and also sat on the line. DeepSeek V4 Flash scored 44 at $0.04, about 69x cheaper than Fable. Six points of intelligence cost nine times as much. That is a price curve, not a leaderboard, and a price curve is what a utility has.
-
-Three things about the frontier make it the heart of this argument, not an illustration of it.
-
-**It moves down fast.** Arena.ai [reported](https://x.com/arena/status/2057486887938646370) that GPT-4-level quality now costs roughly 500x less than in 2023, about $50 per million tokens then and about $0.10 now. It also found that models under $0.20 per million tokens trailed the leader by about 350 Arena points in 2023 and about 60 today. The cheap end didn't just get cheaper. It caught up.
-
-**Nobody owns a place on it.** One [June snapshot](https://artificialcuriositylabs.ai/posts/pareto-frontier-is-the-model-market-map/) of Artificial Analysis data found 13 of 351 priced models on the frontier. Alibaba held five slots, Xiaomi three, Google two, Anthropic one and OpenAI none. A week earlier the line had 15 models. A single 64% price cut by one lab pushed a rival off it. A position that can be taken away by a price cut isn't a position. It's a rental.
-
-**Everything off the line is dead weight.** About 96% of priced models in that snapshot were beaten by something cheaper and at least as smart. In a market with a frontier, being second-best at the same price is the same as not existing.
-
-This is the mechanism behind the rule above. The frontier is where a commodity market becomes visible: one axis of quality, one axis of cost, and a line that every competitor is pushed toward.
+Both stories show the same rule. When a technology's defining metric becomes **output per unit of cost**, the technology is confessing what it has become: an input, a commodity, a utility. Not a marvel, an ingredient, priced like one.
 
 ---
 
-Why now? Because the labs did this to themselves, and they had no choice.
+## Intelligence has made the confession
 
-Capability leads that used to last a year now last a quarter, and the frontier above shows it: the same line, redrawn every few weeks by different labs. Every trick discovered at the frontier leaks downmarket within months — distilled, open-weighted, replicated. The price of a fixed unit of intelligence has been collapsing roughly ten-fold a year, not because anyone wanted it to, but because five labs are competing like hell and none of them can afford to stop. When your product is interchangeable with your rival's, and your rival's marginal cost is the same electrons through the same silicon, price doesn't drift toward value. It falls toward cost. That isn't a strategic failure. It's what competition does to anything that can be measured.
+The frontier chart is where you can see it. Artificial Analysis recently posted one with three models on the line. Anthropic's Fable 5 led the index at 60 and cost $2.75 a task. xAI's Grok 4.5 scored 54 at $0.31, about 9x cheaper. DeepSeek V4 Flash scored 44 at $0.04, about 69x cheaper than Fable. Six points of intelligence cost nine times as much. That's a price curve, and a price curve is what a utility has.
 
-And intelligence, as the industry defines it, can be measured. That's the trap. Anything with a benchmark can be matched; anything that can be matched gets competed down to cost. The benchmark culture the labs built to prove their superiority is the same machinery that guarantees the superiority is temporary.
+Three things about this chart matter for the argument.
 
-So the labs are pouring hundreds of billions of dollars a year into building what is, structurally, a grid.
+**It moves fast.** Arena.ai [reported](https://x.com/arena/status/2057486887938646370) that GPT-4-level quality now costs roughly 500x less than in 2023: about $50 per million tokens then, about $0.10 now. It also found that models under $0.20 per million tokens trailed the leader by about 350 Arena points in 2023 and by about 60 today. The cheap end didn't only get cheaper. It caught up.
 
-And the thing about grids: nobody got rich owning one. Electric utilities keep civilization alive and pay out like bonds. The grid electrified everything and enriched almost no one who built it.
+**Nobody holds a place on it.** One [June snapshot](https://artificialcuriositylabs.ai/posts/pareto-frontier-is-the-model-market-map/) of Artificial Analysis data had 13 of 351 priced models on the frontier. Alibaba held five slots, Xiaomi three, Google two, Anthropic one, OpenAI none. A week earlier the line held 15 models, and one lab's 64% price cut pushed a rival off it. A position that a price cut can take away isn't a position. It's a rental.
+
+**Everything off the line is dead weight.** About 96% of the priced models in that snapshot were beaten by something cheaper and at least as smart. In a market with a frontier, being second-best at the same price is the same as not existing.
+
+The frontier is what a commodity market looks like when you draw it: one axis for quality, one for cost, and a line that every competitor is pushed toward.
 
 ---
 
-So where did electricity's fortunes go?
+## Why the labs did this to themselves
 
-Radio. Hollywood. Refrigerators sold as status objects. Neon Times Square. Amusement parks strung with light bulbs. The money went to the people who took a cheap, abundant, boring input and turned it into something people *wanted* — which turned out to be mostly entertainment, comfort, and glamour. The frivolous layer, built on top of the serious one, captured nearly all the margin.
+They had no choice. Every trick discovered at the frontier leaks downmarket within months, distilled, open-weighted or replicated. A lead that used to last a year now lasts a quarter. When your product is interchangeable with a rival's, and the rival's marginal cost is the same electrons through the same silicon, price doesn't drift toward value. It falls toward cost.
 
-Telecom ran the same script a century later. Carriers spent fortunes on fiber and spectrum and became dumb pipes. Netflix, YouTube, TikTok, mobile games — the trivial things riding the pipes — took the value. The pipe delivers bits at cost. The show on top charges whatever attention will bear.
+That isn't a strategic failure. It's what competition does to anything that can be measured. And intelligence, as the industry defines it, can be measured. Anything with a benchmark can be matched, and anything that can be matched gets competed down to cost. The benchmark culture the labs built to prove their lead is the same machinery that makes the lead temporary.
+
+So the labs are spending enormous sums on what is, structurally, a grid. And nobody got rich owning a grid. Electric utilities keep civilization running and pay out like bonds. The grid electrified everything and enriched almost no one who built it.
+
+---
+
+## Where the money went
+
+Electricity's fortunes went upstairs: radio, Hollywood, refrigerators sold as status objects, Times Square, amusement parks strung with light bulbs. The winners took a cheap, abundant, boring input and turned it into something people *wanted*, which mostly meant entertainment, comfort and glamour.
+
+Telecom ran the same script a century later. Carriers spent fortunes on fiber and spectrum and became pipes. Netflix, YouTube, TikTok and mobile games, the trivial things riding the pipes, took the value. The pipe delivers bits at cost. The show on top charges whatever attention will bear.
 
 It offends the engineer in me, but the pattern doesn't care. The layer that touches human desire keeps the margin. The layer that delivers the electrons earns cost plus a thank-you.
 
 ---
 
-The instinct is to resist this because it sounds unserious. Surely a trillion dollars of intelligence infrastructure pays for itself in cured diseases, written code, automated enterprises — utility in the noble sense.
+## Why intelligence will follow
 
-Some of it will. But notice how each layer gets priced.
+The instinct is to resist this. A trillion dollars of AI infrastructure surely pays for itself in cured diseases, written code and automated companies, utility in the noble sense.
 
-Usefulness saturates. A model that files your taxes correctly is worth exactly the price of the *cheapest* competent model that files your taxes correctly — and there is always a cheaper competent one next quarter. Correct is correct. Utility has a spec, the spec has a benchmark, and we already know what happens to things with benchmarks.
+Some of it will. But look at how each layer gets priced.
 
-Delight doesn't saturate, because it was never graded against a spec, and it doesn't appear on the frontier chart at all. The chart has two axes, and both are things you can measure. What people actually come back for lives off the chart. It's graded against your attention. The image of you and your friends rendered before you finish describing it. The companion that remembers what you said at 1 a.m. The character, the game, the feed. There is no eval for wanting more. You can watch the revealed preference in real time: companionship apps out-earn productivity assistants, image generation ships inside social feeds rather than office suites, and the labs that swore they were building scientists keep shipping entertainment. Nobody is confused about which way the demand curve slopes. The superficial layer isn't a distraction from the business. It *is* the business — as it was for electricity, as it was for bandwidth.
+**Usefulness saturates.** A model that files your taxes correctly is worth the price of the *cheapest* competent model that files your taxes correctly, and next quarter there's a cheaper one. Correct is correct. Utility has a spec, the spec has a benchmark, and we know what happens to things with benchmarks.
 
----
+**Delight doesn't.** It was never graded against a spec, and it isn't on the frontier chart at all. The chart has two axes, and both are things you can measure. What brings people back is graded against their attention: an image of you and your friends before you finish describing it, a companion that remembers what you said at 1 a.m., a character, a game, a feed. There's no eval for wanting more.
 
-Two honest objections. The first is about the frontier itself. It prices tokens, but people live with results. A cheap model that thinks longer, retries more, or needs more human correction can be [cheap on the price page and expensive in the workflow](https://x.com/ollobrains/status/2072141362435408301), and the snapshot above leaves out coding quality, reliability and latency. I think that makes the frontier a rough map, not a false one. The slope is still steep, and it is still falling.
-
-The second is winner-take-all: some lab crosses into recursive self-improvement, capability stays scarce, the grid owner becomes the everything-company, and none of this history applies.
-
-Maybe. But every visible dynamic points the other way. Leads compress. Distillation leaks. And the binding constraint at the frontier is energy — the same electrons, the same physics, available to every competitor at the same price per joule. Intelligence per watt converges *because* physics is shared. Permanent scarcity of intelligence is a bet against everything currently observable, made mostly by people who need it to be true.
+I can't prove this with revenue data yet. I looked for a clean split between productivity and entertainment AI apps and didn't find one. What I can point to is that the frontier chart can't see the layer where, by the pattern above, the margin should go. The labs seem to read it the same way, which is why so many of them are building consumer products while the model underneath gets cheaper.
 
 ---
 
-So: the datacenters are the grid. Necessary, colossal, and headed for utility returns. The scarce things are the ones capex can't buy — distribution, attention, taste. The labs know it. That is why every one of them is scrambling to become a consumer company before intelligence finishes commoditizing underneath them.
+## Two objections
+
+**The frontier prices tokens, but people live with results.** A cheap model that thinks longer, retries more or needs more human correction can be [cheap on the price page and expensive in the workflow](https://x.com/ollobrains/status/2072141362435408301). The snapshot also leaves out coding quality, reliability and latency. That makes the frontier a rough map, not a false one. The slope is still steep, and still falling.
+
+**Winner-take-all.** Some lab crosses into recursive self-improvement, capability stays scarce, the grid owner becomes the everything-company, and none of this history applies. Maybe. But the visible dynamics point the other way. Leads compress. Distillation leaks. And the binding constraint at the frontier is energy: the same physics, available to every competitor at the same price per joule. Permanent scarcity of intelligence is a bet against everything currently observable.
+
+---
+
+## What follows
+
+The datacenters are the grid: necessary, colossal and headed for utility returns. The scarce things are the ones capex can't buy: distribution, attention, taste.
 
 Intelligence will be sold by the joule. Joy will be sold at whatever the market will bear.
 
