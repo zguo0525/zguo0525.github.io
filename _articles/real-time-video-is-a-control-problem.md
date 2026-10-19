@@ -3,7 +3,7 @@ layout: default
 title: "Why People Took to Muse"
 image: /assets/cards/real-time-video-is-a-control-problem.png
 description: "People rarely feel quality. They feel fit. What the GPT-5 launch, Sora and ChatGPT's sycophancy rollback say about why Muse took off."
-date: 2026-10-08
+date: 2026-09-30
 tags: [AI]
 ---
 When an AI product wins, people credit the model. I think that's usually a mistake. What people feel isn't quality. It's fit.
