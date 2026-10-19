@@ -13,7 +13,7 @@ description: Essays by Gavin Guo on AI, agents, product, and strategy.
   <button type="button" class="filter-chip" data-filter="Strategy" aria-pressed="false">Strategy</button>
 </div>
 
-<p class="start-here"><span class="start-here-label">Start here</span> <a href="./articles/agent-topology-manifesto.html">Agent Topology Follows Task, Not Template</a> · <a href="./articles/what-machines-cant-stake.html">What Machines Can't Stake</a> · <a href="./articles/intelligence-per-watt.html">Intelligence per Watt</a></p>
+<p class="start-here"><span class="start-here-label">Start here</span> <a href="./articles/agent-topology-manifesto.html">Agent Topology Follows Task, Not Template</a> · <a href="./articles/what-machines-cant-stake.html">What Machines Can't Stake</a> · <a href="./articles/intelligence-per-watt.html">Nobody Got Rich Owning the Grid</a></p>
 
 <ul class="essay-list">
 {% assign sorted_essays = site.data.essays | sort: "date_sort" | reverse %}
