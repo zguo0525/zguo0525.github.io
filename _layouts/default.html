@@ -28,12 +28,12 @@
 
     {% capture navlinks %}
         <a href="{{ '/' | relative_url }}"{% if is_home %} class="active" aria-current="page"{% endif %}>{% include icon-nav-about.svg %}Home</a>
-        <a href="{{ '/news.html' | relative_url }}"{% if page.url contains 'news' %} class="active" aria-current="page"{% endif %}>{% include icon-nav-news.svg %}News</a>
-        <a href="{{ '/essays.html' | relative_url }}"{% if page.url contains 'essays' %} class="active" aria-current="page"{% endif %}>{% include icon-nav-essays.svg %}Essays</a>
-        <a href="{{ '/papers.html' | relative_url }}"{% if page.url contains 'papers' %} class="active" aria-current="page"{% endif %}>{% include icon-nav-papers.svg %}Papers</a>
+        <a href="{{ '/news.html' | relative_url }}"{% if page.url == '/news.html' %} class="active" aria-current="page"{% endif %}>{% include icon-nav-news.svg %}News</a>
+        <a href="{{ '/essays.html' | relative_url }}"{% if is_article %} class="active"{% elsif page.url == '/essays.html' %} class="active" aria-current="page"{% endif %}>{% include icon-nav-essays.svg %}Essays</a>
+        <a href="{{ '/papers.html' | relative_url }}"{% if page.url == '/papers.html' %} class="active" aria-current="page"{% endif %}>{% include icon-nav-papers.svg %}Papers</a>
     {% endcapture %}
 
-    <main class="container{% if is_article %} container--essay{% endif %}">
+    <div class="container{% if is_article %} container--essay{% endif %}">
 
       {% if is_article %}
         <div class="readbar" aria-hidden="true"></div>
@@ -68,13 +68,17 @@
         <a class="pagehead-name" href="{{ '/' | relative_url }}">Gavin Guo</a>
         <nav class="tabnav tabnav--inline" aria-label="Primary navigation">{{ navlinks }}</nav>
       </header>
-      <div class="page-intro" id="content" tabindex="-1">
+      {% endif %}
+
+      <main id="content" tabindex="-1">
+      {% unless is_article or is_home %}
+      <div class="page-intro">
         <h1 class="page-title">{{ page.title }}</h1>
         {% if page.subtitle %}<p class="page-dek">{{ page.subtitle }}</p>{% endif %}
       </div>
-      {% endif %}
+      {% endunless %}
 
-      {% if is_home %}<div class="content home-content" id="content" tabindex="-1">{{ content }}</div>{% else %}<article class="content{% if is_article %} essay-content{% endif %}{% if page.url contains 'papers' %} pubs{% endif %}"{% if is_article %} id="content" tabindex="-1"{% endif %}>
+      {% if is_home %}<div class="content home-content">{{ content }}</div>{% else %}<article class="content{% if is_article %} essay-content{% endif %}{% if page.url == '/papers.html' %} pubs{% endif %}">
         {% if is_article %}
         <header class="essay-head">
           <h1>{{ page.title }}</h1>
@@ -105,11 +109,12 @@
         </section>
         {% endif %}
       {% endif %}
+      </main>
 
       <footer class="site-footer">
         <p>© {{ 'now' | date: "%Y" }} Gavin Guo · <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> · <a href="{{ site.author.googlescholar }}">Scholar</a> · <a href="https://github.com/{{ site.author.github }}">GitHub</a> · <a href="{{ '/bio.html' | relative_url }}">Bio</a> · <a href="{{ '/predictions.html' | relative_url }}">Predictions</a> · <a href="{{ '/feed/articles.xml' | relative_url }}">RSS</a> · <span class="nowrap">Updated {{ site.time | date: "%b %Y" }}</span></p>
       </footer>
-    </main>
+    </div>
 
     {% if is_home %}
     <script type="application/ld+json">
@@ -140,8 +145,6 @@
     {% if is_article %}
     <script>
       (function() {
-        var art = document.querySelector('article.content');
-        var dateLine = document.querySelector('.essay-meta');
         var bar = document.querySelector('.readbar');
         if (bar) {
           var ticking = false;
@@ -179,10 +182,5 @@
       })();
     </script>
     {% endif %}
-    <script>
-      document.querySelectorAll('[data-until]').forEach(function (el) {
-        if (new Date() >= new Date(el.dataset.until + 'T00:00:00')) el.remove();
-      });
-    </script>
   </body>
 </html>

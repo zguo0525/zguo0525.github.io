@@ -3,7 +3,7 @@ layout: default
 title: "What I Learned During the Siri Makeover"
 image: /assets/cards/what-i-learned-during-the-siri-makeover.png
 description: "Demos wow; shipping is harder. Notification summaries show how integration, org design, and privacy limits decide who wins."
-date: 2025-07-01
+date: 2025-08-04
 tags: [Apple Intelligence, Siri, AI, product, privacy, LLM, on-device, ChatGPT, OpenAI, growth]
 ---
 At WWDC 2024, Apple unveiled a flashier Siri, and the demo dazzled—yet the hard work started afterward: turning a staged moment into reliable, everyday behavior. As [The Information](https://www.theinformation.com/articles/apple-fumbled-siris-ai-makeover) reported, the problems were real. In AI, teams that connect the product end to end and learn quickly outperform teams with bigger raw models but slower integration.

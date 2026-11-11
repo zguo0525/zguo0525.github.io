@@ -1,17 +1,30 @@
 #!/usr/bin/env python3
-"""Generate 1200x630 Open Graph card images for each essay in _articles/.
+"""Generate 1200x630 Open Graph card images for essays in _articles/.
 
-Cards use the site's palette and Charter (second font in the site's serif
-stack). Run after adding a new essay, then commit the new PNG:
+Cards deliberately keep the light card palette and Charter (second font in
+the site's serif stack) used by the committed cards in assets/cards/, so a
+new card matches the existing ones. They do not follow the site's dark theme.
 
-    python3 scripts/gen_og_cards.py
+Generate the card for a new essay only (existing cards are left untouched):
+
+    python3 scripts/gen_og_cards.py <slug>
+
+With no slug, every essay's card is regenerated (overwrites assets/cards/).
+Use --out DIR to write somewhere else (e.g. /tmp) for a preview.
+
+Charter is read from the macOS system font by default. Elsewhere, pass
+--font-regular/--font-bold, but note a different font changes the look, so
+do not commit cards rendered that way alongside the Charter ones.
 
 Each article's front matter should point at its card:
 
     image: /assets/cards/<slug>.png
 """
 
+import argparse
+import json
 import re
+import sys
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
@@ -33,9 +46,13 @@ CHARTER = "/System/Library/Fonts/Supplemental/Charter.ttc"
 BOLD_INDEX = 3  # Charter.ttc faces: 0 Roman, 1 Italic, 2 Bold Italic, 3 Bold
 REGULAR_INDEX = 0
 
+# (path, face index) for each weight; replaced by --font-regular/--font-bold
+FONTS = {REGULAR_INDEX: (CHARTER, REGULAR_INDEX), BOLD_INDEX: (CHARTER, BOLD_INDEX)}
+
 
 def load_font(size, index):
-    return ImageFont.truetype(CHARTER, size, index=index)
+    path, face = FONTS[index]
+    return ImageFont.truetype(path, size, index=face)
 
 
 def wrap(draw, text, font, max_w):
@@ -93,18 +110,69 @@ def make_card(title, out_path):
     img.save(out_path, optimize=True)
 
 
+def read_title(text):
+    """Return the front-matter title, or None. Only the front matter is read."""
+    m = re.match(r"---\s*\n(.*?)\n---\s*(\n|$)", text, re.S)
+    if not m:
+        return None
+    front = m.group(1)
+    try:
+        import yaml
+    except ImportError:
+        yaml = None
+    if yaml is not None:
+        title = (yaml.safe_load(front) or {}).get("title")
+        return str(title) if title is not None else None
+    # Fallback without PyYAML: single-line `title:` scalars only.
+    t = re.search(r"^title:[ \t]*(.*?)[ \t]*$", front, re.M)
+    if not t or not t.group(1):
+        return None
+    raw = t.group(1)
+    if raw.startswith('"'):
+        return json.loads(raw)  # YAML double-quoted escapes match JSON's
+    if raw.startswith("'"):
+        return raw[1:-1].replace("''", "'")
+    return re.sub(r"\s+#.*$", "", raw)
+
+
 def main():
-    OUT.mkdir(parents=True, exist_ok=True)
-    for md in sorted(ARTICLES.glob("*.md")):
-        text = md.read_text()
-        m = re.search(r'^title:\s*"?(.*?)"?\s*$', text, re.M)
-        if not m:
+    ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
+    ap.add_argument("slugs", nargs="*",
+                    help="article slugs to render (default: all)")
+    ap.add_argument("--out", type=Path, default=OUT,
+                    help="output directory (default: assets/cards)")
+    ap.add_argument("--font-regular", help="regular font file (default: Charter)")
+    ap.add_argument("--font-bold", help="bold font file (default: Charter)")
+    args = ap.parse_args()
+
+    if bool(args.font_regular) != bool(args.font_bold):
+        ap.error("pass both --font-regular and --font-bold, or neither")
+    if args.font_regular:
+        FONTS[REGULAR_INDEX] = (args.font_regular, 0)
+        FONTS[BOLD_INDEX] = (args.font_bold, 0)
+    for path, _ in FONTS.values():
+        if not Path(path).is_file():
+            sys.exit(f"font not found: {path}\n"
+                     "Charter ships with macOS; elsewhere pass "
+                     "--font-regular/--font-bold (the cards will look different).")
+
+    if args.slugs:
+        mds = [ARTICLES / f"{s}.md" for s in args.slugs]
+        missing = [str(p.relative_to(ROOT)) for p in mds if not p.is_file()]
+        if missing:
+            sys.exit("no such article: " + ", ".join(missing))
+    else:
+        mds = sorted(ARTICLES.glob("*.md"))
+
+    args.out.mkdir(parents=True, exist_ok=True)
+    for md in mds:
+        title = read_title(md.read_text(encoding="utf-8"))
+        if not title:
             print(f"skip (no title): {md.name}")
             continue
-        title = m.group(1)
-        out = OUT / f"{md.stem}.png"
+        out = args.out / f"{md.stem}.png"
         make_card(title, out)
-        print(f"wrote {out.relative_to(ROOT)}  ({title[:50]})")
+        print(f"wrote {out}  ({title[:50]})")
 
 
 if __name__ == "__main__":
