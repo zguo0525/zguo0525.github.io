@@ -1,3 +1,10 @@
+- id: 2026-11-muse-voice-and-expressive-avatars-rolling
+  year: 2026
+  month: Nov
+  date_sort: 2026-11
+  text: '**Muse voice and expressive avatars** are rolling out in the Muse app in the US, on mobile, web, and Mac, powered by Muse Realtime Voice and Muse Realtime Avatar.'
+  link: https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/
+  thumb: /assets/news/2026-11-muse-voice-and-expressive-avatars-rolling.webp
 - id: 2026-10-muse-wonder-released-metas-most-capable
   year: 2026
   month: Oct
@@ -5,14 +12,6 @@
   text: '**Muse Wonder** released, Meta Superintelligence Labs'' most capable model series for personal and professional agents, built around Active Memory and Active Focus.'
   link: https://research.meta.ai/blog/muse-wonder
   thumb: /assets/news/2026-10-muse-wonder-released-metas-most-capable.webp
-- id: 2026-10-at-colm-2026-in-san-francisco-oct-6-9-em
-  year: 2026
-  month: Oct
-  date_sort: 2026-10
-  text: At **COLM 2026** in San Francisco, Oct 6–9. Email me to meet at the poster sessions or the Lifelong Agents workshop.
-  upcoming: true
-  link: https://colm.cc/
-  thumb: /assets/news/2026-10-at-colm-2026-in-san-francisco-oct-6-9-em.webp
 - id: 2026-09-muse-realtime-voice-and-avatar-announced
   year: 2026
   month: Sep

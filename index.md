@@ -15,7 +15,7 @@ At <img class="logo-inline" src="{{ '/assets/logos/meta.com.png' | relative_url 
       <li>How do you turn an agent's interactions and failures into training signal? <a class="chip chip-jump" href="#vibes">Vibes ↓</a> <a class="chip chip-jump" href="#synthetic-data-rl">Synthetic Data RL ↓</a></li>
     </ul>
   </dd></div>
-  <div class="now-row"><dt>Talk to me</dt><dd><span data-until="2026-10-10">I'm at <a href="https://colm.cc/">COLM 2026</a>, Oct 6–9. </span>I want to compare notes on two things: rewards for real-time agents, and how far a task definition alone can carry an RL environment. If that's your problem too, <a href="mailto:{{ site.author.email }}">email me</a>. I reply.</dd></div>
+  <div class="now-row"><dt>Talk to me</dt><dd>I want to compare notes on two things: rewards for real-time agents, and how far a task definition alone can carry an RL environment. If that's your problem too, <a href="mailto:{{ site.author.email }}">email me</a>. I reply.</dd></div>
 </dl>
 
 ## Research
