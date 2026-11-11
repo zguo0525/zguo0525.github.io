@@ -19,6 +19,13 @@
   text: '**Muse Realtime Voice and Avatar** announced at the Meta Connect 2026 keynote: one streaming system for conversation, speech, and a live, expressive avatar. I co-lead post-training and lead synthetic data for Muse Realtime Avatar.'
   link: https://research.meta.ai/blog/bringing-your-muse-to-life
   thumb: /assets/news/2026-09-muse-realtime-voice-and-avatar-announced.webp
+- id: 2026-09-muse-app-launched
+  year: 2026
+  month: Sep
+  date_sort: 2026-09
+  text: 'The **Muse** app launched on September 8 and passed five million downloads in 22 days.'
+  link: https://9to5mac.com/2026/09/30/report-metas-muse-crosses-5-million-downloads-amid-massive-advertising-push/
+  thumb: /assets/papers/cards/muse.webp
 - id: 2026-07-muse-spark-1-1-released-a-multimodal-rea
   year: 2026
   month: Jul
@@ -37,9 +44,16 @@
   year: 2026
   month: Apr
   date_sort: 2026-04
-  text: '**Muse Spark** announced, the first model in the Muse series from Meta Superintelligence Labs, with multimodal perception built in. I co-lead post-training and lead synthetic data for Muse Realtime Avatar.'
+  text: '**Muse Spark** announced, the first model in the Muse series from Meta Superintelligence Labs, with multimodal perception built in.'
   link: https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/
   thumb: /assets/news/2026-04-muse-spark-announced-the-first-model-in-.webp
+- id: 2025-11-vibes-comes-to-europe
+  year: 2025
+  month: Nov
+  date_sort: 2025-11
+  text: '**Vibes** came to Europe in the Meta AI app.'
+  link: https://about.fb.com/news/2025/11/bringing-vibes-to-europe-a-new-way-to-create-share-and-play-in-the-meta-ai-app/
+  thumb: /assets/news/2025-09-vibes-launched-in-the-meta-ai-app-for-ai.webp
 - id: 2025-09-vibes-launched-in-the-meta-ai-app-for-ai
   year: 2025
   month: Sep
@@ -75,6 +89,13 @@
   text: '**API Pack** presented at **ICLR 2025** in Singapore.'
   link: https://arxiv.org/abs/2402.09615
   thumb: /assets/news/2025-04-api-pack-presented-at-iclr-2025-in-singa.webp
+- id: 2024-09-pin-ai-where-i-co-authored-the-multimoda
+  year: 2024
+  month: Sep
+  date_sort: 2024-09
+  text: '**Scaling Law Hypothesis for Multimodal Model** released on arXiv, a PIN AI white paper.'
+  link: https://arxiv.org/abs/2409.06754
+  thumb: /assets/news/2024-09-pin-ai-where-i-co-authored-the-multimoda.webp
 - id: 2024-08-light-science-applications-publication-o
   year: 2024
   month: Aug
@@ -96,6 +117,13 @@
   text: '**Octo-planner** with Nexa AI, featured by MIT CSAIL.'
   link: https://x.com/MIT_CSAIL/status/1806354919731179802
   thumb: /assets/news/2024-06-octo-planner-with-nexa-ai-featured-by-mi.webp
+- id: 2024-04-more-compute-is-what-you-need
+  year: 2024
+  month: Apr
+  date_sort: 2024-04
+  text: '**More Compute Is What You Need** released on arXiv.'
+  link: https://arxiv.org/abs/2404.19484
+  thumb: /assets/papers/thumbs/more-compute-is-what-you-need.webp
 - id: 2024-04-jetmoe-foundation-model-highlighted-by-m
   year: 2024
   month: Apr

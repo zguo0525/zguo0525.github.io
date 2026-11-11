@@ -12,6 +12,8 @@ The point isn't to be right. It's to be **calibrated**: if I'm only right 60% of
 
 I update the **Status** column as evidence comes in. Resolved predictions keep their original text — corrections happen in the Notes column, not by rewriting history.
 
+*Last updated: 2026-11-11.*
+
 ---
 
 ## Status overview
@@ -29,9 +31,9 @@ Status legend: **Open** (waiting), **Right** (resolved correctly), **Wrong** (re
 
 ## P1 — Agent topology will go dynamic
 
-**Source essay**: [Agent Topology Follows Task, Not Template](../articles/agent-topology-manifesto.html) (April 2026)
-**Written**: 2026-04-19
-**Resolve by**: 2029-Q1
+**Source essay**: [Agent Topology Follows Task, Not Template](../articles/agent-topology-manifesto.html) (April 2026)<br>
+**Written**: 2026-04-19<br>
+**Resolve by**: 2029-Q1<br>
 **Status**: Open
 
 **Prediction.** By end of 2028, at least one major agent framework — LangGraph, AutoGen, or OpenAI's Agents SDK — will ship query-adaptive / dynamic topology as the recommended default execution mode, with fixed Planner → Executor → Critic relegated to a legacy import path.
@@ -47,9 +49,9 @@ Status legend: **Open** (waiting), **Right** (resolved correctly), **Wrong** (re
 
 ## P2 — Latent reasoning will displace the visible monologue
 
-**Source essay**: [The $100B Monologue](../articles/the-100b-monologue.html) (February 2026)
-**Written**: 2026-02
-**Resolve by**: 2029-Q1
+**Source essay**: [The $100B Monologue](../articles/the-100b-monologue.html) (February 2026)<br>
+**Written**: 2026-02<br>
+**Resolve by**: 2029-Q1<br>
 **Status**: Open
 
 **Prediction.** By end of 2028, at least one frontier lab — OpenAI, Anthropic, or Google DeepMind — will ship a production reasoning mode that matches or beats its visible-CoT counterpart on hard reasoning benchmarks (AIME, GPQA-Diamond, FrontierMath) while emitting under 30% the thinking tokens, or replaces token-level deliberation with latent-state reasoning entirely.
@@ -65,9 +67,9 @@ Status legend: **Open** (waiting), **Right** (resolved correctly), **Wrong** (re
 
 ## P3 — AI either creates entry-level jobs or forces policy
 
-**Source essay**: [Why AI Has to Create Jobs—or Fail Spectacularly](../articles/why-ai-has-to-create-jobs-or-fail-spectacularly.html) (September 2025)
-**Written**: 2025-09-12
-**Resolve by**: 2029-12-31
+**Source essay**: [Why AI Has to Create Jobs—or Fail Spectacularly](../articles/why-ai-has-to-create-jobs-or-fail-spectacularly.html) (September 2025)<br>
+**Written**: 2025-09-12<br>
+**Resolve by**: 2029-12-31<br>
 **Status**: Open
 
 **Prediction.** By end of 2029, US labor force participation for 22–26 year-olds will either recover above the 2024 baseline (suggesting AI created replacement entry paths) or trigger explicit federal labor-policy intervention — retraining mandate, automation tax, or expanded UBI pilot. The silent default — AI hollowing out entry-level work with no policy response — will not survive four more years.
@@ -83,9 +85,9 @@ Status legend: **Open** (waiting), **Right** (resolved correctly), **Wrong** (re
 
 ## P4 — Personal AI gets won by indie / open source, not VC
 
-**Source essay**: [The OpenClaw Playbook](../articles/the-openclaw-playbook.html) (February 2026)
-**Written**: 2026-02
-**Resolve by**: 2027-12-31
+**Source essay**: [The OpenClaw Playbook](../articles/the-openclaw-playbook.html) (February 2026)<br>
+**Written**: 2026-02<br>
+**Resolve by**: 2027-12-31<br>
 **Status**: Open
 
 **Prediction.** By end of 2027, the most-used personal AI tool in the US (by DAU) will be either open-source community-led (OpenClaw, Ollama-class) or a single-developer indie effort — not a VC-backed personal-AI startup (Pi, Rabbit-class, Humane-class).

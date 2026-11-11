@@ -1,10 +1,10 @@
 # Single source of truth for the Essays list.
-# Used by essays.md (filterable list) and the "More essays" section at the bottom of each article.
+# Used by essays.md (filterable list) and the "Read next" section at the bottom of each article.
 # Add new essays at the top. `tags` controls filter chips on the Essays page.
 # New essay checklist:
 # 1. Add the entry below and a matching _articles/<slug>.md file.
-# 2. Add the date line followed by {: .essay-meta}.
-# 3. Run python3 scripts/gen_og_cards.py and commit the generated card.
+# 2. Set `date:` in the article front matter (the layout renders the date line) and keep `date`/`date_sort` here in sync with it.
+# 3. Run python3 scripts/gen_og_cards.py <slug> (macOS; needs the Charter font) and commit the generated card.
 
 - title: "The Purpose Model"
   date: "Oct 2026"
@@ -54,7 +54,7 @@
   slug: how-to-make-a-great-product
   tags: [Career]
 
-- title: "The OpenClaw Playbook"
+- title: "The OpenClaw Playbook: One Man. One Laptop. Some Ramen"
   date: "Feb 2026"
   date_sort: "2026-02-b"
   slug: the-openclaw-playbook
@@ -86,12 +86,12 @@
 
 - title: "From Code Red to Parity: The Humility Playbook for Google and OpenAI"
   date: "Aug 2025"
-  date_sort: "2025-08"
+  date_sort: "2025-08-b"
   slug: humility-is-the-only-way-to-stay-relevant-google-openai
   tags: [Strategy]
 
 - title: "What I Learned During the Siri Makeover"
-  date: "Jul 2025"
-  date_sort: "2025-07"
+  date: "Aug 2025"
+  date_sort: "2025-08-a"
   slug: what-i-learned-during-the-siri-makeover
   tags: [Career]

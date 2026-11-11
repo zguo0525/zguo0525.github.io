@@ -1,5 +1,5 @@
 title: Gavin Guo (国振)
-description: Training real-time multimodal agents. Post-training and synthetic data for Muse Realtime Avatar at Meta Superintelligence Labs; previously Visual Intelligence at Apple and foundation models at MIT-IBM Watson AI Lab. Ph.D. MIT.
+description: Research scientist at Meta Superintelligence Labs training real-time multimodal agents. Co-leads post-training and leads synthetic data for Muse Realtime Avatar; previously Visual Intelligence at Apple and foundation models at the MIT-IBM Watson AI Lab. Ph.D. MIT.
 url: "https://zguo0525.github.io"
 logo: profile.jpeg
 
@@ -36,35 +36,8 @@ defaults:
       image: /assets/cards/gavin-guo-og.jpg
 
 exclude:
-  - resume
-  - resume_variants
-  - build_public
-  - build_check
-  - "*.cls"
-  - README.md
   - readme.md
   - GOATCOUNTER-SETUP.md
-  - codex-visual-maxxing-plan.html
-  - group.png
-  - neo.jpeg
-  - assets/fonts
-  - assets/css/style.scss
-  - assets/css/colors-auto-default-dark.scss
-  - assets/css/colors-auto.scss
-  - assets/css/colors-dark.scss
-  - assets/css/colors-light.scss
-  - "*.tex"
-  - "*.aux"
-  - "*.log"
-  - "*.fls"
-  - "*.fdb_latexmk"
-  - "*.out"
-  - resume.cls
-  - vendor
   - Gemfile
-  - screenshots
-  - "cv*.pdf"
   - Gemfile.lock
   - scripts
-  - .bundle
-  - node_modules
